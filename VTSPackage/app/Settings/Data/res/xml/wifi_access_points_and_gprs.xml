@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:persistent="false" android:title="@string/trust_access_points" android:key="trust_access_points" />
+    <PreferenceCategory android:persistent="false" android:title="@string/configed_access_points" android:key="configed_access_points" />
+    <PreferenceCategory android:persistent="false" android:title="@string/new_access_points" android:key="new_access_points" />
+    <Preference android:persistent="false" android:title="@string/wifi_add_network" android:key="add_network" />
+    <PreferenceCategory android:title="@string/data_conn_category_title" android:key="data_enabler_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/data_enabler_title" android:key="data_enabler" android:summary="@string/data_enabler_summary" />
+        <Preference android:persistent="false" android:title="@string/data_enabler_title" android:key="data_enabler_gemini" android:summary="@string/data_enabler_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/apn_list_category_title" android:key="apn_list" />
+</PreferenceScreen>

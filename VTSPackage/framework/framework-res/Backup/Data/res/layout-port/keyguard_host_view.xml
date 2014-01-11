@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardHostView androidprv:gravity="center_horizontal" androidprv:orientation="vertical" androidprv:id="@id/keyguard_host_view" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.SlidingChallengeLayout androidprv:id="@id/sliding_layout" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent">
+        <FrameLayout androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_childType="mediatekLayerBackground" />
+        <FrameLayout androidprv:layout_width="fill_parent" androidprv:layout_height="wrap_content" androidprv:layout_childType="pageDeleteDropTarget">
+            <include androidprv:layout_gravity="top|center" androidprv:id="@id/keyguard_widget_pager_delete_target" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" layout="@layout/keyguard_widget_remove_drop_target" />
+        </FrameLayout>
+        <FrameLayout androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_childType="widgets">
+            <include androidprv:layout_gravity="center" androidprv:id="@id/app_widget_container" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" layout="@layout/keyguard_widget_pager" />
+        </FrameLayout>
+        <View androidprv:background="#99000000" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_childType="scrim" />
+        <FrameLayout androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_childType="mediatekLayerForeground" />
+        <FrameLayout androidprv:id="@id/yl_lockpadview_layout" androidprv:background="#00000000" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" />
+        <com.android.internal.policy.impl.keyguard.KeyguardSecurityContainer androidprv:gravity="bottom|center" androidprv:id="@id/keyguard_security_container" androidprv:padding="0.0dip" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_childType="challenge">
+            <com.android.internal.policy.impl.keyguard.KeyguardSecurityViewFlipper androidprv:gravity="center" androidprv:id="@id/view_flipper" androidprv:paddingTop="@dimen/keyguard_security_view_margin" androidprv:clipToPadding="false" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" />
+        </com.android.internal.policy.impl.keyguard.KeyguardSecurityContainer>
+        <ImageButton androidprv:background="@null" androidprv:focusable="true" androidprv:layout_width="fill_parent" androidprv:layout_height="@dimen/kg_widget_pager_bottom_padding" androidprv:src="@drawable/keyguard_expand_challenge_handle" androidprv:scaleType="center" androidprv:contentDescription="@string/keyguard_accessibility_expand_lock_area" androidprv:layout_childType="expandChallengeHandle" />
+    </com.android.internal.policy.impl.keyguard.SlidingChallengeLayout>
+</com.android.internal.policy.impl.keyguard.KeyguardHostView>

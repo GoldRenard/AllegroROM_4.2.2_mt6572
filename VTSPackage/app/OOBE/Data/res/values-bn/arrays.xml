@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>প্রথম ৪টি সংখ্যা</item>
+        <item>শেষ ৪টি সংখ্যা</item>
+        <item>প্রদর্শন করবেন না</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>সংযুক্ত করা হচ্ছে…</item>
+        <item>সত্যপ্রতিপাদন করা হচ্ছে…</item>
+        <item>আইপি ঠিকানা নেয়া হচ্ছে…</item>
+        <item>সংযুক্ত করা হয়েছে</item>
+        <item>বাতিল করা হয়েছে</item>
+        <item>সংযোগ বিছিন্ন করা হচ্ছে…</item>
+        <item>সংযোগ বিছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>স্ক্যান করা হচ্ছে…</item>
+        <item>%1$sএর সাথে সংযুক্ত করা হচ্ছে…</item>
+        <item>Authenticating with %1$sদ্বারা সত্যপ্রতিপাদন করা হচ্ছে…</item>
+        <item>%1$sথেকে আইপি ঠিকানা নেয়া হচ্ছে…</item>
+        <item>%1$sএর সাথে সংযুক্ত করা হয়েছে</item>
+        <item>বাতিল করা হয়েছে</item>
+        <item>Disconnecting from %1$sথেকে সংযোগ বিছিন্ন করা হচ্ছে…</item>
+        <item>সংযোগ বিছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা হয়েছে</item>
+        <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>খুব খারাপ</item>
+        <item>মোটামুটি</item>
+        <item>ভালো</item>
+        <item>চমৎ কার</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>যখন স্ক্রিন বন্ধ করা হয়</item>
+        <item>প্লাগ ইন অবস্থায় কখনোই নয়</item>
+        <item>কখনোই নয়</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>স্বয়ংক্রিয়ভাবে সংযুক্ত করুন</item>
+        <item>ম্যানুয়ালভাবে সংযুক্ত করুন</item>
+        <item>সবসময় জিজ্ঞাসা করুন</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>স্বয়ংক্রিয়</item>
+        <item>কেবল ৫ GHz</item>
+        <item>কেবল ২.৪ GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>সবসময়</item>
+        <item>কেবল প্লাগ লাগানো অবস্থায়</item>
+        <item>কখনো না</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>ডিএইচসিপি</item>
+        <item>স্থির</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>কোনটি নয়</item>
+        <item>ম্যানুয়াল</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>নেটওয়ার্ক প্রদত্ত সময় ব্যবহার করুন</item>
+        <item>জিপিএস প্রদত্ত সময় ব্যবহার করুন</item>
+        <item>বন্ধ</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>স্বয়ংক্রিয়</item>
+        <item>WEP ASCII</item>
+        <item>WEP হেক্সাডেসিমেল</item>
+    </string-array>
+</resources>

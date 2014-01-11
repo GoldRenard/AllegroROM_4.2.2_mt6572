@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/system_update_settings_list_item_summary">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/software_update" android:key="software_update" />
+    <PreferenceScreen android:key="mota_system_update">
+        <intent android:action="com.mediatek.intent.System_Update_Entry" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="OTA_update_settings" />
+    <PreferenceScreen android:title="@string/scomo_settings_title" android:key="scomo" android:summary="@string/software_updates_scomo_summary">
+        <intent android:targetPackage="com.mediatek.dm" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.dm.scomo.DmScomoActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/software_updates_more_title" android:key="more_software_updates" android:summary="@string/software_updates_more_summary">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.deviceinfo.SoftwareUpdates" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/device_status" android:key="status_info_gemini" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.StatusGemini" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/legal_information" android:key="container">
+        <PreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.COPYRIGHT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.LICENSE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="android.settings.SAFETY" />
+    </PreferenceScreen>
+    <com.android.settings.RegulatoryInfoPreference android:title="@string/regulatory_information" android:key="regulatory_info" />
+    <Preference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version_2" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/allegrorom_version_title" android:key="allegro_ver" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

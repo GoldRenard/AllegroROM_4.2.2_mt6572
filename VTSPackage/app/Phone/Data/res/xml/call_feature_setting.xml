@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/voice_call" android:key="button_voice_call_key" android:summary="@string/sum_voice_call">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/video_call" android:key="button_vedio_call_key" android:summary="@string/sum_video_call" />
+    <PreferenceScreen android:persistent="false" android:title="@string/internet_call" android:key="button_internet_call_key" android:summary="@string/sum_internet_call">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.SipCallSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/others" android:key="button_others_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.OthersSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

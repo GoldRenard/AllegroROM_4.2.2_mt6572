@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item></item>
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+        <item>EE-MMM-d-yyyy</item>
+        <item>EE-d-MMM-yyyy</item>
+        <item>yyyy-MMM-d-EE</item>
+    </string-array>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>First 4 digits</item>
+        <item>Last 4 digits</item>
+        <item>Do not display</item>
+    </string-array>
+    <string-array name="gemini_sim_info_number_display_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>@string/wifi_security_wapi_certificate</item>
+    </array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>When screen turns off</item>
+        <item>Never when plugged in</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="wifi_phase2_entries">
+        <item>@string/wifi_security_none</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatically connect</item>
+        <item>Manually connect</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="wifi_connect_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>5 GHz only</item>
+        <item>2.4 GHz only</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Always</item>
+        <item>Only when plugged in</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>None</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Use network provided time</item>
+        <item>Use GPS provided time</item>
+        <item>Off</item>
+    </string-array>
+    <array name="wifi_security_wfa">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>@string/wifi_security_wapi_certificate</item>
+    </array>
+    <array name="wpa_security">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </array>
+    <array name="wpa_security_wfa">
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </array>
+    <array name="wapi_security">
+        <item>@string/wifi_security_none</item>
+        <item>WAPI PSK</item>
+        <item>@string/wifi_security_wapi_certificate</item>
+    </array>
+    <string-array name="sim_slot">
+        <item>@string/wifi_unspecified</item>
+        <item>@string/eap_sim_slot_0</item>
+        <item>@string/eap_sim_slot_1</item>
+    </string-array>
+    <string-array name="wifi_WEP_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+    <string-array name="wifi_eap_method_sim_aka">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Πάνω από το dock</item>
+        <item>Πάνω</item>
+        <item>Κάτω</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Πάνω/Αριστερά</item>
+        <item>Κάτω/Δεξιά</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Οριζόντιος</item>
+        <item>Κάθετος</item>
+    </string-array>
+</resources>

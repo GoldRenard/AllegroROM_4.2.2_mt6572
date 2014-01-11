@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/favorite_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/station_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty_list" />
+</RelativeLayout>

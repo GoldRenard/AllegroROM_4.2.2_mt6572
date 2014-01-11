@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Első 4 számjegy</item>
+        <item>Utolsó 4 számjegy</item>
+        <item>Nincs megjelenítés</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Keresés…</item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Keresés…</item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Gyenge</item>
+        <item>Közepes</item>
+        <item>Jó</item>
+        <item>Kiváló</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Amikor a képernyő kikapcsol</item>
+        <item>Soha, ha töltőn van</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Semelyik</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatikus csatlakozás</item>
+        <item>Manuális csatlakozás</item>
+        <item>Rákérdezés mindig</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto.</item>
+        <item>Csak 5 GHz</item>
+        <item>Csak 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Mindig</item>
+        <item>Csak csatlakoztatott állapotban</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statikus</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nincs</item>
+        <item>Kézi</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Hálózat által megadott időbeállítás használata</item>
+        <item>GPS által megadott időbeállítás használata</item>
+        <item>Ki</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto.</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimális</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Ki</item>
+        <item>Nyomógomb</item>
+        <item>PIN hozzáférési ponttól</item>
+        <item>PIN ettől az eszköztől</item>
+    </string-array>
+</resources>

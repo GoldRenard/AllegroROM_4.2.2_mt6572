@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="middle" android:dividerPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/text1" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/international_dialing_input_area_code" android:singleLine="true" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/text2" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/single1" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/international_number_prefix_text_text_single_choice_item" />
+    <include android:id="@id/single2" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/international_number_prefix_text_text_single_choice_item" />
+</LinearLayout>

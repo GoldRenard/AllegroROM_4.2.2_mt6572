@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_maxNotificationIcons">5</integer>
+    <integer name="config_show_search_delay">200</integer>
+    <integer name="config_vibration_duration">0</integer>
+    <integer name="config_search_panel_view_vibration_duration">20</integer>
+    <integer name="one_finger_pop_duration_ms">10</integer>
+    <integer name="status_bar_recents_bg_gradient_degrees">90</integer>
+    <integer name="navigation_bar_deadzone_hold">333</integer>
+    <integer name="navigation_bar_deadzone_decay">333</integer>
+    <integer name="config_recent_item_min_alpha">3</integer>
+    <integer name="quick_settings_num_columns">3</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">1</integer>
+    <integer name="quick_settings_brightness_dialog_short_timeout">2000</integer>
+    <integer name="quick_settings_brightness_dialog_long_timeout">4000</integer>
+    <integer name="blinds_pop_duration_ms">10</integer>
+    <integer name="notification_panel_layout_gravity">0x37</integer>
+    <integer name="settings_panel_layout_gravity">0x37</integer>
+</resources>

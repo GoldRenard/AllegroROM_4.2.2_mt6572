@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Tálca felett</item>
+        <item>Fent</item>
+        <item>Lent</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Oldal tetején / Bal oldalon</item>
+        <item>Oldal alján / Jobb oldalon</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Vízszintes</item>
+        <item>Függőleges</item>
+    </string-array>
+</resources>

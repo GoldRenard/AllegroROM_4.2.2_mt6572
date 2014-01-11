@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>前 4 位</item>
+        <item>后 4 位</item>
+        <item>不显示</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取 IP 地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭状况不佳的连接</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从 %1$s 获取 IP 地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭状况不佳的连接</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>屏幕关闭时休眠</item>
+        <item>充电时永不休眠</item>
+        <item>永不休眠</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>自动</item>
+        <item>仅使用 5 GHz 频带</item>
+        <item>仅使用 2.4 GHz 频带</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>始终</item>
+        <item>仅限充电时</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>静态</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>无</item>
+        <item>手动</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>使用网络同步时间</item>
+        <item>使用GPS同步时间</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>自动</item>
+        <item>WEP ASCII</item>
+        <item>WEP 十六进制</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="17" android:versionName="@string/application_version" package="com.cyanogenmod.trebuchet"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:name="com.android.launcher.permission.PRELOAD_WORKSPACE" android:protectionLevel="system|signature" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" />
+    <permission android:label="@string/permlab_install_shortcut" android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:protectionLevel="dangerous" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_install_shortcut" />
+    <permission android:label="@string/permlab_uninstall_shortcut" android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" android:protectionLevel="dangerous" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_uninstall_shortcut" />
+    <permission android:label="@string/permlab_read_settings" android:name="com.android.launcher.permission.READ_SETTINGS" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_read_settings" />
+    <permission android:label="@string/permlab_write_settings" android:name="com.android.launcher.permission.WRITE_SETTINGS" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_write_settings" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <application android:label="@string/application_name" android:icon="@mipmap/ic_launcher_home" android:name="com.cyanogenmod.trebuchet.LauncherApplication" android:hardwareAccelerated="true" android:largeHeap="@bool/config_largeHeap" android:supportsRtl="true">
+        <activity android:theme="@style/Theme" android:name="com.cyanogenmod.trebuchet.Launcher" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.WallpaperPicker" android:label="@string/pick_wallpaper" android:icon="@mipmap/ic_launcher_wallpaper" android:name="com.cyanogenmod.trebuchet.WallpaperChooser" android:process=":wallpaper_chooser" android:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview" android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        <receiver android:name="com.cyanogenmod.trebuchet.PreloadReceiver" android:permission="com.android.launcher.permission.PRELOAD_WORKSPACE">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.PRELOAD_WORKSPACE" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/preferences_title" android:name="com.cyanogenmod.trebuchet.preference.Preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.category.LAUNCHER_PREFERENCES" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/hidden_apps_title" android:name="com.cyanogenmod.trebuchet.preference.HiddenAppsActivity" />
+        <receiver android:name="com.cyanogenmod.trebuchet.InstallShortcutReceiver" android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cyanogenmod.trebuchet.UninstallShortcutReceiver" android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cyanogenmod.trebuchet.UserInitializeReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_INITIALIZE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.cyanogenmod.trebuchet.LauncherProvider" android:readPermission="com.android.launcher.permission.READ_SETTINGS" android:writePermission="com.android.launcher.permission.WRITE_SETTINGS" android:exported="true" android:authorities="com.cyanogenmod.trebuchet.settings" />
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true" />
+    </application>
+</manifest>

@@ -1,0 +1,5 @@
+on boot
+
+service chargingkey /system/bin/custom_sn
+    class main
+    oneshot

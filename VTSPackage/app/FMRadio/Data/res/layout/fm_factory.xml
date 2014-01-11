@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/fm_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/fm_info" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/insert_earphone_to_openfm" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fm_edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fm_info">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Freq_text" android:layout_weight="1.0" />
+        <EditText android:id="@id/FMR_Freq_edit1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/FMR_Freq_tune1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Freq_tune" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/station_list1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fm_edit_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fm_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="25.0sp" android:id="@id/fm_pass" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/pass" android:layout_weight="1.0" />
+        <Button android:textSize="25.0sp" android:id="@id/fm_fail" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fail" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

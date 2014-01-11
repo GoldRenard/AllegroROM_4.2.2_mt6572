@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/bluetooth_pan_server_settings" android:key="pan_role_select">
+        <CheckBoxPreference android:persistent="false" android:title="@string/bluetooth_pan_nap_enable_title" android:key="pan_nap_select" android:summary="@string/bluetooth_pan_nap_enable_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/bluetooth_pan_gn_enable_title" android:key="pan_gn_select" android:summary="@string/bluetooth_pan_gn_enable_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

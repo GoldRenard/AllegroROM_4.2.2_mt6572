@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:icon="@drawable/ic_settings_wireless" android:title="@string/oobe_title_wifi" android:key="wifi_switch" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="wifi_aplist" />
+    <com.mediatek.oobe.utils.ButtonPreference android:selectable="false" android:key="add_network_button" />
+</PreferenceScreen>

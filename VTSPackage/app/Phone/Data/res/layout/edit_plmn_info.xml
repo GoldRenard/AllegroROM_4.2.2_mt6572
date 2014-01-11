@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:id="@id/TextView02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/plmn_mcc_mnc" />
+            <EditText android:id="@id/mccmnc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="8" android:numeric="integer" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_network_priority_title" />
+            <Spinner android:gravity="left|center" android:id="@id/sp_priority" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:prompt="@string/dialog_network_priority_title" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_network_mode_title" />
+            <Spinner android:gravity="left|center" android:id="@id/sp_service" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:prompt="@string/dialog_network_mode_title" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QSBBar">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">@dimen/qsb_bar_height</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SearchDropTargetBar">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/toolbar_button_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/toolbar_button_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="DropTargetButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/toolbar_button_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingRight">@dimen/toolbar_button_horizontal_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#dd000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize" parent="@style/TabIndicator">
+        <item name="android:maxWidth">200.0dip</item>
+    </style>
+</resources>

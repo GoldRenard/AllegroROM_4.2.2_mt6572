@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:background="@drawable/background_holo_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/lockscreen_name" android:padding="@dimen/lockscreen_preview_layout_paddings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#ff000000" />
+    <BounceCoverFlow android:gravity="center_vertical" android:id="@id/gallery" android:padding="@dimen/lockscreen_preview_layout_paddings" android:layout_width="fill_parent" android:layout_height="0.0dip" android:spacing="10.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/lockscreen_desc" android:padding="@dimen/lockscreen_preview_layout_paddings" android:layout_width="wrap_content" android:layout_height="64.0dip" android:maxLines="2" android:shadowColor="#ff000000" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:layout_alignParentBottom="true" android:showDividers="beginning" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/set_lock_screen" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockscreen_style_set" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

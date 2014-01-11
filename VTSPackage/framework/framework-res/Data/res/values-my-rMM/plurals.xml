@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">လွန်ခဲ့သော %d စက္ကန့်အကြာက</item>
+        <item quantity="one">လွန်ခဲ့သော ၁ စက္ကန့်က</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">လွန်ခဲ့သော %d မိနစ်အကြာက</item>
+        <item quantity="one">လွန်ခဲ့သော ၁ မိနစ်က</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ပြီးခဲ့သော နာရီများက</item>
+        <item quantity="one">လွန်ခဲ့သော ၁ နာရီက</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">ယခင် %d ရက်က</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d ပြီးခဲ့သော ရက်များက</item>
+        <item quantity="one">မနေ့က</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">အတွင်း %d စက္ကန့်များ</item>
+        <item quantity="one">၁ စက္ကန့်အတွင်း</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">အတွင်း %d မိနစ်များ</item>
+        <item quantity="one">၁ မိနစ် အတွင်း</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">အတွင်း %d နာရီများ</item>
+        <item quantity="one">၁ နာရီ အတွင်း</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">အတွင်း%d ရက်များ</item>
+        <item quantity="one">မနက်ဖြန်</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d ပြီးခဲ့သော စက္ကန့်များက</item>
+        <item quantity="one">ပြီးခဲ့သော ၁ စက္ကန့်က</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d ပြီးခဲ့သော မိနစ်များက</item>
+        <item quantity="one">ပြီးခဲ့သော ၁ မိနစ်က</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ပြီးခဲ့သော နာရီများက</item>
+        <item quantity="one">လွန်ခဲ့သော ၁ နာရီက</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d ပြီးခဲ့သော ရက်များက</item>
+        <item quantity="one">မနေ့က</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">အတွင်း %d စက္ကန့်များ</item>
+        <item quantity="one">၁ စက္ကန့်အတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">အတွင်း %d မိနစ်များ</item>
+        <item quantity="one">၁ မိနစ် အတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">အတွင်း %d နာရီများ</item>
+        <item quantity="one">၁ နာရီ အတွင်း</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">အတွင်း%d ရက်များ</item>
+        <item quantity="one">မနက်ဖြန်</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">ဝိုင်ဖိုင် ကွန်ရက်များ ရနိုင်သည်</item>
+        <item quantity="one">ဝိုင်ဖိုင် ကွန်ရက် ရနိုင်သည်</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">ရနိုင်သော ဝိုင်ဖိုင် ကွန်ရက်များကို ဖွင့်သည်</item>
+        <item quantity="one">ရနိုင်သော ဝိုင်ဖိုင် ကွန်ရက်ကို ဖွင့်သည်</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">လိုက်ဖက်မှု 1 ခု</item>
+    </plurals>
+</resources>

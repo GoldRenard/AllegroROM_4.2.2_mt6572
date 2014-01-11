@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ip_prefix_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:maxLength="11" android:phoneNumber="true" android:title="@string/enter_ip_prefix_number" android:key="button_ip_prefix_edit_key" android:summary="@string/ip_prefix_edit_default_sum" />
+</PreferenceScreen>

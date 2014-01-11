@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WallpaperPicker" parent="@*android:style/Theme.Holo.NoActionBar" />
+    <style name="Theme" parent="@*android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+    <style name="ClingButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingLeft">35.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">35.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cling_dismiss</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">#ff49c0ec</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="WorkspaceIcon">
+        <item name="android:textSize">@dimen/workspace_icon_text_size</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#b0000000</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait" parent="@style/WorkspaceIcon">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape" parent="@style/WorkspaceIcon">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">@dimen/app_icon_padding_top</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:drawablePadding">@dimen/app_icon_drawable_padding_land</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.Folder" parent="@style/WorkspaceIcon.Portrait">
+        <item name="android:paddingTop">@dimen/folder_icon_padding_top</item>
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.Folder" parent="@style/WorkspaceIcon.Landscape">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_marginTop">-2.0dip</item>
+        <item name="android:drawablePadding">0.0dip</item>
+    </style>
+    <style name="WorkspaceIcon.Portrait.AppsCustomize" parent="@style/WorkspaceIcon.Portrait">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="WorkspaceIcon.Landscape.AppsCustomize" parent="@style/WorkspaceIcon.Landscape">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+    </style>
+    <style name="QSBBar">
+        <item name="android:layout_gravity">top|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/qsb_padding_left</item>
+        <item name="android:paddingRight">@dimen/qsb_padding_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/qsb_bar_height</item>
+    </style>
+    <style name="SearchDropTargetBar">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DropTargetButton">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:drawablePadding">7.5dip</item>
+    </style>
+    <style name="TabIndicator">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_widget_indicator_selector</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize" parent="@style/TabIndicator" />
+    <style name="MarketButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/workspace_all_apps_and_delete_zone_text_color</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:shadowColor">@color/workspace_all_apps_and_delete_zone_text_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="CustomClingTitleText" />
+    <style name="CustomClingText" />
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/call_reject_contact_check_btn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/call_reject_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/call_reject_contact_phone_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

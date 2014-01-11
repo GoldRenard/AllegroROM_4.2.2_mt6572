@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/cb_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cb_channel_dialog_channel_name" />
+        <EditText android:id="@id/edit_channel_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:imeOptions="actionNext" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cb_channel_dialog_channel_number" />
+        <EditText android:id="@id/edit_channel_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="5" android:numeric="integer" />
+        <CheckBox android:id="@id/checkbox_channel_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cb_channel_dialog_channel_state" />
+    </LinearLayout>
+</ScrollView>

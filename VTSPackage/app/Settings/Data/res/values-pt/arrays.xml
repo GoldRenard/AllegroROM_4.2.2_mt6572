@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>América</item>
+        <item>Europa</item>
+        <item>África</item>
+        <item>Ásia</item>
+        <item>Austrália</item>
+        <item>Pacífico</item>
+        <item>Todos</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nunca</item>
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Imediatamente</item>
+        <item>5 segundos</item>
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Muito devagar</item>
+        <item>Devagar</item>
+        <item>Normal</item>
+        <item>Rápida</item>
+        <item>Muito rápida</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Muito baixa</item>
+        <item>Baixa</item>
+        <item>Normal</item>
+        <item>Alta</item>
+        <item>Muito alta</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Procurando…</item>
+        <item>Conectando...</item>
+        <item>Autenticando...</item>
+        <item>Obtendo endereço IP…</item>
+        <item>Conectado</item>
+        <item>Suspenso</item>
+        <item>Desconectando…</item>
+        <item>Desconectado</item>
+        <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Temporariamente evitando uma conexão ruim</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Procurando…</item>
+        <item>Conectando-se a %1$s…</item>
+        <item>Autenticando com a %1$s…</item>
+        <item>Obtendo endereço IP da %1$s…</item>
+        <item>Conectado a %1$s</item>
+        <item>Suspenso</item>
+        <item>Desconectando da %1$s…</item>
+        <item>Desconectado</item>
+        <item>Falha</item>
+        <item>Bloqueado</item>
+        <item>Temporariamente evitando uma conexão ruim</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abrir</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>Certificado WAPI</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Pressione o botão</item>
+        <item>PIN do dispositivo pareado</item>
+        <item>PIN deste disposit.</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Conectado</item>
+        <item>Convidado</item>
+        <item>Malsucedida</item>
+        <item>Disponível</item>
+        <item>Fora de alcance</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>Dois minutos</item>
+        <item>Cinco minutos</item>
+        <item>Uma hora</item>
+        <item>Nunca definir tempo limite</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Ruim</item>
+        <item>Bom</item>
+        <item>Bom</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Sempre</item>
+        <item>Somente quando conectado</item>
+        <item>Nunca (aumenta o uso de dados)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Sempre</item>
+        <item>Somente quando conectado</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automático</item>
+        <item>Apenas 5 GHz</item>
+        <item>Apenas 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tempo de uso</item>
+        <item>Iniciar contagem</item>
+        <item>Nome do aplicativo</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nenhum</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Estático</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nenhum</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Desativado</item>
+        <item>Alerta</item>
+        <item>Vibrar</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nenhum</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ou CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Não especificado</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Armazenamento do dispositivo interno</item>
+        <item>Cartão SD removível</item>
+        <item>Deixar o sistema decidir</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Curto</item>
+        <item>Médio</item>
+        <item>Longo</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nunca verificar</item>
+        <item>Verificar somente conteúdo DRM</item>
+        <item>Sempre verificar</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nunca usar a verificação HDCP</item>
+        <item>Usar a verificação HDCP somente para conteúdo DRM</item>
+        <item>Sempre usar a verificação HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animação desligada</item>
+        <item>Escala da animação 0,5 x</item>
+        <item>Escala da animação 1x</item>
+        <item>Escala de animação 1,5 x</item>
+        <item>Escala da animação 2x</item>
+        <item>Escala de animação 5 x</item>
+        <item>Escala de animação 10 x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animação desligada</item>
+        <item>Escala da animação 0,5 x</item>
+        <item>Escala da animação 1x</item>
+        <item>Escala de animação 1,5 x</item>
+        <item>Escala da animação 2x</item>
+        <item>Escala de animação 5 x</item>
+        <item>Escala de animação 10 x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animação desativada</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 1x</item>
+        <item>Escala de animação 1.5 x</item>
+        <item>Escala de animação 2x</item>
+        <item>Escala de animação 5x</item>
+        <item>Escala de animação 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nenhuma</item>
+        <item>720x480 mdpi</item>
+        <item>1280x720 tvdpi</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1280x720 tvdpi e 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nenhuma</item>
+        <item>Logcat</item>
+        <item>Systrace (gráficos)</item>
+        <item>Pilha de chamadas em glGetError</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Limite padrão</item>
+        <item>Sem processos em segundo plano</item>
+        <item>No máximo um processo</item>
+        <item>No máximo dois processos</item>
+        <item>No máximo, três processos</item>
+        <item>No máximo quatro processos</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>VPN PPTP</item>
+        <item>L2TP/IPSec VPN com chaves pré-compartilhadas</item>
+        <item>VPN L2TP/IPSec com certificados</item>
+        <item>VPN IPSec com chaves pré-compartilhadas e autenticação Xauth</item>
+        <item>VPN IPSec com autenticação de certificados e Xauth</item>
+        <item>VPN IPSec com certificados e autenticação híbrida</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Desconectado</item>
+        <item>Inicializando...</item>
+        <item>Conectando...</item>
+        <item>Conectado</item>
+        <item>Tempo limite</item>
+        <item>Malsucedida</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Perguntar</item>
+        <item>Nunca permitir</item>
+        <item>Sempre permitir</item>
+    </string-array>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>4 primeiros dígitos</item>
+        <item>4 últimos dígitos</item>
+        <item>Não exibir</item>
+    </string-array>
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Uma vez</item>
+        <item>Sempre</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (modo auto)</item>
+        <item>Apenas WCDMA</item>
+        <item>GSM apenas</item>
+    </string-array>
+    <string-array name="wpa_security">
+        <item>Abrir</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wpa_security_wfa">
+        <item>Abrir</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wapi_security">
+        <item>Abrir</item>
+        <item>Certificado WAPI</item>
+        <item></item>
+    </string-array>
+    <string-array name="hdmi_video_resolution_entries">
+        <item>Automático</item>
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Utilizar tempo de rede fornecido</item>
+        <item>Usar tempo fornecido do GPS</item>
+        <item>Desligar</item>
+    </string-array>
+    <string-array name="network_use_entry">
+        <item>Apenas Residência</item>
+        <item>Residência + Deslocamento</item>
+    </string-array>
+    <string-array name="sim_slot">
+        <item>(não especificado)</item>
+        <item>Slot Sim 1</item>
+        <item>Slot Sim 2</item>
+    </string-array>
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Sempre</item>
+        <item>Desligar quando ocioso por 5 min</item>
+        <item>Desligar quando ocioso por 10 min</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Automático</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>Botões</item>
+        <item>PIN do cliente</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 usuário</item>
+        <item>2 usuários</item>
+        <item>3 usuários</item>
+        <item>4 usuários</item>
+        <item>5 usuários</item>
+        <item>6 usuários</item>
+        <item>7 usuários</item>
+        <item>8 usuários</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Este ligar está definido para menos de 1 minuto de agora.</item>
+        <item>Este ligar está definido para %1$s de agora.</item>
+        <item>Este ligamento está definido para %2$s a partir de agora.</item>
+        <item>Este ligar está definido para %1$s e %2$s de agora.</item>
+        <item>Este ligamento está definido para %3$s a partir de agora.</item>
+        <item>Este ligar está definido para %1$s e %3$s de agora.</item>
+        <item>Este ligamento está definido para %2$s e %3$s a partir de agora.</item>
+        <item>Este ligar está definido para %1$s, %2$s>, e %3$s de agora.</item>
+        <item>Este desligar está definido para menos de 1 minuto de agora.</item>
+        <item>Este ligar está definido para %1$s, %2$s>, e %3$s de agora.</item>
+        <item>Este desligamento está definido para %2$s a partir de agora.</item>
+        <item>Este desligar está definido para %1$s de agora.</item>
+        <item>Este desligamento está definido para %3$s a partir de agora.</item>
+        <item>Este desligar está definido para %1$s e %2$s de agora.</item>
+        <item>Este desligamento está definido para %2$s e %3$s a partir de agora.</item>
+        <item>Este desligar está definido para %1$s e %3$s de agora.</item>
+    </string-array>
+</resources>

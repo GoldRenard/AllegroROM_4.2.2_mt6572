@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TenSolution Version="2">
+  <Projects>
+    <Project Value="framework\android.policy\android.policy.frwproject" />
+    <Project Value="app\Browser\Browser.apkproject" />
+    <Project Value="app\FMRadio\FMRadio.apkproject" />
+    <Project Value="framework\framework-res\framework-res.apkproject" />
+    <Project Value="app\Launcher2\Launcher2.apkproject" />
+    <Project Value="app\MtkBt\MtkBt.apkproject" />
+    <Project Value="app\OOBE\OOBE.apkproject" />
+    <Project Value="app\Phone\Phone.apkproject" />
+    <Project Value="framework\secondary-framework\secondary-framework.frwproject" />
+    <Project Value="app\Settings\Settings.apkproject" />
+    <Project Value="app\SettingsProvider\SettingsProvider.apkproject" />
+    <Project Value="app\SystemUI_ORIGINAL\SystemUI.apkproject" />
+    <Project Value="app\SystemUI_teXet\TEX_SystemUI.apkproject" />
+    <Project Value="framework\theme-res-mint\theme-res-mint.apkproject" />
+    <Project Value="framework\theme-res-mocha\theme-res-mocha.apkproject" />
+    <Project Value="framework\theme-res-raspberry\theme-res-raspberry.apkproject" />
+    <Project Value="app\Trebuchet\Trebuchet.apkproject" />
+  </Projects>
+  <Settings>
+    <Setting Name="solutionname" Value="A516_AllegroROM" />
+  </Settings>
+</TenSolution>

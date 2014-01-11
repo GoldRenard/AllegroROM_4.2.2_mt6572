@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d kürzlich geöffnete Apps</item>
+        <item quantity="one">1 kürzlich geöffnete App</item>
+    </plurals>
+</resources>

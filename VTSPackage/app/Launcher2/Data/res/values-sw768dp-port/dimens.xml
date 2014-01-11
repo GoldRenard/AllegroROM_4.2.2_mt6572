@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hotseat_cell_height">70.0dip</dimen>
+    <dimen name="button_bar_height">67.0dip</dimen>
+    <dimen name="button_bar_height_top_padding">5.0dip</dimen>
+    <dimen name="button_bar_height_bottom_padding">5.0dip</dimen>
+    <dimen name="button_bar_height_plus_padding">72.0dip</dimen>
+    <dimen name="workspace_cell_width_port">94.0dip</dimen>
+    <dimen name="workspace_cell_height_port">94.0dip</dimen>
+    <dimen name="workspace_width_gap_port">0.0dip</dimen>
+    <dimen name="workspace_height_gap_port">70.0dip</dimen>
+    <dimen name="workspace_page_spacing">30.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">26.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">16.0dip</dimen>
+</resources>

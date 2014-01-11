@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/voice_ui_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/voice_ui_app_category" android:key="voice_ui_app" />
+    <PreferenceCategory android:title="@string/voice_ui_setting_category" android:key="voice_ui_settings">
+        <Preference android:title="@string/voice_ui_language_title" android:key="language_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

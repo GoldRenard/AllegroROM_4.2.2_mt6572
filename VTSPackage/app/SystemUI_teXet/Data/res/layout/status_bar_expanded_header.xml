@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:background="@drawable/notification_header_bg" android:layout_width="fill_parent" android:layout_height="@dimen/notification_panel_header_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <RelativeLayout android:enabled="false" android:id="@id/datetime" android:background="@drawable/ic_notify_button_bg" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Clock" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+        <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/clock" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="#ff00a040" android:layout_gravity="center_vertical" android:id="@id/header_debug_info" android:padding="2.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+    <FrameLayout android:layout_width="46.0dip" android:layout_height="48.0dip">
+        <ImageView android:id="@id/header_settings_button" android:background="@drawable/ic_notify_button_bg" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_notify_settings" android:scaleType="center" android:contentDescription="@string/accessibility_settings_button" />
+        <ImageView android:id="@id/clear_all_button" android:background="@drawable/ic_notify_button_bg" android:layout_width="46.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_notify_clear" android:scaleType="center" android:contentDescription="@string/accessibility_clear_all" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/settings_button_holder" android:layout_width="46.0dip" android:layout_height="50.0dip" android:layout_marginLeft="-1.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/settings_button" android:background="@drawable/ic_notify_button_bg" android:layout_width="46.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_notify_settings" android:scaleType="center" android:contentDescription="@string/accessibility_desc_quick_settings" />
+        <ImageView android:id="@id/notification_button" android:background="@drawable/ic_notify_button_bg" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_notifications" android:scaleType="center" android:contentDescription="@string/accessibility_notifications_button" />
+    </FrameLayout>
+</LinearLayout>

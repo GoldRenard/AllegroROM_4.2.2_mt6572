@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Hotseat launcher:cellCountX="1" launcher:cellCountY="@integer/hotseat_cell_count"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <com.android.launcher2.CellLayout android:layout_gravity="center" android:id="@id/layout" android:paddingLeft="@dimen/button_bar_height_top_padding" android:paddingTop="@dimen/button_bar_width_left_padding" android:paddingRight="@dimen/button_bar_height_bottom_padding" android:paddingBottom="@dimen/button_bar_width_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" launcher:cellWidth="@dimen/hotseat_cell_width" launcher:cellHeight="@dimen/hotseat_cell_height" launcher:widthGap="@dimen/hotseat_width_gap" launcher:heightGap="@dimen/hotseat_height_gap" launcher:maxGap="@dimen/workspace_max_gap" />
+</com.android.launcher2.Hotseat>

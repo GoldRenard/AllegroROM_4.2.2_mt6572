@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_expanded="true" android:drawable="@drawable/yl_collapse_pressed" />
+    <item android:state_focused="true" android:state_pressed="false" android:state_expanded="true" android:drawable="@drawable/yl_collapse_focused" />
+    <item android:state_expanded="true" android:drawable="@drawable/yl_collapse_normal" />
+    <item android:state_pressed="true" android:state_expanded="false" android:drawable="@drawable/yl_expand_pressed" />
+    <item android:state_focused="true" android:state_pressed="false" android:state_expanded="false" android:drawable="@drawable/yl_expand_focused" />
+    <item android:state_expanded="false" android:drawable="@drawable/yl_expand_normal" />
+</selector>

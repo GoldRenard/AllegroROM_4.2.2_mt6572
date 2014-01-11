@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtuousTenProject>
+  <Settings>
+    <Setting Name="pushpath" Value="/system/app/" />
+    <Setting Name="usezipalign" Value="True" />
+    <Setting Name="usesign" Value="True" />
+    <Setting Name="signtype" Value="OwnKeys" />
+    <Setting Name="signcert" Value="D:\Devices\_Tools\AOSP_Certs\platform.x509.pem" />
+    <Setting Name="signkey" Value="D:\Devices\_Tools\AOSP_Certs\platform.pk8" />
+    <Setting Name="apilevel" Value="JellyBeanMR1" />
+    <Setting Name="usesmalidebug" Value="True" />
+    <Setting Name="apktooltype" Value="UseNewest" />
+    <Setting Name="customapktoolversion" Value="" />
+    <Setting Name="dedicatedaapt" Value="True" />
+    <Setting Name="frameworktag" Value="A516-AllegroROM" />
+    <Setting Name="usem10tools" Value="False" />
+    <Setting Name="decompileresources" Value="True" />
+    <Setting Name="generatejavasource" Value="True" />
+    <Setting Name="useadbinstall" Value="False" />
+    <Setting Name="useoptipng" Value="False" />
+    <Setting Name="isdebugtarget" Value="False" />
+    <Setting Name="additionalsmaliargs" Value="" />
+    <Setting Name="additionalbaksmaliargs" Value="--sequential-labels " />
+    <Setting Name="additionalapktooldecompileargs" Value="" />
+    <Setting Name="additionalapktoolcompileargs" Value="" />
+    <Setting Name="binaryname" Value="Phone.apk" />
+    <Setting Name="version" Value="3" />
+    <Setting Name="hassuccessfulimport" Value="True" />
+  </Settings>
+  <OpenDocuments />
+  <MarkedLines />
+</VirtuousTenProject>

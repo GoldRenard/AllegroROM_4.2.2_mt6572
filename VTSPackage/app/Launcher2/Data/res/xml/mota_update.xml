@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mota-update
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <app launcher:oldPackageName="com.android.camera" launcher:oldClassName="com.android.camera.Camera" launcher:newPackageName="com.android.gallery3d" launcher:newClassName="com.android.camera.CameraLauncher" />
+</mota-update>

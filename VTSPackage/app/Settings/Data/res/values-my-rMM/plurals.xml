@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">စကားဝှက်တွင်အနည်းဆုံး စာလုံး %d လုံးပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင်အနည်းဆုံး အက္ခရာစာလုံး ၁ လုံး ပါရပါမည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံးစာလုံးအသေး %d လုံးပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင်အနည်းဆုံး စာလုံးအသေး ၁ လုံးပါရပါမည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံး စာလုံးအကြီး %d လုံး ပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင် အနည်းဆုံး စာလုံးအကြီး ၁ လုံး ပါရပါမည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံး ကိန်းဂဏန်း %d ခု ပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင် အနည်းဆုံး ကိန်းဂဏန်း ၁ ခု ပါရပါမည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံးအထူးသင်္ကေတ %d လုံးပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင် အနည်းဆုံးအထူးသင်္ကေတ ၁ လုံးပါရပါမည်။</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံးအက္ခရာမဟုတ်သော စာလုံး %d လုံးပါရပါမည်။</item>
+        <item quantity="one">စကားဝှက်တွင် အနည်းဆုံးအက္ခရာမဟုတ်သော စာလုံး ၁ လုံးပါရပါမည်။</item>
+    </plurals>
+</resources>

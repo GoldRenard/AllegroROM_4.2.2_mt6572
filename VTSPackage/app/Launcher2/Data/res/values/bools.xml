@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_largeHeap">false</bool>
+    <bool name="is_large_screen">false</bool>
+    <bool name="allow_rotation">false</bool>
+    <bool name="config_useDropTargetDownTransition">true</bool>
+    <bool name="config_workspaceFadeAdjacentScreens">false</bool>
+    <bool name="config_useCustomClings">false</bool>
+    <bool name="hotseat_transpose_layout_with_orientation">true</bool>
+</resources>

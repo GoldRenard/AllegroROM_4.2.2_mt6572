@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dial_with_country_code_list" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SearchView android:layout_gravity="left" android:id="@id/search" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" android:inputType="textCapWords" android:imeOptions="flagNoFullscreen|flagNoExtractUi" android:iconifiedByDefault="false" />
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" />
+    <TextView android:textSize="18.0sp" android:ellipsize="end" android:id="@id/no_search_result" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_search_result" android:singleLine="true" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:fastScrollEnabled="true" />
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/more" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

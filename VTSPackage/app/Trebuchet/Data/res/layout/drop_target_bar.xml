@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_weight="1.0" style="@style/DropTargetButtonContainer"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.cyanogenmod.trebuchet.DeleteDropTarget android:id="@id/delete_target_text" android:text="@string/delete_zone_label_workspace" android:drawableLeft="@drawable/remove_target_selector" style="@style/DropTargetButton" />
+    </FrameLayout>
+    <FrameLayout android:layout_weight="1.0" style="@style/DropTargetButtonContainer"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.cyanogenmod.trebuchet.InfoDropTarget android:id="@id/info_target_text" android:text="@string/info_target_label" android:drawableLeft="@drawable/info_target_selector" style="@style/DropTargetButton" />
+    </FrameLayout>
+    <FrameLayout android:layout_weight="1.0" style="@style/DropTargetButtonContainer"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.cyanogenmod.trebuchet.EditDropTarget android:id="@id/edit_target_text" android:text="@string/edit_target_label" android:drawableLeft="@drawable/edit_target_selector" style="@style/DropTargetButton" />
+    </FrameLayout>
+</merge>

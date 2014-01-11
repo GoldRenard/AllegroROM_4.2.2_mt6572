@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.OOBERootView android:orientation="vertical" android:id="@id/oobe_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/title_panel" />
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="6.0dip">
+            <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <Button android:gravity="center" android:layout_gravity="right" android:id="@id/button_import_contacts" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/oobe_btn_start_import_contacts" android:singleLine="true" />
+                <TextView android:textSize="14.0sp" android:typeface="sans" android:textStyle="normal" android:gravity="left" android:layout_gravity="center" android:id="@id/textView_note_import_contacts" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/progressbar" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/button_panel" />
+</com.mediatek.oobe.utils.OOBERootView>

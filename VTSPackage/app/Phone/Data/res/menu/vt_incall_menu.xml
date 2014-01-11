@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_switch_camera" android:orderInCategory="1" android:title="@string/vt_menu_switch" />
+    <item android:id="@id/menu_take_peer_photo" android:orderInCategory="1" android:title="@string/vt_menu_snapshot" />
+    <item android:id="@id/menu_swap_videos" android:orderInCategory="1" android:title="@string/vt_swap_video" />
+    <item android:id="@id/menu_hide_local_video" android:orderInCategory="1" android:title="@string/vt_menu_hide_me" />
+    <item android:id="@id/menu_voice_record" android:orderInCategory="1" android:title="@string/start_record" />
+    <item android:id="@id/menu_video_setting" android:orderInCategory="1" android:title="@string/vt_settings" />
+</menu>

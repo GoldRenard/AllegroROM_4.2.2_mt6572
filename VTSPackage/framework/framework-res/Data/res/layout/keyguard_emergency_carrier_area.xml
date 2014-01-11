@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.MediatekCarrierText android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:weightSum="2.0" style="?android:attr/buttonBarStyle">
+        <com.android.internal.policy.impl.keyguard.EmergencyButton android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/kg_status_line_font_size" android:textColor="?textColorSecondary" android:id="@id/emergency_call_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kg_emergency_call_label" android:drawableLeft="@drawable/lockscreen_emergency_button" android:drawablePadding="8.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/kg_status_line_font_size" android:textColor="?textColorSecondary" android:id="@id/forgot_password_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableLeft="@drawable/lockscreen_forgot_password_button" android:drawablePadding="8.0dip" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

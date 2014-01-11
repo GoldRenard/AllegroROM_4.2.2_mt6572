@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: Trebuchet.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: NexusHD2_CM10.1
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.cyanogenmod.trebuchet
+  orig_package: com.cyanogenmod.trebuchet
+compressionType: false

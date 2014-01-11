@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dialpad_horizontal_margin" android:layout_marginRight="@dimen/dialpad_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/digits_container" android:background="@drawable/dialpad_background" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginTop="@dimen/dialpad_vertical_margin" android:layout_weight="@integer/dialpad_layout_weight_digits">
+        <EditText android:textAppearance="@style/DialtactsDigitsTextAppearance" android:gravity="center" android:id="@id/digits" android:background="@*android:color/transparent" android:focusableInTouchMode="false" android:nextFocusRight="@id/deleteButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scrollHorizontally="true" android:layout_weight="1.0" />
+        <ImageButton android:state_enabled="false" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/deleteButton" android:background="?android:selectableItemBackground" android:layout_width="56.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_delete" android:contentDescription="@string/description_delete_button" />
+    </LinearLayout>
+    <include layout="@layout/dialpad" />
+    <View android:background="#66000000" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_vertical_margin" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/dialButtonContainer" android:background="@drawable/dialpad_background" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="@integer/dialpad_layout_weight_additional_buttons">
+        <ImageButton android:state_enabled="false" android:layout_gravity="center" android:id="@id/dialButton" android:background="@drawable/btn_call" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_dial_action_call" android:contentDescription="@string/description_dial_button" />
+    </FrameLayout>
+</LinearLayout>

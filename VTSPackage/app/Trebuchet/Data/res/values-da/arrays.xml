@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Over dock</item>
+        <item>Top</item>
+        <item>Bund</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Top/Venstre</item>
+        <item>Bund/Højre</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Horisontal</item>
+        <item>Vertikal</item>
+    </string-array>
+</resources>

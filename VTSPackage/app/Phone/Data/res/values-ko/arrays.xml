@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_list_values">
+        <item>모든 언어</item>
+        <item>독일어</item>
+        <item>영어</item>
+        <item>이탈리아어</item>
+        <item>프랑스어</item>
+        <item>스페인어</item>
+        <item>네덜란드어</item>
+        <item>스웨덴어</item>
+        <item>덴마크어</item>
+        <item>포르투갈어</item>
+        <item>핀란드어</item>
+        <item>노르웨이어</item>
+        <item>그리스어</item>
+        <item>터키어</item>
+        <item>헝가리어</item>
+        <item>폴란드어</item>
+        <item>기타</item>
+        <item>체코어</item>
+        <item>히브리어</item>
+        <item>아랍어</item>
+        <item>러시아어</item>
+        <item>아이슬랜드어</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_choices">
+        <item>GSM</item>
+        <item>WCDMA</item>
+        <item>Dual mode</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_td_choices">
+        <item>GSM</item>
+        <item>TD-SCDMA</item>
+        <item>Dual mode</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA(자동 모드)</item>
+        <item>WCDMA 전용</item>
+        <item>GSM 전용</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA(자동 모드)</item>
+        <item>TD-SCDMA 전용</item>
+        <item>GSM 전용</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices">
+        <item>GSM/WCDMA(자동 모드)</item>
+        <item>WCDMA 전용</item>
+    </string-array>
+    <string-array name="umts_network_preferences_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA(자동 모드)</item>
+        <item>TD-SCDMA 전용</item>
+    </string-array>
+    <string-array name="call_reject_mode_entries">
+        <item>꺼짐</item>
+        <item>모든 번호</item>
+        <item>자동 거부 목록</item>
+    </string-array>
+    <string-array name="call_reject_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_reject_dialog_array">
+        <item>연락처</item>
+        <item>통화 기록</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>네트워크 기본값</item>
+        <item>발신자 표시 제한</item>
+        <item>발신자 표시</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/CDMA</item>
+        <item>EvDo 전용</item>
+        <item>EvDo없는 CDMA</item>
+        <item>CDMA/EvDo 자동</item>
+        <item>GSM/WCDMA 자동</item>
+        <item>WCDMA 전용</item>
+        <item>GSM 전용</item>
+        <item>GSM/WCDMA로 기본 설정</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE/CDMA</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>영어</item>
+        <item>프랑스어</item>
+        <item>스페인어</item>
+        <item>일본어</item>
+        <item>한국어</item>
+        <item>중국어</item>
+        <item>히브리어</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>집 전용</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY 사용 안함</item>
+        <item>TTY 전체</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>보통</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>항상</item>
+        <item>무음 시에만</item>
+        <item>안함</item>
+    </string-array>
+    <string-array name="td_network_mode_choices">
+        <item>GSM</item>
+        <item>TD-SCDMA</item>
+        <item>듀얼 모드</item>
+    </string-array>
+    <string-array name="td_network_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

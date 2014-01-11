@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="quick_settings_show_rotation_lock">true</bool>
+    <bool name="config_hasSettingsPanel">true</bool>
+    <bool name="config_hasFlipSettingsPanel">false</bool>
+</resources>

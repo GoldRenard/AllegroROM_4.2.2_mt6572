@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="folderClingMarginTop">70.0dip</dimen>
+    <dimen name="qsb_bar_height_inset">48.0dip</dimen>
+    <dimen name="qsb_bar_height">54.0dip</dimen>
+    <dimen name="qsb_padding_left">6.0dip</dimen>
+    <dimen name="qsb_padding_right">6.0dip</dimen>
+    <dimen name="search_bar_height">48.0dip</dimen>
+    <dimen name="workspace_divider_padding_left">6.0dip</dimen>
+    <dimen name="workspace_divider_padding_right">6.0dip</dimen>
+    <dimen name="apps_customize_cell_height">92.0dip</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">16.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">8.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">8.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">16.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">20.0dip</dimen>
+</resources>

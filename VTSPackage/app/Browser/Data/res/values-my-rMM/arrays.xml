@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>အလိုအလျောက်စမ်းသပ်တွေ့ရှိစက်</item>
+        <item>လက်တင်-1 (ISO-8859-1)</item>
+        <item>ယူနီကုဒ် (UTF-8)</item>
+        <item>ယူနီကုဒ် (UTF-16)</item>
+        <item>တရုတ် (GB2312)</item>
+        <item>တရုတ် (GBK)</item>
+        <item>တရုတ် (Big5)</item>
+        <item>ဂျပန် (ISO-2022-JP)</item>
+        <item>ဂျပန် (SHIFT_JIS)</item>
+        <item>ဂျပန် (EUC-JP)</item>
+        <item>ကိုရီးယား (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_op02_text_encoding_values">
+        <item>auto-detector</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>UTF-16</item>
+        <item>GB2312</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_default_font_family_choices">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="pref_default_font_family_values">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="bookmarks_for_op02">
+        <item>3G</item>
+        <item>http://www.wo.com.cn</item>
+    </string-array>
+    <string-array name="bookmarks_for_op01">
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+    </string-array>
+    <string-array name="bookmarks_for_yahoo">
+        <item>Yahoo! Mobile</item>
+        <item>http://m.yahoo.com/?.tsrc=mtk&amp;amp;.sep=mtkbrowser</item>
+        <item>Yahoo! Mail</item>
+        <item>http://m.yahoo.com/mail?.tsrc=mtk&amp;amp;.sep=mtkbrowser</item>
+        <item>Yahoo! Messenger</item>
+        <item>http://m.yahoo.com/w/bp-messenger?.tsrc=mtk&amp;amp;.sep=mtkbrowser</item>
+        <item>Yahoo! News</item>
+        <item>http://m.yahoo.com/news?.tsrc=mtk&amp;amp;.sep=mtkbrowser</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <item>လက်ရှိစာမျက်နှာ</item>
+        <item>ဗလာစာမျက်နှာ</item>
+        <item>မူလစာမျက်နှာ</item>
+        <item>အများဆုံးကြည့်ရှုသည့်ဆိုဒ်များ</item>
+        <item>ဆိုဒ်လမ်းညွှန်ချက်</item>
+        <item>အခြား</item>
+    </string-array>
+    <string-array name="pref_homepage_values_site_navigation">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>site_navigation</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="predefined_websites_default_optr">
+        <item>Hao123</item>
+        <item>http://www.hao123.com/</item>
+        <item>site_navigation_default_default1</item>
+        <item>Google</item>
+        <item>http://www.google.cn/</item>
+        <item>site_navigation_default_default2</item>
+        <item>Baidu</item>
+        <item>http://www.baidu.com/</item>
+        <item>site_navigation_default_default3</item>
+        <item>Sina</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>site_navigation_default_default4</item>
+        <item>Sohu</item>
+        <item>http://www.sohu.com/</item>
+        <item>site_navigation_default_default5</item>
+        <item>Yahoo</item>
+        <item>http://www.yahoo.com/</item>
+        <item>site_navigation_default_default6</item>
+    </string-array>
+    <string-array name="predefined_websites_op01">
+        <item>about:blank</item>
+        <item>about:blank1</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank2</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank3</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank4</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank5</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank6</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank7</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank8</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank9</item>
+        <item>sitenavigation_thumbnail_default</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>ဘယ်တော့မှ</item>
+        <item>Wi-Fi တွင်သာ</item>
+        <item>အမြဲတမ်း</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>အမြဲတမ်းဖွင့်ပါ</item>
+        <item>လိုအပ်ပါကဖွင့်ပါ</item>
+        <item>ပိတ်ပါ</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>လက်ရှိစာမျက်နှာ</item>
+        <item>ဗလာစာမျက်နှာ</item>
+        <item>မူလစာမျက်နှာ</item>
+        <item>အများဆုံးကြည့်ရှုသည့်ဆိုဒ်များ</item>
+        <item>အခြား</item>
+    </string-array>
+    <string-array name="pref_homepage_values">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>အလွန်သေး</item>
+        <item>သေးငယ်</item>
+        <item>ပုံမှန်</item>
+        <item>ကြီး</item>
+        <item>အလွန်ကြီး</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>ဝေး</item>
+        <item>အလယ်</item>
+        <item>နီး</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values">
+        <item>FAR</item>
+        <item>MEDIUM</item>
+        <item>CLOSE</item>
+    </string-array>
+    <string-array name="pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>အလိုအလျောက်စမ်းသပ်တွေ့ရှိစက်</item>
+        <item>လက်တင်-1 (ISO-8859-1)</item>
+        <item>ယူနီကုဒ် (UTF-8)</item>
+        <item>တရုတ် (GBK)</item>
+        <item>တရုတ် (Big5)</item>
+        <item>ဂျပန် (ISO-2022-JP)</item>
+        <item>ဂျပန် (SHIFT_JIS)</item>
+        <item>ဂျပန် (EUC-JP)</item>
+        <item>ကိုရီးယား (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_values">
+        <item>auto-detector</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>ဘယ်တော့မှ</item>
+        <item>Wi-Fi တွင်သာ</item>
+        <item>အမြဲတမ်း</item>
+    </string-array>
+    <string-array name="pref_data_preload_values">
+        <item>@string/pref_data_preload_value_never</item>
+        <item>@string/pref_data_preload_value_wifi_only</item>
+        <item>@string/pref_data_preload_value_always</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_values">
+        <item>@string/pref_link_prefetch_value_never</item>
+        <item>@string/pref_link_prefetch_value_wifi_only</item>
+        <item>@string/pref_link_prefetch_value_always</item>
+    </string-array>
+    <string-array name="bookmarks">
+        <item>Google</item>
+        <item>http://www.google.com/</item>
+        <item>Picasa</item>
+        <item>http://picasaweb.google.com/</item>
+        <item>MSN</item>
+        <item>http://www.msn.com/</item>
+        <item>Twitter</item>
+        <item>http://twitter.com/</item>
+        <item>Facebook</item>
+        <item>http://www.facebook.com/</item>
+        <item>Wikipedia</item>
+        <item>http://www.wikipedia.org/</item>
+        <item>eBay</item>
+        <item>http://www.ebay.com/</item>
+        <item>CNN</item>
+        <item>http://www.cnn.com/</item>
+        <item>NY Times</item>
+        <item>http://www.nytimes.com/</item>
+        <item>ESPN</item>
+        <item>http://espn.com/</item>
+        <item>Amazon</item>
+        <item>http://www.amazon.com/</item>
+        <item>Weather Channel</item>
+        <item>http://www.weather.com/</item>
+        <item>BBC</item>
+        <item>http://www.bbc.co.uk/</item>
+        <item>Gameloft</item>
+        <item>http://wapshop.gameloft.com/misc/mtk_android/?adid=248991</item>
+        <item>Mobage Game Center</item>
+        <item>http://m.mobage.cn/_game_top?sp_aff=41800000&amp;amp;src=weak</item>
+    </string-array>
+</resources>

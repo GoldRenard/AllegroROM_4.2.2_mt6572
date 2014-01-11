@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Mai sus de doc</item>
+        <item>În partea de sus</item>
+        <item>În partea de jos</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Sus/Stânga</item>
+        <item>Jos/Dreapta</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Orizontal</item>
+        <item>Vertical</item>
+    </string-array>
+</resources>

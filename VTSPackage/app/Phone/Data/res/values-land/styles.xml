@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryCallInfoPrimaryCallBanner">
+        <item name="android:layout_alignParentBottom">false</item>
+    </style>
+    <style name="PrimaryCallInfoSecondaryInfoContainer">
+        <item name="android:layout_above">@id/primary_call_banner</item>
+    </style>
+    <style name="SecondaryCallInfoSecondaryCallName">
+        <item name="android:layout_gravity">bottom|left|center</item>
+    </style>
+    <style name="SecondaryCallInfoSecondaryCallStatus">
+        <item name="android:layout_gravity">bottom|right|center</item>
+    </style>
+</resources>

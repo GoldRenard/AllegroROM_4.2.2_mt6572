@@ -1,0 +1,29 @@
+.class public interface abstract Lcom/google/common/hash/Funnel;
+.super Ljava/lang/Object;
+.source "Funnel.java"
+
+
+# annotations
+.annotation build Lcom/google/common/annotations/Beta;
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract funnel(Ljava/lang/Object;Lcom/google/common/hash/Sink;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/google/common/hash/Sink;",
+            ")V"
+        }
+    .end annotation
+.end method

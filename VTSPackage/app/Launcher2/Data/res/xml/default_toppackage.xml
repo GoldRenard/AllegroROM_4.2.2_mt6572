@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toppackages
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <app launcher:topPackageName="com.yahoo.mobile.client.android.odp" launcher:topClassName="com.yahoo.mobile.client.android.odp.YahooODP" launcher:topOrder="4" />
+    <app launcher:topPackageName="com.yahoo.mobile.client.android.im" launcher:topClassName="com.yahoo.mobile.client.android.im.YahooMessenger" launcher:topOrder="5" />
+    <app launcher:topPackageName="com.yahoo.mobile.client.android.mail" launcher:topClassName="com.yahoo.mobile.client.android.mail.activity.YahooMail" launcher:topOrder="6" />
+    <app launcher:topPackageName="com.yahoo.mobile.client.android.news" launcher:topClassName="com.yahoo.mobile.client.android.news.activity.Main" launcher:topOrder="7" />
+    <app launcher:topPackageName="com.yahoo.mobile.client.android.finance" launcher:topClassName="com.yahoo.mobile.client.android.finance.activity.Main" launcher:topOrder="10" />
+</toppackages>

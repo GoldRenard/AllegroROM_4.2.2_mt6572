@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyCode" format="integer" />
+    <attr name="keyRepeat" format="boolean" />
+    <attr name="glowBackground" format="reference" />
+    <attr name="text" format="string" />
+    <attr name="insetLeft" format="dimension" />
+    <attr name="rowHeight" format="dimension" />
+    <attr name="recentItemLayout" format="reference" />
+    <attr name="minSize" format="dimension" />
+    <attr name="maxSize" format="dimension" />
+    <attr name="holdTime" format="integer" />
+    <attr name="decayTime" format="integer" />
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+</resources>

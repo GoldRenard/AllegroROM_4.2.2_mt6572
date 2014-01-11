@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>4 หลักแรก</item>
+        <item>4 หลักสุดท้าย</item>
+        <item>ไม่แสดง</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>กำลังสแกน…</item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อ…</item>
+        <item>กำลังตรวจสอบความถูกต้อง…</item>
+        <item>กำลังรับที่อยู่ IP…</item>
+        <item>เชื่อมต่อแล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อ...</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>กำลังสแกน…</item>
+        <item>กำลังสแกน...</item>
+        <item>กำลังเชื่อมต่อไปยัง %1$s...</item>
+        <item>กำลังตรวจสอบสิทธิ์กับ %1$s...</item>
+        <item>กำลังรับที่อยู่ IP จาก %1$s…</item>
+        <item>เชื่อมต่อกับ %1$s แล้ว</item>
+        <item>ระงับไว้</item>
+        <item>กำลังตัดการเชื่อมต่อจาก %1$s</item>
+        <item>ตัดการเชื่อมต่อ</item>
+        <item>ไม่สำเร็จ</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>แย่</item>
+        <item>พอใช้</item>
+        <item>ดี</item>
+        <item>ยอดเยี่ยม</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>เมื่อปิดหน้าจอ</item>
+        <item>ไม่ใช้เมื่อเสียบปลั๊ก</item>
+        <item>ไม่เคย</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>เชื่อมต่ออัตโนมัติ</item>
+        <item>เชื่อมต่อด้วยตัวเอง</item>
+        <item>ถามเสมอ</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>อัตโนมัติ</item>
+        <item>เฉพาะ 5 GHz</item>
+        <item>เฉพาะ 2.4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>เสมอ</item>
+        <item>เมื่อเสียบแล้วเท่านั้น</item>
+        <item>ไม่แม้แต่ครั้งเดียว</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>คงที่</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>ไม่มี</item>
+        <item>แมนนวล</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>ใช้เวลาที่มีให้ในเครือข่าย</item>
+        <item>ใช้เวลาที่มีให้ใน GPS</item>
+        <item>ปิด</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>อัตโนมัติ</item>
+        <item>WEP ASCII</item>
+        <item>WEP ฐานสิบหก</item>
+    </string-array>
+</resources>

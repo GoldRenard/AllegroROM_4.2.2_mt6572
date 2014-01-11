@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="ltgrey">#ffe0e0e0</color>
+    <color name="memory_used">#ffff0000</color>
+    <color name="memory_avail">#ff333333</color>
+    <color name="memory_apps_usage">#ff77831a</color>
+    <color name="memory_downloads">#ff476093</color>
+    <color name="memory_dcim">#ff793a7f</color>
+    <color name="memory_music">#ff8e562a</color>
+    <color name="memory_cache">#ff479392</color>
+    <color name="memory_misc">#ff7c3030</color>
+    <color name="memory_user_light">#ff479392</color>
+    <color name="memory_user_dark">#ff316665</color>
+    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
+    <color name="crypt_keeper_clock_foreground">#ff666666</color>
+    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
+    <color name="divider_color">#20ffffff</color>
+    <item type="color" name="title_color">@*android:color/holo_blue_light</item>
+    <color name="setup_divider_color">#ff333333</color>
+    <color name="sim_blue">#ff0098df</color>
+    <color name="sim_orange">#ffff7214</color>
+    <color name="sim_green">#ff35b800</color>
+    <color name="sim_purple">#ff735ce1</color>
+</resources>

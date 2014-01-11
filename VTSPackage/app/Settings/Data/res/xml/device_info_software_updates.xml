@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/software_updates_more_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/system_update_settings_list_item_summary">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/software_update" android:key="software_update" />
+    <PreferenceScreen android:title="@string/scomo_settings_title" android:key="scomo" android:summary="@string/software_updates_scomo_summary">
+        <intent android:targetPackage="com.mediatek.dm" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.dm.scomo.DmScomoActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

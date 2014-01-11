@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom|center" android:background="@drawable/search_frame" android:layout_width="fill_parent" android:layout_height="@dimen/search_bar_height" style="@style/SearchDropTargetBar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <com.android.launcher2.HolographicLinearLayout android:layout_gravity="center_vertical" android:id="@id/search_button_container" android:paddingLeft="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/voice_button_container" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onClickSearchButton" android:contentDescription="@string/accessibility_search_button" launcher:sourceImageViewId="@id/search_button" style="@style/SearchButton">
+        <ImageView android:id="@id/search_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_home_search_normal_holo" android:adjustViewBounds="true" />
+    </com.android.launcher2.HolographicLinearLayout>
+    <com.android.launcher2.HolographicLinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/voice_button_container" android:paddingRight="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="@dimen/search_bar_height" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="onClickVoiceButton" android:contentDescription="@string/accessibility_voice_search_button" launcher:sourceImageViewId="@id/voice_button" style="@style/SearchButton">
+        <ImageView android:id="@id/voice_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_home_voice_search_holo" android:adjustViewBounds="true" />
+    </com.android.launcher2.HolographicLinearLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>前 4 個數字</item>
+        <item>後 4 個數字</item>
+        <item>不顯示</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>偵測中…</item>
+        <item>掃描中...</item>
+        <item>連線中…</item>
+        <item>驗證中...</item>
+        <item>正在取得 IP 位址...</item>
+        <item>已連線</item>
+        <item>已暫停</item>
+        <item>中斷連線中…</item>
+        <item>已中斷連線</item>
+        <item>失敗</item>
+        <item>已封鎖</item>
+        <item>目前正暫時避開品質不佳的連線</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>偵測中…</item>
+        <item>掃描中...</item>
+        <item>正在連線到 %1$s...</item>
+        <item>正在取得 %1$s 的授權...</item>
+        <item>正在由 %1$s 取得 IP 位址...</item>
+        <item>已連線到 %1$s</item>
+        <item>已暫停</item>
+        <item>正在中斷 %1$s 連線 ...</item>
+        <item>已中斷連線</item>
+        <item>失敗</item>
+        <item>已封鎖</item>
+        <item>目前正暫時避開品質不佳的連線</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>差</item>
+        <item>可</item>
+        <item>良</item>
+        <item>優</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>關上螢幕時</item>
+        <item>插入時絕不</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>自動連線</item>
+        <item>手動連線</item>
+        <item>隨時詢問</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>自動</item>
+        <item>僅限5 GHz</item>
+        <item>僅限2.4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>永遠要</item>
+        <item>僅於連接時採用</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>靜止</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>無</item>
+        <item>手動</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>使用網路提供之時間</item>
+        <item>使用GPS提供之時間</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>自動</item>
+        <item>WEP ASCII</item>
+        <item>WEP 十六進位</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>關閉</item>
+        <item>按下按鈕</item>
+        <item>無線網路基地台PIN碼</item>
+        <item>本機PIN碼</item>
+    </string-array>
+</resources>

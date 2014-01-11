@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_edge_ignore">5.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_max_width">48.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_max_height">48.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_width">164.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">145.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_bg_padding">4.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_text_size">14.0dip</dimen>
+    <dimen name="status_bar_recents_app_description_text_size">14.0dip</dimen>
+    <dimen name="status_bar_recents_text_fading_edge_length">20.0dip</dimen>
+    <dimen name="status_bar_recents_scroll_fading_edge_length">10.0dip</dimen>
+    <dimen name="status_bar_recents_right_glow_margin">100.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_left_margin">20.0dip</dimen>
+    <dimen name="status_bar_recents_text_description_padding">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width">88.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_item_padding">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_translate_distance">35.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8.0dip</dimen>
+    <dimen name="peek_window_y_offset">-12.0dip</dimen>
+    <item type="dimen" name="navigation_bar_size">@*android:dimen/navigation_bar_height</item>
+    <dimen name="navigation_bar_deadzone_size">12.0dip</dimen>
+    <dimen name="navigation_bar_deadzone_size_max">32.0dip</dimen>
+    <item type="dimen" name="status_bar_icon_size">@*android:dimen/status_bar_icon_size</item>
+    <dimen name="notification_min_height">64.0dip</dimen>
+    <dimen name="notification_max_height">256.0dip</dimen>
+    <dimen name="notification_row_min_height">70.0dip</dimen>
+    <dimen name="notification_row_max_height">260.0dip</dimen>
+    <dimen name="status_bar_icon_drawing_size">18.0dip</dimen>
+    <item type="dimen" name="status_bar_icon_drawing_alpha">65.0%</item>
+    <dimen name="status_bar_icon_padding">0.0dip</dimen>
+    <dimen name="notification_divider_height">3.0dip</dimen>
+    <dimen name="self_expand_velocity">2000.0dip</dimen>
+    <dimen name="self_collapse_velocity">2000.0dip</dimen>
+    <dimen name="fling_expand_min_velocity">100.0dip</dimen>
+    <dimen name="fling_collapse_min_velocity">100.0dip</dimen>
+    <dimen name="fling_gesture_max_x_velocity">200.0dip</dimen>
+    <dimen name="fling_gesture_max_output_velocity">3000.0dip</dimen>
+    <dimen name="fling_gesture_min_dist">20.0dip</dimen>
+    <item type="dimen" name="collapse_min_display_fraction">10.000002%</item>
+    <item type="dimen" name="expand_min_display_fraction">50.0%</item>
+    <dimen name="expand_accel">2000.0dip</dimen>
+    <dimen name="collapse_accel">2000.0dip</dimen>
+    <dimen name="global_screenshot_bg_padding">20.0dip</dimen>
+    <dimen name="navigation_key_width">80.0dip</dimen>
+    <dimen name="navigation_menu_key_width">40.0dip</dimen>
+    <dimen name="navbar_search_snap_margin">40.0dip</dimen>
+    <dimen name="navbar_search_outerring_diameter">340.0dip</dimen>
+    <dimen name="navbar_search_outerring_radius">170.0dip</dimen>
+    <dimen name="navbar_search_up_threshhold">40.0dip</dimen>
+    <dimen name="navbar_search_panel_height">230.0dip</dimen>
+    <dimen name="close_handle_height">36.0dip</dimen>
+    <dimen name="close_handle_underlap">32.0dip</dimen>
+    <dimen name="notification_panel_header_height">48.0dip</dimen>
+    <dimen name="notification_panel_padding_top">0.0dip</dimen>
+    <dimen name="notification_panel_header_padding_top">0.0dip</dimen>
+    <dimen name="notification_panel_margin_bottom">0.0dip</dimen>
+    <dimen name="notification_panel_margin_left">0.0dip</dimen>
+    <item type="dimen" name="settings_panel_dragzone_fraction">0.0%</item>
+    <dimen name="settings_panel_dragzone_min">100.0dip</dimen>
+    <dimen name="carrier_label_height">24.0dip</dimen>
+    <dimen name="one_finger_pop_limit">32.0dip</dimen>
+    <dimen name="quick_settings_cell_height">110.0dip</dimen>
+    <dimen name="quick_settings_cell_gap">4.0dip</dimen>
+    <item type="dimen" name="notification_panel_min_height_frac">0.0%</item>
+    <dimen name="blinds_pop_threshold">32.0dip</dimen>
+    <dimen name="pull_span_min">25.0dip</dimen>
+    <dimen name="peek_height">84.0dip</dimen>
+    <dimen name="wifi_combo_margin_right">-6.0dip</dimen>
+    <dimen name="scroll_view_margin_top">183.0dip</dimen>
+    <dimen name="status_bar_sim_indicator_min_width">24.0dip</dimen>
+    <dimen name="status_bar_sim_indicator_max_width">100.0dip</dimen>
+    <dimen name="status_bar_signal_bg_padding">2.0dip</dimen>
+    <dimen name="status_bar_signal_icon_outer_size">23.0dip</dimen>
+    <dimen name="status_bar_signal_icon_inner_size">20.0dip</dimen>
+    <dimen name="status_bar_signal_icon_expanded_outer_cu_width">38.0dip</dimen>
+    <dimen name="status_bar_signal_icon_expanded_inner_cu_width">16.0dip</dimen>
+    <dimen name="toolbar_height">103.0dip</dimen>
+</resources>

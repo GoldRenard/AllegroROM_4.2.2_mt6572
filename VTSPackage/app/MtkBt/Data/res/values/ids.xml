@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="message">false</item>
+    <item type="id" name="alwaysallowed">false</item>
+    <item type="id" name="pass_code_edit">false</item>
+    <item type="id" name="notification_icon">false</item>
+    <item type="id" name="progress_text">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="progress_bar">false</item>
+    <item type="id" name="transfer_icon">false</item>
+    <item type="id" name="transfer_file">false</item>
+    <item type="id" name="peer_device">false</item>
+    <item type="id" name="modified_date">false</item>
+    <item type="id" name="transfer_info">false</item>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="bt_share_mgmt_tab_menu_clear">false</item>
+</resources>

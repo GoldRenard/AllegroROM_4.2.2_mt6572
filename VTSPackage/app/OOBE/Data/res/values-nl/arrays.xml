@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Eerste 4 cijfers</item>
+        <item>Laatste 4 cijfers</item>
+        <item>Niet weergeven</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Scannen…</item>
+        <item>Scannen...</item>
+        <item>Verbinding maken...</item>
+        <item>Verifiëren...</item>
+        <item>IP-adres ophalen…</item>
+        <item>Verbonden</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken...</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Scannen…</item>
+        <item>Scannen...</item>
+        <item>Verbinding maken met %1$s...</item>
+        <item>Verifiëren met %1$s…</item>
+        <item>IP-adres ophalen van %1$s…</item>
+        <item>Verbonden met %1$s</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken met %1$s…</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slecht</item>
+        <item>Redelijk</item>
+        <item>Goed</item>
+        <item>Uitstekend</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Wanneer scherm wordt uitgeschakeld</item>
+        <item>Nooit indien aangesloten</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatisch verbinding maken</item>
+        <item>Handmatig verbinding maken</item>
+        <item>Altijd vragen</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Autom.</item>
+        <item>Alleen 5 GHz</item>
+        <item>Alleen 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Altijd</item>
+        <item>Alleen indien aangesloten</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisch</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Geen</item>
+        <item>Handmatig</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Gebruik door netwerk aangeboden tijd</item>
+        <item>Gebruik door GPS aangeboden tijd</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>အလိုအလျောက်</item>
+        <item>WEP ASCII</item>
+        <item>WEP ဆဋ္ဌဒဿမ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.mediatek.settings.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_0" android:summary="" />
+    <com.mediatek.settings.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_1" android:summary="" />
+    <com.mediatek.settings.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_2" android:summary="" />
+    <com.mediatek.settings.SimPreference android:persistent="false" android:layout="@layout/pre_sim_select" android:title="" android:key="PreferenceScreen_sim_key_3" android:summary="" />
+    <com.mediatek.settings.CheckSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_checkbox" android:title="" android:key="CheckBoxPreference_sim_key_0" android:summary="" android:defaultValue="true" />
+    <com.mediatek.settings.CheckSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_checkbox" android:title="" android:key="CheckBoxPreference_sim_key_1" android:summary="" android:defaultValue="true" />
+    <com.mediatek.settings.CheckSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_checkbox" android:title="" android:key="CheckBoxPreference_sim_key_2" android:summary="" android:defaultValue="true" />
+    <com.mediatek.settings.CheckSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_checkbox" android:title="" android:key="CheckBoxPreference_sim_key_3" android:summary="" android:defaultValue="true" />
+    <com.mediatek.settings.ListSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_list" android:title="" android:key="ListPreference_sim_key_0" android:summary="" android:defaultValue="0" android:dialogTitle="" />
+    <com.mediatek.settings.ListSimPreference android:persistent="true" android:layout="@layout/pre_sim_select_list" android:title="" android:key="ListPreference_sim_key_1" android:summary="" android:defaultValue="0" android:dialogTitle="" />
+    <com.mediatek.settings.ListSimPreference android:persistent="true" android:title="" android:key="ListPreference_sim_key_2" android:summary="" android:defaultValue="0" android:dialogTitle="" />
+    <com.mediatek.settings.ListSimPreference android:persistent="true" android:title="" android:key="ListPreference_sim_key_3" android:summary="" android:defaultValue="0" android:dialogTitle="" />
+</PreferenceScreen>

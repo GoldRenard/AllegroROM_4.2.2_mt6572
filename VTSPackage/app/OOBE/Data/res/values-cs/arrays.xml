@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>První 4 číslice</item>
+        <item>Poslední 4 číslice</item>
+        <item>Nezobrazovat</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Vyhledávání…</item>
+        <item>Vyhledávání...</item>
+        <item>Připojování...</item>
+        <item>Ověřování...</item>
+        <item>Načítání adresy IP…</item>
+        <item>Připojeno</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování...</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Vyhledávání…</item>
+        <item>Vyhledávání...</item>
+        <item>Připojování k síti %1$s...</item>
+        <item>Ověřování v síti %1$s...</item>
+        <item>Získávání adresy IP ze sítě %1$s...</item>
+        <item>Připojeno k síti %1$s</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování od sítě %1$s...</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Nízká</item>
+        <item>Dostačující</item>
+        <item>Dobrá</item>
+        <item>Vynikající</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Při vypnutí obrazovky</item>
+        <item>Nikdy, je-li zapnuto napájení</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Připojit automaticky</item>
+        <item>Připojit ručně</item>
+        <item>Vždy se dotázat</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automaticky</item>
+        <item>Pouze 5 GHz</item>
+        <item>Pouze 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Vždy</item>
+        <item>Pouze při připojení</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statická</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Žádná</item>
+        <item>Ručně</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Použít sítí poskytnutý čas</item>
+        <item>Použít čas poskytnutý GPS</item>
+        <item>Vypnout</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Automaticky</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimální</item>
+    </string-array>
+</resources>

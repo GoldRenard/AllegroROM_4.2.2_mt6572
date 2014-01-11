@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.widget.CheckableLinearLayout android:gravity="center_vertical" android:background="?android:actionBarItemBackground" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    <com.cyanogenmod.trebuchet.widget.InertCheckBox android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.cyanogenmod.trebuchet.widget.CheckableLinearLayout>

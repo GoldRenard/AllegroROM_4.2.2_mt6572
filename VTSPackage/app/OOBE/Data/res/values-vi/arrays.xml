@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>4 số đầu</item>
+        <item>4 số cuối</item>
+        <item>Đừng hiển thị</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Đang dò…</item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối…</item>
+        <item>Đang xác thực…</item>
+        <item>Đang lấy địa chỉ IP…</item>
+        <item>Đã kết nối</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đang ngắt kết nối…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Đang dò…</item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối tới %1$s</item>
+        <item>Đang xác thực với %1$s…</item>
+        <item>Đang lấy địa chỉ IP từ %1$s…</item>
+        <item>Đã kết nối tới %1$s</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đăng ngắt kết nối khỏi %1$s…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Kém</item>
+        <item>Tốt</item>
+        <item>Tốt</item>
+        <item>Tuyệt vời</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Khi màn hình tắt</item>
+        <item>Không bao giờ khi được cắm vào</item>
+        <item>Chưa bao giờ</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Kết nối tự động</item>
+        <item>Kết nối thủ công</item>
+        <item>Luôn hỏi</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Tự động</item>
+        <item>Chỉ 5 GHz</item>
+        <item>Chỉ 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Luôn luôn</item>
+        <item>Chỉ khi đã kết nối</item>
+        <item>K.bao giờ</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Tĩnh</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Không có</item>
+        <item>Thủ công</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Dùng giờ được cấp bởi mạng</item>
+        <item>Dùng giờ được cấp bởi GPS</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Tự động</item>
+        <item>WEP ASCII</item>
+        <item>Thập lục phân WEP</item>
+    </string-array>
+</resources>

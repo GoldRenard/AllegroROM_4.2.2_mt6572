@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Первые 4 цифры</item>
+        <item>Последние 4 цифры</item>
+        <item>Не отображать</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Сканирование…</item>
+        <item>Поиск...</item>
+        <item>Подключение...</item>
+        <item>Аутентификация...</item>
+        <item>Получение IP-адреса...</item>
+        <item>Подключено</item>
+        <item>Приостановлено</item>
+        <item>Отключение...</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Сканирование…</item>
+        <item>Поиск...</item>
+        <item>Соединение с сетью %1$s…</item>
+        <item>Аутентификация в сети %1$s...</item>
+        <item>Получение IP-адреса от %1$s…</item>
+        <item>Подключено к %1$s</item>
+        <item>Приостановлено</item>
+        <item>Отключение от %1$s…</item>
+        <item>Отключено</item>
+        <item>Сбой</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Слабый</item>
+        <item>Хороший</item>
+        <item>Хороший</item>
+        <item>Отличный</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>При выключении экрана</item>
+        <item>Никогда, если есть питание от сети</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Автоматическое подключение</item>
+        <item>Ручное подключение</item>
+        <item>Спрашивать всегда</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Авто</item>
+        <item>Только 5 ГГц</item>
+        <item>Только 2,4 ГГц</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Всегда</item>
+        <item>Только при подсоединении к</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Статический</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Нет</item>
+        <item>Вручную</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Синхронизировать время по сети</item>
+        <item>Использовать время GPS</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Авто</item>
+        <item>WEP ASCII</item>
+        <item>Шестнадцатеричный WEP</item>
+    </string-array>
+</resources>

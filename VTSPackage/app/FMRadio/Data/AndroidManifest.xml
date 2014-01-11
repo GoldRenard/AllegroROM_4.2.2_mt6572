@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.mediatek.FMRadio"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher_temp" android:hardwareAccelerated="false">
+        <activity android:label="@string/app_name" android:name=".FMRadioActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:configChanges="mcc|mnc|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/favorite_manager" android:name=".FMRadioFavorite" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:label="@string/app_name" android:name=".FMRadioEMActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.mediatek.FMRadio.FMRadioEMActivity" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".FMRadioService">
+            <intent-filter>
+                <action android:name="com.mediatek.FMRadio.IFMRadioService" />
+            </intent-filter>
+        </service>
+        <provider android:name=".FMRadioContentProvider" android:authorities="com.mediatek.FMRadio.FMRadioContentProvider" />
+        <receiver android:name="FMRadioUpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/preferences_homescreen_section" android:title="@string/preferences_interface_homescreen_title" android:summary="@string/preferences_interface_homescreen_summary" android:fragment="com.cyanogenmod.trebuchet.preference.Preferences$HomescreenFragment" />
+    <header android:id="@id/preferences_drawer_section" android:title="@string/preferences_interface_drawer_title" android:summary="@string/preferences_interface_drawer_summary" android:fragment="com.cyanogenmod.trebuchet.preference.Preferences$DrawerFragment" />
+    <header android:id="@id/preferences_dock_section" android:title="@string/preferences_interface_dock_title" android:fragment="com.cyanogenmod.trebuchet.preference.Preferences$DockFragment" />
+    <header android:id="@id/preferences_general_section" android:title="@string/preferences_interface_general_title" android:fragment="com.cyanogenmod.trebuchet.preference.Preferences$GeneralFragment" />
+    <header android:id="@id/preferences_application_section" android:title="@string/preferences_application_title" />
+    <header android:id="@id/preferences_application_version" android:summary="@string/application_copyright" />
+</preference-headers>

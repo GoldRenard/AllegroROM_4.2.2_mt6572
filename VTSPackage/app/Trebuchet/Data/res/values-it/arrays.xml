@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Sopra la dock</item>
+        <item>In alto</item>
+        <item>In basso</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>In alto/Sinistra</item>
+        <item>In basso/Destra</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Orizzontale</item>
+        <item>Verticale</item>
+    </string-array>
+</resources>

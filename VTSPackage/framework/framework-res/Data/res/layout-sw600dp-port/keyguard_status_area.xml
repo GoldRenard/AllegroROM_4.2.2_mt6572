@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@id/keyguard_status_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/kg_status_date_font_size" android:ellipsize="marquee" android:layout_gravity="end" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/kg_status_line_font_right_margin" />
+    <TextView android:textAppearance="?textAppearance" android:textSize="@dimen/kg_status_line_font_size" android:ellipsize="marquee" android:layout_gravity="end" android:id="@id/alarm_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:singleLine="true" android:drawablePadding="4.0dip" android:layout_marginEnd="@dimen/kg_status_line_font_right_margin" />
+</LinearLayout>

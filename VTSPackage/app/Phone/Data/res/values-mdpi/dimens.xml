@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="call_banner_height">60.0dip</dimen>
+    <dimen name="call_banner_side_padding">10.0dip</dimen>
+    <dimen name="call_banner_top_bottom_padding">8.0dip</dimen>
+    <dimen name="in_call_end_button_height">74.0dip</dimen>
+    <dimen name="dialpad_vertical_margin_dtmf">152.0dip</dimen>
+    <dimen name="dialpad_vertical_margin_dtmf_vt">108.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_width">292.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_height">239.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_image_button_margin_edge">18.0px</dimen>
+    <dimen name="vt_incall_screen_button_width">76.0px</dimen>
+    <dimen name="vt_incall_screen_end_button_width">153.0px</dimen>
+    <dimen name="vt_incall_screen_button_height">38.0px</dimen>
+    <dimen name="vt_incall_screen_button_interval">6.0px</dimen>
+    <dimen name="vt_incall_screen_low_video_height">123.0px</dimen>
+    <dimen name="vt_incall_screen_low_video_width">152.0px</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_top">4.0px</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_left">14.0px</dimen>
+    <dimen name="incall_record_icon_size">15.0px</dimen>
+    <dimen name="vt_incall_screen_button_margin_out">6.0px</dimen>
+    <dimen name="call_card_geo_description_max_width">110.0dip</dimen>
+    <dimen name="incoming_call_2_width">96.0dip</dimen>
+    <dimen name="secondary_hold_btn_with">18.0dip</dimen>
+    <dimen name="vt_nopk_low_video_height">84.0px</dimen>
+    <dimen name="vt_nopk_low_video_width">103.0px</dimen>
+    <dimen name="vt_nopk_high_video_height">214.0px</dimen>
+    <dimen name="vt_nopk_high_video_width">263.0px</dimen>
+    <dimen name="nopk_incoming_call_2_total_height">100.0dip</dimen>
+</resources>

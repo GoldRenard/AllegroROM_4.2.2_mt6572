@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progressbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/progressbar_step01" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_on" />
+    <ImageView android:id="@id/progressbar_step02" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_on" />
+    <ImageView android:id="@id/progressbar_step03" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_on" />
+    <ImageView android:id="@id/progressbar_step04" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+    <ImageView android:id="@id/progressbar_step05" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+    <ImageView android:id="@id/progressbar_step06" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+    <ImageView android:id="@id/progressbar_step07" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+    <ImageView android:id="@id/progressbar_step08" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+    <ImageView android:id="@id/progressbar_step09" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/progress_radio_off" />
+</LinearLayout>

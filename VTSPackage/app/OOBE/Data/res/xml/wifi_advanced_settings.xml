@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_advanced_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_notify_open_networks" android:key="notify_open_networks" android:summary="@string/wifi_notify_open_networks_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_sleep_policy_entries" android:title="@string/wifi_setting_sleep_policy_title" android:key="sleep_policy" android:entryValues="@array/wifi_sleep_policy_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_connect_type_title" android:key="connect_ap_type" android:summary="@string/wifi_connect_ap_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_connect_type_entries" android:title="@string/gsm_to_wifi_connect_type_title" android:key="connect_type" android:entryValues="@array/wifi_connect_type_values" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_connect_type_entries" android:title="@string/select_ssid_type_title" android:key="select_ssid_type" android:entryValues="@array/wifi_connect_type_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_priority_type_title" android:key="priority_type" android:summary="@string/wifi_priority_type_summary" />
+    <Preference android:persistent="false" android:title="@string/wifi_priority_settings_title" android:key="priority_settings" android:summary="@string/wifi_priority_settings_summary" android:dependency="priority_type" android:fragment="com.android.settings.wifi.WifiPrioritySettings" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_enable_watchdog_service" android:key="wifi_enable_watchdog_service" android:summary="@string/wifi_enable_watchdog_service_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_frequency_band_entries" android:title="@string/wifi_setting_frequency_band_title" android:key="frequency_band" android:summary="@string/wifi_setting_frequency_band_summary" android:entryValues="@array/wifi_frequency_band_values" />
+    <Preference android:persistent="false" android:title="@string/wifi_ctia_test" android:key="mtk_wifi_ctia_test" android:summary="@string/wifi_ctia_test_summary" />
+    <Preference android:title="@string/wifi_advanced_mac_address_title" android:key="mac_address" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_advanced_ip_address_title" android:key="current_ip_address" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_gateway" android:key="current_gateway" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_network_netmask" android:key="current_netmask" style="?android:attr/preferenceInformationStyle" />
+</PreferenceScreen>

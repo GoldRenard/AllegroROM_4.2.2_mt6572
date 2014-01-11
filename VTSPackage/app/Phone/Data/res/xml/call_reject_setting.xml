@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_reject_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <ListPreference android:persistent="false" android:entries="@array/call_reject_mode_entries" android:title="@string/voice_call_reject_mode_title" android:key="voice_call_reject_mode_key" android:entryValues="@array/call_reject_mode_values" />
+    <Preference android:persistent="false" android:title="@string/voice_call_reject_list_title" android:key="voice_call_reject_list_key" android:summary="@string/voice_call_reject_list_sum" />
+    <ListPreference android:persistent="false" android:entries="@array/call_reject_mode_entries" android:title="@string/video_call_reject_mode_title" android:key="video_call_reject_mode_key" android:entryValues="@array/call_reject_mode_values" />
+    <Preference android:persistent="false" android:title="@string/video_call_reject_list_title" android:key="video_call_reject_list_key" android:summary="@string/video_call_reject_list_sum" />
+</PreferenceScreen>

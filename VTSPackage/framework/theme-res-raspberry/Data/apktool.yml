@@ -1,0 +1,15 @@
+version: 1.5.2
+apkFileName: theme-res-raspberry.apk
+isFrameworkApk: true
+usesFramework:
+  ids:
+  - 1
+  - 2
+  tag: A516-AllegroROM
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.theme.raspberry
+  orig_package: com.mediatek.theme.raspberry
+compressionType: false

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.OOBERootView android:gravity="center" android:orientation="vertical" android:id="@id/oobe_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_panel" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/progressbar" />
+    <include layout="@layout/button_panel" />
+</com.mediatek.oobe.utils.OOBERootView>

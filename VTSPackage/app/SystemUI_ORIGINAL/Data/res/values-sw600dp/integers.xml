@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="quick_settings_num_columns">3</integer>
+    <integer name="quick_settings_user_time_settings_tile_span">1</integer>
+    <integer name="notification_panel_layout_gravity">0x33</integer>
+    <integer name="settings_panel_layout_gravity">0x35</integer>
+</resources>

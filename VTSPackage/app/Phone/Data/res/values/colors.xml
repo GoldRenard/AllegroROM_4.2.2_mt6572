@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="incall_callTypeSip">#ff99ce3f</color>
+    <color name="incall_call_banner_background">#a0000000</color>
+    <color name="incall_secondary_info_background">#8033b5e5</color>
+    <color name="incall_call_banner_text_color">#ffffffff</color>
+    <color name="dtmf_dialer_display_text">#ffffffff</color>
+    <color name="action_bar_button_text_color">#ffffffff</color>
+    <color name="people_app_theme_color">#ff33b5e5</color>
+    <color name="reject_call_noti_text_color">#ffffffff</color>
+    <color name="on_hold_dim_effect">#cc000000</color>
+    <color name="manage_conference_secondary_text_color">#ff888888</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.OOBERootView android:orientation="vertical" android:id="@id/oobe_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_panel" />
+    <Spinner android:id="@id/language_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+    <Button android:layout_gravity="right" android:id="@id/emergcy_call_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@*android:string/lockscreen_emergency_call" android:drawableLeft="@*android:drawable/ic_emergency" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sp_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/welcome_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oobe_welcome" />
+    </LinearLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <include layout="@layout/progressbar" />
+    <include layout="@layout/button_panel" />
+</com.mediatek.oobe.utils.OOBERootView>

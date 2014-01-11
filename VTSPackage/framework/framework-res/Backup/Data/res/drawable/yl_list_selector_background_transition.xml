@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/yl_list_selector_background_press" />
+    <item android:drawable="@drawable/yl_list_selector_background_longpress" />
+</transition>

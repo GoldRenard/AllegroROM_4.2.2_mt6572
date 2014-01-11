@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/wallpaper_gallery_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Gallery android:id="@id/gallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="-4.0dip" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallpaper_instructions" />
+    </LinearLayout>
+</RelativeLayout>

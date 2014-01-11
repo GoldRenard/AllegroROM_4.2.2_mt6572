@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+        <ProgressBar android:id="@id/progress_importing" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+</LinearLayout>

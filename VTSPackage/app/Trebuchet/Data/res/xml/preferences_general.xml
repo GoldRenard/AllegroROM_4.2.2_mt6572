@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/preferences_interface_general_title" android:key="ui_general"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet">
+    <CheckBoxPreference android:title="@string/preferences_interface_general_orientation_title" android:key="ui_general_orientation" />
+    <CheckBoxPreference android:title="@string/preferences_interface_general_lock_workspace_title" android:key="ui_general_lock_workspace" android:summary="@string/preferences_interface_general_lock_workspace_summary" android:defaultValue="@bool/lock_workspace" />
+    <CheckBoxPreference android:title="@string/preferences_interface_general_fullscreen_title" android:key="ui_general_fullscreen" android:summary="@string/preferences_interface_general_fullscreen_summary" />
+</PreferenceScreen>

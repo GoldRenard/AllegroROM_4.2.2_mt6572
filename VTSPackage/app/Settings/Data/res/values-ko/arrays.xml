@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>미국</item>
+        <item>유럽</item>
+        <item>아프리카</item>
+        <item>아시아</item>
+        <item>호주</item>
+        <item>태평양</item>
+        <item>전체</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>사용 안함</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>즉시</item>
+        <item>5초</item>
+        <item>15초</item>
+        <item>30초</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>30분</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>작게</item>
+        <item>보통</item>
+        <item>크게</item>
+        <item>아주 크게</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>매우 느림</item>
+        <item>느림</item>
+        <item>보통</item>
+        <item>빠름</item>
+        <item>매우 빠름</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>매우 낮음</item>
+        <item>낮음</item>
+        <item>보통</item>
+        <item>높음</item>
+        <item>매우 높음</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>검색 중...</item>
+        <item>연결 중…</item>
+        <item>인증하는 중...</item>
+        <item>IP 주소를 가져오는 중...</item>
+        <item>연결됨</item>
+        <item>일시 정지됨</item>
+        <item>연결을 끊는 중…</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 불량 일시적으로 방지</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>검색 중...</item>
+        <item>%1$s에 연결 중...</item>
+        <item>%1$s에서 인증하는 중...</item>
+        <item>%1$s에서 IP 주소를 가져오는 중...</item>
+        <item>%1$s에 연결됨</item>
+        <item>일시 정지됨</item>
+        <item>%1$s에서 연결을 끊는 중...</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 상태 불량 일시적으로 방지</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>열기</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI 인증서</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>누름 버튼</item>
+        <item>피어 기기 PIN</item>
+        <item>이 기기의 PIN</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>연결됨</item>
+        <item>초대됨</item>
+        <item>실패</item>
+        <item>사용 가능</item>
+        <item>범위를 벗어났습니다.</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2분</item>
+        <item>5분</item>
+        <item>1시간</item>
+        <item>제한 시간 없음</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>나쁨</item>
+        <item>양호함</item>
+        <item>좋음</item>
+        <item>우수함</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>항상</item>
+        <item>충전 중인 경우에만</item>
+        <item>안함(데이터 사용 증가)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>항상</item>
+        <item>충전 중인 경우에만</item>
+        <item>안함</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>자동</item>
+        <item>5GHz 전용</item>
+        <item>2.4GHz 전용</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>사용 시간</item>
+        <item>계수 시작</item>
+        <item>앱 이름</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>없음</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>고정</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>없음</item>
+        <item>수동</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>사용 안함</item>
+        <item>알리미</item>
+        <item>진동</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>없음</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP 또는 CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>지정되지 않음</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>내부 기기 저장용량</item>
+        <item>이동식 SD 카드</item>
+        <item>시스템에서 결정</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>짧게</item>
+        <item>보통</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>확인 안함</item>
+        <item>DRM 콘텐츠만 확인</item>
+        <item>항상 확인</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP 확인 사용 안함</item>
+        <item>DRM 콘텐츠에 대해서만 HDCP 확인 사용</item>
+        <item>항상 HDCP 확인 사용</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>없음</item>
+        <item>720x480 mdpi</item>
+        <item>1280x720 tvdpi</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1280x720 tvdpi 및 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>없음</item>
+        <item>로그캣</item>
+        <item>Systrace(그래픽)</item>
+        <item>glGetError의 스택 호출</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>표준 제한</item>
+        <item>백그라운드 프로세스 없음</item>
+        <item>최대 1개 프로세스</item>
+        <item>최대 2개 프로세스</item>
+        <item>최대 3개 프로세스</item>
+        <item>최대 4개 프로세스</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>사전 공유 키를 사용하는 L2TP/IPSec VPN</item>
+        <item>인증서가 있는 L2TP/IPSec VPN</item>
+        <item>사전 공유 키 및 Xauth 인증을 가진 IPSec VPN</item>
+        <item>인증서 및 Xauth 인증을 가진 IPSec VPN</item>
+        <item>인증서 및 하이브리드 인증을 가진 IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>연결 끊김</item>
+        <item>초기화 중...</item>
+        <item>연결 중...</item>
+        <item>연결됨</item>
+        <item>시간초과됨</item>
+        <item>실패</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>질문</item>
+        <item>허용 안함</item>
+        <item>항상 허용</item>
+    </string-array>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>앞 4자릿수</item>
+        <item>마지막 4자릿수</item>
+        <item>표시하지 않음</item>
+    </string-array>
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>한 번</item>
+        <item>항상</item>
+        <item>사용 안함</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA(자동 모드)</item>
+        <item>WCDMA 전용</item>
+        <item>GSM 전용</item>
+    </string-array>
+    <string-array name="wpa_security">
+        <item>열기</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wpa_security_wfa">
+        <item>열기</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wapi_security">
+        <item>열기</item>
+        <item>WAPI PSK</item>
+        <item>WAPI 인증서</item>
+    </string-array>
+    <string-array name="hdmi_video_resolution_entries">
+        <item>자동</item>
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>네트워크 제공 시간 사용</item>
+        <item>GPS 제공 시간 사용</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="network_use_entry">
+        <item>가정 전용</item>
+        <item>가정 + 로밍</item>
+    </string-array>
+    <string-array name="sim_slot">
+        <item>(지정되지 않음)</item>
+        <item>Sim 슬롯 1</item>
+        <item>Sim 슬롯 2</item>
+    </string-array>
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>항상</item>
+        <item>5분 유휴 시 끄기</item>
+        <item>10 유휴 시 끄기</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>자동</item>
+        <item>WEP ASCII</item>
+        <item>WEP 16진수</item>
+    </string-array>
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>푸시 버튼</item>
+        <item>클라이언트의 PIN</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1명의 사용자</item>
+        <item>2명의 사용자</item>
+        <item>3명의 사용자</item>
+        <item>4명의 사용자</item>
+        <item>5명의 사용자</item>
+        <item>6명의 사용자</item>
+        <item>7명의 사용자</item>
+        <item>8명의 사용자</item>
+    </string-array>
+</resources>

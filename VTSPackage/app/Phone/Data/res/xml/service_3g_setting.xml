@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_for_3G_service"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.mediatek.settings.ServiceSelectList android:entries="@array/preferred_network_mode_choices" android:title="@string/enable_3G_service" android:key="preferred_3g_service_key" android:summary="" android:dialogTitle="@string/enable_3G_service" android:entryValues="@array/preferred_network_mode_values" />
+    <ListPreference android:entries="@array/umts_network_preferences_choices" android:title="@string/gsm_umts_network_preferences_title" android:key="preferred_network_mode_key" android:summary="" android:dialogTitle="@string/umts_preferred_network_mode_dialogtitle" android:entryValues="@array/umts_network_preferences_values" />
+</PreferenceScreen>

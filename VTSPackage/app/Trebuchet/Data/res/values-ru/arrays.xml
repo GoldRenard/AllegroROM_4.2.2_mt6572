@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Над нижней панелью</item>
+        <item>Наверху</item>
+        <item>Внизу</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Наверху/Слева</item>
+        <item>Внизу/Справа</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Горизонтальная</item>
+        <item>Вертикальная</item>
+    </string-array>
+</resources>

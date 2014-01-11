@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>स्वतः पहचानकर्ता</item>
+        <item>लैटिन-1 (ISO-8859-1)</item>
+        <item>यूनिकोड (UTF-8)</item>
+        <item>यूनिकोड (UTF-16)</item>
+        <item>चीनी (GB2312)</item>
+        <item>चीनी (GBK)</item>
+        <item>चीनी (Big5)</item>
+        <item>जापानी (ISO-2022-JP)</item>
+        <item>जापानी (SHIFT_JIS)</item>
+        <item>जापानी (EUC-JP)</item>
+        <item>कोरियाई (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_font_family_choices">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>मोनोस्पेस</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <item>वर्तमान पृष्ठ</item>
+        <item>खाली पृष्ठ</item>
+        <item>डिफ़ॉल्ट पृष्ठ</item>
+        <item>सर्वाधिक देखी गई साइटें</item>
+        <item>साइट नेवीगेशन</item>
+        <item>अन्य</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>कभी नहीं</item>
+        <item>केवल Wi-Fi पर</item>
+        <item>हमेशा</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>हमेशा चालू</item>
+        <item>मांग पर</item>
+        <item>बंद</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>वर्तमान पृष्ठ</item>
+        <item>खाली पृष्ठ</item>
+        <item>डिफ़ॉल्ट पृष्ठ</item>
+        <item>सर्वाधिक देखी गई साइटें</item>
+        <item>अन्य</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>बहुत छोटा</item>
+        <item>छोटा</item>
+        <item>सामान्य</item>
+        <item>बड़ा</item>
+        <item>बहुत बड़ा</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>दूर</item>
+        <item>मध्यम</item>
+        <item>बंद करें</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Auto detector</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>चीनी (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>जापानी (ISO-2022-JP)</item>
+        <item>जापानी (SHIFT_JIS)</item>
+        <item>जापानी (EUC-JP)</item>
+        <item>कोरियाई (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>कभी नहीं</item>
+        <item>केवल Wi-Fi पर</item>
+        <item>हमेशा</item>
+    </string-array>
+</resources>

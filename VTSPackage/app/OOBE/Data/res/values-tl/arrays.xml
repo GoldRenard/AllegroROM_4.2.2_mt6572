@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Unang 4 na digit</item>
+        <item>Huling 4 na digit</item>
+        <item>Huwag ipakita</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Ini-scan…</item>
+        <item>Nag-i-scan…</item>
+        <item>Kumukonekta…</item>
+        <item>Pinapatunayan…</item>
+        <item>Kumukuha ng IP address…</item>
+        <item>Konektado</item>
+        <item>Suspendido</item>
+        <item>Nadidiskonekta…</item>
+        <item>Hindi nakakonekta</item>
+        <item>Hindi tagumpay</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Ini-scan…</item>
+        <item>Nag-ii-scan…</item>
+        <item>Kumukonekta sa %1$s…</item>
+        <item>Nagpapatotoo sa %1$s…</item>
+        <item>Pagkuha ng IP address mula sa %1$s…</item>
+        <item>Nakakonekta sa %1$s</item>
+        <item>Suspendido</item>
+        <item>Inaalis sa pagkakakonekta mula sa %1$s…</item>
+        <item>Hindi nakakonekta</item>
+        <item>Hindi tagumpay</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mahina</item>
+        <item>Katamtaman</item>
+        <item>Mahusay</item>
+        <item>Napakahusay</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Kapag naka-off ang screen</item>
+        <item>Huwag kailanman kapag naka-plug in</item>
+        <item>Hindi Kailanman</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Awtomatikong kumonekta</item>
+        <item>Mano-manong kumonekta</item>
+        <item>Laging magtanong</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Awto</item>
+        <item>5 GHz lang</item>
+        <item>2.4 GHz lang</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Lagi</item>
+        <item>Kapag nakasaksak lang</item>
+        <item>Hindi kailanman</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Wala</item>
+        <item>Mano-mano</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Gamitin ang nilaan na oras ng network</item>
+        <item>Gamitin ang nilaan na oras ng GPS</item>
+        <item>I-off</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Awto</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+</resources>

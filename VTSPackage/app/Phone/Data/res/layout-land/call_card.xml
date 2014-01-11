@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.CallCard android:orientation="horizontal" android:id="@id/call_info_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/primary_call_info" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/primary_call_info" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ViewStub android:id="@id/secondary_call_info" android:layout="@layout/secondary_call_info" android:layout_width="@dimen/vt_incall_screen_low_video_width" android:layout_height="@dimen/vt_incall_screen_low_video_height" android:layout_marginTop="@dimen/second_call_card_margintop" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/largeAreaForSharing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.phone.CallCard>

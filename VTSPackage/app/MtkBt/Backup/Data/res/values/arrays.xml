@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>btn\\d</item>
+    </string-array>
+    <string-array name="config_bluetooth_tether_dhcp_range">
+        <item>192.168.5.2</item>
+        <item>192.168.5.254</item>
+        <item>192.168.6.2</item>
+        <item>192.168.6.254</item>
+    </string-array>
+    <string-array name="config_bluetooth_tether_dns_server">
+        <item>8.8.8.8</item>
+        <item>4.2.2.2</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_upstream_regexs">
+        <item>wlan\\d</item>
+        <item>ccmni\\d</item>
+    </string-array>
+</resources>

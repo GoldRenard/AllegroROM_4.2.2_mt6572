@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/gemini_gsm_umts_network_preferences_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.mediatek.gemini.NetworkModePreference android:entries="@array/gsm_umts_network_preferences_choices" android:title="@string/gemini_gsm_umts_network_preferences_title" android:key="gsm_umts_preferred_network_mode_key" android:summary="@string/gemini_gsm_umts_network_preferneces_summary" android:dialogTitle="@string/gemini_gsm_umts_network_preferences_dialogtitle" android:entryValues="@array/gsm_umts_network_preferences_values" />
+</PreferenceScreen>

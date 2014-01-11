@@ -1,0 +1,1149 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: I2qdUOv+P4cclGOvy6RJ06DSZ8M=
+
+Name: res/drawable-mdpi/ic_back.png
+SHA1-Digest: 0iFUZMm8v30ymTHuffkmypOCO+I=
+
+Name: res/drawable/url_background.xml
+SHA1-Digest: jHxgZmrou/1HC1RMCtQ7zsMWJnE=
+
+Name: res/raw/thumb_yahoo.png
+SHA1-Digest: Apn1IyRIqQPRbHUov9HQ6aAP1p4=
+
+Name: res/drawable-mdpi/ic_forward.png
+SHA1-Digest: OozHNx3ViAILBgo++D1gJVRleec=
+
+Name: res/xml/advanced_preferences.xml
+SHA1-Digest: nDOzJoUq4jK1N2cs9C8M30glyD4=
+
+Name: res/layout/nav_screen.xml
+SHA1-Digest: z4VyYV1wfUEGWHbBW+f/WTDm3TQ=
+
+Name: res/layout/video_loading_progress.xml
+SHA1-Digest: kKzbwOo7SpiCS0l7dTDmzzSFzUE=
+
+Name: res/drawable-hdpi/ic_back_disabled.png
+SHA1-Digest: 31O68z0jiJoAjZZCv3PqzF+MI00=
+
+Name: res/layout-sw600dp/pick_bookmark.xml
+SHA1-Digest: Pqra7f30Y980l2kssCYs/TX+U84=
+
+Name: res/mipmap-hdpi/ic_launcher_shortcut_browser_bookmark.png
+SHA1-Digest: U6wN/K6YCAJHyL/8YJCRH1qUwtY=
+
+Name: res/drawable-hdpi/browser_thumbnail.png
+SHA1-Digest: cjJLmUW4cMoXtqmNkFmKGtjG+IM=
+
+Name: res/drawable-hdpi/ic_close_window_holo_dark.png
+SHA1-Digest: 4CoW9JM2tQ4AbxCJluQhWfa9qtc=
+
+Name: res/drawable/btn_imageview_star.xml
+SHA1-Digest: ZlB6b6jY7PGhKg5n1oTsPuYC/Qg=
+
+Name: res/drawable-mdpi/textfield_default_holo_dark.9.png
+SHA1-Digest: spjhjB9nBjFM7JZEJhSOY1gpFGY=
+
+Name: res/drawable-mdpi/ic_bookmarks_pressed.png
+SHA1-Digest: wIdI2dNqWmr3MkiQAAZ7tFuf5SI=
+
+Name: res/drawable-hdpi/ic_secure_partial_holo_dark.png
+SHA1-Digest: xQOHywY3/Zlak3+cRocgrYNlGYM=
+
+Name: res/layout/import_bookmarks_dialog.xml
+SHA1-Digest: 2syBq/0j50RT5iNNSmTXmOqYLQg=
+
+Name: res/anim/autologin_exit.xml
+SHA1-Digest: Gd9FreDhscjcS/3UZbkUMzyzePs=
+
+Name: res/drawable-hdpi/thumb_bookmark_widget_folder_back_holo.png
+SHA1-Digest: vydg/EenNNAPpCbf3uunEFLlsxo=
+
+Name: res/layout/bookmarks.xml
+SHA1-Digest: ++ea28VxQBbk7vQmPkB4XTMOqXM=
+
+Name: res/xml/privacy_security_preferences.xml
+SHA1-Digest: 8HnMG+cGuUPuVY44MQgOnVivddo=
+
+Name: res/drawable-sw600dp-mdpi/ic_secure_holo_dark.png
+SHA1-Digest: ZaLQqbRycBcpJOdiy62LcYZluQU=
+
+Name: res/raw/op01_favicon_10086_music.png
+SHA1-Digest: /Y7GMqAsvGOJaFwkxAn7VVtGEx0=
+
+Name: res/layout/history.xml
+SHA1-Digest: F45+70O3PwUFl61uRMjtasvenow=
+
+Name: res/drawable/ic_back_selector.xml
+SHA1-Digest: l3kicv52YdUeYluVGSVsvXj3UrY=
+
+Name: res/drawable-mdpi/ic_querybuilder_normal.png
+SHA1-Digest: 2vPphVuDjBPNc+gr2Hyx7kLJ4V0=
+
+Name: res/layout-sw600dp/title_bar_autologin.xml
+SHA1-Digest: jF3RyQMTGdBisTtHafCytpME1UM=
+
+Name: res/raw/op01_favicon_10086_game.png
+SHA1-Digest: /iCA/6h7CVt0oD5niz96LUeraIo=
+
+Name: res/layout/website_settings_row.xml
+SHA1-Digest: kvAlxiGhWmIqhyRKUVuzMVCev18=
+
+Name: res/drawable-mdpi/ic_back_pressed.png
+SHA1-Digest: vVDhmkr1JLur2oMXP3/KGco8CtQ=
+
+Name: res/layout/bookmark_sync_wizard_item.xml
+SHA1-Digest: M+5R42TUTqWiTIdkiFw7TGcIMNk=
+
+Name: res/layout/http_authentication.xml
+SHA1-Digest: 6s0yBFgwnElON4e4bM44JHguI08=
+
+Name: res/xml/accessibility_preferences.xml
+SHA1-Digest: SCZ36KN4wc0RldD8uqoQBftGdLU=
+
+Name: res/raw/favicon_dena.png
+SHA1-Digest: G2yjAVn5uI2MQY5MHOoQOEMdt8g=
+
+Name: res/xml/bookmarkthumbnailwidget_info.xml
+SHA1-Digest: IrO5thjFofUVvsOJGExOaSE08y4=
+
+Name: res/raw/thumb_mobile.png
+SHA1-Digest: wGs3Xeq0L7HxuT2N4DkawgM3f/s=
+
+Name: res/raw/thumb_wikipedia.png
+SHA1-Digest: M9NUM3qfnkYEzT3vHx84xReCsVM=
+
+Name: res/drawable-hdpi/ic_share_holo_dark.png
+SHA1-Digest: tX3Hb5yN+C52uJ8bnK5Vmenba8E=
+
+Name: res/raw/thumb_facebook.png
+SHA1-Digest: R9jUmzKeshabkgET5PQpIrKD0Tg=
+
+Name: res/drawable-hdpi/ic_menu_overflow.png
+SHA1-Digest: uFga2yrHR+UEGrFK3vy3L2sQiQ8=
+
+Name: res/drawable-mdpi/ic_querybuilder_disabled.png
+SHA1-Digest: 1Tt+iQysivQPR8Mnsdx80pyLhdA=
+
+Name: res/xml/general_preferences.xml
+SHA1-Digest: oAbRe/D7BrHW+rn3npAIxr9oIvM=
+
+Name: res/drawable-mdpi/ic_home_holo_dark.png
+SHA1-Digest: Fs5kRtFK4owb+dkPF8GrZJY6YYg=
+
+Name: res/layout/bookmarkthumbnailwidget.xml
+SHA1-Digest: YioxhpM7yptBvP6CGHv+STLv4B4=
+
+Name: res/drawable-mdpi/ic_refresh_holo_dark.png
+SHA1-Digest: X3aRUd0mwucjYxWLcdEsGW+Hg1M=
+
+Name: res/drawable-mdpi/ic_dialog_browser_security_good.png
+SHA1-Digest: zLB6I+zKHc2nJ2+YPhdSv5e3Ttk=
+
+Name: res/anim/title_bar_enter.xml
+SHA1-Digest: bQmxsyztO2rg1elOwEdznsaR7GA=
+
+Name: res/drawable-hdpi/ic_gps_on_holo_dark.png
+SHA1-Digest: pKNBGe81KnRWPfT2uWelnC28T0k=
+
+Name: res/layout/tab.xml
+SHA1-Digest: IWehHCQ66Gdz/uiA19tdvZYVC4U=
+
+Name: res/raw/favicon_wikipedia.ico
+SHA1-Digest: P4vkEbVj1/MkuhUfdwODAgsZ3bU=
+
+Name: res/drawable-mdpi/browsertab_add.png
+SHA1-Digest: nd3MtQSq16/clVR1rzLUHo6A5T8=
+
+Name: res/drawable-hdpi/ic_tabs.png
+SHA1-Digest: jzcwBUwkbAWRkpfGdu5JTk+DJm8=
+
+Name: res/raw/favicon_amazon.ico
+SHA1-Digest: mlcU/rYzNlreCqMrOVWjCwbIdLs=
+
+Name: res/layout/tab_bar.xml
+SHA1-Digest: gUnJUB0m5M6e0klVSDfzxxl/Z1k=
+
+Name: res/raw/site_navigation_default_default6.png
+SHA1-Digest: ZqI606Z0y4hIKyrrEryHACvHTw8=
+
+Name: res/drawable-mdpi/textfield_active_holo_dark.9.png
+SHA1-Digest: skU9VbpAhN4+VcudyR+gBz1WihA=
+
+Name: res/raw/site_navigation_default_default3.png
+SHA1-Digest: A7u0qFCRb0yA/0uhKlMgcSb9DXs=
+
+Name: res/drawable-mdpi/thumbnail_bookmarks_widget_no_bookmark_holo.pn
+ g
+SHA1-Digest: 105/a9p/1D6htEaYkppFP+gmJ4U=
+
+Name: res/raw/op01_thumb_cmvideo.png
+SHA1-Digest: 5fmSw3PblHxllDV5jJhVHX3wmoE=
+
+Name: res/drawable-hdpi/ic_voice_search_holo_dark.png
+SHA1-Digest: Vuyx7ZQ0NQZonS83bkGyA/oi6E0=
+
+Name: res/drawable-sw600dp-mdpi/ic_secure_partial_holo_dark.png
+SHA1-Digest: e9J6LiH/aZ6imKlM+5QKhwNbgtE=
+
+Name: res/raw/favicon_facebook.ico
+SHA1-Digest: eIbpc99NrEZcH4H0vGo8smN5uZc=
+
+Name: res/drawable-hdpi/ic_bookmark_widget_bookmark_holo_dark.png
+SHA1-Digest: EoIAMq9Zx5Pn40IjZlLTNrCzCJI=
+
+Name: res/raw/thumb_nytimes.png
+SHA1-Digest: l1+qzeLkSMV+I2BeOh9UUSQEYw4=
+
+Name: res/drawable-mdpi/bookmarks_widget_thumb_selector_pressed.9.png
+SHA1-Digest: npSUAFuwpxuPbdNt+pk/AYjTVGs=
+
+Name: res/drawable-hdpi/ic_refresh_holo_dark.png
+SHA1-Digest: 7Xri+usvV1HhCYmYR2cTjf4OD0Y=
+
+Name: res/raw/op01_thumb_12580.png
+SHA1-Digest: cFHOMISd5Sz0bXjATYeJZ8BbFys=
+
+Name: res/drawable-mdpi/ic_gps_on_holo_dark.png
+SHA1-Digest: otV3mCZIZFEY9qaEhvZhKv8FVrI=
+
+Name: res/drawable-mdpi/ic_forward_holo_dark.png
+SHA1-Digest: JxkSzIxynjFUp6miquYs5LiVYbM=
+
+Name: res/drawable-mdpi/bookmarks_widget_thumb_selector_longpressed.9.
+ png
+SHA1-Digest: Py7GP0S/luKh3SI8sTb8YMy9HBI=
+
+Name: res/drawable-mdpi/ic_home_info_holo_dark.png
+SHA1-Digest: I2L7442HjAlzxY9YAreAXaZY0Js=
+
+Name: res/drawable-hdpi/textfield_active_holo_dark.9.png
+SHA1-Digest: 9LQ99/9s9z7VyPhUhRc2FJAZDLg=
+
+Name: res/menu/browser.xml
+SHA1-Digest: RAEiCpOUlDc2OuU8HS0dCWSWRNk=
+
+Name: res/raw/op01_thumb_mobile_app.png
+SHA1-Digest: gpqYFjKHmKmfxCoeitOPzJW5oDc=
+
+Name: res/drawable-mdpi/geolocation_permissions_prompt_background.9.pn
+ g
+SHA1-Digest: pwWunxChn7plvFXSFpNeltn8lVo=
+
+Name: res/drawable-hdpi/ic_querybuilder_pressed.png
+SHA1-Digest: DjMYYTwdMYxZXP9HpBlOM7vuXRo=
+
+Name: res/raw/favicon_ebay.ico
+SHA1-Digest: 8PcebzlokuIK6fBXEL4VpQTNEDo=
+
+Name: res/layout-sw600dp/title_bar_snapshot.xml
+SHA1-Digest: 73aDuFCl3wla5wQskoe+RHk6lvQ=
+
+Name: res/raw/thumb_weatherchannel.png
+SHA1-Digest: orEa1rO5gQxS3PwtFE9ShOsb/Gg=
+
+Name: res/raw/op01_favicon_cmvideo.ico
+SHA1-Digest: /GNGfm0G5f9AL6VAhSbkSDzSnU0=
+
+Name: res/drawable-mdpi/ic_search_category_suggest.png
+SHA1-Digest: WOvf8DzdGEiURRtyp2st/tOrxn0=
+
+Name: res/layout/browser_add_bookmark.xml
+SHA1-Digest: Quvxr8qeLTwlSsxTcPDojext/sw=
+
+Name: res/menu/browsercontext.xml
+SHA1-Digest: E8DO8xbXMZUzSaA+DEtWzYYwo8o=
+
+Name: res/drawable-mdpi/ic_history_holo_dark.png
+SHA1-Digest: uFqCHtav4+abnpccMbrB2g81mhY=
+
+Name: res/mipmap-xxhdpi/ic_launcher_browser.png
+SHA1-Digest: NI0Sb2iMbXy0CjKFfgSW40QM6rA=
+
+Name: res/drawable-hdpi/ic_gps_denied_holo_dark.png
+SHA1-Digest: tkMe+TiA40mmvr9FoR3dQcOLx68=
+
+Name: res/drawable-mdpi/ic_search_holo_dark.png
+SHA1-Digest: 9XFjUq0wly7WT0Aew7EFPRarxHs=
+
+Name: res/raw/op01_thumb_music.png
+SHA1-Digest: lGXOFkeMXUB7E4fKwQspgBKAT1c=
+
+Name: res/drawable-mdpi/ic_search_category_browser.png
+SHA1-Digest: N3S+dSNhI6+0JjTvXVu4UOpV/ps=
+
+Name: res/layout-land/page_info.xml
+SHA1-Digest: p852UX1LDAYV+7XsSpx8tplhgNw=
+
+Name: res/drawable-hdpi/ic_folder_holo_dark.png
+SHA1-Digest: aNEHwT6jlaXd+GJaKWSvjBEjsxY=
+
+Name: res/drawable-hdpi/app_web_browser_sm.png
+SHA1-Digest: fY7+3qqP4JODtVCh0Zyav2qUMts=
+
+Name: res/drawable-hdpi/ic_back_holo_dark.png
+SHA1-Digest: g0Ibv/D0MWdB5ioawIqfubfs2L0=
+
+Name: res/layout/error_console.xml
+SHA1-Digest: dM1vLHS9cNPGxHcIz8+x+sMEFdA=
+
+Name: res/drawable-hdpi/ic_desktop_holo_dark.png
+SHA1-Digest: NSDuSJmrKaWVlDT1hcQaSE+7zKo=
+
+Name: res/drawable-hdpi/bookmarks_widget_thumb_selector_longpressed.9.
+ png
+SHA1-Digest: IKRrIuwEWYQhLNYD1h35Uh333SI=
+
+Name: res/raw/sitenavigation_thumbnail_default.png
+SHA1-Digest: SdjRZAJ8SLPnp9WkM/GbFyDVkoA=
+
+Name: res/drawable-hdpi/ic_bookmarks_pressed.png
+SHA1-Digest: t13FmQwpZpUmtYrJO9MrDqxFjTk=
+
+Name: res/menu/historycontext.xml
+SHA1-Digest: YHKzLSUfZfFjMcVdWENTokhYuhU=
+
+Name: res/drawable/navtab_close_background.xml
+SHA1-Digest: +Vi3H272dBSMGNVM2wo3VjBigSY=
+
+Name: res/drawable-hdpi/ic_bookmarks_holo_dark.png
+SHA1-Digest: CK7sbZm85EOJ8O8kJwsS8HdifiI=
+
+Name: res/drawable-mdpi/ic_bookmark_on_holo_dark.png
+SHA1-Digest: 6KPP1hehWY3eCjJJmzZIbz4TChw=
+
+Name: res/drawable-hdpi/ic_menu_new_window.png
+SHA1-Digest: rCcOOZjDtpKoyn300LFR0JeyffE=
+
+Name: res/layout/add_new_bookmark.xml
+SHA1-Digest: CK4KZ71ElRKC5AWVjK7k6JFon/E=
+
+Name: res/raw/op01_thumb_webaddress.png
+SHA1-Digest: t0ijq8mrtXBQtpyzrFum4Qaye50=
+
+Name: res/raw/thumb_ebay.png
+SHA1-Digest: /MXIfoJHveX9E1iUOBseWbCPN2g=
+
+Name: res/drawable-hdpi/ic_bookmark_on_holo_dark.png
+SHA1-Digest: SiUlzeOzPx1M+IDUyvj+2p20Mmc=
+
+Name: res/drawable-hdpi/ic_forward_pressed.png
+SHA1-Digest: E4uHWhQ8GiBiGbAiluNQHc4GwMM=
+
+Name: res/drawable-mdpi/ic_forward_disabled.png
+SHA1-Digest: WvCCrr4er1SVK5ipgfUklXWpEms=
+
+Name: res/raw/thumb_dena.jpg
+SHA1-Digest: eMSDdGOqvQFCXkN+Ngpy45q9sS4=
+
+Name: res/drawable-hdpi/ic_back.png
+SHA1-Digest: CG8e+K0hj7h2+yJvwl1Jbfr8IX0=
+
+Name: res/raw/favicon_nytimes.ico
+SHA1-Digest: 1wXuyf2yaX/YrONZRnxs3VcoItQ=
+
+Name: res/drawable-mdpi/progress.9.png
+SHA1-Digest: Br4OQJJbKcgP5khHEGwKH3AAyXc=
+
+Name: res/layout/title_bar_autologin.xml
+SHA1-Digest: rXEqsE0N/UulUUPKEvIsWYcxDCo=
+
+Name: res/layout/import_bookmarks_dialog_button.xml
+SHA1-Digest: E5lTvE3QywmyK22aBU0ZkmW6S+0=
+
+Name: res/drawable-hdpi/ic_windows_holo_dark.png
+SHA1-Digest: Lxtdm9XlN0nlKxC+ox3b7mRuhhA=
+
+Name: res/drawable-hdpi/ic_new_window_holo_dark.png
+SHA1-Digest: z0BhDPITJMZmyuLWV89N0ODy18U=
+
+Name: res/drawable-mdpi/ic_new_window_holo_dark.png
+SHA1-Digest: 0wEnL1WPRJPCfLw19vuvgZlYVmo=
+
+Name: res/raw/op01_favicon_139mail.png
+SHA1-Digest: nxWQgQYEq8LectOqL3/4sHsKj0w=
+
+Name: res/drawable-mdpi/ic_secure_holo_dark.png
+SHA1-Digest: wNKUKhs3heb7v51/bxr/p1OcYJs=
+
+Name: res/drawable-mdpi/trashcan.png
+SHA1-Digest: X8xhzPQ4CHzFxXln2NlpvN55kc4=
+
+Name: res/drawable-mdpi/ic_bookmark_widget_bookmark_holo_dark.png
+SHA1-Digest: f8GUSu6+Dh7v7f5fdZTW95ubwes=
+
+Name: res/drawable-mdpi/ic_bookmarks_holo_dark.png
+SHA1-Digest: X4UEYvUh0LjXG9Gxe3C8RSF6L9E=
+
+Name: assets/html/flashtest.html
+SHA1-Digest: FrLKzicMDlJIclU0pvhNBwgnOww=
+
+Name: res/layout/bookmark_list.xml
+SHA1-Digest: HEXBguz0QwOuUbxnvqHncD57CIk=
+
+Name: res/drawable/bookmark_thumb_selector.xml
+SHA1-Digest: egedVEXVHNBwJPbhs8YnF8bHqtY=
+
+Name: res/drawable-mdpi/default_video_poster.png
+SHA1-Digest: e5dArSxhIA8+jcEKR12JC0yN95g=
+
+Name: res/raw/site_navigation_default_default1.png
+SHA1-Digest: qFIiw/RHw7M59Rd6HVQ99Z3hEOI=
+
+Name: res/drawable-hdpi/ic_search_category_bookmark.png
+SHA1-Digest: b+bbqQXKM8559wIJE3tVkmclGhc=
+
+Name: res/drawable-mdpi/ic_back_holo_dark.png
+SHA1-Digest: mzsEh52jaoOgAKuYpACL+G2k6h8=
+
+Name: res/menu/url_selection.xml
+SHA1-Digest: xaVaL3NtC9SpT/xDI1x5CjOGJSM=
+
+Name: res/xml/general_preferences_site_navigation.xml
+SHA1-Digest: o7aeQ6OF6wj/sMMOiOlPw/Ecc/0=
+
+Name: res/layout-sw600dp/history.xml
+SHA1-Digest: CTgzEU/L5ZLwD6RsZhIVQ/eI0TE=
+
+Name: res/xml/debug_preferences.xml
+SHA1-Digest: jQu9mPCX9hJ12KQRVFfFFpVEudw=
+
+Name: res/drawable/ic_bookmark_selector.xml
+SHA1-Digest: Mdbn+Dy0HjfBIDCsWFH0zgdLp1w=
+
+Name: res/drawable/btn_checkbox_star.xml
+SHA1-Digest: JdibmOYy6C57rMk3l7vhgj5qCfk=
+
+Name: res/drawable-mdpi/nav_tab_bg.9.png
+SHA1-Digest: Y88+B0/0bXouTlOtjHLKVYv+74c=
+
+Name: res/raw/thumb_msn.png
+SHA1-Digest: BiswRNCa0jwDRLI5eBBEo63Cmjc=
+
+Name: res/raw/favicon_picasa.ico
+SHA1-Digest: TypCzm3MgwXiVfRHp0fvLACBO9g=
+
+Name: res/drawable-hdpi/ic_stop_holo_dark.png
+SHA1-Digest: JmfavlBt3kAjioDWwr4UOf+ucx8=
+
+Name: res/drawable/clear.xml
+SHA1-Digest: 6in1FvbKFPuWV34u7fUGtER/uVk=
+
+Name: res/drawable-hdpi/ic_list_data_large.png
+SHA1-Digest: kaEkQIW9axiZYd4ezKf05n5XVD0=
+
+Name: res/menu-sw600dp/url_selection.xml
+SHA1-Digest: fF2vLD+jypg+VGWkrNj0hLZ4Tfo=
+
+Name: res/drawable-hdpi/trashcan.png
+SHA1-Digest: BW/CGEqpzwxXpV7tlpxNs2FZtWI=
+
+Name: res/drawable-mdpi/ic_search_category_bookmark.png
+SHA1-Digest: C1/VyuFQSeFYo3iaodwi7gaVNCk=
+
+Name: res/drawable-mdpi/qc_background_normal.png
+SHA1-Digest: 9gazfmWtQcscCDXrzcZhd7xf7a8=
+
+Name: res/layout/title_bar_nav.xml
+SHA1-Digest: IwbQG18WOC5tjM0YriuMS11nZdc=
+
+Name: res/layout/bookmarks_history.xml
+SHA1-Digest: RqZ0SqOkDni/VaqXroEsE3IUems=
+
+Name: res/drawable-hdpi/ic_dialog_browser_certificate_partially_secure
+ .png
+SHA1-Digest: 9QnLRvTT5u9P77sNkjO3vmpDKtU=
+
+Name: res/drawable-hdpi/ic_dialog_browser_certificate_secure.png
+SHA1-Digest: 2M+IdowdIKMvzZaRVfg64pTRDyo=
+
+Name: res/drawable-hdpi/ic_querybuilder_disabled.png
+SHA1-Digest: DZTUPlDav3tdlvQoc9RGTqNT9xc=
+
+Name: res/raw/op01_favicon_default.ico
+SHA1-Digest: bBuEiR3vDYyZKPOhuo3nXXNyQ2E=
+
+Name: res/drawable/tab_nr.xml
+SHA1-Digest: OUPX9hq19pU+2y2Y7hu9dL8L9ik=
+
+Name: res/drawable/bookmark_list_favicon_bg.xml
+SHA1-Digest: yvohMI0AoZbXIsAW9QPylD4XSyY=
+
+Name: res/drawable-mdpi/ic_querybuilder_pressed.png
+SHA1-Digest: 71rl0cNSPpXGlXaWTh3ElqcHVGs=
+
+Name: res/drawable-hdpi/ic_bookmarks_history_holo_dark.png
+SHA1-Digest: iRFk4SJcS0YtT5JRiAPfLviJmow=
+
+Name: res/layout/bookmark_group_view.xml
+SHA1-Digest: oMKebNYSpC9FlLaywvIOTegmg4A=
+
+Name: res/layout-sw600dp/snapshot_item.xml
+SHA1-Digest: IWzMXlU5YRoB5Ton/oQVJo9iXjU=
+
+Name: res/raw/site_navigation_default_default5.png
+SHA1-Digest: 0wcCwK63Tq56BurAseiYNjZ4mWc=
+
+Name: res/drawable-mdpi/ic_tabs.png
+SHA1-Digest: YVB1CcVtmeneTx1OLMaOyYqMJ+c=
+
+Name: res/drawable-hdpi/magnifying_glass.png
+SHA1-Digest: 9S1rpvrQ413DNk4bjYrufXgyjlY=
+
+Name: res/drawable-hdpi/ic_back_disabled_holo_dark.png
+SHA1-Digest: +KgVAZh4fIvdyfBKMHJl/avzS0k=
+
+Name: res/drawable-mdpi/magnifying_glass.png
+SHA1-Digest: vKCLTIiIpLwn+WOVEfs4sqjtK7s=
+
+Name: res/mipmap-xhdpi/ic_launcher_browser.png
+SHA1-Digest: hF5E3cc4lxt/DRrOzZ/5kLXo4hM=
+
+Name: res/drawable-mdpi/ic_list_data_off.png
+SHA1-Digest: IIDmhK0cB6H4TZ1OnLB0uWmPsdU=
+
+Name: res/raw/favicon_google.ico
+SHA1-Digest: 60edqoYRiJjIjN3Zv2O9IdPLtus=
+
+Name: res/raw/op01_thumb_cmread.png
+SHA1-Digest: pzbKZU0eEDRRvF+7Q85ZDEzgUZc=
+
+Name: res/raw/thumb_bbc.png
+SHA1-Digest: yw2Xy/nEZjZ5Isws3cbO2Lmb/58=
+
+Name: res/layout/radio_preference.xml
+SHA1-Digest: IDpXVH43+K1Hs1QWCD6RxIBM4z4=
+
+Name: res/drawable-mdpi/ic_close_window_holo_dark.png
+SHA1-Digest: SRUpfKeVwcipQg3Ky2zAiMW6slc=
+
+Name: res/drawable-mdpi/ic_menu_overflow.png
+SHA1-Digest: afPHKxXPq96ajYWNBRlpr39IZOk=
+
+Name: res/drawable-mdpi/ic_windows_holo_dark.png
+SHA1-Digest: jfDu+n3djStqhz8si8xeSrWHRd8=
+
+Name: res/xml/bandwidth_preferences.xml
+SHA1-Digest: A9qMk7heDbddaW+gVaHuPQz2IeQ=
+
+Name: res/raw/op01_favicon_12580.ico
+SHA1-Digest: EV7CJ1HagSfqL04ViG58tjTbkbY=
+
+Name: res/drawable-mdpi/ic_tab_close.png
+SHA1-Digest: +W2ZX0ayUJYWg5uVLhSeEuXgsCQ=
+
+Name: res/layout/widget_account_selection.xml
+SHA1-Digest: 3pJRamstndHi1GJo6VDlKHAU9IM=
+
+Name: res/layout/history_header.xml
+SHA1-Digest: Pq6WqpqbVai/w+mkm7P3C/BL8zY=
+
+Name: res/layout/custom_screen.xml
+SHA1-Digest: WAwob45JfIk5SkH0sg5AA7sW398=
+
+Name: res/drawable-hdpi/ic_search_holo_dark.png
+SHA1-Digest: t2TlrDHP6S6IdZbIMvKKdGzubWk=
+
+Name: res/drawable-mdpi/ic_back_disabled.png
+SHA1-Digest: 2FQo6ilXMIb/p5GHxI6b6sdKIv0=
+
+Name: res/layout/bookmarkthumbnailwidget_item.xml
+SHA1-Digest: FchG08MCu0LOomM34XdU3Wfv0Bo=
+
+Name: res/drawable-hdpi/ic_dialog_browser_security_good.png
+SHA1-Digest: l4PJyYi1Z2FmNMeHsUReRRZANHQ=
+
+Name: res/xml-sw600dp/lab_preferences.xml
+SHA1-Digest: iHrZQFwHY2AmRSCXeK1+OJovVdE=
+
+Name: res/xml/preference_headers.xml
+SHA1-Digest: 30jpkzplbOy4B/NVcDYOEso2weY=
+
+Name: res/menu-sw600dp/combined.xml
+SHA1-Digest: 1N2Kx3Bl5iWo92OgtYl1jYFl1CY=
+
+Name: res/drawable/bookmark_widget_thumb_selector.xml
+SHA1-Digest: cm01tf/YOvAvzmwy6Jcqc0ccBwE=
+
+Name: res/raw/op01_thumb_139mail.png
+SHA1-Digest: EfTsKAXW0sbysFmSY5Dmuea0HEQ=
+
+Name: res/raw/op01_thumb_game.png
+SHA1-Digest: I2WonguZLBICuoJQHY8SaL+OGQk=
+
+Name: res/layout/bookmarkthumbnailwidget_item_folder.xml
+SHA1-Digest: 5pGA7j0KU2gywuaOWXZ4u7J98uw=
+
+Name: res/drawable-hdpi/ic_tab_close.png
+SHA1-Digest: F0GWV6o+PVJe8gfBZdfgODOGnzE=
+
+Name: res/drawable-hdpi/browsertab_add.png
+SHA1-Digest: hgeHVnDjCon/uXMGec+lmvQ+qZA=
+
+Name: res/drawable-mdpi/browsertab_add_focused.png
+SHA1-Digest: qtdsqHNn50m1A/wuMb7IS+h7KRM=
+
+Name: res/raw/favicon_gameloft.png
+SHA1-Digest: 1XsNrLP4uyBTndqFKCELEzOZf80=
+
+Name: res/layout/qc_tabs_view.xml
+SHA1-Digest: LN9WYHjy38qImiNhb4tr9H3c/cI=
+
+Name: res/drawable/ic_forward_selector.xml
+SHA1-Digest: dVnGwLnnAoujENZp12M32oKcFeE=
+
+Name: res/layout/title_bar_snapshot.xml
+SHA1-Digest: Bwmp/4BeOpFBuSZmLGDKFca7jko=
+
+Name: res/drawable-hdpi/ic_secure_holo_dark.png
+SHA1-Digest: M0pi0pQuYSzCXg8phiHCEd1EqFg=
+
+Name: res/raw/folder_view.ktpl
+SHA1-Digest: I4cclLEexnF3utKuOmp9yG5jpLk=
+
+Name: res/drawable-mdpi/browser_thumbnail.png
+SHA1-Digest: jGH1BHs8P+9iT3KuarkpyTkx9N0=
+
+Name: res/drawable-hdpi/ic_list_data_off.png
+SHA1-Digest: B6zBxhvp2WcUY6jq2d11wbntQlA=
+
+Name: res/raw/site_navigation.ktpl
+SHA1-Digest: esUBsWi/kQTSE/727erHkhhGhMA=
+
+Name: res/drawable-mdpi/ic_dialog_browser_certificate_partially_secure
+ .png
+SHA1-Digest: yv/5k9iHK2+L9vUl/SJ5LlGpkeg=
+
+Name: res/layout/setup_autofill_dialog.xml
+SHA1-Digest: jZl6sIZ5SztPHh4LxbI4//bOJaw=
+
+Name: res/raw/thumb_cnn.png
+SHA1-Digest: M/mVOc5BEcdHFrBpK4Og5zJ42os=
+
+Name: res/drawable-mdpi/ic_incognito_holo_dark.png
+SHA1-Digest: 05tDarHWHw8gIbtyZO8G1+GT104=
+
+Name: res/anim/autologin_enter.xml
+SHA1-Digest: Xz1jZDb1mcgfmAw4NfGVPELOuGA=
+
+Name: res/raw/favicon_twitter.ico
+SHA1-Digest: uo680MMsJOqvJBIniqlotUVwVOQ=
+
+Name: res/raw/favicon_weatherchannel.ico
+SHA1-Digest: cUv3jKuFIBOlOLwFWO7ES2scnRw=
+
+Name: res/raw/thumb_news.png
+SHA1-Digest: 3RkfmFDuQSYkF5JrhdUZ+v+M3xc=
+
+Name: res/raw/thumb_mail.png
+SHA1-Digest: 92yWP6jGsLgakMKA/MgiKfboGjM=
+
+Name: res/drawable-mdpi/ic_share_holo_dark.png
+SHA1-Digest: ILyaSaeB+Lu/45jIWAeRgu2kmZs=
+
+Name: res/drawable-hdpi/bg_bookmarks_widget_holo.9.png
+SHA1-Digest: CiLkF0Gqxn7AY51F6yYcNHASsGY=
+
+Name: res/layout/bottom_bar.xml
+SHA1-Digest: oBokfZ5LB8kbxfqnl+80kTDxGNw=
+
+Name: res/drawable-mdpi/ic_list_data_large.png
+SHA1-Digest: W0RFbwnELifoIgFRDFhPAfvUXC0=
+
+Name: res/drawable-mdpi/thumb_bookmark_widget_folder_holo.png
+SHA1-Digest: H0jKxuRYs2L8gbGQOb0FYMIqoO8=
+
+Name: res/layout/qc_tab.xml
+SHA1-Digest: U1Lgfvsesi+XO+TNbDJhfJGeycw=
+
+Name: res/drawable-hdpi/overlay_url_bookmark_widget_holo.9.png
+SHA1-Digest: xXZQUqSWOChvN/Vl1uyKlYpFJhE=
+
+Name: res/drawable-hdpi/ic_forward.png
+SHA1-Digest: E4ZkYbtJkDSHsNjkomJwudLvN8M=
+
+Name: res/drawable-hdpi/ic_incognito_holo_dark.png
+SHA1-Digest: hLu1ycI9wkX+IacMS3sC/nHAJ9k=
+
+Name: res/layout/autofill_settings_fragment.xml
+SHA1-Digest: kwgF2oEYepi+/WKWuUZo9bHtg08=
+
+Name: res/layout/title_bar.xml
+SHA1-Digest: YdVwWeeIWV6fbcoinQML8AdvxCQ=
+
+Name: res/drawable-nodpi/bg_urlbar.png
+SHA1-Digest: geAf7vyWAGIA0sBM4tZGw2tfg7w=
+
+Name: res/mipmap-hdpi/ic_launcher_browser.png
+SHA1-Digest: t73L9DwEhtpjs8VZuZ3aynUOK7U=
+
+Name: res/raw/site_navigation_default_default4.png
+SHA1-Digest: cXX6QJzcKUs7p1pp+ZqEs+oQErA=
+
+Name: res/drawable-hdpi/browser_widget_preview.png
+SHA1-Digest: WSDqa3ailNKsPpKhqsgs5bytuu0=
+
+Name: res/drawable-mdpi/bg_bookmarks_widget_holo.9.png
+SHA1-Digest: Uvi97rVo523ozB6LTydVFfx+J/k=
+
+Name: res/drawable-mdpi/ic_settings_holo_dark.png
+SHA1-Digest: BMOg3b9Qr4wezDP2YSv/WXMVHDk=
+
+Name: res/drawable-hdpi/thumb_bookmark_widget_folder_holo.png
+SHA1-Digest: /XAJf2Nk3wt7QxG0pMFuZu88l40=
+
+Name: res/drawable-mdpi/ic_back_disabled_holo_dark.png
+SHA1-Digest: eiovAQSVEARu1HRFDsvNzN1+EH8=
+
+Name: res/menu/snapshots_context.xml
+SHA1-Digest: 3/j7Jb6k44CwFfTh1km9NV49beE=
+
+Name: res/drawable-mdpi/ic_tabs_pressed.png
+SHA1-Digest: lRTMZIxPHs76ZFfyyEN+uqdDq1c=
+
+Name: res/drawable/qc_menu_selector.xml
+SHA1-Digest: 5e8gXPsn8WVLRCtBYZUnNHqQKaY=
+
+Name: res/drawable-hdpi/qc_background_normal.png
+SHA1-Digest: IJSPeKI7BrvLgHa4lLMEL/BPL4k=
+
+Name: res/layout/snapshots.xml
+SHA1-Digest: Gd5tDfAfU6qE20LnRubvTWoV6HY=
+
+Name: res/raw/thumb_amazon.png
+SHA1-Digest: Km8CMByspfIM6v4OWDwjz6mMlkU=
+
+Name: res/drawable-hdpi/ic_forward_disabled.png
+SHA1-Digest: AmKfZfowdKtFo/MJcaGVg8/LD4k=
+
+Name: res/drawable-mdpi/ic_folder_holo_dark.png
+SHA1-Digest: bH2B40lkbTWSypNP+xDVEiTk2YE=
+
+Name: res/layout/add_to_option.xml
+SHA1-Digest: 3Q9Ih+u34MtwPiTgeEnpogcADTo=
+
+Name: res/layout/webview_preview.xml
+SHA1-Digest: PFL8Q1YlECrqiPU8cptN4ujseO4=
+
+Name: res/drawable-mdpi/app_web_browser_sm.png
+SHA1-Digest: SwFCbwJiTa+hWlNtJDhKM5KaXDc=
+
+Name: res/drawable-mdpi/ic_back_hierarchy_holo_dark.png
+SHA1-Digest: lGi05E3JhNNz0+0IXMXAX1JuW5g=
+
+Name: res/layout/website_settings.xml
+SHA1-Digest: tPnfkDRWuJDtehJPIh+Y5Nz4mVA=
+
+Name: res/raw/favicon_msn.ico
+SHA1-Digest: PEPqfmUsGOQRlbOZIC2trbeF3pE=
+
+Name: res/layout-land/nav_screen.xml
+SHA1-Digest: h9g5DUEPvyapz9legm3OGLfWZyw=
+
+Name: resources.arsc
+SHA1-Digest: xo/LHSoT9tLIiRgO4r3+Dr/LT00=
+
+Name: AndroidManifest.xml
+SHA1-Digest: to+lvfPwRmzvgTTcd7ZxlkmnTqQ=
+
+Name: res/layout/confirm_dialog.xml
+SHA1-Digest: QPW6FZ2rne8YuaXjGLEGJYM1HVI=
+
+Name: res/drawable-hdpi/ic_settings_holo_dark.png
+SHA1-Digest: ssQFIX4VuGiEk+pidmjhg7MnBOE=
+
+Name: res/drawable-mdpi/ic_list_data_small.png
+SHA1-Digest: h7p1Ove/nA8cHL/B8JHIJ41dyTI=
+
+Name: res/drawable-hdpi/bookmarks_widget_thumb_selector_focused.9.png
+SHA1-Digest: trL5lz0AyFRQTimCJlzXS7O2/nU=
+
+Name: res/drawable-mdpi/ic_launcher_shortcut_browser_bookmark.png
+SHA1-Digest: OG+EjR4m7hQb32elJtUCKIY57So=
+
+Name: res/layout/browser_add_bookmark_content.xml
+SHA1-Digest: OtuDyjQqYfFPc+4zzKeFHecV71A=
+
+Name: res/layout/ssl_warning.xml
+SHA1-Digest: urz4NFr7zJhF2lOAGbWFjbbbpOw=
+
+Name: res/raw/op01_thumb_fetion.png
+SHA1-Digest: qmYIbwuz1eXwJkw7cze4axU48uM=
+
+Name: res/drawable-hdpi/ic_add_string.png
+SHA1-Digest: PdIVMJIC2OfmaPt3AecficRhs6k=
+
+Name: res/drawable-hdpi/ic_web_holo_dark.png
+SHA1-Digest: OYVKBtM6yayvbikoar81tmBfQt4=
+
+Name: res/drawable-mdpi/ic_forward_disabled_holo_dark.png
+SHA1-Digest: 38+urcdlT8aSroec1vix9vlxMG8=
+
+Name: res/drawable/add_tab_selector.xml
+SHA1-Digest: uq8gcIctMla7eZw3tEBKLWYmwYs=
+
+Name: res/drawable-sw600dp-nodpi/bg_urlbar.png
+SHA1-Digest: D0NkDhpxRtuHIIXCkcODLYD8TWg=
+
+Name: res/raw/favicon_cnn.ico
+SHA1-Digest: SiEhSh91oFY6PAnWtc4o1y8fYiw=
+
+Name: res/layout/notification_permissions_prompt.xml
+SHA1-Digest: dH+ZzKraykfsMDEZ/fxuxfzeIII=
+
+Name: res/layout/history_item.xml
+SHA1-Digest: tLaUFcrljyQ0aE0CIRHNltAHwig=
+
+Name: res/drawable-mdpi/ic_voice_search_holo_dark.png
+SHA1-Digest: XEalLw4N71JmDFa7i9EvVch+wIg=
+
+Name: classes.dex
+SHA1-Digest: LYHfp1UxZYNO5wJKo5tu9/qEW8o=
+
+Name: res/layout/bookmarks_header.xml
+SHA1-Digest: dMwIPLOr+kaFlYJFXU/ry314VRs=
+
+Name: res/drawable-hdpi/ic_bookmarks.png
+SHA1-Digest: FnObMvj/rdg0NtQEYn7S5YMhO5Q=
+
+Name: res/raw/op01_favicon_mm.png
+SHA1-Digest: YYyhURf68fHoPDbKaxmspT8abh4=
+
+Name: res/layout/site_navigation_add.xml
+SHA1-Digest: cjbWMAHpuNNDYEalz19CKNQtCHQ=
+
+Name: res/drawable-hdpi/browsertab_inactive.png
+SHA1-Digest: vHCg/gYq3F9S8hW+D47gHtDzN5k=
+
+Name: res/layout/bookmark_thumbnail.xml
+SHA1-Digest: ZNgBpq2d0YQPh0810yzLENaBjSs=
+
+Name: res/drawable-mdpi/overlay_url_bookmark_widget_holo.9.png
+SHA1-Digest: 309U8UWZ378zlLzPKjn7cydDL2Y=
+
+Name: res/drawable-nodpi/bg_browsertabs.png
+SHA1-Digest: D75BQq6JgfTJzOg/Ux25FAi/hI4=
+
+Name: res/layout/bookmark_grid_row.xml
+SHA1-Digest: VGLXOu/U0L6Rmn3bzDJg/0gORhs=
+
+Name: res/drawable-mdpi/ic_bookmark_off_holo_dark.png
+SHA1-Digest: JMpjowp106sgZqX9mUYl4N/5G4E=
+
+Name: res/drawable-hdpi/ic_back_hierarchy_holo_dark.png
+SHA1-Digest: XGkoT9TkBAvis/JrAJwgiYJf1uk=
+
+Name: res/layout/new_folder_layout.xml
+SHA1-Digest: HGHeryWxd3BDwKdF4HrhMRxZoow=
+
+Name: res/raw/favicon_espn.ico
+SHA1-Digest: yHm9Oq9b7wKhzFAE6rSv839fs4A=
+
+Name: res/xml/download_preferences.xml
+SHA1-Digest: zLqHDUcylOO6rY7ohYrJiC6Jmg8=
+
+Name: res/drawable-hdpi/ic_home_info_holo_dark.png
+SHA1-Digest: /hVxKO5RGYIsf1bThOK0EOZE4I8=
+
+Name: res/menu/history.xml
+SHA1-Digest: HlKWIfhf4MLv2RNsiB0b9QTKqUY=
+
+Name: res/raw/thumb_gameloft.png
+SHA1-Digest: ZeIGRl8/EGx+bE0s4RuieugzrWw=
+
+Name: res/drawable-mdpi/ic_gps_denied_holo_dark.png
+SHA1-Digest: Tonxr393deaOuS8AEQA63AzarkM=
+
+Name: res/xml-sw600dp/bookmarkthumbnailwidget_info.xml
+SHA1-Digest: TRPBUU7CvxRuk+6V9u7r0k8CFkA=
+
+Name: res/drawable-mdpi/ic_menu_new_window.png
+SHA1-Digest: KMb2wU5OnJLnE/NV9PWVHtX8yZw=
+
+Name: res/menu-sw600dp/history.xml
+SHA1-Digest: QHmNWtEH4dE7kbTs23YDssVQTiY=
+
+Name: res/drawable-mdpi/ic_dialog_browser_certificate_secure.png
+SHA1-Digest: ilnyz7AkMOV9Mj622hOf+FTc7zA=
+
+Name: res/drawable-mdpi/browser_widget_preview.png
+SHA1-Digest: D9OGhVXpn61yvSEhgECzlaDijx8=
+
+Name: res/drawable-hdpi/ic_dialog_browser_security_bad.png
+SHA1-Digest: qlDSPo55Lv94EkEyJjDj9lLYFLg=
+
+Name: res/drawable-sw600dp-hdpi/ic_secure_holo_dark.png
+SHA1-Digest: KEp5QL9W9U0mUhn8rtvEMroCu38=
+
+Name: res/drawable-hdpi/ic_search_category_suggest.png
+SHA1-Digest: +h3qjabIhfVPztE3EIBUNQPiLJ4=
+
+Name: res/drawable-mdpi/ic_add_string.png
+SHA1-Digest: xkOBEej00xjOZbzcd0VTzgNAUII=
+
+Name: res/drawable-hdpi/ic_tabs_pressed.png
+SHA1-Digest: b70oBd2US0i3n8e4hzakFu/VrRc=
+
+Name: res/drawable-hdpi/progress.9.png
+SHA1-Digest: ksvIzdNvpgRDdczlmYQjEY81O6I=
+
+Name: res/drawable-nodpi/browser_background_holo.png
+SHA1-Digest: I7gKamsjvGMx6PQXFsi1gN6StkQ=
+
+Name: res/menu/combined.xml
+SHA1-Digest: bTI7k3lasISKlX63wjXi3MQNJok=
+
+Name: res/drawable-mdpi/ic_search_category_history.png
+SHA1-Digest: Vu4DustcwbQXmfcI6+I8JKpkTw4=
+
+Name: res/drawable-hdpi/textfield_default_holo_dark.9.png
+SHA1-Digest: hP5CSithM4/TzGeZoaw7yHwzdUw=
+
+Name: res/raw/favicon_bbc.ico
+SHA1-Digest: WK0CZNTkuLZ/DM+ciC4f0ovlw84=
+
+Name: res/drawable-sw600dp-hdpi/ic_secure_partial_holo_dark.png
+SHA1-Digest: 0t4DxSqPHin23O3IyDHkP6EaXvY=
+
+Name: res/raw/most_visited.ktpl
+SHA1-Digest: zj7rAJqAuBYKHhiwgIjLhH+Y18w=
+
+Name: res/drawable-mdpi/browsertab_inactive.png
+SHA1-Digest: 0yv7vklAdpOz/QGLiIcYR1RjLWA=
+
+Name: res/raw/thumb_picasa.png
+SHA1-Digest: 4B6vnAQD6B2g9q4ne0QSPhqikVU=
+
+Name: res/drawable-mdpi/bookmarks_widget_thumb_selector_focused.9.png
+SHA1-Digest: HRlYK6L0/Z4yGxQ3Fg1L7V7wrB0=
+
+Name: res/drawable-hdpi/ic_forward_disabled_holo_dark.png
+SHA1-Digest: LTALlCteEeHTTuD9dww1CO8uAq4=
+
+Name: res/drawable-hdpi/geolocation_permissions_prompt_background.9.pn
+ g
+SHA1-Digest: DyPQy8ocV4FZSLDoa+4L/jcedOY=
+
+Name: res/layout-sw600dp/title_bar_nav.xml
+SHA1-Digest: g8Ftae4L8zZ5oBX0MvIg0O+JL1U=
+
+Name: res/drawable-hdpi/bookmarks_widget_thumb_selector_pressed.9.png
+SHA1-Digest: ZYJ5qwXlFtWRrXLK/CYtvePwz/0=
+
+Name: res/drawable-hdpi/ic_search_category_history.png
+SHA1-Digest: 6pHj2UsSqnyETd0l/Bpl+wdAYHk=
+
+Name: res/drawable/bookmark_thumb_selector_transition.xml
+SHA1-Digest: sbrjHUaHslPftOkI5P8dLPSehvM=
+
+Name: res/drawable-hdpi/ic_forward_holo_dark.png
+SHA1-Digest: D1yUgGw553KNnNXqZyfhit1EC9Q=
+
+Name: res/drawable-hdpi/ic_back_pressed.png
+SHA1-Digest: 7cEfNFBLeL8vOGIBG1X1lhF7OzI=
+
+Name: res/drawable-mdpi/ic_secure_partial_holo_dark.png
+SHA1-Digest: oiFxmn9+9NM1n8CDSRBHefslGAQ=
+
+Name: res/drawable-mdpi/border_thumb_bookmarks_widget_holo.9.png
+SHA1-Digest: qKe2OyO+spHmNizhAvEMHKu67KA=
+
+Name: res/raw/op01_favicon_cmread.ico
+SHA1-Digest: Ali7qDOOLSg51u/SYwd/b507RmU=
+
+Name: res/layout/geolocation_permissions_prompt.xml
+SHA1-Digest: 1N9tPzegCYW2o2o+mFtcmkH11og=
+
+Name: res/raw/thumb_twitter.png
+SHA1-Digest: Gcna14M77Zk6BCVYfDdOJydAIys=
+
+Name: res/xml/searchable.xml
+SHA1-Digest: DK2OsXJP+reLMR/12zyOsntyXZE=
+
+Name: res/drawable-mdpi/ic_bookmarks_history_holo_dark.png
+SHA1-Digest: HGVZfIPN1DWTabkHE8CagoI9/rw=
+
+Name: res/drawable-hdpi/ic_bookmark_off_holo_dark.png
+SHA1-Digest: 43eFPUKj6XpFkNG/fInJDGgLG9w=
+
+Name: res/drawable-hdpi/ic_querybuilder_normal.png
+SHA1-Digest: lon6hJxn9MQGeoiU+lDYOVUN8lQ=
+
+Name: res/layout/preference_list_content.xml
+SHA1-Digest: Alo+SUfPx+j8JlH+qt9t5mDQ+ME=
+
+Name: res/mipmap-mdpi/ic_launcher_shortcut_browser_bookmark.png
+SHA1-Digest: u7OmjRnPTucwmpYepFQENj/huME=
+
+Name: res/drawable-hdpi/ic_new_incognito_holo_dark.png
+SHA1-Digest: jbhhjGTvCIhmwwMOCtxtoaUTohE=
+
+Name: res/drawable-mdpi/ic_forward_pressed.png
+SHA1-Digest: V/3TVUG2xoELlMZeyhu6UAqlvU4=
+
+Name: res/raw/op01_thumb_mm.png
+SHA1-Digest: t9GcaAhMOMXkA4xuT9Qaaa8focA=
+
+Name: res/mipmap-xhdpi/ic_launcher_shortcut_browser_bookmark.png
+SHA1-Digest: CYal6tSLpBLNl+xRYtZERrxhzdA=
+
+Name: res/anim/title_bar_exit.xml
+SHA1-Digest: a85fuEqfTNIg14bQZ1xkGSWrp7o=
+
+Name: res/drawable-hdpi/border_thumb_bookmarks_widget_holo.9.png
+SHA1-Digest: bvfe/4j+dcHTSDc35uIjUDI4J9M=
+
+Name: res/layout/anim_screen.xml
+SHA1-Digest: 8CNwNwU6TGUVH/2e3FksZkHBNZU=
+
+Name: res/layout/suggestion_item.xml
+SHA1-Digest: reHmLiiAQx0jhFWFwuF7XLMCEaE=
+
+Name: res/drawable-hdpi/nav_tab_bg.9.png
+SHA1-Digest: hWHgMxrP/ghd3SqBhLP4Z17Zd5Y=
+
+Name: res/layout/page_info.xml
+SHA1-Digest: EDedABcNIQvv1oBLRrAm1pyKwwU=
+
+Name: res/layout-port/autofill_settings_fragment.xml
+SHA1-Digest: 7LiiVgIYXKzi2HMjjB+qy2oQWTw=
+
+Name: res/drawable-mdpi/ic_stop_holo_dark.png
+SHA1-Digest: JyT2mHxNlv0X7mwmka9zQIEO1ko=
+
+Name: res/menu/autofill_profile_editor.xml
+SHA1-Digest: gCObG7ZGbLhq2KcmeR8GUUMrNag=
+
+Name: res/raw/op01_favicon_fetion.png
+SHA1-Digest: HfpAgTG7dTq0vuOpbR8DwvVfTOw=
+
+Name: res/raw/thumb_espn.png
+SHA1-Digest: bOOMMVVwb5W7g3SYfyQadW4Vc/I=
+
+Name: res/drawable-hdpi/ic_list_data_small.png
+SHA1-Digest: R1KN9+L9pLywKu8NKe73eRgPiFM=
+
+Name: res/layout/font_size_widget.xml
+SHA1-Digest: BeOj/4YrhS2kChcz7krWvL/2Iy8=
+
+Name: res/raw/op02_favicon_wo.ico
+SHA1-Digest: N40bx/wlmFmNGT/kyZSTJp8VxbI=
+
+Name: res/xml/bookmarks_searchable.xml
+SHA1-Digest: L05/xOxo3BfqpKLswUHKo9Gng+g=
+
+Name: res/drawable-mdpi/ic_dialog_browser_security_bad.png
+SHA1-Digest: 4wkovg4CGmvWXZHaQ/AUcUEt5mQ=
+
+Name: res/raw/site_navigation_default_default2.png
+SHA1-Digest: ANhJrg9vUMptGub6+eKlxI/nKAM=
+
+Name: res/drawable-mdpi/ic_desktop_holo_dark.png
+SHA1-Digest: cy965qLYFJx4hE8r++rvsGCRfqE=
+
+Name: res/drawable-hdpi/ic_history_holo_dark.png
+SHA1-Digest: PHqbwz6pepmeCxmmSE9+Yiy6wZI=
+
+Name: res/layout/pick_bookmark.xml
+SHA1-Digest: eOeAUkoRxpX3TZTNQPGRsrRFN2M=
+
+Name: res/layout/qc_menu_item.xml
+SHA1-Digest: 5rCxnqqCW3bhiMjPTZ/RIRXeuNY=
+
+Name: res/layout/bookmark_sync_wizard.xml
+SHA1-Digest: 43av0YY2dP86p3vuHkNX6ftZI3o=
+
+Name: res/drawable-hdpi/ic_search_category_browser.png
+SHA1-Digest: PSFtC8xNE2ZDBw5scXiNorOOrlE=
+
+Name: res/raw/thumb_google.png
+SHA1-Digest: O/OUDg0BEhWNr3H8XWMh7uWUxq4=
+
+Name: res/drawable-hdpi/thumbnail_bookmarks_widget_no_bookmark_holo.pn
+ g
+SHA1-Digest: U19s1kMmN6cL+Dj+M5xjNfijd/M=
+
+Name: res/layout/tab_title.xml
+SHA1-Digest: /yWZP3y5CzSZz0VB08a+JUaUf4Q=
+
+Name: res/raw/op02_thumb_wo.png
+SHA1-Digest: Pr+t6lMgGFxuuUYdY8UJyJM0h/4=
+
+Name: res/layout/folder_list_item.xml
+SHA1-Digest: fPR8DxAM878eSoJ90iYCnDazGuw=
+
+Name: res/drawable-mdpi/ic_web_holo_dark.png
+SHA1-Digest: Ks/flXej4JfF/3evqEjmEcFpwNQ=
+
+Name: res/drawable-mdpi/ic_mobile.png
+SHA1-Digest: KA1bLGBqKdYSdrZSo8Y8b+78PwE=
+
+Name: res/drawable/ic_tabs_selector.xml
+SHA1-Digest: yxfQsPExTYpJSVkNSwos6Ll7AeI=
+
+Name: res/layout/nav_tab_view.xml
+SHA1-Digest: xwivqxVuql0dE75DCQEFRWQLrC0=
+
+Name: res/drawable/ic_querybuilder.xml
+SHA1-Digest: QzW6kQvGFI5ZNiP4ICYcD0cj9gw=
+
+Name: res/layout/bookmarks_drag_actionmode.xml
+SHA1-Digest: xbhDTdzLpYxQ4Ni37iMGvEmu/zg=
+
+Name: res/menu/bookmark.xml
+SHA1-Digest: nNiU6SzuOJ74TQYYBqL6Rej1vCk=
+
+Name: res/drawable-hdpi/default_video_poster.png
+SHA1-Digest: 7CtVu0UsQwv+e3as6nkmmjvtJVY=
+
+Name: res/raw/favicon_yahoo.ico
+SHA1-Digest: CcZW25nX+6PdYP3RTMqSjOwenoY=
+
+Name: res/drawable-hdpi/browsertab_add_focused.png
+SHA1-Digest: 3V30S5YERTwdEe9wLbhRQ9hEfPM=
+
+Name: res/drawable-mdpi/ic_bookmarks.png
+SHA1-Digest: mk+t+xjo/FCmc4UWGuOH7QU6ntU=
+
+Name: res/raw/op01_favicon_webaddress.png
+SHA1-Digest: jMQXkueU3IwC0rIiqEhoICD/B/0=
+
+Name: res/drawable-mdpi/ic_new_incognito_holo_dark.png
+SHA1-Digest: UAy8F2gbMc5cfLnsCz2YxnZtEiw=
+
+Name: res/drawable-mdpi/thumb_bookmark_widget_folder_back_holo.png
+SHA1-Digest: clQ41OP94F9gg5tFffQALBGiUYw=
+
+Name: res/layout/browser_subwindow.xml
+SHA1-Digest: VTgbotWI6EkoJV/JnMeaPr3Z5WM=
+
+Name: res/mipmap-mdpi/ic_launcher_browser.png
+SHA1-Digest: SPp03a/zfsl0jyQ4+8ponDEPFwg=
+
+Name: res/menu/bookmarkscontext.xml
+SHA1-Digest: vJWIbXj/Nm5w5i/gdw+7lmAuMSI=
+
+Name: res/xml/advanced_preferences_op01.xml
+SHA1-Digest: hYA/VgrhbKi2Pgoi0hi8mqTx1/0=
+
+Name: res/layout/snapshot_item.xml
+SHA1-Digest: fMo1pBGuTca1xqw6c6HlUFm8+A0=
+
+Name: res/raw/thumb_messenger.png
+SHA1-Digest: jcyn72DacKJk/iKEVNChhs6exaA=
+
+Name: res/drawable-hdpi/ic_mobile.png
+SHA1-Digest: S5NyjV8l6q9nWKgtNLeGJWooRhg=
+
+Name: res/drawable-hdpi/ic_home_holo_dark.png
+SHA1-Digest: fIdZsSwMZlYaght6K34T3vjQO+8=
+
+Name: res/drawable-hdpi/ic_launcher_shortcut_browser_bookmark.png
+SHA1-Digest: JJJuxwoLt5nwDdWH0wmwkBW9yHY=
+
+Name: res/layout/ssl_success.xml
+SHA1-Digest: 6r0Ii3aQledCVaoNVaeyQPOsIws=
+
+Name: res/xml/lab_preferences.xml
+SHA1-Digest: 7bS3z25bkU3EvoAgiS3mWCfngWA=
+

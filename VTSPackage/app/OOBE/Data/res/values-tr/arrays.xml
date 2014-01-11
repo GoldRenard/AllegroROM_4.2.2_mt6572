@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>İlk 4 basamak</item>
+        <item>Son 4 basamak</item>
+        <item>Görüntüleme</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Taranıyor…</item>
+        <item>Taranıyor…</item>
+        <item>Bağlanıyor…</item>
+        <item>Kimlik doğrulanıyor…</item>
+        <item>IP adresi alınıyor...</item>
+        <item>Bağlandı</item>
+        <item>Askıya alındı</item>
+        <item>Bağlantı kesiliyor…</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Taranıyor…</item>
+        <item>Taranıyor…</item>
+        <item>" %1$s ağına bağlanılıyor…"</item>
+        <item>" %1$s üzerinde kimlik doğrulanıyor…"</item>
+        <item>" %1$s ağından IP adresi alınıyor…"</item>
+        <item>" %1$s ağına bağlandı"</item>
+        <item>Askıya alındı</item>
+        <item>" %1$s bağlantısı kesiliyor…"</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Yetersiz</item>
+        <item>Yeterli</item>
+        <item>İyi</item>
+        <item>Mükemmel</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Ekran kapandığında</item>
+        <item>Takılı olduğunda hiçbir zaman</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Otomatik bağlan</item>
+        <item>Manüel bağlan</item>
+        <item>Her zaman sor</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Otomatik</item>
+        <item>Sadece 5 GHz</item>
+        <item>Sadece 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Her zaman</item>
+        <item>Sadece takıldığında</item>
+        <item>Hiçbir Zaman</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statik</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Yok</item>
+        <item>Elle</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Ağ saatini kullan</item>
+        <item>GPS saatini kullan</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Otomatik</item>
+        <item>WEP ASCII</item>
+        <item>WEP onaltılık</item>
+    </string-array>
+</resources>

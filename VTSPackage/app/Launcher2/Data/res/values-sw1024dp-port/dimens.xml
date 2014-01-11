@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="apps_customize_cell_width">96.0dip</dimen>
+    <dimen name="apps_customize_cell_height">106.0dip</dimen>
+    <dimen name="app_widget_preview_padding_left">26.0dip</dimen>
+    <dimen name="app_widget_preview_padding_right">26.0dip</dimen>
+    <dimen name="app_widget_preview_padding_top">16.0dip</dimen>
+    <dimen name="cell_layout_left_padding_port">24.0dip</dimen>
+    <dimen name="workspace_cell_width_port">122.0dip</dimen>
+    <dimen name="workspace_cell_height_port">138.0dip</dimen>
+    <dimen name="workspace_width_gap_port">0.0dip</dimen>
+    <dimen name="workspace_height_gap_port">70.0dip</dimen>
+    <dimen name="workspace_page_spacing">30.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">40.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">50.0dip</dimen>
+</resources>

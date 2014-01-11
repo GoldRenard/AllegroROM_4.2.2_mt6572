@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.PagedViewIcon android:gravity="center_horizontal" android:id="@id/application_icon" android:background="@drawable/focusable_view_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WorkspaceIcon.Portrait.AppsCustomize"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout_edit_station" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/dlg_edit_station_name" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/dlg_addedit_station_name" />
+    <EditText android:textStyle="bold" android:gravity="center_vertical" android:id="@id/dlg_edit_station_name_text" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLength="15" android:layout_toRightOf="@id/dlg_edit_station_name" android:inputType="textPersonName" />
+    <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/dlg_edit_station_freq" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/dlg_addedit_station_freq" android:layout_below="@id/dlg_edit_station_name" />
+    <EditText android:textStyle="bold" android:gravity="center_vertical" android:id="@id/dlg_edit_station_freq_text" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/dlg_edit_station_freq" android:layout_below="@id/dlg_edit_station_name" android:inputType="numberDecimal" />
+</RelativeLayout>

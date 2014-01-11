@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>স্বয়ংক্রিয় ডিটেকটর</item>
+        <item>ল্যাটিন-১(ISO-8859-1)</item>
+        <item>ইউনিকোড (UTF-8)</item>
+        <item>ইউনিকোড (UTF-16)</item>
+        <item>চাইনিজ (GB2312)</item>
+        <item>চাইনিজ (GBK)</item>
+        <item>চাইনিজ (Big5)</item>
+        <item>জাপানিজ (ISO-2022-JP)</item>
+        <item>জাপানিজ (SHIFT_JIS)</item>
+        <item>জাপানিজ (EUC-JP)</item>
+        <item>কোরিয়ান (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_font_family_choices">
+        <item>স্যানস-সেরিফ</item>
+        <item>সেরিফ</item>
+        <item>কার্সিভ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <item>বর্তমান পৃষ্ঠা</item>
+        <item>খালি পৃষ্ঠা</item>
+        <item>ডিফল্ট পৃষ্ঠা</item>
+        <item>সবচেয়ে বেশি দেখা সাইট</item>
+        <item>সাইট নেভিগেশন</item>
+        <item>অন্যান্য</item>
+    </string-array>
+    <string-array name="predefined_websites_default_optr">
+        <item>Hao123</item>
+        <item>http://www.hao123.com/</item>
+        <item>site_navigation_default_default1</item>
+        <item>Google</item>
+        <item>http://www.google.cn/</item>
+        <item>site_navigation_default_default2</item>
+        <item>Baidu</item>
+        <item>http://www.baidu.com/</item>
+        <item>site_navigation_default_default3</item>
+        <item>Sina</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>site_navigation_default_default4</item>
+        <item>Sohu</item>
+        <item>http://www.sohu.com/</item>
+        <item>site_navigation_default_default5</item>
+        <item>Yahoo</item>
+        <item>http://www.yahoo.com/</item>
+        <item>site_navigation_default_default6</item>
+    </string-array>
+    <string-array name="predefined_websites_op01">
+        <item>about:blank</item>
+        <item>about:blank1</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank2</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank3</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank4</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank5</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank6</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank7</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank8</item>
+        <item>sitenavigation_thumbnail_default</item>
+        <item>about:blank</item>
+        <item>about:blank9</item>
+        <item>sitenavigation_thumbnail_default</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>কখনো না</item>
+        <item>শুধুমাত্র ওয়াই-ফাই</item>
+        <item>সবসময়</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>সবসময় চালু</item>
+        <item>চাহিদার ভিত্তিতে</item>
+        <item>বন্ধ করুন</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>বর্তমান পৃষ্ঠা</item>
+        <item>খালি পৃষ্ঠা</item>
+        <item>ডিফল্ট পৃষ্ঠা</item>
+        <item>সবচেয়ে বেশি দেখা সাইট</item>
+        <item>অন্যান্য</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>ক্ষুদ্র</item>
+        <item>ছোট</item>
+        <item>স্বাভাবিক</item>
+        <item>বড়</item>
+        <item>বিশাল</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>দূর</item>
+        <item>মধ্যম</item>
+        <item>কাছে</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>স্বয়ংক্রিয় সনাক্তকরণ যন্ত্র</item>
+        <item>ল্যাটিন-১(ISO-8859-1)</item>
+        <item>ইউনিকোড (ইউটিএফ-৮)</item>
+        <item>চীনা (জিবিকে)</item>
+        <item>চীনা (বিগ৫)</item>
+        <item>জাপানি (আইএসও-২০২২-জেপি)</item>
+        <item>জাপানি (SHIFT_JIS)</item>
+        <item>জাপানি (ইইউসি-জেপি)</item>
+        <item>কোরিয়ান (ইইউসি-কেআর)</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>কখনও না</item>
+        <item>কেবল ওয়াই-ফাই</item>
+        <item>সবসময়</item>
+    </string-array>
+</resources>

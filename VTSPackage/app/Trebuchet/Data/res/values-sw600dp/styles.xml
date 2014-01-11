@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ClingButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+        <item name="android:paddingLeft">35.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">35.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/cling_dismiss</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">#ff33b5e5</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+</resources>

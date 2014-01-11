@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/wallpaper_gallery_item" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/wallpaper_image" android:focusable="true" android:layout_width="@dimen/wallpaper_chooser_grid_width" android:layout_height="@dimen/wallpaper_chooser_grid_height" android:scaleType="centerCrop" />
+</FrameLayout>

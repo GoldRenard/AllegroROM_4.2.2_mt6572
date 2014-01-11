@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="OtaShowActivationScreen">1</integer>
+    <integer name="OtaShowListeningScreen">0</integer>
+    <integer name="OtaShowActivateFailTimes">0</integer>
+    <integer name="OtaPlaySuccessFailureTone">0</integer>
+    <integer name="qcif_x">176</integer>
+    <integer name="qcif_y">144</integer>
+    <integer name="lock_screen_time">100</integer>
+    <integer name="dialpad_layout_weight_digits">20</integer>
+    <integer name="dialpad_layout_weight_dialpad">65</integer>
+    <integer name="dialpad_layout_weight_additional_buttons">15</integer>
+</resources>

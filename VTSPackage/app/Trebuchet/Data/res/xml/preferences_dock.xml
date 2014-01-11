@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/preferences_interface_dock_title" android:key="ui_dock"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet">
+    <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:title="@string/preferences_interface_dock_pages_title" android:key="ui_dock_pages" android:summary="@string/preferences_interface_dock_pages_summary" android:defaultValue="1" launcher:max="3" launcher:min="1" />
+    <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:title="@string/preferences_interface_dock_default_page_title" android:key="ui_dock_default_page" android:summary="@string/preferences_interface_dock_default_page_summary" android:defaultValue="1" launcher:max="1" launcher:min="1" launcher:maxExternal="ui_dock_pages" />
+    <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:title="@string/preferences_interface_dock_icons_title" android:key="ui_dock_icons" android:summary="@string/preferences_interface_dock_icons_summary" android:defaultValue="@integer/hotseat_cell_count" launcher:max="@integer/hotseat_cell_count" launcher:min="3" />
+    <CheckBoxPreference android:title="@string/preferences_interface_dock_hide_icon_labels_title" android:key="ui_dock_hide_icon_labels" android:summary="@string/preferences_interface_dock_hide_icon_labels_summary" android:defaultValue="true" />
+    <com.cyanogenmod.trebuchet.preference.SeekBarDialogPreference android:title="@string/preferences_interface_dock_icon_scale_title" android:key="ui_dock_icon_scale" android:summary="@string/preferences_interface_dock_icon_scale_summary" android:defaultValue="@integer/hotseat_item_scale_percentage" launcher:max="100" launcher:min="80" />
+    <CheckBoxPreference android:title="@string/preferences_interface_dock_divider_title" android:key="ui_dock_divider" android:summary="@string/preferences_interface_dock_divider_summary" android:defaultValue="true" />
+</PreferenceScreen>

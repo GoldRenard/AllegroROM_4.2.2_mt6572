@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:persistent="false" android:title="@string/voicemail" android:key="button_voicemail_category_key">
+        <ListPreference android:persistent="true" android:title="@string/voicemail_provider" android:key="button_voicemail_provider_key" android:summary="@string/sum_voicemail_choose_provider" android:defaultValue="" />
+        <PreferenceScreen android:persistent="false" android:title="@string/voicemail_settings" android:key="button_voicemail_setting_key">
+            <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/voicemail_settings_number_label" android:key="button_voicemail_key" android:dialogTitle="@string/voicemail" phone:confirmMode="confirm" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:enabled="false" android:id="@id/fm_search" android:title="@string/optmenu_search" />
+    <item android:enabled="false" android:id="@id/fm_sound_mode" android:title="@string/optmenu_speaker" />
+    <item android:enabled="false" android:id="@id/fm_record" android:title="@string/optmenu_record" />
+</menu>

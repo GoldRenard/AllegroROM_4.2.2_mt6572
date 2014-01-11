@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">אתה כעת במרחק של %1$d צעדים מלהיות מפתח.</item>
+        <item quantity="one">אתה כעת במרחק של צעד %1$d מלהיות מפתח.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">הסיסמה צריכה להכיל %d אותיות לפחות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל אות אחת לפחות.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">הסיסמה צריכה להכיל %d אותיות קטנות לפחות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל אות קטנה אחת לפחות.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">הסיסמה צריכה להכיל %d אותיות גדולות לפחות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל אות גדולה אחת לפחות.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">הסיסמה צריכה להכיל %d ספרות לפחות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל ספרה אחת לפחות.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">הסיסמה צריכה להכיל %d סמלים מיוחדים לפחות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל סמל מיוחד אחד לפחות.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">הסיסמה צריכה להכיל %d תווים לפחות שאינם אותיות.</item>
+        <item quantity="one">הסיסמה צריכה להכיל תו אחד לפחות שאינו אות.</item>
+    </plurals>
+</resources>

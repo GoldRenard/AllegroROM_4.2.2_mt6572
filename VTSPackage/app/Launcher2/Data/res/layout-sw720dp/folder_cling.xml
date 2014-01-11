@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Cling launcher:drawIdentifier="folder_large"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cling_text_block_offset_x" android:layout_marginTop="@dimen/cling_text_block_offset_y">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/folder_cling_title" android:text="@string/folder_cling_title" style="@style/ClingTitleText" />
+            <TextView android:id="@id/folder_cling_create_folder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/folder_cling_create_folder" style="@style/ClingText" />
+            <Button android:id="@id/cling_dismiss" android:layout_marginTop="15.0dip" android:onClick="dismissFolderCling" style="@style/ClingButton" />
+        </LinearLayout>
+    </FrameLayout>
+</com.android.launcher2.Cling>

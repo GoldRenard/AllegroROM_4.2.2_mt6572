@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/preferences_interface_drawer_title" android:key="ui_drawer"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet">
+    <ListPreference android:entries="@array/preferences_interface_drawer_orientation_entries" android:title="@string/preferences_interface_drawer_orientation_title" android:key="ui_drawer_orientation" android:summary="@string/preferences_interface_drawer_orientation_summary" android:defaultValue="horizontal" android:entryValues="@array/preferences_interface_drawer_orientation_values" />
+    <PreferenceCategory android:title="@string/preferences_interface_drawer_apps_category">
+        <Preference android:title="@string/preferences_interface_drawer_hidden_apps_title" android:key="ui_drawer_hidden_apps" android:summary="@string/preferences_interface_drawer_hidden_apps_summary">
+            <intent android:targetPackage="com.cyanogenmod.trebuchet" android:targetClass="com.cyanogenmod.trebuchet.preference.HiddenAppsActivity" />
+        </Preference>
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_hidden_apps_shortcuts_title" android:key="ui_drawer_remove_hidden_apps_shortcuts" android:summary="@string/preferences_interface_drawer_hidden_apps_shortcuts_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_hidden_apps_widgets_title" android:key="ui_drawer_remove_hidden_apps_widgets" android:summary="@string/preferences_interface_drawer_hidden_apps_widgets_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_interface_drawer_widgets_category">
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_widgets_join_apps_title" android:key="ui_drawer_widgets_join_apps" android:summary="@string/preferences_interface_drawer_widgets_join_apps_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_interface_drawer_scrolling_category">
+        <ListPreference android:entries="@array/preferences_interface_drawer_scrolling_transition_effect_entries" android:title="@string/preferences_interface_drawer_scrolling_transition_effect_title" android:key="ui_drawer_scrolling_transition_effect" android:summary="@string/preferences_interface_drawer_scrolling_transition_effect_summary" android:defaultValue="@string/config_drawerDefaultTransitionEffect" android:entryValues="@array/preferences_interface_drawer_scrolling_transition_effect_values" />
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_scrolling_fade_adjacent_screens_title" android:key="ui_drawer_scrolling_fade_adjacent_screens" android:summary="@string/preferences_interface_drawer_scrolling_fade_adjacent_screens_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_interface_drawer_indicator_category">
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_indicator_enable_title" android:key="ui_drawer_indicator_enable" android:summary="@string/preferences_interface_drawer_indicator_enable_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/preferences_interface_drawer_indicator_fade_title" android:key="ui_drawer_indicator_fade" android:summary="@string/preferences_interface_drawer_indicator_fade_summary" android:dependency="ui_drawer_indicator_enable" android:defaultValue="true" />
+        <ListPreference android:entries="@array/preferences_interface_drawer_indicator_position_entries" android:title="@string/preferences_interface_drawer_indicator_position_title" android:key="ui_drawer_indicator_position" android:summary="@string/preferences_interface_drawer_indicator_position_summary" android:dependency="ui_drawer_indicator_enable" android:defaultValue="0" android:entryValues="@array/preferences_interface_drawer_indicator_position_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

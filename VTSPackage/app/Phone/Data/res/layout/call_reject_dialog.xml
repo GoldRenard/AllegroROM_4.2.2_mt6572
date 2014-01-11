@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:id="@*android:id/message" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/EditNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:phoneNumber="true" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/select_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_add_contact_holo_dark" android:contentDescription="@string/selectContact" style="?android:attr/actionButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

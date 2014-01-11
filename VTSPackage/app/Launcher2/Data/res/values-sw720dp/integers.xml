@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_workspaceSpringLoadShrinkPercentage">90</integer>
+    <integer name="config_cameraDistance">18000</integer>
+    <integer name="folder_max_count_x">-1</integer>
+    <integer name="folder_max_count_y">-1</integer>
+    <integer name="folder_max_num_items">-1</integer>
+    <integer name="cell_count_x">8</integer>
+    <integer name="cell_count_y">5</integer>
+    <integer name="hotseat_cell_count">9</integer>
+    <integer name="hotseat_all_apps_index">4</integer>
+    <integer name="apps_customize_maxCellCountX">-1</integer>
+    <integer name="apps_customize_maxCellCountY">-1</integer>
+</resources>

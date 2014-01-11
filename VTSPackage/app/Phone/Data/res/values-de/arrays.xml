@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_list_values">
+        <item>Alle Sprachen</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Italienisch</item>
+        <item>Französisch</item>
+        <item>Spanisch</item>
+        <item>Niederländisch</item>
+        <item>Schwedisch</item>
+        <item>Dänisch</item>
+        <item>Portugiesisch</item>
+        <item>Finnisch</item>
+        <item>Norwegisch</item>
+        <item>Griechisch</item>
+        <item>Türkisch</item>
+        <item>Ungarisch</item>
+        <item>Polnisch</item>
+        <item>Sonstiges</item>
+        <item>Tschechisch</item>
+        <item>Hebräisch</item>
+        <item>Arabisch</item>
+        <item>Russisch</item>
+        <item>Isländisch</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatischer Modus)</item>
+        <item>Nur WCDMA</item>
+        <item>Nur GSM</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA (automatischer Modus)</item>
+        <item>Nur TD-SCDMA</item>
+        <item>Nur GSM</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatischer Modus)</item>
+        <item>Nur WCDMA</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA (automatischer Modus)</item>
+        <item>Nur TD-SCDMA</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>Netzwerk-Standardeinstellung</item>
+        <item>Rufnummer unterdrücken</item>
+        <item>Rufnummer anzeigen</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/CDMA</item>
+        <item>Nur EvDo</item>
+        <item>CDMA ohne EvDo</item>
+        <item>CDMA/EvDo (automatisch)</item>
+        <item>GSM/WCDMA (automatisch)</item>
+        <item>Nur WCDMA</item>
+        <item>Nur GSM</item>
+        <item>GSM/WCDMA bevorzugt</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE/CDMA</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Spanisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Chinesisch</item>
+        <item>Hebräisch</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Nur Heimatnetz</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY aus</item>
+        <item>TTY (vollständig)</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>Immer</item>
+        <item>Nur im Lautlos-Modus</item>
+        <item>Nie</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.Hotseat launcher:cellCount="@integer/hotseat_cell_count" launcher:pageSpacing="@dimen/workspace_page_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet" />

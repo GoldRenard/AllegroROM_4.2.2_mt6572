@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#00000000" />
+            <size android:height="@dimen/incoming_call_widget_circle_size" android:width="@dimen/incoming_call_widget_circle_size" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_lockscreen_answer_normal" android:left="@dimen/incoming_call_widget_asset_margin" android:top="@dimen/incoming_call_widget_asset_margin" android:right="@dimen/incoming_call_widget_asset_margin" android:bottom="@dimen/incoming_call_widget_asset_margin" />
+</layer-list>

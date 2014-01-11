@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" style="@style/info_layout">
+            <LinearLayout android:orientation="vertical" android:id="@id/puk_panel" style="@style/info_layout">
+                <TextView android:id="@id/puk2_label" android:text="@string/label_puk2_code" style="@style/info_label" />
+                <TextView android:id="@id/puk_retry_label" style="@style/info_label" />
+                <EditText android:id="@id/puk_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="8" />
+                <TextView android:textColor="#ffff0000" android:id="@id/bad_puk" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/old_pin_panel" style="@style/info_layout">
+                <TextView android:id="@id/old_pin_label" android:text="@string/oldPinLabel" style="@style/info_label" />
+                <TextView android:id="@id/pin_retry_label" style="@style/info_label" />
+                <EditText android:id="@id/old_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:maxLength="8" />
+                <TextView android:textColor="#ffff0000" android:id="@id/bad_pin" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/badPin" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" style="@style/info_layout">
+                <TextView android:id="@id/new_pin1_label" android:text="@string/newPinLabel" style="@style/info_label" />
+                <EditText android:id="@id/new_pin1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:maxLength="8" />
+                <TextView android:id="@id/new_pin2_label" android:text="@string/confirmPinLabel" style="@style/info_label" />
+                <EditText android:id="@id/new_pin2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:maxLength="8" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/mismatch" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mismatchPin" />
+                <Button android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/doneButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

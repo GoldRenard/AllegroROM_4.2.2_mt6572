@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.StatusBarWindowView android:background="@*android:color/transparent" android:focusable="true" android:fitsSystemWindows="true" android:descendantFocusability="afterDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <include android:layout_width="fill_parent" android:layout_height="@*android:dimen/status_bar_height" layout="@layout/status_bar" />
+    <com.android.systemui.statusbar.phone.PanelHolder android:id="@id/panel_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/status_bar_expanded" />
+        <ViewStub android:id="@id/quick_settings_stub" android:layout="@layout/quick_settings" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.systemui.statusbar.phone.PanelHolder>
+</com.android.systemui.statusbar.phone.StatusBarWindowView>

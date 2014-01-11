@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Over dokken</item>
+        <item>Topp</item>
+        <item>Bunn</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Topp/Venstre</item>
+        <item>Bunn/Høyre</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Horisontal</item>
+        <item>Vertikal</item>
+    </string-array>
+</resources>

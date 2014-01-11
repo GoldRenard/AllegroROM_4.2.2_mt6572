@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বর্ণ থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই অন্তত %d ছোট হাতের অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি ছোট হাতের অক্ষর থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">পাসওয়ার্ডে অবশ্যই অন্তত %d বড় হাতের অক্ষর থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বড় হাতের অক্ষর থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d সংখ্যাবাচক অংক থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি সংখ্যাবাচক অংক থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d বিশেষ প্রতীক থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বিশেষ প্রতীক থাকতে হবে</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">পাসওয়ার্ডে অন্তত %d বর্ণবর্হিভূত ক্যারেক্টার থাকতে হবে</item>
+        <item quantity="one">পাসওয়ার্ডে অবশ্যই অন্তত ১টি বর্ণবর্হিভূত ক্যারেক্টার থাকতে হবে</item>
+    </plurals>
+</resources>

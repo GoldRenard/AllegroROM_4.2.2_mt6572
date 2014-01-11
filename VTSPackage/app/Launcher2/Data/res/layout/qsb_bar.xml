@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.SearchDropTargetBar android:focusable="false" style="@style/QSBBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/qsb_search_bar" layout="@layout/search_bar" />
+    <LinearLayout android:id="@id/drag_target_bar" style="@style/SearchDropTargetBar">
+        <include layout="@layout/drop_target_bar" />
+    </LinearLayout>
+</com.android.launcher2.SearchDropTargetBar>

@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: MtkBt.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: A516-AllegroROM
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.mediatek.bluetooth
+  orig_package: com.mediatek.bluetooth
+compressionType: false

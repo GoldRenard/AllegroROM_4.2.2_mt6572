@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://FMTransmitter.mediatek.com/custom">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/FM_em_layout1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/FMR_Freq_text" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:text="@string/FMR_Freq_text" />
+                <EditText android:id="@id/FMR_Freq_edit" android:layout_width="96.0dip" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:singleLine="true" android:maxLength="10" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/FMR_Freq_tune" android:layout_width="84.0dip" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:text="@string/FMR_Freq_tune" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout2" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Antenna_text" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/FMR_Antenna_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                    <RadioButton android:id="@id/FMR_Antenna_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FMR_Antenna_short" />
+                    <RadioButton android:id="@id/FMR_Antenna_long" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/FMR_Antenna_long" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout3" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Force_Stereomono_text" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/FMR_Stereomono_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                    <RadioButton android:id="@id/FMR_Stereomono_stereo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FMR_Stereomono_stereo" />
+                    <RadioButton android:id="@id/FMR_Stereomono_mono" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/FMR_Stereomono_mono" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout4" android:background="#ff001515" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Status_text" />
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Status_Stereomono_text" />
+                    <TextView android:id="@id/FMR_Status_Stereomono" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Status_Stereomono" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Status_RSSI_text" />
+                    <TextView android:id="@id/FMR_Status_RSSI" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Status_RSSI" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Status_Caparray_text" />
+                    <TextView android:id="@id/FMR_Status_Caparray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Status_Caparray" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout5" android:background="#ff151500" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_RDS_text" />
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_RDS_Ratio_text" />
+                    <TextView android:id="@id/FMR_RDS_Ratio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_RDS_Ratio" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_RDS_PS_text" />
+                    <TextView android:id="@id/FMR_RDS_PS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_RDS_PS" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_RDS_RT_text" />
+                    <TextView android:id="@id/FMR_RDS_RT" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_RDS_RT" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/FM_em_layout6" android:background="#ff151500" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Hardware_version" />
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Chip_ID_text" />
+                    <TextView android:id="@id/FMR_Chip_ID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Chip_ID" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_ECO_Version_text" />
+                    <TextView android:id="@id/FMR_ECO_Version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_ECO_Version" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_Patch_Version_text" />
+                    <TextView android:id="@id/FMR_Patch_Version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_Patch_Version" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/FMR_DSP_Version_text" />
+                    <TextView android:id="@id/FMR_DSP_Version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/FMR_DSP_Version" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fm_factory" />
+</RelativeLayout>

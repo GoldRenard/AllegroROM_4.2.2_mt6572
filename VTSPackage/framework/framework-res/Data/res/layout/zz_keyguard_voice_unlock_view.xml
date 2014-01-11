@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardVoiceUnlockView android:orientation="vertical" android:id="@id/zz_keyguard_voice_unlock_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/zz_keyguard_accessibility_voice_unlock" android:layout_maxHeight="@dimen/keyguard_security_height" android:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@android:layout/keyguard_message_area" />
+    <FrameLayout android:id="@id/keyguard_bouncer_frame" android:background="@drawable/kg_bouncer_bg_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/zz_voice_unlock_area_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/zz_voiceLockMic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_ic_voice_unlock_microphone" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/zz_voiceLockWave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/zz_voiceLockCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_ic_voice_unlock_cancel" android:layout_toRightOf="@id/zz_voiceLockMic" android:layout_below="@id/zz_voiceLockMic" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/keyguard_selector_fade_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@android:layout/keyguard_eca" />
+</com.android.internal.policy.impl.keyguard.KeyguardVoiceUnlockView>

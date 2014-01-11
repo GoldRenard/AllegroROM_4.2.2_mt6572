@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/profile_switch_dialog_view" android:paddingTop="8.0dip" android:paddingBottom="14.0dip" android:layout_width="304.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:orientation="vertical" android:id="@id/normal_profile" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/normal_profile_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_normal_off" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/normal_profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/normal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mute_profile" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/mute_profile_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_mute_profile_off" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/mute_profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/mute" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/meeting_profile" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/meeting_profile_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_meeting_profile_off" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/meeting_profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/meeting" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/outdoor_profile" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/outdoor_profile_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_outdoor_off" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/outdoor_profile_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/outdoor" />
+    </LinearLayout>
+</LinearLayout>

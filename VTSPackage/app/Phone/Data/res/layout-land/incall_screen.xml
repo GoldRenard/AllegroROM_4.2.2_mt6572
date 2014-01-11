@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/callCard" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/call_card" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include android:id="@id/inCallTouchUi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" layout="@layout/incall_touch_ui" />
+            <ViewStub android:id="@id/otaCallCardStub" android:layout="@layout/otacall_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/inCallTouchUi" />
+            <ViewStub android:id="@id/manageConferencePanelStub" android:layout="@layout/manage_conference_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/vtInCallScreenStub" android:layout="@layout/vt_incall_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ViewStub android:id="@id/dtmf_twelve_key_dialer_stub" android:layout="@layout/dtmf_twelve_key_dialer_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dialpad_vertical_margin_dtmf" android:layout_weight="1.0" android:layout_alignParentTop="true" />
+    </LinearLayout>
+</RelativeLayout>

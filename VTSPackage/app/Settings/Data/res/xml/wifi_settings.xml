@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/trust_access_points" android:key="trust_access_points" />
+    <PreferenceCategory android:persistent="false" android:title="@string/configed_access_points" android:key="configed_access_points" />
+    <PreferenceCategory android:persistent="false" android:title="@string/new_access_points" android:key="new_access_points" />
+</PreferenceScreen>

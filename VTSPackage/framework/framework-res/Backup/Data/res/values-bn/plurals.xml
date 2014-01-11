@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d সেকেন্ড আগে</item>
+        <item quantity="one">১ সেকেন্ড আগে</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d মিনিট আগে</item>
+        <item quantity="one">১ মিনিট আগে</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ঘণ্টা আগে</item>
+        <item quantity="one">১ ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">গত %d দিন</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d দিন আগে</item>
+        <item quantity="one">গতবার</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d সেকেন্ডে</item>
+        <item quantity="one">১ সেকেন্ডে</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d মিনিটে</item>
+        <item quantity="one">১ মিনিটে</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d ঘণ্টায়</item>
+        <item quantity="one">১ ঘণ্টায়</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d দিনে</item>
+        <item quantity="one">আগামীকাল</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d সেকেন্ড আগে</item>
+        <item quantity="one">১ সেকেন্ড আগে</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d মিনিট আগে</item>
+        <item quantity="one">১ মিনিটে আগে</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ঘণ্টা আগে</item>
+        <item quantity="one">১ ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d দিন আগে</item>
+        <item quantity="one">গতবার</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d সেকেন্ডে</item>
+        <item quantity="one">১ সেকেন্ডে</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d মিনিটে</item>
+        <item quantity="one">১ মিনিটে</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d ঘণ্টায়</item>
+        <item quantity="one">১ ঘণ্টায়</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d দিনে</item>
+        <item quantity="one">আগামীকাল</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">ওয়াই-ফাই নেটওয়ার্ক পাওয়া যাচ্ছে</item>
+        <item quantity="one">ওয়াই-ফাই নেটওয়ার্ক পাওয়া যাচ্ছে</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">প্রাপ্ত ওয়াই-ফাই নেটওয়ার্ক খুলুন</item>
+        <item quantity="one">প্রাপ্ত ওয়াই-ফাই নেটওয়ার্ক খুলুন</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$dএর %2$d</item>
+        <item quantity="one">১টি মিল</item>
+    </plurals>
+</resources>

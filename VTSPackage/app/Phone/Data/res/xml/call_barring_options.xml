@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/lable_all_outgoing" android:key="all_outing_key" android:summary="@string/lable_disable" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/lable_all_outgoing_international" android:key="all_outing_international_key" android:summary="@string/lable_disable" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/lable_all_out_except" android:key="all_outing_except_key" android:summary="@string/lable_disable" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/lable_all_incoming" android:key="all_incoming_key" android:summary="@string/lable_disable" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/lable_incoming_calls_except" android:key="all_incoming_except_key" android:summary="@string/lable_disable" />
+    <com.mediatek.settings.CallBarringResetPreference android:persistent="false" android:title="@string/deactivate_all" android:key="deactivate_all_key" android:dialogMessage="@string/enter_pin2_text" />
+    <com.mediatek.settings.CallBarringChangePassword android:persistent="false" android:title="@string/change_password" android:key="change_password_key" android:dialogTitle="@string/change_password" />
+</PreferenceScreen>

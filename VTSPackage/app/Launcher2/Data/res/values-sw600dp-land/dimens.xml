@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qsb_bar_height">82.0dip</dimen>
+    <dimen name="workspace_divider_padding_left">0.0dip</dimen>
+    <dimen name="workspace_divider_padding_right">0.0dip</dimen>
+    <dimen name="workspace_divider_padding_top">12.0dip</dimen>
+    <dimen name="workspace_divider_padding_bottom">12.0dip</dimen>
+    <dimen name="workspace_icon_text_size">11.0sp</dimen>
+    <dimen name="app_icon_drawable_padding_land">0.0dip</dimen>
+    <dimen name="app_icon_padding_top">0.0dip</dimen>
+    <dimen name="toolbar_button_vertical_padding">12.0dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">20.0dip</dimen>
+    <dimen name="button_bar_width_left_padding">14.0dip</dimen>
+    <dimen name="button_bar_width_right_padding">14.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">36.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">8.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">20.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">14.0dip</dimen>
+</resources>

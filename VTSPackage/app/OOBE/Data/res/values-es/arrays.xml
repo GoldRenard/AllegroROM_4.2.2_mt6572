@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Primeros 4 dígitos</item>
+        <item>Últimos 4 dígitos</item>
+        <item>No mostrar</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Buscando…</item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión...</item>
+        <item>Autenticando...</item>
+        <item>Obteniendo dirección IP…</item>
+        <item>Conectada</item>
+        <item>Suspendida</item>
+        <item>Desconectando...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Buscando…</item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión con %1$s...</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s...</item>
+        <item>Conectada a %1$s</item>
+        <item>Suspendida</item>
+        <item>Desconectando de %1$s...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mala</item>
+        <item>Aceptable</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando la pantalla se apague</item>
+        <item>Nunca si se está cargando la batería</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Conectar automáticamente</item>
+        <item>Conectar manualmente</item>
+        <item>Preguntar siempre</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automática</item>
+        <item>Solo 5 GHz</item>
+        <item>Solo 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Siempre</item>
+        <item>Solo cuando está enchufado</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Estática</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ninguno</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Usar tiempo proporcionado por la red</item>
+        <item>Usar tiempo proporcionado por GPS</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Automática</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Desactivado</item>
+        <item>Pulsador</item>
+        <item>PIN del punto de acceso</item>
+        <item>PIN de este dispositivo</item>
+    </string-array>
+</resources>

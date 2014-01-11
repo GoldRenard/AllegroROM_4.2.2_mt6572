@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <Preference android:persistent="false" android:title="@string/labelCFU" android:key="button_cfu_key" />
+    <Preference android:persistent="false" android:title="@string/labelCFB" android:key="button_cfb_key" />
+    <Preference android:persistent="false" android:title="@string/labelCFNRy" android:key="button_cfnry_key" />
+    <Preference android:persistent="false" android:title="@string/labelCFNRc" android:key="button_cfnrc_key" />
+    <Preference android:persistent="false" android:title="@string/labelCFC" android:key="button_cfc_key" />
+</PreferenceScreen>

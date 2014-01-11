@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Above Dock</item>
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="preferences_interface_homescreen_indicator_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferences_interface_homescreen_scrolling_transition_effect_entries">
+        <item>@string/effects_standard</item>
+        <item>@string/effects_tablet</item>
+        <item>@string/effects_zoom_in</item>
+        <item>@string/effects_zoom_out</item>
+        <item>@string/effects_rotate_up</item>
+        <item>@string/effects_rotate_down</item>
+        <item>@string/effects_cylinder_in</item>
+        <item>@string/effects_cylinder_out</item>
+        <item>@string/effects_cube_in</item>
+        <item>@string/effects_cube_out</item>
+        <item>@string/effects_spin</item>
+        <item>@string/effects_flip</item>
+        <item>@string/effects_stack</item>
+        <item>@string/effects_accordion</item>
+        <item>@string/effects_carousel_left</item>
+        <item>@string/effects_carousel_right</item>
+    </string-array>
+    <string-array name="preferences_interface_homescreen_scrolling_transition_effect_values">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>CylinderIn</item>
+        <item>CylinderOut</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Spin</item>
+        <item>Flip</item>
+        <item>Stack</item>
+        <item>Accordion</item>
+        <item>CarouselLeft</item>
+        <item>CarouselRight</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_scrolling_transition_effect_entries">
+        <item>@string/effects_standard</item>
+        <item>@string/effects_tablet</item>
+        <item>@string/effects_zoom_in</item>
+        <item>@string/effects_zoom_out</item>
+        <item>@string/effects_rotate_up</item>
+        <item>@string/effects_rotate_down</item>
+        <item>@string/effects_cylinder_in</item>
+        <item>@string/effects_cylinder_out</item>
+        <item>@string/effects_cube_in</item>
+        <item>@string/effects_cube_out</item>
+        <item>@string/effects_spin</item>
+        <item>@string/effects_flip</item>
+        <item>@string/effects_stack</item>
+        <item>@string/effects_accordion</item>
+        <item>@string/effects_carousel_left</item>
+        <item>@string/effects_carousel_right</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_scrolling_transition_effect_values">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>CylinderIn</item>
+        <item>CylinderOut</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Spin</item>
+        <item>Flip</item>
+        <item>Stack</item>
+        <item>Accordion</item>
+        <item>CarouselLeft</item>
+        <item>CarouselRight</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Top/Left</item>
+        <item>Bottom/Right</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_values">
+        <item>horizontal</item>
+        <item>vertical</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+    <string-array name="wallpapers">
+        <item>wallpaper_01</item>
+        <item>wallpaper_02</item>
+        <item>wallpaper_03</item>
+        <item>wallpaper_04</item>
+        <item>wallpaper_05</item>
+        <item>wallpaper_06</item>
+        <item>wallpaper_07</item>
+        <item>wallpaper_08</item>
+        <item>wallpaper_09</item>
+        <item>wallpaper_10</item>
+        <item>wallpaper_11</item>
+        <item>wallpaper_12</item>
+    </string-array>
+</resources>

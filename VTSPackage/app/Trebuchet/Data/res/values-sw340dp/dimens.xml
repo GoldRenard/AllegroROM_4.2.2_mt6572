@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hotseat_width_gap">0.0dip</dimen>
+    <dimen name="hotseat_height_gap">0.0dip</dimen>
+    <dimen name="button_bar_height">62.0dip</dimen>
+    <dimen name="button_bar_height_with_text">90.0dip</dimen>
+    <dimen name="button_bar_height_bottom_padding">0.0dip</dimen>
+    <dimen name="button_bar_width_left_padding">8.0dip</dimen>
+    <dimen name="button_bar_width_right_padding">8.0dip</dimen>
+    <dimen name="button_bar_height_plus_padding">62.0dip</dimen>
+    <dimen name="button_bar_height_plus_padding_with_text">90.0dip</dimen>
+    <dimen name="drop_target_drag_padding">20.0dip</dimen>
+    <dimen name="cell_layout_left_padding_port">8.0dip</dimen>
+    <dimen name="cell_layout_left_padding_land">8.0dip</dimen>
+    <dimen name="cell_layout_right_padding_port">8.0dip</dimen>
+    <dimen name="cell_layout_right_padding_land">8.0dip</dimen>
+    <dimen name="cell_layout_top_padding_port">8.0dip</dimen>
+    <dimen name="cell_layout_top_padding_land">8.0dip</dimen>
+    <dimen name="cell_layout_bottom_padding_port">8.0dip</dimen>
+    <dimen name="cell_layout_bottom_padding_land">8.0dip</dimen>
+</resources>

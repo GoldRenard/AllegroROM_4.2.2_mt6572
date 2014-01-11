@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_screen_off_timeout">30000</integer>
+    <integer name="def_screen_brightness">255</integer>
+    <integer name="def_network_preference">1</integer>
+    <integer name="def_wifi_sleep_policy">2</integer>
+    <integer name="def_power_sounds_enabled">1</integer>
+    <integer name="def_dock_sounds_enabled">0</integer>
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
+    <integer name="def_user_rotation">0</integer>
+    <integer name="def_download_manager_max_bytes_over_mobile">-1</integer>
+    <integer name="def_download_manager_recommended_max_bytes_over_mobile">-1</integer>
+    <integer name="def_long_press_timeout_millis">500</integer>
+    <integer name="def_pointer_speed">0</integer>
+    <integer name="def_max_dhcp_retries">9</integer>
+    <integer name="wifi_select_ssid_type">2</integer>
+    <integer name="boot_up_select_mode">0</integer>
+    <integer name="def_international_dialing">1</integer>
+    <integer name="def_voice_call_reject_mode">0</integer>
+    <integer name="def_video_call_reject_mode">0</integer>
+    <integer name="def_ivsr_setting">1</integer>
+    <integer name="def_cro_setting">1</integer>
+    <integer name="def_hoo_setting">1</integer>
+    <integer name="def_tether_ipv6_feature">0</integer>
+</resources>

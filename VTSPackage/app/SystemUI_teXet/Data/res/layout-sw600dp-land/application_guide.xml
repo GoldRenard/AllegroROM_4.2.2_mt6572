@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/switch_default_sim_land" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="184.0dip" android:layout_marginRight="24.0dip">
+        <TextView android:id="@id/applicationGuideTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/application_guide_title" style="@style/ApplicationGuideTitleText" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/application_guide_content" style="@style/ApplicationGuideText" />
+    </LinearLayout>
+    <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="bottom|right|center" android:id="@id/appGuideBtn" android:background="@drawable/app_guide_button_bg" android:paddingLeft="40.0dip" android:paddingTop="10.0dip" android:paddingRight="40.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/OK" />
+</FrameLayout>

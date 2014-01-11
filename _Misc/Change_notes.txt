@@ -1,0 +1,4 @@
+1. Lockscreen's glowpad bug after repacking framework-res.apk
+[layout\keyguard_glow_pad_view.xml]
+-android:layout_marginBottom="-60.0dip"
++android:layout_marginBottom="-10.0dip"

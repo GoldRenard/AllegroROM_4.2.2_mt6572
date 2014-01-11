@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/tvout_settings" android:key="tvout_enable" android:defaultValue="false" />
+    <ListPreference android:persistent="true" android:entries="@array/tvout_system_list" android:title="@string/tv_system_title" android:key="tv_system" android:defaultValue="NTSC" android:entryValues="@array/tvout_system_list" />
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtuousTenProject>
+  <Settings>
+    <Setting Name="pushpath" Value="/system/framework/" />
+    <Setting Name="usezipalign" Value="True" />
+    <Setting Name="usesign" Value="False" />
+    <Setting Name="signtype" Value="TestKeys" />
+    <Setting Name="signcert" Value="" />
+    <Setting Name="signkey" Value="" />
+    <Setting Name="apilevel" Value="JellyBeanMR1" />
+    <Setting Name="usesmalidebug" Value="True" />
+    <Setting Name="generatejavasource" Value="True" />
+    <Setting Name="additionalsmaliargs" Value="" />
+    <Setting Name="additionalbaksmaliargs" Value="--sequential-labels " />
+    <Setting Name="binaryname" Value="secondary-framework.jar" />
+    <Setting Name="version" Value="3" />
+    <Setting Name="hassuccessfulimport" Value="True" />
+  </Settings>
+  <OpenDocuments />
+  <MarkedLines />
+</VirtuousTenProject>

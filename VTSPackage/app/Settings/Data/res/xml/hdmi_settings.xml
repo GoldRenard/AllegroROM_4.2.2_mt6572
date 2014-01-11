@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/hdmi_toggler" android:key="hdmi_toggler" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/hdmi_audio_toggler" android:key="audio_toggler" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/hdmi_video_toggler" android:key="video_toggler" />
+    <ListPreference android:persistent="false" android:entries="@array/hdmi_video_resolution_entries" android:title="@string/hdmi_video_resolution" android:key="video_resolution" android:entryValues="@array/hdmi_video_resolution_entry_values" />
+    <ListPreference android:persistent="false" android:entries="@array/hdmi_video_resolution_entries_8193" android:title="@string/hdmi_video_resolution" android:key="video_resolution_8193" android:entryValues="@array/hdmi_video_resolution_entry_values_8193" />
+</PreferenceScreen>

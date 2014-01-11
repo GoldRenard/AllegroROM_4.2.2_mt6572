@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_name">Applicaziuns da basa dad Android</string>
+    <string name="folder_name" />
+    <string name="wallpaper_instructions">Definir in fund davos</string>
+    <string name="pick_wallpaper">Maletgs da fund davos</string>
+    <string name="rename_folder_label">"Num da l'ordinatur"</string>
+    <string name="rename_folder_title">"Renumnar l'ordinatur"</string>
+    <string name="rename_action">OK</string>
+    <string name="cancel_action">Interrumper</string>
+    <string name="menu_item_add_item">Agiuntar al visur da partenza</string>
+    <string name="group_shortcuts">Scursanidas</string>
+    <string name="group_widgets">Widgets</string>
+    <string name="group_wallpapers">Funds davos</string>
+    <string name="out_of_space">Nagin spazi liber sin il visur da partenza.</string>
+    <string name="shortcut_installed">\"Creà ina scursanida \"\"%s\"\".\"</string>
+    <string name="shortcut_uninstalled">\"La scursanida \"\"%s\"\" è vegnida stizzada.\"</string>
+    <string name="shortcut_duplicate">\"La scursanida \"\"%s\"\" exista gia.\"</string>
+    <string name="all_apps_home_button_label">Pagina da partenza</string>
+    <string name="menu_add">Agiuntar</string>
+    <string name="menu_wallpaper">Fund davos</string>
+    <string name="menu_search">Tschertgar</string>
+    <string name="menu_notifications">Avis</string>
+    <string name="permlab_install_shortcut">Installar scursanidas</string>
+    <string name="permlab_uninstall_shortcut">deinstallar scursanidas</string>
+    <string name="permlab_read_settings">Leger ils parameters e las scursanidas da la pagina da partenza</string>
+    <string name="permlab_write_settings">Definir ils parameters e las scursanidas per la pagina da partenza</string>
+    <string name="gadget_error_text">Problems cun chargiar il widget</string>
+    <string name="custom_workspace_cling_title_1" />
+    <string name="custom_workspace_cling_description_1" />
+    <string name="custom_workspace_cling_title_2" />
+    <string name="custom_workspace_cling_description_2" />
+</resources>

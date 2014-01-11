@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Primele 4 cifre</item>
+        <item>Ultimele 4 cifre</item>
+        <item>Nu se afişează</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Scanare…</item>
+        <item>În curs de scanare...</item>
+        <item>Se conectează...</item>
+        <item>În curs de autentificare…</item>
+        <item>Se obţine adresa IP...</item>
+        <item>Conectată</item>
+        <item>Suspendată</item>
+        <item>În curs de deconectare...</item>
+        <item>Deconectată</item>
+        <item>Nereuşit</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Scanare…</item>
+        <item>În curs de scanare...</item>
+        <item>Se conectează la %1$s...</item>
+        <item>Se autentifică cu %1$s…</item>
+        <item>Se obţine adresa IP de la %1$s…</item>
+        <item>Conectat la %1$s</item>
+        <item>Suspendată</item>
+        <item>În curs de deconectare de la %1$s...</item>
+        <item>Deconectată</item>
+        <item>Nereuşit</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Deschidere</item>
+        <item>Certificat WAPI</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slab</item>
+        <item>Corect</item>
+        <item>Bun</item>
+        <item>Excelent</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>La dezactivarea ecranului</item>
+        <item>Niciodată când este conectat</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Conectare automată</item>
+        <item>Conectare manuală</item>
+        <item>Se întreabă întotdeauna</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automat</item>
+        <item>Doar 5 GHz</item>
+        <item>Doar 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Întotdeauna</item>
+        <item>Doar când este conectat</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Fără</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Folosire oră furnizată de rețea</item>
+        <item>Folosire oră furnizată de GPS</item>
+        <item>Dezactivat</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Automat</item>
+        <item>WEP ASCII</item>
+        <item>Hexazecimal WEP</item>
+    </string-array>
+</resources>

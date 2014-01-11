@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Prime 4 cifre</item>
+        <item>Ultime 4 cifre</item>
+        <item>Non visualizzare</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Scansione…</item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione in corso...</item>
+        <item>Autenticazione in corso...</item>
+        <item>Acquisizione indirizzo IP in corso...</item>
+        <item>Connessa</item>
+        <item>Sospesa</item>
+        <item>Disconnessione in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Scansione…</item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione a %1$s in corso...</item>
+        <item>Autenticazione con %1$s in corso...</item>
+        <item>Acquisizione indirizzo IP da %1$s in corso...</item>
+        <item>Connessa a %1$s</item>
+        <item>Sospesa</item>
+        <item>Disconnessione da %1$s in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Scadente</item>
+        <item>Discreta</item>
+        <item>Buona</item>
+        <item>Eccellente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Quando lo schermo si disattiva</item>
+        <item>Mai quando collegato</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Connessione automatica</item>
+        <item>Connessione manuale</item>
+        <item>Chiedi sempre</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>Solo 5 GHz</item>
+        <item>Solo 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Sempre</item>
+        <item>Solo se collegato</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statico</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Nessuno</item>
+        <item>Manuale</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Usa ora fornita dalla rete</item>
+        <item>Usa ora fornita da GPS</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto</item>
+        <item>WEP ASCII</item>
+        <item>WEP esadecimale</item>
+    </string-array>
+</resources>

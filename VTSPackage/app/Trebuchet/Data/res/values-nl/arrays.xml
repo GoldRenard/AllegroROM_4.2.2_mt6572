@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Boven dock</item>
+        <item>Bovenaan</item>
+        <item>Onderaan</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Boven/links</item>
+        <item>Beneden/rechts</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Horizontaal</item>
+        <item>Verticaal</item>
+    </string-array>
+</resources>

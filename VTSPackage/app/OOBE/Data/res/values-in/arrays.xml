@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>4 angka pertama</item>
+        <item>4 angka terakhir</item>
+        <item>Jangan tampilkan</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Memindai…</item>
+        <item>Memindai…</item>
+        <item>Menyambung…</item>
+        <item>Mengautentikasi…</item>
+        <item>Mendapatkan alamat IP…</item>
+        <item>Terhubung</item>
+        <item>Ditangguhkan</item>
+        <item>Memutus sambungan…</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Memindai…</item>
+        <item>Memindai...</item>
+        <item>Menyambung ke %1$s…</item>
+        <item>Mengautentikasi dengan %1$s…</item>
+        <item>Mendapatkan alamat IP dari %1$s…</item>
+        <item>Tersambung ke %1$s</item>
+        <item>Ditangguhkan</item>
+        <item>Diputus dari %1$s…</item>
+        <item>Sambungan terputus</item>
+        <item>Gagal</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Buruk</item>
+        <item>Sedang</item>
+        <item>Baik</item>
+        <item>Luar biasa</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Ketika layar mati</item>
+        <item>Tidak pernah ketika tersambung</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Menyambung otomatis</item>
+        <item>Menyambung manual</item>
+        <item>Selalu tanya</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Otomatis</item>
+        <item>Hanya 5 GHz</item>
+        <item>Hanya 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Selalu</item>
+        <item>Hanya saat tersambung</item>
+        <item>Tidak pernah</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statis</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Tidak satupun</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Gunakan waktu yang disediakan jaringan</item>
+        <item>Gunakan waktu yang disediakan GPS</item>
+        <item>Nonaktif</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Otomatis</item>
+        <item>WEP ASCII</item>
+        <item>WEP heksadesimal</item>
+    </string-array>
+</resources>

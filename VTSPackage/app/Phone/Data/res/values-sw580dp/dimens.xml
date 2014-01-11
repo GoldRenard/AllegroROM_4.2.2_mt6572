@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_cluster_side_padding">0.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_width">600.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_height">600.0dip</dimen>
+    <dimen name="vt_incall_screen_image_button_height">80.0dip</dimen>
+    <dimen name="vt_incall_screen_image_button_width">80.0dip</dimen>
+    <dimen name="vt_incall_screen_high_video_image_button_margin_edge">18.0px</dimen>
+    <dimen name="vt_incall_screen_button_width">112.0dip</dimen>
+    <dimen name="vt_incall_screen_end_button_width">234.0dip</dimen>
+    <dimen name="vt_incall_screen_button_height">80.0dip</dimen>
+    <dimen name="vt_incall_screen_button_interval">10.0dip</dimen>
+    <dimen name="vt_incall_screen_low_video_height">336.0dip</dimen>
+    <dimen name="vt_incall_screen_low_video_width">336.0dip</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_top">10.0dip</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_left">10.0dip</dimen>
+    <dimen name="vt_incall_screen_low_video_image_button_margin_edge">10.0px</dimen>
+    <dimen name="incall_record_icon_size">15.0px</dimen>
+    <dimen name="vt_incall_screen_button_margin_out">10.0dip</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardPINView androidprv:orientation="vertical" androidprv:id="@id/keyguard_pin_view" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:contentDescription="@string/keyguard_accessibility_pin_unlock" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/android">
+    <include androidprv:layout_width="fill_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <LinearLayout androidprv:orientation="vertical" androidprv:id="@id/keyguard_bouncer_frame" androidprv:background="@drawable/kg_bouncer_bg_white" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0" androidprv:layoutDirection="ltr">
+        <LinearLayout androidprv:orientation="horizontal" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+            <TextView androidprv:textAppearance="@style/TextAppearance.NumPadKey" androidprv:gravity="center" androidprv:id="@id/pinEntry" androidprv:background="@null" androidprv:layout_width="0.0dip" androidprv:layout_height="fill_parent" androidprv:cursorVisible="false" androidprv:singleLine="true" androidprv:editable="true" androidprv:layout_weight="1.0" androidprv:imeOptions="actionDone|flagForceAscii" androidprv:layout_marginStart="@dimen/keyguard_lockscreen_pin_margin_left" />
+            <ImageButton androidprv:gravity="center_vertical" androidprv:id="@id/delete_button" androidprv:background="?selectableItemBackground" androidprv:paddingLeft="24.0dip" androidprv:paddingTop="8.0dip" androidprv:paddingRight="24.0dip" androidprv:paddingBottom="8.0dip" androidprv:clickable="true" androidprv:layout_width="wrap_content" androidprv:layout_height="fill_parent" androidprv:src="@drawable/ic_input_delete" androidprv:contentDescription="@string/keyboardview_keycode_delete" />
+        </LinearLayout>
+        <View androidprv:background="#55ffffff" androidprv:layout_width="wrap_content" androidprv:layout_height="1.0dip" />
+        <LinearLayout androidprv:orientation="horizontal" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+            <view androidprv:id="@id/key1" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="1" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key2" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="2" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key3" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="3" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+        </LinearLayout>
+        <LinearLayout androidprv:orientation="horizontal" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+            <view androidprv:id="@id/key4" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="4" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key5" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="5" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key6" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="6" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+        </LinearLayout>
+        <LinearLayout androidprv:orientation="horizontal" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+            <view androidprv:id="@id/key7" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="7" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key8" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="8" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <view androidprv:id="@id/key9" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="9" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+        </LinearLayout>
+        <LinearLayout androidprv:orientation="horizontal" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+            <Space androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" />
+            <view androidprv:id="@id/key0" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:layout_weight="1.0" androidprv:digit="0" androidprv:textView="@id/pinEntry" class="com.android.internal.policy.impl.keyguard.NumPadKey" style="@style/Widget.Button.NumPadKey" />
+            <ImageButton androidprv:id="@id/key_enter" androidprv:paddingRight="30.0dip" androidprv:layout_width="0.0px" androidprv:layout_height="fill_parent" androidprv:src="@drawable/sym_keyboard_return_holo" androidprv:layout_weight="1.0" androidprv:contentDescription="@string/keyboardview_keycode_enter" style="@style/Widget.Button.NumPadKey" />
+        </LinearLayout>
+    </LinearLayout>
+    <include androidprv:gravity="center_horizontal" androidprv:layout_gravity="bottom|center" androidprv:orientation="vertical" androidprv:id="@id/keyguard_selector_fade_container" androidprv:layout_width="fill_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+</com.android.internal.policy.impl.keyguard.KeyguardPINView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@id/quickstartguide_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="81.0dip" android:text="@string/qsg_title_begin" style="@style/textShadowTitle" />
+    <TextView android:id="@id/quickstartguide_summary" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/qsg_summary_begin" android:layout_weight="1.0" style="@style/textShadowSummary" />
+    <include layout="@layout/progressbar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/group_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="20.0dip">
+        <Button android:layout_gravity="bottom|left|center" android:id="@id/skip_btn" android:text="@string/skip_button" style="@style/bottom_button" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:layout_gravity="bottom|right|center" android:id="@id/ok_btn" android:text="@string/ok_button" style="@style/bottom_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/nextbutton_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="20.0dip">
+        <Button android:layout_gravity="bottom|left|center" android:id="@id/play_again_button" android:visibility="invisible" android:text="@string/play_again" style="@style/bottom_button" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:layout_gravity="bottom|right|center" android:id="@id/next_btn" android:text="@string/next" style="@style/bottom_button" />
+    </LinearLayout>
+</LinearLayout>

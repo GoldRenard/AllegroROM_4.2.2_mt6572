@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Erste 4 Ziffern</item>
+        <item>Letzte 4 Ziffern</item>
+        <item>Nicht anzeigen</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>Scan…</item>
+        <item>Scan…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>Scan…</item>
+        <item>Scan…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Schwach</item>
+        <item>Gut</item>
+        <item>OK</item>
+        <item>Ausgezeichnet</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Wenn Bildschirm sich abschaltet</item>
+        <item>Niemals, wenn im Netzbetrieb</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatisch verbinden</item>
+        <item>Manuell verbinden</item>
+        <item>Immer fragen</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Auto</item>
+        <item>Nur 5 GHz</item>
+        <item>Nur 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Immer</item>
+        <item>Nur wenn eingesteckt</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisch</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Keines</item>
+        <item>Manuell</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>Vom Netzwerk bereitgestellte Zeit nutzen</item>
+        <item>Per GPS bereitgestellte Zeit nutzen</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadezimal</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Aus</item>
+        <item>Drucktaste</item>
+        <item>PIN vom Access Point</item>
+        <item>PIN von diesem Gerät</item>
+    </string-array>
+</resources>

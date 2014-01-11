@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d မကြာသေးမီက လုပ်ငန်းသုံး ပရိုဂရမ်များ</item>
+        <item quantity="one">မကြာသေးမီက လုပ်ငန်းသုံး ပရိုဂရမ် ၁ ခု</item>
+    </plurals>
+</resources>

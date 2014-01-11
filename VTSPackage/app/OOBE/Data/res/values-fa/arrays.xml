@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>4 رقم اول</item>
+        <item>4 رقم آخر</item>
+        <item>نمايش نده</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item>اسکن کردن…</item>
+        <item>اسکن کردن...</item>
+        <item>در حال اتصال…</item>
+        <item>در حال تأیید اعتبار...</item>
+        <item>در حال دریافت آدرس IP...</item>
+        <item>اتصال برقرار شد</item>
+        <item>معلق</item>
+        <item>در حال قطع اتصال...</item>
+        <item>اتصال قطع شد</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>اسکن کردن…</item>
+        <item>اسکن کردن...</item>
+        <item>در حال اتصال به %1$s…</item>
+        <item>در حال تأیید اعتبار با %1$s...</item>
+        <item>در حال دریافت آدرس IP از %1$s...</item>
+        <item>متصل شد به %1$s</item>
+        <item>معلق</item>
+        <item>اتصال قطع شد از %1$s...</item>
+        <item>اتصال قطع شد</item>
+        <item>ناموفق</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ضعیف</item>
+        <item>متعادل</item>
+        <item>خوب</item>
+        <item>عالی</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>هنگام خاموش شدن صفحه</item>
+        <item>هرگز در هنگام اتصال</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>اتصال اتوماتیک</item>
+        <item>اتصال دستی</item>
+        <item>همیشه سوال شود</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>خودکار</item>
+        <item>فقط 5 گیگاهرتز</item>
+        <item>فقط 2.4 گیگاهرتز</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>همیشه</item>
+        <item>فقط در هنگام اتصال</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ساکن</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>هيچ</item>
+        <item>دستی</item>
+    </string-array>
+    <string-array name="auto_time_entries">
+        <item>استفاده از زمان ارائه شده توسط شبکه</item>
+        <item>استفاده از زمان ارائه شده توسط GPS</item>
+        <item>خاموش</item>
+    </string-array>
+    <string-array name="wifi_WEP_security_type">
+        <item>خودکار</item>
+        <item>WEP ASCII</item>
+        <item>WEP هگزادسيمال</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>خاموش</item>
+        <item>دکمه فشاری</item>
+        <item>پین از نقطه دسترسی</item>
+        <item>پین از این دستگاه</item>
+    </string-array>
+</resources>

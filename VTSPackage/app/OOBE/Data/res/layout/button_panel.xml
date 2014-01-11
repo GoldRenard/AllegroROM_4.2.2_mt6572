@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_pannel_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/panel_button_back" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/oobe_btn_text_back" android:layout_weight="6.0" />
+        <View android:background="?android:listDivider" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" />
+        <Button android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/panel_button_next" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/oobe_btn_text_next" android:layout_weight="6.0" />
+    </LinearLayout>
+</LinearLayout>

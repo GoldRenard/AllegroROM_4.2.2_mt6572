@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AnalogClock android:layout_gravity="center" android:id="@id/analog_clock" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="10.0dip" android:dial="@drawable/ic_qs_clock_circle" android:hand_hour="@drawable/ic_qs_clock_hour" android:hand_minute="@drawable/ic_qs_clock_minute" />
+    <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.QuickSettings.TileView" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

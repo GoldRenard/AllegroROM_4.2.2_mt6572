@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_list_values">
+        <item>所有語言</item>
+        <item>德文</item>
+        <item>英文</item>
+        <item>義大利文</item>
+        <item>法文</item>
+        <item>西班牙文</item>
+        <item>荷蘭文</item>
+        <item>瑞典文</item>
+        <item>丹麥文</item>
+        <item>葡萄牙文</item>
+        <item>芬蘭文</item>
+        <item>挪威文</item>
+        <item>希臘文</item>
+        <item>土耳其文</item>
+        <item>匈牙利文</item>
+        <item>波蘭文</item>
+        <item>其他</item>
+        <item>捷克文</item>
+        <item>希伯來文</item>
+        <item>阿拉伯文</item>
+        <item>俄文</item>
+        <item>冰島文</item>
+    </string-array>
+    <string-array name="language_list_id">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (自動模式)</item>
+        <item>僅限 WCDMA</item>
+        <item>僅限 GSM</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA (自動模式)</item>
+        <item>僅限 TD-SCDMA</item>
+        <item>僅限 GSM</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices">
+        <item>GSM/WCDMA (自動模式)</item>
+        <item>僅限 WCDMA</item>
+    </string-array>
+    <string-array name="umts_network_preferences_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA (自動模式)</item>
+        <item>僅限 TD-SCDMA only</item>
+    </string-array>
+    <string-array name="call_reject_mode_entries">
+        <item>關閉拒絕來電</item>
+        <item>拒絕所有來電</item>
+        <item>使用直接拒絕清單</item>
+    </string-array>
+    <string-array name="call_reject_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_reject_dialog_array">
+        <item>匯入聯絡人</item>
+        <item>匯入通話記錄</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>網路預設值</item>
+        <item>隱藏號碼</item>
+        <item>顯示號碼</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/CDMA</item>
+        <item>僅限 EvDo</item>
+        <item>CDMA (不具 EvDo)</item>
+        <item>CDMA/EvDo 自動切換</item>
+        <item>GSM/WCDMA 自動切換</item>
+        <item>僅限 WCDMA</item>
+        <item>僅限 GSM</item>
+        <item>GSM/WCDMA 優先使用</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE/CDMA</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>英文</item>
+        <item>法文</item>
+        <item>西班牙文</item>
+        <item>日文</item>
+        <item>韓文</item>
+        <item>中文</item>
+        <item>希伯來文</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>僅限住家電話</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>關閉 TTY</item>
+        <item>TTY 全能</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>適中</item>
+        <item>長音</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>一律啟用</item>
+        <item>僅在靜音時啟用</item>
+        <item>永不啟用</item>
+    </string-array>
+</resources>

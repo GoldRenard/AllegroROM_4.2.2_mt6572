@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_interface_homescreen_indicator_position_entries">
+        <item>Bo die Dok</item>
+        <item>Bo</item>
+        <item>Onderkant</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_indicator_position_entries">
+        <item>Bo/Links</item>
+        <item>Onder/Regs</item>
+    </string-array>
+    <string-array name="preferences_interface_drawer_orientation_entries">
+        <item>Horisontaal</item>
+        <item>Vertikaal</item>
+    </string-array>
+</resources>

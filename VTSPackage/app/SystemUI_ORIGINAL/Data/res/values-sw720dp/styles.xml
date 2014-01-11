@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SystemBarNotificationText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="SystemBarPanelSettingsRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">64.0dip</item>
+    </style>
+    <style name="SystemBarPanelSettingsIcon">
+        <item name="android:layout_width">64.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="SystemBarPanelSettingsContents">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SystemBarPanelSettingsPanelSeparator">
+        <item name="android:background">@*android:drawable/divider_horizontal_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">30.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded.Clock">
+        <item name="android:textSize">48.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded.Date">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff666666</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

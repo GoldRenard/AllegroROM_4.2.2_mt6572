@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@*android:dimen/preference_icon_minWidth">
+        <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:minWidth="48.0dip" android:layout_marginEnd="@*android:dimen/preference_item_padding_inner" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/custom_preference" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="middle" android:id="@*android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </RelativeLayout>
+    <Switch android:gravity="center" android:id="@id/switch_" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

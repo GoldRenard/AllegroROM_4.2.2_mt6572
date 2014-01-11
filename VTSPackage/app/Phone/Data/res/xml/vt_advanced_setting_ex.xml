@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vt_call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="true" android:entries="@array/vt_replace_local_video_entries" android:title="@string/vt_local_video_rep" android:key="button_vt_replace_expand_key" android:summary="@string/vt_pic_replace_local_description" android:defaultValue="0" android:dialogTitle="@string/vt_local_video_rep" android:entryValues="@array/vt_replace_local_video_values" />
+    <PreferenceScreen android:persistent="true" android:title="@string/vt_dis_peer_rep" android:key="button_vt_enable_peer_replace_key" android:summary="@string/vt_dis_peer_rep_des" android:defaultValue="true" />
+    <PreferenceScreen android:persistent="true" android:entries="@array/vt_replace_local_video_entries2" android:title="@string/vt_peer_video_rep" android:key="button_vt_replace_peer_expand_key" android:summary="@string/vt_peer_video_rep_des" android:defaultValue="0" android:dialogTitle="@string/vt_peer_video_rep" android:entryValues="@array/vt_replace_local_video_values2" />
+    <PreferenceScreen android:persistent="true" android:title="@string/vt_enable_back_camera" android:key="button_vt_enable_back_camera_key" android:summary="@string/vt_enable_back_camera_description" android:defaultValue="true" />
+    <PreferenceScreen android:persistent="true" android:title="@string/vt_peer_video_bigger" android:key="button_vt_peer_bigger_key" android:summary="@string/vt_peer_video_bigger_description" android:defaultValue="true" />
+    <PreferenceScreen android:persistent="true" android:title="@string/vt_auto_dropback" android:key="button_vt_auto_dropback_key" android:summary="@string/vt_auto_dropback_des" android:defaultValue="false" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/ring_only_once_title" android:key="ring_only_once" android:summary="@string/ring_only_once_summary" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/vt_local_video_display" android:key="button_vt_local_video_display_key">
+        <PreferenceScreen android:persistent="true" android:title="@string/vt_outgoing_call" android:key="button_vt_mo_local_video_display_key" android:summary="@string/vt_outgoing_call_description" android:defaultValue="true" />
+        <PreferenceScreen android:persistent="true" android:entries="@array/vt_mt_local_video_display_entries" android:title="@string/vt_incoming_call" android:key="button_vt_mt_local_video_display_key" android:summary="@string/vt_incoming_call_description" android:defaultValue="0" android:dialogTitle="@string/vt_incoming_call" android:entryValues="@array/vt_mt_local_video_display_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/others" android:key="button_vt_ss_key">
+        <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_cf_expand_key" android:summary="@string/vt_cf_call_description">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsCallForwardOptions" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/lable_call_barring" android:key="button_cb_expand_key" android:summary="@string/vt_cb_call_description">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.CallBarring" />
+        </PreferenceScreen>
+        <PreferenceScreen android:persistent="false" android:title="@string/additional_gsm_call_settings" android:key="button_more_expand_key" android:summary="@string/call_additional_sum">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

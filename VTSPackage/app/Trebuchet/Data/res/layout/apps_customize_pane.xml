@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyanogenmod.trebuchet.AppsCustomizeTabHost android:background="#ff000000"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.cyanogenmod.trebuchet">
+    <LinearLayout android:orientation="vertical" android:id="@id/apps_customize_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/tabs_container" android:layout_width="wrap_content" android:layout_height="@dimen/apps_customize_tab_bar_height" android:layout_marginTop="@dimen/apps_customize_tab_bar_margin_top">
+            <com.cyanogenmod.trebuchet.FocusOnlyTabWidget android:layout_gravity="left" android:id="@*android:id/tabs" android:background="@drawable/tab_unselected_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:tabStripEnabled="false" />
+            <RelativeLayout android:layout_gravity="right" android:orientation="horizontal" android:background="@drawable/tab_unselected_holo" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <include android:id="@id/overflow_menu_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" layout="@layout/overflow_menu_button" />
+                <include android:id="@id/market_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/overflow_menu_button" android:layout_alignWithParentIfMissing="true" layout="@layout/market_button" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@*android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.cyanogenmod.trebuchet.AppsCustomizePagedView android:id="@id/apps_customize_pane_content" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:maxGap="@dimen/workspace_max_gap" launcher:pageLayoutWidthGap="@dimen/apps_customize_pageLayoutWidthGap" launcher:pageLayoutHeightGap="@dimen/apps_customize_pageLayoutHeightGap" launcher:pageLayoutPaddingTop="@dimen/apps_customize_pageLayoutPaddingTop" launcher:pageLayoutPaddingBottom="@dimen/apps_customize_pageLayoutPaddingBottom" launcher:pageLayoutPaddingLeft="@dimen/apps_customize_pageLayoutPaddingLeft" launcher:pageLayoutPaddingRight="@dimen/apps_customize_pageLayoutPaddingRight" launcher:maxAppCellCountX="@integer/apps_customize_maxCellCountX" launcher:maxAppCellCountY="@integer/apps_customize_maxCellCountY" launcher:widgetCellWidthGap="@dimen/apps_customize_widget_cell_width_gap" launcher:widgetCellHeightGap="@dimen/apps_customize_widget_cell_height_gap" launcher:widgetCountX="@integer/apps_customize_widget_cell_count_x" launcher:widgetCountY="@integer/apps_customize_widget_cell_count_y" launcher:clingFocusedX="@integer/apps_customize_cling_focused_x" launcher:clingFocusedY="@integer/apps_customize_cling_focused_y" />
+            <FrameLayout android:id="@id/animation_buffer" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:layout_gravity="left" android:id="@id/paged_view_indicator_left" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/scroll_indicator" />
+            <include android:layout_gravity="top" android:id="@id/paged_view_indicator_top" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/scroll_indicator" />
+            <include android:layout_gravity="right" android:id="@id/paged_view_indicator_right" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/scroll_indicator" />
+            <include android:layout_gravity="bottom" android:id="@id/paged_view_indicator_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/scroll_indicator" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/all_apps_cling" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/all_apps_cling" />
+    <include android:id="@id/all_apps_sort_cling" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/all_apps_sort_cling" />
+</com.cyanogenmod.trebuchet.AppsCustomizeTabHost>

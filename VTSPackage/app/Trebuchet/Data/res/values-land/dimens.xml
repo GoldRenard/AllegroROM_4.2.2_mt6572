@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_divider_padding_left">0.0dip</dimen>
+    <dimen name="workspace_divider_padding_right">0.0dip</dimen>
+    <dimen name="workspace_divider_padding_top">12.0dip</dimen>
+    <dimen name="workspace_divider_padding_bottom">12.0dip</dimen>
+    <dimen name="hotseat_cell_width">64.0dip</dimen>
+    <dimen name="hotseat_cell_height">58.0dip</dimen>
+    <dimen name="app_icon_padding_top">6.0dip</dimen>
+    <dimen name="toolbar_button_vertical_padding">8.0dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">0.0dip</dimen>
+    <dimen name="apps_customize_tab_bar_height">42.0dip</dimen>
+    <dimen name="apps_customize_cell_width">80.0dip</dimen>
+    <dimen name="apps_customize_cell_height">76.0dip</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">30.0dip</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">5.0dip</dimen>
+    <dimen name="button_bar_height">68.0dip</dimen>
+    <dimen name="button_bar_height_top_padding">8.0dip</dimen>
+    <dimen name="button_bar_height_bottom_padding">0.0dip</dimen>
+    <dimen name="button_bar_width_left_padding">0.0dip</dimen>
+    <dimen name="button_bar_width_right_padding">0.0dip</dimen>
+    <dimen name="button_bar_height_plus_padding">76.0dip</dimen>
+    <dimen name="folder_preview_size">58.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">5.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">5.0dip</dimen>
+    <dimen name="workspace_page_spacing">-1.0dip</dimen>
+    <item type="dimen" name="cell_layout_left_padding">@dimen/cell_layout_left_padding_land</item>
+    <item type="dimen" name="cell_layout_right_padding">@dimen/cell_layout_right_padding_land</item>
+    <item type="dimen" name="cell_layout_top_padding">@dimen/cell_layout_top_padding_land</item>
+    <item type="dimen" name="cell_layout_bottom_padding">@dimen/cell_layout_bottom_padding_land</item>
+    <item type="dimen" name="workspace_left_padding">@dimen/workspace_left_padding_land</item>
+    <item type="dimen" name="workspace_right_padding">@dimen/workspace_right_padding_land</item>
+    <item type="dimen" name="workspace_top_padding">@dimen/workspace_top_padding_land</item>
+    <item type="dimen" name="workspace_bottom_padding">@dimen/workspace_bottom_padding_land</item>
+    <item type="dimen" name="workspace_left_padding_qsb_hidden">@dimen/workspace_left_padding_land_qsb_hidden</item>
+    <item type="dimen" name="workspace_right_padding_hotseat_hidden">@dimen/workspace_right_padding_land_hotseat_hidden</item>
+    <item type="dimen" name="workspace_top_padding_qsb_hidden">@dimen/workspace_top_padding_land_qsb_hidden</item>
+    <item type="dimen" name="workspace_bottom_padding_hotseat_hidden">@dimen/workspace_bottom_padding_land_hotseat_hidden</item>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">5.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">5.0dip</dimen>
+    <item type="dimen" name="workspace_cell_width">@dimen/workspace_cell_width_land</item>
+    <item type="dimen" name="workspace_cell_height">@dimen/workspace_cell_height_land</item>
+    <item type="dimen" name="workspace_width_gap">@dimen/workspace_width_gap_land</item>
+    <item type="dimen" name="workspace_height_gap">@dimen/workspace_height_gap_land</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/cb_menu_language" android:key="button_language" />
+    <PreferenceScreen android:title="@string/cb_menu_add_channel" android:key="button_add_channel" />
+    <PreferenceCategory android:title="@string/cb_menu_channel_list" android:key="menu_channel_list" />
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qsb_bar_height_inset">37.0dip</dimen>
+    <dimen name="qsb_bar_height">43.0dip</dimen>
+    <dimen name="qsb_padding_left">3.0dip</dimen>
+    <dimen name="qsb_padding_right">3.0dip</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">20.0dip</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">10.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">5.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">5.0dip</dimen>
+    <dimen name="workspace_page_spacing">-1.0dip</dimen>
+    <item type="dimen" name="cell_layout_left_padding">@dimen/cell_layout_left_padding_port</item>
+    <item type="dimen" name="cell_layout_right_padding">@dimen/cell_layout_right_padding_port</item>
+    <item type="dimen" name="cell_layout_top_padding">@dimen/cell_layout_top_padding_port</item>
+    <item type="dimen" name="cell_layout_bottom_padding">@dimen/cell_layout_bottom_padding_port</item>
+    <item type="dimen" name="workspace_left_padding">@dimen/workspace_left_padding_port</item>
+    <item type="dimen" name="workspace_right_padding">@dimen/workspace_right_padding_port</item>
+    <item type="dimen" name="workspace_top_padding">@dimen/workspace_top_padding_port</item>
+    <item type="dimen" name="workspace_bottom_padding">@dimen/workspace_bottom_padding_port</item>
+    <item type="dimen" name="workspace_left_padding_qsb_hidden">@dimen/workspace_left_padding_port_qsb_hidden</item>
+    <item type="dimen" name="workspace_right_padding_hotseat_hidden">@dimen/workspace_right_padding_port_hotseat_hidden</item>
+    <item type="dimen" name="workspace_top_padding_qsb_hidden">@dimen/workspace_top_padding_port_qsb_hidden</item>
+    <item type="dimen" name="workspace_bottom_padding_hotseat_hidden">@dimen/workspace_bottom_padding_port_hotseat_hidden</item>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">10.0dip</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10.0dip</dimen>
+    <item type="dimen" name="workspace_cell_width">@dimen/workspace_cell_width_port</item>
+    <item type="dimen" name="workspace_cell_height">@dimen/workspace_cell_height_port</item>
+    <item type="dimen" name="workspace_width_gap">@dimen/workspace_width_gap_port</item>
+    <item type="dimen" name="workspace_height_gap">@dimen/workspace_height_gap_port</item>
+</resources>

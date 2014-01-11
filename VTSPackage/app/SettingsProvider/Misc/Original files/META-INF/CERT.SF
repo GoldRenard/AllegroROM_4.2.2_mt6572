@@ -1,0 +1,22 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: GcA/Z+HmY7mZPFQ5YtDeWDpsCpM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: jEE7kR9ngKRFRAteXwSw8gLLJnA=
+
+Name: res/drawable-hdpi/ic_launcher_settings.png
+SHA1-Digest: /wGQPpviw9cvhd0w6Sdf1SuQ0cI=
+
+Name: res/drawable-mdpi/ic_launcher_settings.png
+SHA1-Digest: MHyG5psPk+11hf07MOHxCSpXz6k=
+
+Name: res/xml/bookmarks.xml
+SHA1-Digest: vcqX2yrk6lpSodnRTsCyiFVgyfQ=
+
+Name: resources.arsc
+SHA1-Digest: 8x08oAS2CpJtosjY9SR4gVwnAsk=
+
+Name: classes.dex
+SHA1-Digest: uLyz6zXzhCWIgcn8QL8RV5vGGsw=
+

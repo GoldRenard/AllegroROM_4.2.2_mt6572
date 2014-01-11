@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>Pengesan Auto</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Unicode (UTF-16)</item>
+        <item>Chinese (GB2312)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_default_font_family_choices">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monoruang</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <item>Halaman semasa</item>
+        <item>Halaman kosong</item>
+        <item>Halaman lalai</item>
+        <item>Tapak yang paling kerap dilawati</item>
+        <item>Navigasi Tapak</item>
+        <item>Lain-lain</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Jangan sekali-kali</item>
+        <item>Hanya di Wi-Fi</item>
+        <item>Sentiasa</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sentiasa hidup</item>
+        <item>Atas permintaan</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Halaman semasa</item>
+        <item>Halaman kosong</item>
+        <item>Halaman lalai</item>
+        <item>Tapak yang paling kerap dilawati</item>
+        <item>Lain-lain</item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Sangat kecil</item>
+        <item>Kecil</item>
+        <item>Biasa</item>
+        <item>Besar</item>
+        <item>Sangat Besar</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Jauh</item>
+        <item>Sederhana</item>
+        <item>Dekat</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Auto detector</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unikod (UTF-8)</item>
+        <item>Cina (GBK)</item>
+        <item>Cina (Big5)</item>
+        <item>Jepun (ISO-2022-JP)</item>
+        <item>Jepun (Shift_JIS)</item>
+        <item>Jepun (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>Jangan sekali-kali</item>
+        <item>Hanya di Wi-Fi</item>
+        <item>Sentiasa</item>
+    </string-array>
+</resources>

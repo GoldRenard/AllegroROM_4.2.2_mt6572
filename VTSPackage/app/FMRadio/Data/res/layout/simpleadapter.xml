@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lv_station_type" android:layout_width="60.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/lv_station_freq" android:layout_width="60.0dip" android:layout_height="42.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/lv_station_name" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>
