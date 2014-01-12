@@ -141,5 +141,9 @@ ro.config.ringtone=Themos.ogg
 ro.config.time.mode=24
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
-allegro.version=v0.2 (03.12.2013)
 
+ro.lge.proximity.delay=25
+mot.proximity.delay=25
+
+# PLEASE DO NOT CHANGE THIS VALUE EVEN OF YOU PORT THIS ROM INTO ANOTHER DEVICE!!!
+allegro.version=v0.2 (03.12.2013)
