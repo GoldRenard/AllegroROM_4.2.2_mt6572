@@ -1,0 +1,28 @@
+A516_S118_Stock/OSPackage/preload/:
+итого 1080
+drwxr-xr-x 2 root root    4096 дек.  13 14:35 app
+-rw-r--r-- 1 root root 1085140 дек.  13 14:35 busybox
+-rw-r--r-- 1 root root      16 дек.  13 14:35 easyimage_cc
+-rw-r--r-- 1 root root     318 дек.  13 14:35 easyimage_copy_files.sh
+-rw-r--r-- 1 root root     316 дек.  13 14:35 easyimage_del_files.sh
+drwx------ 2 root root    4096 янв.   1  1970 lost+found
+
+A516_S118_Stock/OSPackage/preload/app:
+итого 142184
+-rw-r--r-- 1 root root 17262402 дек.  13 14:35 cn.wps.moffice_i18n.apk
+-rw-r--r-- 1 root root 10490202 дек.  13 14:35 com.accuweather.android.apk
+-rw-r--r-- 1 root root 14503372 дек.  13 14:35 com.evernote.apk
+-rw-r--r-- 1 root root 14721598 дек.  13 14:35 com.facebook.katana.apk
+-rw-r--r-- 1 root root  5635872 дек.  13 14:35 com.facebook.orca.apk
+-rw-r--r-- 1 root root   655326 дек.  13 14:35 com.gameloft.android.GAND.GloftGLIA.apk
+-rw-r--r-- 1 root root  4093823 дек.  13 14:35 com.gameloft.android.GloftCITY.apk
+-rw-r--r-- 1 root root  6235667 дек.  13 14:35 com.gameloft.android.GloftKLMF.apk
+-rw-r--r-- 1 root root  8998644 дек.  13 14:35 com.gameloft.android.GloftMC4M.apk
+-rw-r--r-- 1 root root 10785136 дек.  13 14:35 com.google.android.inputmethod.pinyin.apk
+-rw-r--r-- 1 root root 16509692 дек.  13 14:35 com.route66.maps5.apk
+-rw-r--r-- 1 root root 15453186 дек.  13 14:35 com.skype.raider.apk
+-rw-r--r-- 1 root root  7824665 дек.  13 14:35 com.twitter.android.apk
+-rw-r--r-- 1 root root 12399906 дек.  13 14:35 com.UCMobile.intl.apk
+
+A516_S118_Stock/OSPackage/preload/lost+found:
+итого 0

@@ -1,0 +1,10 @@
+/boot		emmc		/dev/bootimg
+/cache		ext4		/dev/block/mmcblk0p6
+/data		ext4		/dev/block/mmcblk0p7
+/misc		emmc		/dev/misc
+/recovery	emmc		/dev/recovery
+/system		ext4		/dev/block/mmcblk0p5
+/preload	ext4		/dev/block/mmcblk0p4		flags=display="Preloaded apps";backup=1
+/sdcard		vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1
+/nvram		emmc		/dev/nvram		flags=display="Nvram";backup=1
+/uboot		emmc		/dev/uboot		flags=display="Uboot";backup=1

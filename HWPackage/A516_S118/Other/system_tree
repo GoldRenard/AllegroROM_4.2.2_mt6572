@@ -1,0 +1,1739 @@
+A516_S118_Stock/OSPackage/system/:
+итого 88
+drwxr-xr-x  2 root root 12288 дек.  13 14:41 app
+drwxr-xr-x  2 root 2000  4096 дек.  13 14:36 bin
+-rw-r--r--  1 root root  4029 дек.  13 14:13 build.prop
+drwxr-xr-x  3 root root  4096 дек.  13 14:23 data
+drwxr-xr-x 17 root root  4096 дек.  13 14:41 etc
+drwxr-xr-x  2 root root  4096 дек.  13 14:32 fonts
+drwxr-xr-x  2 root root  4096 дек.  13 14:41 framework
+drwxr-xr-x  8 root root 20480 дек.  13 14:36 lib
+drwx------  2 root root  4096 янв.   1  1970 lost+found
+drwxr-xr-x  5 root root  4096 дек.  13 14:27 media
+drwxr-xr-x  2 root root  4096 дек.  13 14:27 mobile_toolkit
+drwxr-xr-x  4 root root  4096 дек.  13 14:12 res
+drwxr-xr-x  3 root root  4096 дек.  13 14:23 tts
+drwxr-xr-x  9 root root  4096 дек.  13 14:27 usr
+drwxr-xr-x  4 root 2000  4096 дек.  13 14:23 vendor
+drwxr-xr-x  2 root 2000  4096 дек.  13 14:35 xbin
+
+A516_S118_Stock/OSPackage/system/app:
+итого 361584
+-rw-r--r-- 1 root root  1689662 дек.  13 14:41 AnyShare.apk
+-rw-r--r-- 1 root root  1415656 дек.  13 14:41 AnyShare.odex
+-rw-r--r-- 1 root root  1679926 дек.  13 14:41 ApplicationGuide.apk
+-rw-r--r-- 1 root root    17144 дек.  13 14:41 ApplicationGuide.odex
+-rw-r--r-- 1 root root    16920 дек.  13 14:41 ApplicationsProvider.apk
+-rw-r--r-- 1 root root    28512 дек.  13 14:41 ApplicationsProvider.odex
+-rw-r--r-- 1 root root    36089 дек.  13 14:41 BackupRestoreConfirmation.apk
+-rw-r--r-- 1 root root    12512 дек.  13 14:41 BackupRestoreConfirmation.odex
+-rw-r--r-- 1 root root    19542 дек.  13 14:41 BasicDreams.apk
+-rw-r--r-- 1 root root    20720 дек.  13 14:41 BasicDreams.odex
+-rw-r--r-- 1 root root  5180350 дек.  13 14:23 Books.apk
+-rw-r--r-- 1 root root    25927 дек.  13 14:41 CalendarImporter.apk
+-rw-r--r-- 1 root root   327008 дек.  13 14:41 CalendarImporter.odex
+-rw-r--r-- 1 root root  8615044 дек.  13 14:41 CameraGalleryLite.apk
+-rw-r--r-- 1 root root  3814768 дек.  13 14:41 CameraGalleryLite.odex
+-rw-r--r-- 1 root root    45271 дек.  13 14:41 CDS_INFO.apk
+-rw-r--r-- 1 root root   134704 дек.  13 14:41 CDS_INFO.odex
+-rw-r--r-- 1 root root    34505 дек.  13 14:41 CellConnService.apk
+-rw-r--r-- 1 root root    63240 дек.  13 14:41 CellConnService.odex
+-rw-r--r-- 1 root root    34955 дек.  13 14:41 CertInstaller.apk
+-rw-r--r-- 1 root root    46520 дек.  13 14:41 CertInstaller.odex
+-rw-r--r-- 1 root root    39182 дек.  13 14:41 ChromeBookmarksSyncAdapter.apk
+-rw-r--r-- 1 root root   519384 дек.  13 14:41 ChromeBookmarksSyncAdapter.odex
+-rw-r--r-- 1 root root  9504796 дек.  13 14:41 ChromeWithBrowser.apk
+-rw-r--r-- 1 root root    18277 дек.  13 14:41 ClearBuildInSDCard.apk
+-rw-r--r-- 1 root root    15816 дек.  13 14:41 ClearBuildInSDCard.odex
+-rw-r--r-- 1 root root     3334 дек.  13 14:41 ConfigUpdater.apk
+-rw-r--r-- 1 root root  2486976 дек.  13 14:41 ConfigUpdater.odex
+-rw-r--r-- 1 root root     5156 дек.  13 14:41 DefaultContainerService.apk
+-rw-r--r-- 1 root root    22232 дек.  13 14:41 DefaultContainerService.odex
+-rw-r--r-- 1 root root    61295 дек.  13 14:41 DownloadProvider.apk
+-rw-r--r-- 1 root root  1850000 дек.  13 14:41 DownloadProvider.odex
+-rw-r--r-- 1 root root   105353 дек.  13 14:41 DownloadProviderUi.apk
+-rw-r--r-- 1 root root    88232 дек.  13 14:41 DownloadProviderUi.odex
+-rw-r--r-- 1 root root    10243 дек.  13 14:41 DrmProvider.apk
+-rw-r--r-- 1 root root    43432 дек.  13 14:41 DrmProvider.odex
+-rw-r--r-- 1 root root   395266 дек.  13 14:41 EngineerMode.apk
+-rw-r--r-- 1 root root  1473920 дек.  13 14:41 EngineerMode.odex
+-rw-r--r-- 1 root root    45694 дек.  13 14:41 EngineerModeSim.apk
+-rw-r--r-- 1 root root    99816 дек.  13 14:41 EngineerModeSim.odex
+-rw-r--r-- 1 root root   953454 дек.  13 14:41 FaceLock.apk
+-rw-r--r-- 1 root root    74312 дек.  13 14:41 FaceLock.odex
+-rw-r--r-- 1 root root  1626850 дек.  13 14:41 FileBrowser.apk
+-rw-r--r-- 1 root root  3072832 дек.  13 14:41 FileBrowser.odex
+-rw-r--r-- 1 root root     3658 дек.  13 14:41 FusedLocation.apk
+-rw-r--r-- 1 root root    12848 дек.  13 14:41 FusedLocation.odex
+-rw-r--r-- 1 root root   257683 дек.  13 14:41 Galaxy4.apk
+-rw-r--r-- 1 root root    42056 дек.  13 14:41 Galaxy4.odex
+-rw-r--r-- 1 root root  1480046 дек.  13 14:41 GenieWidget.apk
+-rw-r--r-- 1 root root   517240 дек.  13 14:41 GenieWidget.odex
+-rw-r--r-- 1 root root  3179690 дек.  13 14:41 Gmail2.apk
+-rw-r--r-- 1 root root  2646632 дек.  13 14:41 Gmail2.odex
+-rw-r--r-- 1 root root  9846820 дек.  13 14:32 GmsCore.apk
+-rw-r--r-- 1 root root  6656811 дек.  13 14:32 GMS_Maps.apk
+-rw-r--r-- 1 root root    21760 дек.  13 14:41 GoogleBackupTransport.apk
+-rw-r--r-- 1 root root   270408 дек.  13 14:41 GoogleBackupTransport.odex
+-rw-r--r-- 1 root root    45735 дек.  13 14:41 GoogleCalendarSyncAdapter.apk
+-rw-r--r-- 1 root root   517416 дек.  13 14:41 GoogleCalendarSyncAdapter.odex
+-rw-r--r-- 1 root root    36869 дек.  13 14:41 GoogleContactsSyncAdapter.apk
+-rw-r--r-- 1 root root   461088 дек.  13 14:41 GoogleContactsSyncAdapter.odex
+-rw-r--r-- 1 root root   180026 дек.  13 14:41 GoogleFeedback.apk
+-rw-r--r-- 1 root root   283744 дек.  13 14:41 GoogleFeedback.odex
+-rw-r--r-- 1 root root  4510064 дек.  13 14:41 GoogleLoginService.apk
+-rw-r--r-- 1 root root   556160 дек.  13 14:41 GoogleLoginService.odex
+-rw-r--r-- 1 root root    26415 дек.  13 14:41 GooglePartnerSetup.apk
+-rw-r--r-- 1 root root   288008 дек.  13 14:41 GooglePartnerSetup.odex
+-rw-r--r-- 1 root root  1051712 дек.  13 14:41 GoogleServicesFramework.apk
+-rw-r--r-- 1 root root  1463664 дек.  13 14:41 GoogleServicesFramework.odex
+-rw-r--r-- 1 root root  5010530 дек.  13 14:41 GoogleTTS.apk
+-rw-r--r-- 1 root root  1826480 дек.  13 14:41 GoogleTTS.odex
+-rw-r--r-- 1 root root  8370864 дек.  13 14:32 Hangouts.apk
+-rw-r--r-- 1 root root    44426 дек.  13 14:41 HoloSpiralWallpaper.apk
+-rw-r--r-- 1 root root    41728 дек.  13 14:41 HoloSpiralWallpaper.odex
+-rw-r--r-- 1 root root     5033 дек.  13 14:41 HTMLViewer.apk
+-rw-r--r-- 1 root root     8288 дек.  13 14:41 HTMLViewer.odex
+-rw-r--r-- 1 root root 10508071 дек.  13 14:41 ideaFriend.apk
+-rw-r--r-- 1 root root  7757808 дек.  13 14:41 ideaFriend.odex
+-rw-r--r-- 1 root root  9335845 дек.  13 14:41 IdeaWallpaper.apk
+-rw-r--r-- 1 root root    23560 дек.  13 14:41 IdeaWallpaper.odex
+-rw-r--r-- 1 root root    16527 дек.  13 14:41 KeyChain.apk
+-rw-r--r-- 1 root root    32400 дек.  13 14:41 KeyChain.odex
+-rw-r--r-- 1 root root 15484462 дек.  13 14:41 LatinImeGoogle.apk
+-rw-r--r-- 1 root root   853120 дек.  13 14:41 LatinImeGoogle.odex
+-rw-r--r-- 1 root root   776371 дек.  13 14:41 LenovoBackupRestore.apk
+-rw-r--r-- 1 root root  1474568 дек.  13 14:41 LenovoBackupRestore.odex
+-rw-r--r-- 1 root root    43931 дек.  13 14:41 LenovoBatteryWarning.apk
+-rw-r--r-- 1 root root    25640 дек.  13 14:41 LenovoBatteryWarning.odex
+-rw-r--r-- 1 root root  3136082 дек.  13 14:41 LenovoBrowser.apk
+-rw-r--r-- 1 root root  3089576 дек.  13 14:41 LenovoBrowser.odex
+-rw-r--r-- 1 root root  3821575 дек.  13 14:41 LenovoCalculator.apk
+-rw-r--r-- 1 root root   137920 дек.  13 14:41 LenovoCalculator.odex
+-rw-r--r-- 1 root root  5258381 дек.  13 14:41 LenovoCalendar.apk
+-rw-r--r-- 1 root root   619856 дек.  13 14:41 LenovoCalendar.odex
+-rw-r--r-- 1 root root    46475 дек.  13 14:41 LenovoCalendarProvider.apk
+-rw-r--r-- 1 root root   398760 дек.  13 14:41 LenovoCalendarProvider.odex
+-rw-r--r-- 1 root root  1194824 дек.  13 14:41 LenovoClock.apk
+-rw-r--r-- 1 root root   934168 дек.  13 14:41 LenovoClock.odex
+-rw-r--r-- 1 root root    64981 дек.  13 14:41 LenovoContactsProvider.apk
+-rw-r--r-- 1 root root  2769168 дек.  13 14:41 LenovoContactsProvider.odex
+-rw-r--r-- 1 root root    12163 дек.  13 14:41 LenovoEasyImageApp.apk
+-rw-r--r-- 1 root root    19608 дек.  13 14:41 LenovoEasyImageApp.odex
+-rw-r--r-- 1 root root  3155971 дек.  13 14:41 LenovoEmail.apk
+-rw-r--r-- 1 root root  3920600 дек.  13 14:41 LenovoEmail.odex
+-rw-r--r-- 1 root root   259386 дек.  13 14:41 Lenovo-Emerging.apk
+-rw-r--r-- 1 root root    40600 дек.  13 14:41 Lenovo-Emerging.odex
+-rw-r--r-- 1 root root   153243 дек.  13 14:41 LenovoExchange.apk
+-rw-r--r-- 1 root root  2912912 дек.  13 14:41 LenovoExchange.odex
+-rw-r--r-- 1 root root   148442 дек.  13 14:41 LenovoFacebook.apk
+-rw-r--r-- 1 root root   772248 дек.  13 14:41 LenovoFacebook.odex
+-rw-r--r-- 1 root root   580602 дек.  13 14:41 LenovoFactoryMode.apk
+-rw-r--r-- 1 root root   231744 дек.  13 14:41 LenovoFactoryMode.odex
+-rw-r--r-- 1 root root  1382736 дек.  13 14:41 LenovoFMRadio.apk
+-rw-r--r-- 1 root root   283072 дек.  13 14:41 LenovoFMRadio.odex
+-rw-r--r-- 1 root root 11009062 дек.  13 14:41 LenovoLauncher.apk
+-rw-r--r-- 1 root root  3646784 дек.  13 14:41 LenovoLauncher.odex
+-rw-r--r-- 1 root root    27292 дек.  13 14:41 LenovoLog.apk
+-rw-r--r-- 1 root root    30272 дек.  13 14:41 LenovoLog.odex
+-rw-r--r-- 1 root root   239194 дек.  13 14:41 LenovoOTA.apk
+-rw-r--r-- 1 root root   204680 дек.  13 14:41 LenovoOTA.odex
+-rw-r--r-- 1 root root  1802509 дек.  13 14:41 LenovoPower.apk
+-rw-r--r-- 1 root root  1184208 дек.  13 14:41 LenovoPower.odex
+-rw-r--r-- 1 root root    22064 дек.  13 14:41 LenovoSecretCode.apk
+-rw-r--r-- 1 root root    22936 дек.  13 14:41 LenovoSecretCode.odex
+-rw-r--r-- 1 root root    38486 дек.  13 14:41 LenovoSmartWifi.apk
+-rw-r--r-- 1 root root    67568 дек.  13 14:41 LenovoSmartWifi.odex
+-rw-r--r-- 1 root root   814425 дек.  13 14:41 LenovoSoundRecorder.apk
+-rw-r--r-- 1 root root   125440 дек.  13 14:41 LenovoSoundRecorder.odex
+-rw-r--r-- 1 root root  1729372 дек.  13 14:41 LenovoSystemUI.apk
+-rw-r--r-- 1 root root  1102640 дек.  13 14:41 LenovoSystemUI.odex
+-rw-r--r-- 1 root root   454514 дек.  13 14:41 LenovoTether.apk
+-rw-r--r-- 1 root root    82096 дек.  13 14:41 LenovoTether.odex
+-rw-r--r-- 1 root root   477127 дек.  13 14:41 LenovoVideoPlayer.apk
+-rw-r--r-- 1 root root   324496 дек.  13 14:41 LenovoVideoPlayer.odex
+-rw-r--r-- 1 root root  1645943 дек.  13 14:41 LiveWallpapers.apk
+-rw-r--r-- 1 root root   266352 дек.  13 14:41 LiveWallpapers.odex
+-rw-r--r-- 1 root root   141825 дек.  13 14:41 LiveWallpapersPicker.apk
+-rw-r--r-- 1 root root    31264 дек.  13 14:41 LiveWallpapersPicker.odex
+-rw-r--r-- 1 root root   113707 дек.  13 14:41 LocationEM.apk
+-rw-r--r-- 1 root root   238944 дек.  13 14:41 LocationEM.odex
+-rw-r--r-- 1 root root    71245 дек.  13 14:41 LSF.apk
+-rw-r--r-- 1 root root   599824 дек.  13 14:41 LSF.odex
+-rw-r--r-- 1 root root  6150820 дек.  13 14:23 Magazines.apk
+-rw-r--r-- 1 root root   204870 дек.  13 14:41 MagicSmokeWallpapers.apk
+-rw-r--r-- 1 root root    52936 дек.  13 14:41 MagicSmokeWallpapers.odex
+-rw-r--r-- 1 root root  6433646 дек.  13 14:41 Magic_Theme_1.apk
+-rw-r--r-- 1 root root    28488 дек.  13 14:41 Magic_Theme_1.odex
+-rw-r--r-- 1 root root 17252179 дек.  13 14:41 MagicTheme_aurora.apk
+-rw-r--r-- 1 root root    34048 дек.  13 14:41 MagicTheme_aurora.odex
+-rw-r--r-- 1 root root  6157921 дек.  13 14:41 MagicTheme_CornerWithLove.apk
+-rw-r--r-- 1 root root    30504 дек.  13 14:41 MagicTheme_CornerWithLove.odex
+-rw-r--r-- 1 root root  7735661 дек.  13 14:41 MagicTheme_tea.apk
+-rw-r--r-- 1 root root    30480 дек.  13 14:41 MagicTheme_tea.odex
+-rw-r--r-- 1 root root 30449045 дек.  13 14:41 MagicTheme_timber.apk
+-rw-r--r-- 1 root root    34168 дек.  13 14:41 MagicTheme_timber.odex
+-rw-r--r-- 1 root root    36701 дек.  13 14:41 MediaProvider.apk
+-rw-r--r-- 1 root root   254104 дек.  13 14:41 MediaProvider.odex
+-rw-r--r-- 1 root root   166130 дек.  13 14:41 MediaUploader.apk
+-rw-r--r-- 1 root root   457472 дек.  13 14:41 MediaUploader.odex
+-rw-r--r-- 1 root root   115658 дек.  13 14:41 MtkBt.apk
+-rw-r--r-- 1 root root   642440 дек.  13 14:41 MtkBt.odex
+-rw-r--r-- 1 root root    72467 дек.  13 14:41 MTKLogger.apk
+-rw-r--r-- 1 root root   301344 дек.  13 14:41 MTKLogger.odex
+-rw-r--r-- 1 root root    16595 дек.  13 14:41 MTKThermalManager.apk
+-rw-r--r-- 1 root root    36664 дек.  13 14:41 MTKThermalManager.odex
+-rw-r--r-- 1 root root  1440461 дек.  13 14:41 MtkVideoLiveWallpaper.apk
+-rw-r--r-- 1 root root   137616 дек.  13 14:41 MtkVideoLiveWallpaper.odex
+-rw-r--r-- 1 root root  6373694 дек.  13 14:41 Music2.apk
+-rw-r--r-- 1 root root  3890088 дек.  13 14:41 Music2.odex
+-rw-r--r-- 1 root root    87465 дек.  13 14:41 MusicFX.apk
+-rw-r--r-- 1 root root   110848 дек.  13 14:41 MusicFX.odex
+-rw-r--r-- 1 root root    79546 дек.  13 14:41 NetworkLocation.apk
+-rw-r--r-- 1 root root   706664 дек.  13 14:41 NetworkLocation.odex
+-rw-r--r-- 1 root root    65722 дек.  13 14:41 NoiseField.apk
+-rw-r--r-- 1 root root    47480 дек.  13 14:41 NoiseField.odex
+-rw-r--r-- 1 root root  9678725 дек.  13 14:41 NoviceTutorial.apk
+-rw-r--r-- 1 root root    39224 дек.  13 14:41 NoviceTutorial.odex
+-rw-r--r-- 1 root root    61833 дек.  13 14:41 Omacp.apk
+-rw-r--r-- 1 root root   187936 дек.  13 14:41 Omacp.odex
+-rw-r--r-- 1 root root     3514 дек.  13 14:41 OneTimeInitializer.apk
+-rw-r--r-- 1 root root     8696 дек.  13 14:41 OneTimeInitializer.odex
+-rw-r--r-- 1 root root    90188 дек.  13 14:41 PackageInstaller.apk
+-rw-r--r-- 1 root root   460144 дек.  13 14:41 PackageInstaller.odex
+-rw-r--r-- 1 root root     3449 дек.  13 14:41 PartnerBookmarksProvider.apk
+-rw-r--r-- 1 root root   154560 дек.  13 14:41 PartnerBookmarksProvider.odex
+-rw-r--r-- 1 root root    61880 дек.  13 14:41 PhaseBeam.apk
+-rw-r--r-- 1 root root    44096 дек.  13 14:41 PhaseBeam.odex
+-rw-r--r-- 1 root root  1852447 дек.  13 14:41 Phone.apk
+-rw-r--r-- 1 root root  1989408 дек.  13 14:41 Phone.odex
+-rw-r--r-- 1 root root  6040792 дек.  13 14:23 Phonesky.apk
+-rw-r--r-- 1 root root   400144 дек.  13 14:41 PhotoTable.apk
+-rw-r--r-- 1 root root    84344 дек.  13 14:41 PhotoTable.odex
+-rw-r--r-- 1 root root  1672598 дек.  13 14:41 PlayGames.apk
+-rw-r--r-- 1 root root  1043192 дек.  13 14:41 PlayGames.odex
+-rw-r--r-- 1 root root 18451096 дек.  13 14:32 PlusOne.apk
+-rw-r--r-- 1 root root     2833 дек.  13 14:41 Provision.apk
+-rw-r--r-- 1 root root     4632 дек.  13 14:41 Provision.odex
+-rw-r--r-- 1 root root    76532 дек.  13 14:41 SchedulePowerOnOff.apk
+-rw-r--r-- 1 root root    66992 дек.  13 14:41 SchedulePowerOnOff.odex
+-rw-r--r-- 1 root root  3720128 дек.  13 14:41 Settings.apk
+-rw-r--r-- 1 root root  4374520 дек.  13 14:41 Settings.odex
+-rw-r--r-- 1 root root    20171 дек.  13 14:41 SettingsProvider.apk
+-rw-r--r-- 1 root root   102408 дек.  13 14:41 SettingsProvider.odex
+-rw-r--r-- 1 root root     2650 дек.  13 14:41 SharedStorageBackup.apk
+-rw-r--r-- 1 root root     4792 дек.  13 14:41 SharedStorageBackup.odex
+-rw-r--r-- 1 root root    17656 дек.  13 14:41 SML.apk
+-rw-r--r-- 1 root root    26768 дек.  13 14:41 SML.odex
+-rw-r--r-- 1 root root     8829 дек.  13 14:41 SmsReg.apk
+-rw-r--r-- 1 root root    38376 дек.  13 14:41 SmsReg.odex
+-rw-r--r-- 1 root root    82901 дек.  13 14:41 Stk1.apk
+-rw-r--r-- 1 root root   164832 дек.  13 14:41 Stk1.odex
+-rw-r--r-- 1 root root    15892 дек.  13 14:41 StkSelection.apk
+-rw-r--r-- 1 root root   145880 дек.  13 14:41 StkSelection.odex
+-rw-r--r-- 1 root root   264451 дек.  13 14:23 Street.apk
+-rw-r--r-- 1 root root   108296 дек.  13 14:41 SystemUpdate.apk
+-rw-r--r-- 1 root root     9513 дек.  13 14:41 SystemUpdateAssistant.apk
+-rw-r--r-- 1 root root     8168 дек.  13 14:41 SystemUpdateAssistant.odex
+-rw-r--r-- 1 root root   193392 дек.  13 14:41 SystemUpdate.odex
+-rw-r--r-- 1 root root   135972 дек.  13 14:41 TagGoogle.apk
+-rw-r--r-- 1 root root   307816 дек.  13 14:41 TagGoogle.odex
+-rw-r--r-- 1 root root    12856 дек.  13 14:41 TelephonyProvider.apk
+-rw-r--r-- 1 root root   456984 дек.  13 14:41 TelephonyProvider.odex
+-rw-r--r-- 1 root root     4570 дек.  13 14:41 UserDictionaryProvider.apk
+-rw-r--r-- 1 root root    17120 дек.  13 14:41 UserDictionaryProvider.odex
+-rw-r--r-- 1 root root  7872475 дек.  13 14:41 Velvet.apk
+-rw-r--r-- 1 root root  5611952 дек.  13 14:41 Velvet.odex
+-rw-r--r-- 1 root root  2946222 дек.  13 14:32 Videos.apk
+-rw-r--r-- 1 root root   148668 дек.  13 14:41 VisualizationWallpapers.apk
+-rw-r--r-- 1 root root    74368 дек.  13 14:41 VisualizationWallpapers.odex
+-rw-r--r-- 1 root root    12395 дек.  13 14:41 VoiceCommand.apk
+-rw-r--r-- 1 root root    67768 дек.  13 14:41 VoiceCommand.odex
+-rw-r--r-- 1 root root     2713 дек.  13 14:41 VoiceSearchStub.apk
+-rw-r--r-- 1 root root     4352 дек.  13 14:41 VoiceSearchStub.odex
+-rw-r--r-- 1 root root   127186 дек.  13 14:41 VoiceUnlock.apk
+-rw-r--r-- 1 root root    71536 дек.  13 14:41 VoiceUnlock.odex
+-rw-r--r-- 1 root root    17427 дек.  13 14:41 VpnDialogs.apk
+-rw-r--r-- 1 root root    11768 дек.  13 14:41 VpnDialogs.odex
+-rw-r--r-- 1 root root    27484 дек.  13 14:41 YGPS.apk
+-rw-r--r-- 1 root root    79600 дек.  13 14:41 YGPS.odex
+-rw-r--r-- 1 root root  6676235 дек.  13 14:23 YouTube.apk
+
+A516_S118_Stock/OSPackage/system/bin:
+итого 9496
+-rwxr-xr-x 1 root 2000    9568 дек.  13 14:35 6620_launcher
+-rwxr-xr-x 1 root 2000    9496 дек.  13 14:34 6620_wmt_concurrency
+-rwxr-xr-x 1 root 2000    9524 дек.  13 14:34 6620_wmt_lpbk
+-rwxr-xr-x 1 root 2000    9412 дек.  13 14:36 abcc
+-rwxr-xr-x 1 root 2000  112864 дек.  13 14:35 adb
+-rwxr-xr-x 1 root 2000   13592 дек.  13 14:23 aee
+-rwxr-xr-x 1 root 2000   83836 дек.  13 14:23 aee_aed
+-rwxr-xr-x 1 root 2000    9632 дек.  13 14:23 aee_core_forwarder
+-rwxr-xr-x 1 root 2000   21860 дек.  13 14:23 aee_dumpstate
+-rwxr-xr-x 1 root 2000   54716 дек.  13 14:35 afm_server
+-rwxr-xr-x 1 root 2000   34256 дек.  13 14:06 akmd8963
+-rwxr-xr-x 1 root 2000   30168 дек.  13 14:06 akmd8975
+-rwxr-xr-x 1 root 2000     191 дек.  13 14:23 am
+-rwxr-xr-x 1 root 2000   30036 дек.  13 14:06 ami304d
+-rwxr-xr-x 1 root 2000   53568 дек.  13 14:35 applypatch
+-rwxr-xr-x 1 root 2000    9528 дек.  13 14:35 app_process
+-rwxr-xr-x 1 root 2000    9528 дек.  13 14:34 atrace
+-rwxr-xr-x 1 root 2000   21816 дек.  13 14:34 badblocks
+-rwxr-xr-x 1 root 2000     199 дек.  13 14:23 bmgr
+-rwxr-xr-x 1 root 2000   59312 дек.  13 14:06 bmm050d
+-rwxr-xr-x 1 root 2000   34164 дек.  13 14:35 bootanimation
+-rwxr-xr-x 1 root 2000    9472 дек.  13 14:35 boot_logo_updater
+-rwxr-xr-x 1 root 2000   13560 дек.  13 14:06 btconfig
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:06 btlogmask
+-rwxr-xr-x 1 root 2000     156 дек.  13 14:23 bu
+-rwxr-xr-x 1 root 2000    1601 дек.  13 14:23 bugmailer.sh
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:35 bugreport
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 cat -> toolbox
+-rwxr-xr-x 1 root 2000   67104 дек.  13 14:06 ccci_fsd
+-rwxr-xr-x 1 root 2000   21832 дек.  13 14:06 ccci_mdinit
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 chmod -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 chown -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 cmp -> toolbox
+-rwxr-xr-x 1 root 2000     207 дек.  13 14:23 content
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 cp -> toolbox
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 custom_sn
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:35 dalvikvm
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 date -> toolbox
+-rwxr-xr-x 1 root 2000  132456 дек.  13 14:35 dbus-daemon
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 dd -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:32 debuggerd -> aee_aed
+-rwxr-xr-x 1 root 2000    9412 дек.  13 14:35 dexopt
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 df -> toolbox
+-rwxr-xr-x 1 root 2000  116312 дек.  13 14:35 dhcp6c
+-rwxr-xr-x 1 root 2000   13560 дек.  13 14:35 dhcp6ctl
+-rwxr-xr-x 1 root 2000  107928 дек.  13 14:35 dhcp6s
+-rwxr-xr-x 1 root 2000   71092 дек.  13 14:35 dhcpcd
+-rwxr-xr-x 1 root 2000   34152 дек.  13 14:35 dm_agent_binder
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 dmesg -> toolbox
+-rwxr-xr-x 1 root 2000  105828 дек.  13 14:35 dnsmasq
+-rwxr-xr-x 1 root 2000   66860 дек.  13 14:35 drmserver
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 du -> toolbox
+-rwxr-xr-x 1 root 2000  103992 дек.  13 14:06 dualmdlogger
+-rwxr-xr-x 1 root 2000   42300 дек.  13 14:35 dumpstate
+-rwxr-xr-x 1 root 2000    9468 дек.  13 14:35 dumpsys
+-rwxr-xr-x 1 root 2000   21944 дек.  13 14:34 ext4_resize
+-rwxr-xr-x 1 root 2000  975624 дек.  13 14:35 factory
+-rwxr-xr-x 1 root 2000   34408 дек.  13 14:35 fsck_msdos
+-rwxr-xr-x 1 root 2000   46756 дек.  13 14:06 fsck_msdos_mtk
+-rwxr-xr-x 1 root 2000   22208 дек.  13 14:06 geomagneticd
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 getevent -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 getprop -> toolbox
+-rwxr-xr-x 1 root 2000   21864 дек.  13 14:35 GoogleOtaBinder
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 grep -> toolbox
+-rwxr-xr-x 1 root 2000   58792 дек.  13 14:35 gsm0710muxd
+-rwxr-xr-x 1 root 2000   58792 дек.  13 14:35 gsm0710muxdmd2
+-rwxr-xr-x 1 root 2000    9464 дек.  13 14:34 gzip
+-rwxr-xr-x 1 root 2000   17660 дек.  13 14:35 hald
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 hd -> toolbox
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 hdc
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 id -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ifconfig -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 iftop -> toolbox
+-rwxr-xr-x 1 root 2000     194 дек.  13 14:23 ime
+-rwxr-xr-x 1 root 2000     201 дек.  13 14:23 input
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 insmod -> toolbox
+-rwxr-xr-x 1 root 2000   30196 дек.  13 14:35 installd
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ioctl -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ionice -> toolbox
+-rwxr-xr-x 1 root 2000  149096 дек.  13 14:34 ip
+-rwxr-xr-x 1 root 2000  187384 дек.  13 14:34 ip6tables
+-rwxr-xr-x 1 root 2000   34304 дек.  13 14:35 ipod
+-rwxr-xr-x 1 root 2000  128576 дек.  13 14:23 ipohctl
+-rwxr-xr-x 1 root 2000  196272 дек.  13 14:34 iptables
+-rwxr-xr-x 1 root 2000   18376 дек.  13 14:35 keystore
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 kill -> toolbox
+-rwxr-xr-x 1 root 2000    9412 дек.  13 14:35 lcdc_screen_cap
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:35 ldu
+-rwxr-xr-x 1 root 2000   67272 дек.  13 14:34 linker
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ln -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 log -> toolbox
+-rwxr-xr-x 1 root 2000   13632 дек.  13 14:34 logcat
+-rwxr-xr-x 1 root 2000    9536 дек.  13 14:34 logwrapper
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ls -> toolbox
+-rwxr-xr-x 1 root 2000   30044 дек.  13 14:06 lsm303md
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 lsmod -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 lsof -> toolbox
+-rwxr-xr-x 1 root 2000    9412 дек.  13 14:35 ltar
+-rwxr-xr-x 1 root 2000   25952 дек.  13 14:06 magd
+-rwxr-xr-x 1 root 2000   10324 дек.  13 14:35 make_ext4fs
+-rwxr-xr-x 1 root 2000    5376 дек.  13 14:35 matv
+-rwxr-xr-x 1 root 2000   30492 дек.  13 14:06 mc6420d
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 md5 -> toolbox
+-rwxr-xr-x 1 root 2000  103992 дек.  13 14:06 mdlogger
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 md_minilog_util
+-rwxr-xr-x 1 root 2000  259464 дек.  13 14:35 mdnsd
+-rwxr-xr-x 1 root 2000    9424 дек.  13 14:36 mediaserver
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 memorydumper
+-rwxr-xr-x 1 root 2000   17904 дек.  13 14:06 memsicd
+-rwxr-xr-x 1 root 2000   22000 дек.  13 14:06 memsicd3416x
+-rwxr-xr-x 1 root 2000   58792 дек.  13 14:06 mfv_ut
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 mkdir -> toolbox
+-rwxr-xr-x 1 root 2000  131360 дек.  13 14:34 mke2fs
+-rwxr-xr-x 1 root 2000  157456 дек.  13 14:35 mksh
+-rwxr-xr-x 1 root 2000   13616 дек.  13 14:35 mobilelog
+-rwxr-xr-x 1 root 2000   50720 дек.  13 14:06 mobile_log_d
+-rwxr-xr-x 1 root 2000     217 дек.  13 14:23 monkey
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 mount -> toolbox
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 msensord
+-rwxr-xr-x 1 root 2000  515600 дек.  13 14:06 mtk_agpsd
+-rwxr-xr-x 1 root 2000 1029140 дек.  13 14:06 mtkbt
+-rwxr-xr-x 1 root 2000   17876 дек.  13 14:35 mtpd
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:06 muxreport
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 mv -> toolbox
+-rwxr-xr-x 1 root 2000    4824 дек.  13 14:23 nac_server
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 nandread -> toolbox
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 ndc
+-rwxr-s--- 1 root 3003    5500 дек.  13 14:35 netcfg
+-rwxr-xr-x 1 root 2000   87788 дек.  13 14:35 netd
+-rwxr-xr-x 1 root 2000  681628 дек.  13 14:06 netdiag
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 netstat -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 newfs_msdos -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 notify -> toolbox
+-rwxr-xr-x 1 root 2000   21804 дек.  13 14:06 nvram_agent_binder
+-rwxr-xr-x 1 root 2000   13800 дек.  13 14:06 nvram_daemon
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 nvram_proximity
+-rwxr-xr-x 1 root 2000   14672 дек.  13 14:06 orientationd
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 permission_check
+-rwxr-sr-x 1 root 3004   26072 дек.  13 14:34 ping
+-rwxr-xr-x 1 root 2000     191 дек.  13 14:23 pm
+-rwxr-xr-x 1 root 2000  141884 дек.  13 14:35 pppd
+-rwxr-xr-x 1 root 2000  141884 дек.  13 14:35 pppd_dt
+-rwxr-xr-x 1 root 2000   13232 дек.  13 14:35 pq
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 printenv -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 ps -> toolbox
+-rwxr-xr-x 1 root 2000  166828 дек.  13 14:35 racoon
+-rwxr-xr-x 1 root 2000   55524 дек.  13 14:35 radvd
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 reboot -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 renice -> toolbox
+-rwxr-xr-x 1 root 2000     188 дек.  13 14:23 requestsync
+-rwxr-xr-x 1 root 2000   67036 дек.  13 14:34 resize2fs
+-rwxr-xr-x 1 root 2000    9536 дек.  13 14:35 rild
+-rwxr-xr-x 1 root 2000    9536 дек.  13 14:35 rildmd2
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 rm -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 rmdir -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 rmmod -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 route -> toolbox
+-rwxr-xr-x 1 root 2000    5400 дек.  13 14:23 rtt
+-rwsr-s--- 1 root 2000    9464 дек.  13 14:34 run-as
+-rwxr-xr-x 1 root 2000   25976 дек.  13 14:06 s62xd
+-rwxr-xr-x 1 root 2000   75108 дек.  13 14:34 sbchk
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:34 schedtest
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 schedtop -> toolbox
+-rwxr-xr-x 1 root 2000    9424 дек.  13 14:35 screencap
+-rwxr-xr-x 1 root 2000   38284 дек.  13 14:35 screenshot
+-rwxr-xr-x 1 root 2000   13620 дек.  13 14:35 sdcard
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:35 sdiotool
+-rwxr-xr-x 1 root 2000     173 дек.  13 14:23 send_bug
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 sendevent -> toolbox
+-rwxr-xr-x 1 root 2000    5368 дек.  13 14:35 sensorservice
+-rwxr-xr-x 1 root 2000   13564 дек.  13 14:35 service
+-rwxr-xr-x 1 root 2000    9620 дек.  13 14:34 servicemanager
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 setconsole -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 setprop -> toolbox
+-rwxr-xr-x 1 root 2000     178 дек.  13 14:23 settings
+lrwxrwxrwx 1 root 2000       4 дек.  13 14:35 sh -> mksh
+-rwxr-xr-x 1 root 2000    9692 дек.  13 14:06 shutdown
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 sleep -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 smd -> toolbox
+-rwxr-xr-x 1 root 2000    5376 дек.  13 14:35 sn
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 start -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 stop -> toolbox
+-rwxr-xr-x 1 root 2000   34100 дек.  13 14:35 superumount
+-rwxr-xr-x 1 root 2000    5388 дек.  13 14:35 surfaceflinger
+-rwxr-xr-x 1 root 2000     192 дек.  13 14:23 svc
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 sync -> toolbox
+-rwxr-xr-x 1 root 2000    5328 дек.  13 14:35 system_server
+-rwxr-xr-x 1 root 2000   67108 дек.  13 14:34 tc
+-rwxr-xr-x 1 root 2000    5604 дек.  13 14:35 thermal
+-rwxr-xr-x 1 root 2000    5376 дек.  13 14:35 thermald
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 thermal_manager
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 tiny_mkswap
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 tiny_swapoff
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:06 tiny_swapon
+-rwxr-xr-x 1 root 2000  134912 дек.  13 14:35 toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 top -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 touch -> toolbox
+-rwxr-xr-x 1 root 2000    3748 дек.  13 14:23 uiautomator
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 umount -> toolbox
+-rwxr-xr-x 1 root 2000  279144 дек.  13 14:34 updater
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 uptime -> toolbox
+-rwxr-xr-x 1 root 2000    5316 дек.  13 14:35 vdc
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 vmstat -> toolbox
+-rwxr-xr-x 1 root 2000  100024 дек.  13 14:35 vold
+-rwxr-xr-x 1 root 2000    5328 дек.  13 14:35 vtservice
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 watchprops -> toolbox
+lrwxrwxrwx 1 root 2000       7 дек.  13 14:35 wipe -> toolbox
+-rwxr-xr-x 1 root 2000    5416 дек.  13 14:35 wlan_loader
+-rwxr-xr-x 1 root 2000  715340 дек.  13 14:35 wpa_supplicant
+-rwxr-xr-x 1 root 2000    9464 дек.  13 14:06 xlog
+
+A516_S118_Stock/OSPackage/system/data:
+итого 4
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 misc
+
+A516_S118_Stock/OSPackage/system/data/misc:
+итого 24
+-rw-r--r-- 1 root root 22811 дек.  13 14:23 ProjectConfig.mk
+
+A516_S118_Stock/OSPackage/system/etc:
+итого 9284
+-rw-r--r-- 1 root root    9445 дек.  13 14:23 agps_profiles_conf.xml
+-rw-r--r-- 1 root root  306078 дек.  13 14:23 apns-conf.xml
+-rw-r--r-- 1 root root    4167 дек.  13 14:23 audio_effects.conf
+-rw-r--r-- 1 root root    3244 дек.  13 14:23 audio_policy.conf
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 bluetooth
+-rw-r--r-- 1 root root    1762 дек.  13 14:23 custom.conf
+-r--r----- 1 1002 1002     935 дек.  13 14:23 dbus.conf
+drwxr-xr-x 3 root root    4096 дек.  13 14:23 dhcpcd
+-rw-r--r-- 1 root root      32 дек.  13 14:23 drm_chmod
+-rw-r--r-- 1 root root     693 дек.  13 14:23 epo_conf.xml
+-rw-r--r-- 1 root root   13988 дек.  13 14:13 event-log-tags
+-rw-r--r-- 1 root root    1774 дек.  13 14:23 factory.ini
+-rw-r--r-- 1 root root    4703 дек.  13 14:23 fallback_fonts.xml
+drwxr-xr-x 3 root root    4096 дек.  13 14:23 firmware
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 fmr
+-rw-r--r-- 1 root root 6611968 дек.  13 14:23 geocoding.db
+-rw-r--r-- 1 root root      25 дек.  13 14:23 hosts
+-r-xr-x--- 1 root 2000    1755 дек.  13 14:23 init.goldfish.sh
+-rw-r--r-- 1 root root 1890912 дек.  13 14:23 lenovo_profile.lbk
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 mddb
+-rw-r--r-- 1 root root    6729 дек.  13 14:23 media_codecs.xml
+-rw-r--r-- 1 root root     730 дек.  13 14:23 mkshrc
+-rw-r--r-- 1 root root     246 дек.  13 14:23 mobilelog.conf
+-rw-r--r-- 1 root root    4455 дек.  13 14:23 mobilelog.sh
+-rw-r--r-- 1 root root     267 дек.  13 14:23 mtklog-config.prop
+-rw-r--r-- 1 root root    2005 дек.  13 14:23 mtk_omx_core.cfg
+-rw-r--r-- 1 root root  124333 дек.  13 14:41 NOTICE.html.gz
+-rw-r--r-- 1 root root     676 дек.  13 14:23 partition_permission.sh
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 permissions
+-rw-r--r-- 1 root root     527 дек.  13 14:23 player.cfg
+drwxr-xr-x 2 root root    4096 дек.  13 14:35 ppp
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 radvd
+-rw-r--r-- 1 root root  280045 дек.  13 14:35 recovery-resource.dat
+-rw-r--r-- 1 root root     619 дек.  13 14:23 resmonwhitelist.txt
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 ril
+drwxr-xr-x 3 root root    4096 дек.  13 14:23 security
+-rw-r--r-- 1 root root   55519 дек.  13 14:23 spn-conf.xml
+-rw-r--r-- 1 root root    3418 дек.  13 14:23 system_fonts.xml
+-rw-r--r-- 1 root root     633 дек.  13 14:23 throttle.sh
+-rw-r--r-- 1 root root     199 дек.  13 14:23 trustapp
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 updatecmds
+-rw-r--r-- 1 root root     189 дек.  13 14:23 virtual-spn-conf-by-efpnn.xml
+-rw-r--r-- 1 root root    2710 дек.  13 14:23 virtual-spn-conf-by-efspn.xml
+-rw-r--r-- 1 root root     212 дек.  13 14:23 virtual-spn-conf-by-imsi.xml
+drwxr-xr-x 5 root root    4096 дек.  13 14:23 voicecommand
+-rw-r--r-- 1 root root    1214 дек.  13 14:23 vold.fstab
+-rw-r--r-- 1 root root    1240 дек.  13 14:23 vold.fstab.fat.nand
+-rw-r--r-- 1 root root    1102 дек.  13 14:23 vold.fstab.nand
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 wide-dhcpv6
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 wifi
+-rw-r--r-- 1 root root    1234 дек.  13 14:13 xlog-filter-default
+-rw-r--r-- 1 root root     710 дек.  13 14:13 xlog-filter-tags
+
+A516_S118_Stock/OSPackage/system/etc/bluetooth:
+итого 20
+-rw-r--r-- 1 root root 1699 дек.  13 14:23 audio.conf
+-rw-r--r-- 1 root root 1536 дек.  13 14:23 auto_pairing.conf
+-rw-r--r-- 1 root root  401 дек.  13 14:23 blacklist.conf
+-rw-r--r-- 1 root root  262 дек.  13 14:23 input.conf
+-rw-r--r-- 1 root root  120 дек.  13 14:23 network.conf
+
+A516_S118_Stock/OSPackage/system/etc/dhcpcd:
+итого 8
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 dhcpcd-hooks
+-r-xr-x--- 1 1014 2000 1009 дек.  13 14:23 dhcpcd-run-hooks
+
+A516_S118_Stock/OSPackage/system/etc/dhcpcd/dhcpcd-hooks:
+итого 8
+-rw-r--r-- 1 root root 773 дек.  13 14:23 20-dns.conf
+-rw-r--r-- 1 root root 924 дек.  13 14:23 95-configured
+
+A516_S118_Stock/OSPackage/system/etc/firmware:
+итого 5572
+-rw-r--r-- 1 root root    1472 дек.  13 14:23 catcher_filter_1_wg_n.bin
+-rw-r--r-- 1 root root 5008668 дек.  13 14:23 modem_1_wg_n.img
+-rw-r--r-- 1 root root   39868 дек.  13 14:23 mt6572_82_patch_e1_0_hdr.bin
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 mt6627
+-rw-r--r-- 1 root root     417 дек.  13 14:23 S_ANDRO_SFL.ini
+-rw-r--r-- 1 root root  158240 дек.  13 14:23 WIFI_RAM_CODE
+-rw-r--r-- 1 root root  158864 дек.  13 14:23 WIFI_RAM_CODE_E6
+-rw-r--r-- 1 root root  157872 дек.  13 14:23 WIFI_RAM_CODE_MT6582
+-rw-r--r-- 1 root root  157328 дек.  13 14:23 WIFI_RAM_CODE_MT6628
+-rw-r--r-- 1 root root      82 дек.  13 14:23 WMT_SOC.cfg
+
+A516_S118_Stock/OSPackage/system/etc/firmware/mt6627:
+итого 12
+-rw-r--r-- 1 root root 1092 дек.  13 14:23 mt6627_fm_v1_coeff.bin
+-rw-r--r-- 1 root root 1028 дек.  13 14:23 mt6627_fm_v1_patch.bin
+-rw-r--r-- 1 root root    2 дек.  13 14:23 mt6627_fm_v2_coeff.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v2_patch.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v3_coeff.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v3_patch.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v4_coeff.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v4_patch.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v5_coeff.bin
+-rw-r--r-- 1 root root    0 дек.  13 14:23 mt6627_fm_v5_patch.bin
+
+A516_S118_Stock/OSPackage/system/etc/fmr:
+итого 4
+-rw-r--r-- 1 root root 345 дек.  13 14:23 mt6627_fm_cust.cfg
+
+A516_S118_Stock/OSPackage/system/etc/mddb:
+итого 5420
+-rw-r--r-- 1 root root 5547881 дек.  13 14:23 BPLGUInfoCustomAppSrcP_MT6572_S00_A516_ROW_V15_1_wg_n
+
+A516_S118_Stock/OSPackage/system/etc/permissions:
+итого 128
+-rw-r--r-- 1 root root   839 дек.  13 14:23 android.hardware.bluetooth.xml
+-rw-r--r-- 1 root root   877 дек.  13 14:23 android.hardware.camera.front.xml
+-rw-r--r-- 1 root root  1047 дек.  13 14:23 android.hardware.camera.xml
+-rw-r--r-- 1 root root   927 дек.  13 14:23 android.hardware.faketouch.xml
+-rw-r--r-- 1 root root   942 дек.  13 14:23 android.hardware.location.gps.xml
+-rw-r--r-- 1 root root   841 дек.  13 14:23 android.hardware.microphone.xml
+-rw-r--r-- 1 root root   824 дек.  13 14:23 android.hardware.sensor.accelerometer.xml
+-rw-r--r-- 1 root root   816 дек.  13 14:23 android.hardware.sensor.light.xml
+-rw-r--r-- 1 root root   815 дек.  13 14:23 android.hardware.sensor.proximity.xml
+-rw-r--r-- 1 root root   881 дек.  13 14:23 android.hardware.telephony.gsm.xml
+-rw-r--r-- 1 root root  1076 дек.  13 14:23 android.hardware.touchscreen.multitouch.distinct.xml
+-rw-r--r-- 1 root root  1144 дек.  13 14:23 android.hardware.touchscreen.multitouch.jazzhand.xml
+-rw-r--r-- 1 root root  1035 дек.  13 14:23 android.hardware.touchscreen.multitouch.xml
+-rw-r--r-- 1 root root   859 дек.  13 14:23 android.hardware.touchscreen.xml
+-rw-r--r-- 1 root root   975 дек.  13 14:23 android.hardware.usb.accessory.xml
+-rw-r--r-- 1 root root   837 дек.  13 14:23 android.hardware.usb.host.xml
+-rw-r--r-- 1 root root   843 дек.  13 14:23 android.hardware.wifi.direct.xml
+-rw-r--r-- 1 root root   829 дек.  13 14:23 android.hardware.wifi.xml
+-rw-r--r-- 1 root root   834 дек.  13 14:23 android.software.live_wallpaper.xml
+-rw-r--r-- 1 root root   890 дек.  13 14:23 android.software.sip.voip.xml
+-rw-r--r-- 1 root root   843 дек.  13 14:23 android.software.sip.xml
+-rw-r--r-- 1 root root   828 дек.  13 14:23 com.android.location.provider.xml
+-rw-r--r-- 1 root root   816 дек.  13 14:23 com.google.android.maps.xml
+-rw-r--r-- 1 root root   835 дек.  13 14:23 com.google.android.media.effects.xml
+-rw-r--r-- 1 root root   261 дек.  13 14:06 com.google.widevine.software.drm.xml
+-rw-r--r-- 1 root root   152 дек.  13 14:23 com.lenovo.adapter.xml
+-rw-r--r-- 1 root root  3200 дек.  13 14:23 handheld_core_hardware.xml
+-rw-r--r-- 1 root root  6729 дек.  13 14:23 media_codecs.xml
+-rw-r--r-- 1 root root 10747 дек.  13 14:23 platform.xml
+
+A516_S118_Stock/OSPackage/system/etc/ppp:
+итого 8
+-r-xr-xr-x 1 root root 5368 дек.  13 14:35 ip-up-vpn
+
+A516_S118_Stock/OSPackage/system/etc/radvd:
+итого 4
+-rw-r--r-- 1 root root 443 дек.  13 14:23 radvd.conf
+
+A516_S118_Stock/OSPackage/system/etc/ril:
+итого 4
+-rw-r--r-- 1 root root 1709 дек.  13 14:23 oper.lis
+
+A516_S118_Stock/OSPackage/system/etc/security:
+итого 8
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 cacerts
+-rw-r--r-- 1 root root 1325 дек.  13 14:13 otacerts.zip
+
+A516_S118_Stock/OSPackage/system/etc/security/cacerts:
+итого 1040
+-rw-r--r-- 1 root root 4767 дек.  13 14:23 00673b5b.0
+-rw-r--r-- 1 root root 4573 дек.  13 14:23 03e16f6c.0
+-rw-r--r-- 1 root root 5292 дек.  13 14:23 08aef7bb.0
+-rw-r--r-- 1 root root 4540 дек.  13 14:23 0d188d89.0
+-rw-r--r-- 1 root root 4614 дек.  13 14:23 10531352.0
+-rw-r--r-- 1 root root 4686 дек.  13 14:23 111e6273.0
+-rw-r--r-- 1 root root 5027 дек.  13 14:23 1155c94b.0
+-rw-r--r-- 1 root root 5345 дек.  13 14:23 119afc2e.0
+-rw-r--r-- 1 root root 5844 дек.  13 14:23 11a09b38.0
+-rw-r--r-- 1 root root 4300 дек.  13 14:23 12d55845.0
+-rw-r--r-- 1 root root 4548 дек.  13 14:23 17b51fe6.0
+-rw-r--r-- 1 root root 6251 дек.  13 14:23 1920cacb.0
+-rw-r--r-- 1 root root 4890 дек.  13 14:23 1dac3003.0
+-rw-r--r-- 1 root root 3603 дек.  13 14:23 1dbdda5b.0
+-rw-r--r-- 1 root root 7074 дек.  13 14:23 1dcd6f4c.0
+-rw-r--r-- 1 root root 4724 дек.  13 14:23 1df5ec47.0
+-rw-r--r-- 1 root root 4527 дек.  13 14:23 1e1eab7c.0
+-rw-r--r-- 1 root root 4332 дек.  13 14:23 1e8e7201.0
+-rw-r--r-- 1 root root 8385 дек.  13 14:23 1eb37bdf.0
+-rw-r--r-- 1 root root 4712 дек.  13 14:23 219d9499.0
+-rw-r--r-- 1 root root 4747 дек.  13 14:23 23f4c490.0
+-rw-r--r-- 1 root root 2948 дек.  13 14:23 27af790d.0
+-rw-r--r-- 1 root root 5157 дек.  13 14:23 2afc57aa.0
+-rw-r--r-- 1 root root 5785 дек.  13 14:23 2e8714cb.0
+-rw-r--r-- 1 root root 4699 дек.  13 14:23 2fa87019.0
+-rw-r--r-- 1 root root 7290 дек.  13 14:23 2fb1850a.0
+-rw-r--r-- 1 root root 8829 дек.  13 14:23 33815e15.0
+-rw-r--r-- 1 root root 4637 дек.  13 14:23 343eb6cb.0
+-rw-r--r-- 1 root root 4628 дек.  13 14:23 399e7759.0
+-rw-r--r-- 1 root root 4706 дек.  13 14:23 3a3b02ce.0
+-rw-r--r-- 1 root root 4361 дек.  13 14:23 3ad48a91.0
+-rw-r--r-- 1 root root 4892 дек.  13 14:23 3c58f906.0
+-rw-r--r-- 1 root root 7412 дек.  13 14:23 3c860d51.0
+-rw-r--r-- 1 root root 7350 дек.  13 14:23 3d441de8.0
+-rw-r--r-- 1 root root 4778 дек.  13 14:23 3e7271e8.0
+-rw-r--r-- 1 root root 5512 дек.  13 14:23 418595b9.0
+-rw-r--r-- 1 root root 4817 дек.  13 14:23 455f1b52.0
+-rw-r--r-- 1 root root 7432 дек.  13 14:23 46b2fd3b.0
+-rw-r--r-- 1 root root 4263 дек.  13 14:23 48478734.0
+-rw-r--r-- 1 root root 2687 дек.  13 14:23 4d654d1d.0
+-rw-r--r-- 1 root root 4445 дек.  13 14:23 4e18c148.0
+-rw-r--r-- 1 root root 5076 дек.  13 14:23 4fbd6bfa.0
+-rw-r--r-- 1 root root 4731 дек.  13 14:23 5021a0a2.0
+-rw-r--r-- 1 root root 7420 дек.  13 14:23 5046c355.0
+-rw-r--r-- 1 root root 5165 дек.  13 14:23 524d9b43.0
+-rw-r--r-- 1 root root 4959 дек.  13 14:23 56b8a0b6.0
+-rw-r--r-- 1 root root 4433 дек.  13 14:23 57692373.0
+-rw-r--r-- 1 root root 4826 дек.  13 14:23 58a44af1.0
+-rw-r--r-- 1 root root 3613 дек.  13 14:23 594f1775.0
+-rw-r--r-- 1 root root 4804 дек.  13 14:23 5a3f0ff8.0
+-rw-r--r-- 1 root root 4678 дек.  13 14:23 5a5372fc.0
+-rw-r--r-- 1 root root 6031 дек.  13 14:23 5cf9d536.0
+-rw-r--r-- 1 root root 3478 дек.  13 14:23 5e4e69e7.0
+-rw-r--r-- 1 root root 4824 дек.  13 14:23 60afe812.0
+-rw-r--r-- 1 root root 4690 дек.  13 14:23 635ccfd5.0
+-rw-r--r-- 1 root root 4793 дек.  13 14:23 67495436.0
+-rw-r--r-- 1 root root 4648 дек.  13 14:23 69105f4f.0
+-rw-r--r-- 1 root root 4534 дек.  13 14:23 6adf0799.0
+-rw-r--r-- 1 root root 3957 дек.  13 14:23 6e8bf996.0
+-rw-r--r-- 1 root root 4484 дек.  13 14:23 6fcc125d.0
+-rw-r--r-- 1 root root 4270 дек.  13 14:23 72f369af.0
+-rw-r--r-- 1 root root 3105 дек.  13 14:23 72fa7371.0
+-rw-r--r-- 1 root root 3147 дек.  13 14:23 74c26bd0.0
+-rw-r--r-- 1 root root 4831 дек.  13 14:23 75680d2e.0
+-rw-r--r-- 1 root root 2664 дек.  13 14:23 7651b327.0
+-rw-r--r-- 1 root root 4949 дек.  13 14:23 76579174.0
+-rw-r--r-- 1 root root 7219 дек.  13 14:23 7672ac4b.0
+-rw-r--r-- 1 root root 4312 дек.  13 14:23 7999be0d.0
+-rw-r--r-- 1 root root 5157 дек.  13 14:23 7a481e66.0
+-rw-r--r-- 1 root root 7332 дек.  13 14:23 7a819ef2.0
+-rw-r--r-- 1 root root 3010 дек.  13 14:23 7d3cd826.0
+-rw-r--r-- 1 root root 4524 дек.  13 14:23 7d453d8f.0
+-rw-r--r-- 1 root root 4679 дек.  13 14:23 81b9768f.0
+-rw-r--r-- 1 root root 4452 дек.  13 14:23 8470719d.0
+-rw-r--r-- 1 root root 4634 дек.  13 14:23 84cba82f.0
+-rw-r--r-- 1 root root 4571 дек.  13 14:23 85cde254.0
+-rw-r--r-- 1 root root 4276 дек.  13 14:23 86212b19.0
+-rw-r--r-- 1 root root 7156 дек.  13 14:23 87753b0d.0
+-rw-r--r-- 1 root root 4260 дек.  13 14:23 882de061.0
+-rw-r--r-- 1 root root 4535 дек.  13 14:23 895cad1a.0
+-rw-r--r-- 1 root root 2850 дек.  13 14:23 89c02a45.0
+-rw-r--r-- 1 root root 3613 дек.  13 14:23 8f7b96c4.0
+-rw-r--r-- 1 root root 7988 дек.  13 14:23 9339512a.0
+-rw-r--r-- 1 root root 4511 дек.  13 14:23 95aff9e3.0
+-rw-r--r-- 1 root root 4150 дек.  13 14:23 9685a493.0
+-rw-r--r-- 1 root root 4405 дек.  13 14:23 9772ca32.0
+-rw-r--r-- 1 root root 7209 дек.  13 14:23 9d6523ce.0
+-rw-r--r-- 1 root root 4369 дек.  13 14:23 9dbefe7b.0
+-rw-r--r-- 1 root root 8370 дек.  13 14:23 9f533518.0
+-rw-r--r-- 1 root root 5431 дек.  13 14:23 a0bc6fbb.0
+-rw-r--r-- 1 root root 3716 дек.  13 14:23 a15b3b6b.0
+-rw-r--r-- 1 root root 4284 дек.  13 14:23 a3896b44.0
+-rw-r--r-- 1 root root 4123 дек.  13 14:23 a7605362.0
+-rw-r--r-- 1 root root 2865 дек.  13 14:23 a7d2cf64.0
+-rw-r--r-- 1 root root 4333 дек.  13 14:23 ab5346f4.0
+-rw-r--r-- 1 root root 6145 дек.  13 14:23 add67345.0
+-rw-r--r-- 1 root root 5675 дек.  13 14:23 aeb67534.0
+-rw-r--r-- 1 root root 4368 дек.  13 14:23 b0f3e76e.0
+-rw-r--r-- 1 root root 4355 дек.  13 14:23 b7db1890.0
+-rw-r--r-- 1 root root 4515 дек.  13 14:23 bc3f2570.0
+-rw-r--r-- 1 root root 3010 дек.  13 14:23 bcdd5959.0
+-rw-r--r-- 1 root root 4576 дек.  13 14:23 bda4cc84.0
+-rw-r--r-- 1 root root 4688 дек.  13 14:23 bdacca6f.0
+-rw-r--r-- 1 root root 5229 дек.  13 14:23 bf64f35b.0
+-rw-r--r-- 1 root root 3716 дек.  13 14:23 c215bc69.0
+-rw-r--r-- 1 root root 3282 дек.  13 14:23 c33a80d4.0
+-rw-r--r-- 1 root root 4533 дек.  13 14:23 c3a6a9ad.0
+-rw-r--r-- 1 root root 4524 дек.  13 14:23 c527e4ab.0
+-rw-r--r-- 1 root root 4700 дек.  13 14:23 c7e2a638.0
+-rw-r--r-- 1 root root 7834 дек.  13 14:23 c8763593.0
+-rw-r--r-- 1 root root 2534 дек.  13 14:23 ccc52f49.0
+-rw-r--r-- 1 root root 4591 дек.  13 14:23 cdaebb72.0
+-rw-r--r-- 1 root root 4680 дек.  13 14:23 cf701eeb.0
+-rw-r--r-- 1 root root 7520 дек.  13 14:23 d16a5865.0
+-rw-r--r-- 1 root root 5089 дек.  13 14:23 d537fba6.0
+-rw-r--r-- 1 root root 4359 дек.  13 14:23 d59297b8.0
+-rw-r--r-- 1 root root 4887 дек.  13 14:23 d64f06f3.0
+-rw-r--r-- 1 root root 3965 дек.  13 14:23 d777342d.0
+-rw-r--r-- 1 root root 4987 дек.  13 14:23 d8274e24.0
+-rw-r--r-- 1 root root 6980 дек.  13 14:23 dbc54cab.0
+-rw-r--r-- 1 root root 3233 дек.  13 14:23 ddc328ff.0
+-rw-r--r-- 1 root root 4280 дек.  13 14:23 e48193cf.0
+-rw-r--r-- 1 root root 7505 дек.  13 14:23 e60bf0c0.0
+-rw-r--r-- 1 root root 7148 дек.  13 14:23 e775ed2d.0
+-rw-r--r-- 1 root root 3117 дек.  13 14:23 e7b8d656.0
+-rw-r--r-- 1 root root 4854 дек.  13 14:23 e8651083.0
+-rw-r--r-- 1 root root 7412 дек.  13 14:23 ea169617.0
+-rw-r--r-- 1 root root 4270 дек.  13 14:23 eb375c3e.0
+-rw-r--r-- 1 root root 3105 дек.  13 14:23 ed049835.0
+-rw-r--r-- 1 root root 4694 дек.  13 14:23 ed524cf5.0
+-rw-r--r-- 1 root root 5411 дек.  13 14:23 ee7cd6fb.0
+-rw-r--r-- 1 root root 3010 дек.  13 14:23 f4996e82.0
+-rw-r--r-- 1 root root 4672 дек.  13 14:23 f58a60fe.0
+-rw-r--r-- 1 root root 7006 дек.  13 14:23 f61bff45.0
+-rw-r--r-- 1 root root 7517 дек.  13 14:23 f80cc7f6.0
+-rw-r--r-- 1 root root 4603 дек.  13 14:23 fac084d7.0
+-rw-r--r-- 1 root root 5219 дек.  13 14:23 facacbc6.0
+-rw-r--r-- 1 root root 5940 дек.  13 14:23 fb126c6d.0
+-rw-r--r-- 1 root root 4686 дек.  13 14:23 fde84897.0
+-rw-r--r-- 1 root root 5106 дек.  13 14:23 ff783690.0
+
+A516_S118_Stock/OSPackage/system/etc/updatecmds:
+итого 4
+-rw-r--r-- 1 root root 846 дек.  13 14:23 google_generic_update.txt
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand:
+итого 12
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 keyword
+drwxr-xr-x 3 root root 4096 дек.  13 14:23 training
+drwxr-xr-x 4 root root 4096 дек.  13 14:23 voiceui
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/keyword:
+итого 12
+-rw-r--r-- 1 root root 505 дек.  13 14:23 1.xml
+-rw-r--r-- 1 root root 501 дек.  13 14:23 2.xml
+-rw-r--r-- 1 root root 477 дек.  13 14:23 3.xml
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/training:
+итого 4
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 ubmfile
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/training/ubmfile:
+итого 48
+-rw-r--r-- 1 root root 31748 дек.  13 14:23 128.dat
+-rw-r--r-- 1 root root 15876 дек.  13 14:23 64.dat
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui:
+итого 8
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 modefile
+drwxr-xr-x 5 root root 4096 дек.  13 14:23 uipattern
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui/modefile:
+итого 4140
+-rw-r--r-- 1 root root     976 дек.  13 14:23 command_3and23.dic
+-rw-r--r-- 1 root root    1043 дек.  13 14:23 command_6and23.dic
+-rw-r--r-- 1 root root     590 дек.  13 14:23 commandfilr2.dic
+-rw-r--r-- 1 root root     385 дек.  13 14:23 commandfilr.dic
+-rw-r--r-- 1 root root     808 дек.  13 14:23 command_only23.dic
+-rw-r--r-- 1 root root   20480 дек.  13 14:23 GMMModel1.bin
+-rw-r--r-- 1 root root   20480 дек.  13 14:23 GMMModel2.bin
+-rw-r--r-- 1 root root   20480 дек.  13 14:23 GMMModel3.bin
+-rw-r--r-- 1 root root 1356080 дек.  13 14:23 Model1.bin
+-rw-r--r-- 1 root root 1356080 дек.  13 14:23 Model2.bin
+-rw-r--r-- 1 root root 1356080 дек.  13 14:23 Model3.bin
+-rw-r--r-- 1 root root   76277 дек.  13 14:23 Model_M_gmmfea39d.dat
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui/uipattern:
+итого 12
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 Chinese-Mandarin
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 Chinese-Taiwan
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 English
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui/uipattern/Chinese-Mandarin:
+итого 4
+-rw-r--r-- 1 root root 795 дек.  13 14:23 cmd_pattern
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui/uipattern/Chinese-Taiwan:
+итого 4
+-rw-r--r-- 1 root root 777 дек.  13 14:23 cmd_pattern
+
+A516_S118_Stock/OSPackage/system/etc/voicecommand/voiceui/uipattern/English:
+итого 4
+-rw-r--r-- 1 root root 668 дек.  13 14:23 cmd_pattern
+
+A516_S118_Stock/OSPackage/system/etc/wide-dhcpv6:
+итого 20
+-rw-r--r-- 1 root root  222 дек.  13 14:23 dhcp6c.conf
+-rw-r--r-- 1 root root   25 дек.  13 14:23 dhcp6cctlkey
+-rw-r--r-- 1 root root  160 дек.  13 14:23 dhcp6cDNS.conf
+-r-xr-x--- 1 1014 2000 1244 дек.  13 14:23 dhcp6c.script
+-rw-r--r-- 1 root root  487 дек.  13 14:23 dhcp6s.conf
+
+A516_S118_Stock/OSPackage/system/etc/wifi:
+итого 8
+-rw-r--r-- 1 root root 326 дек.  13 14:23 p2p_supplicant.conf
+-rw-r--r-- 1 root root 282 дек.  13 14:23 wpa_supplicant.conf
+
+A516_S118_Stock/OSPackage/system/fonts:
+итого 22052
+-rw-r--r-- 1 root root    4824 дек.  13 14:23 AndroidClock_Highlight.ttf
+-rw-r--r-- 1 root root    4824 дек.  13 14:23 AndroidClock_Solid.ttf
+-rw-r--r-- 1 root root    5116 дек.  13 14:23 AndroidClock.ttf
+-rw-r--r-- 1 root root  448680 дек.  13 14:23 AndroidEmoji.ttf
+-rw-r--r-- 1 root root   47408 дек.  13 14:23 AnjaliNewLipi-light.ttf
+-rw-r--r-- 1 root root    6880 дек.  13 14:23 Clockopia.ttf
+-rw-r--r-- 1 root root  111520 дек.  13 14:23 DroidNaskh-Regular-SystemUI.ttf
+-rw-r--r-- 1 root root   89456 дек.  13 14:23 DroidNaskh-Regular.ttf
+-rw-r--r-- 1 root root   13856 дек.  13 14:23 DroidSansArmenian.ttf
+lrwxrwxrwx 1 root root      15 дек.  13 14:32 DroidSans-Bold.ttf -> Roboto-Bold.ttf
+-rw-r--r-- 1 root root  123372 дек.  13 14:23 DroidSansDevanagari-Regular.ttf
+-rw-r--r-- 1 root root  227928 дек.  13 14:23 DroidSansEthiopic-Regular.ttf
+-rw-r--r-- 1 root root 4529044 дек.  13 14:32 DroidSansFallback.ttf
+-rw-r--r-- 1 root root   21096 дек.  13 14:23 DroidSansGeorgian.ttf
+-rw-r--r-- 1 root root   30280 дек.  13 14:23 DroidSansHebrew-Bold.ttf
+-rw-r--r-- 1 root root   30024 дек.  13 14:23 DroidSansHebrew-Regular.ttf
+-rw-r--r-- 1 root root  119380 дек.  13 14:23 DroidSansMono.ttf
+-rw-r--r-- 1 root root   36448 дек.  13 14:23 DroidSansTamil-Bold.ttf
+-rw-r--r-- 1 root root   36308 дек.  13 14:23 DroidSansTamil-Regular.ttf
+-rw-r--r-- 1 root root   35480 дек.  13 14:23 DroidSansThai.ttf
+lrwxrwxrwx 1 root root      18 дек.  13 14:32 DroidSans.ttf -> Roboto-Regular.ttf
+-rw-r--r-- 1 root root  190304 дек.  13 14:23 DroidSerif-BoldItalic.ttf
+-rw-r--r-- 1 root root  185228 дек.  13 14:23 DroidSerif-Bold.ttf
+-rw-r--r-- 1 root root  177560 дек.  13 14:23 DroidSerif-Italic.ttf
+-rw-r--r-- 1 root root  172916 дек.  13 14:23 DroidSerif-Regular.ttf
+-rw-r--r-- 1 root root 9831064 дек.  13 14:23 FangZhengLTH.ttf
+-rw-r--r-- 1 root root  139296 дек.  13 14:23 Lohit-Bengali.ttf
+-rw-r--r-- 1 root root  196664 дек.  13 14:23 Lohit-Kannada.ttf
+-rw-r--r-- 1 root root  171892 дек.  13 14:23 Lohit-Telugu.ttf
+-rw-r--r-- 1 root root 2871020 дек.  13 14:23 MTLmr3m.ttf
+-rw-r--r-- 1 root root 1429144 дек.  13 14:23 NanumGothic.ttf
+-rw-r--r-- 1 root root   82880 дек.  13 14:23 Roboto-BoldItalic.ttf
+-rw-r--r-- 1 root root   79620 дек.  13 14:23 Roboto-Bold.ttf
+-rw-r--r-- 1 root root  109028 дек.  13 14:23 RobotoCondensed-BoldItalic.ttf
+-rw-r--r-- 1 root root  105684 дек.  13 14:23 RobotoCondensed-Bold.ttf
+-rw-r--r-- 1 root root  108428 дек.  13 14:23 RobotoCondensed-Italic.ttf
+-rw-r--r-- 1 root root  105140 дек.  13 14:23 RobotoCondensed-Regular.ttf
+-rw-r--r-- 1 root root   82580 дек.  13 14:23 Roboto-Italic.ttf
+-rw-r--r-- 1 root root  111440 дек.  13 14:23 Roboto-LightItalic.ttf
+-rw-r--r-- 1 root root  108216 дек.  13 14:23 Roboto-Light.ttf
+-rw-r--r-- 1 root root   79396 дек.  13 14:23 Roboto-Regular.ttf
+-rw-r--r-- 1 root root  117512 дек.  13 14:23 Roboto-ThinItalic.ttf
+-rw-r--r-- 1 root root  113996 дек.  13 14:23 Roboto-Thin.ttf
+
+A516_S118_Stock/OSPackage/system/framework:
+итого 41824
+-rw-r--r-- 1 root root      313 дек.  13 14:41 am.jar
+-rw-r--r-- 1 root root    45864 дек.  13 14:41 am.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:39 android.policy.jar
+-rw-r--r-- 1 root root   888744 дек.  13 14:39 android.policy.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 android.test.runner.jar
+-rw-r--r-- 1 root root   187184 дек.  13 14:41 android.test.runner.odex
+-rw-r--r-- 1 root root    18027 дек.  13 14:40 apache-xml.jar
+-rw-r--r-- 1 root root  1378616 дек.  13 14:40 apache-xml.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 bmgr.jar
+-rw-r--r-- 1 root root    15184 дек.  13 14:41 bmgr.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:36 bouncycastle.jar
+-rw-r--r-- 1 root root  1083168 дек.  13 14:36 bouncycastle.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 bu.jar
+-rw-r--r-- 1 root root     5016 дек.  13 14:41 bu.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 com.android.future.usb.accessory.jar
+-rw-r--r-- 1 root root     6440 дек.  13 14:41 com.android.future.usb.accessory.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 com.android.location.provider.jar
+-rw-r--r-- 1 root root     9936 дек.  13 14:41 com.android.location.provider.odex
+-rw-r--r-- 1 root root   157221 дек.  13 14:32 com.google.android.maps.jar
+-rw-r--r-- 1 root root    35026 дек.  13 14:32 com.google.android.media.effects.jar
+-rw-r--r-- 1 root root      688 дек.  13 14:06 com.google.widevine.software.drm.jar
+-rw-r--r-- 1 root root      313 дек.  13 14:41 content.jar
+-rw-r--r-- 1 root root    15024 дек.  13 14:41 content.odex
+-rw-r--r-- 1 root root     3126 дек.  13 14:35 core.jar
+-rw-r--r-- 1 root root      313 дек.  13 14:36 core-junit.jar
+-rw-r--r-- 1 root root    27576 дек.  13 14:36 core-junit.odex
+-rw-r--r-- 1 root root  3490176 дек.  13 14:35 core.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:40 CustomProperties.jar
+-rw-r--r-- 1 root root     3000 дек.  13 14:40 CustomProperties.odex
+-rw-r--r-- 1 root root   574574 дек.  13 14:36 ext.jar
+-rw-r--r-- 1 root root  1507640 дек.  13 14:36 ext.odex
+-rw-r--r-- 1 root root    18945 дек.  13 14:37 framework.jar
+-rw-r--r-- 1 root root 10465504 дек.  13 14:37 framework.odex
+-rw-r--r-- 1 root root 10835634 дек.  13 14:33 framework-res.apk
+-rw-r--r-- 1 root root      313 дек.  13 14:41 ime.jar
+-rw-r--r-- 1 root root     7160 дек.  13 14:41 ime.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 input.jar
+-rw-r--r-- 1 root root     7152 дек.  13 14:41 input.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 javax.obex.jar
+-rw-r--r-- 1 root root    58648 дек.  13 14:41 javax.obex.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 lenovoadapter.jar
+-rw-r--r-- 1 root root    29824 дек.  13 14:41 lenovoadapter.odex
+-rw-r--r-- 1 root root  1228630 дек.  13 14:33 lenovo-res.apk
+-rw-r--r-- 1 root root      313 дек.  13 14:40 mediatek-common.jar
+-rw-r--r-- 1 root root   210360 дек.  13 14:40 mediatek-common.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:40 mediatek-framework.jar
+-rw-r--r-- 1 root root   670608 дек.  13 14:40 mediatek-framework.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 mediatek-op.jar
+-rw-r--r-- 1 root root     1720 дек.  13 14:41 mediatek-op.odex
+-rw-r--r-- 1 root root  1322665 дек.  13 14:33 mediatek-res.apk
+-rw-r--r-- 1 root root      313 дек.  13 14:40 mediatek-telephony-common.jar
+-rw-r--r-- 1 root root    66968 дек.  13 14:40 mediatek-telephony-common.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:38 mms-common.jar
+-rw-r--r-- 1 root root   149872 дек.  13 14:38 mms-common.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 monkey.jar
+-rw-r--r-- 1 root root   118200 дек.  13 14:41 monkey.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 pm.jar
+-rw-r--r-- 1 root root    40536 дек.  13 14:41 pm.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 requestsync.jar
+-rw-r--r-- 1 root root     9296 дек.  13 14:41 requestsync.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:40 secondary-framework.jar
+-rw-r--r-- 1 root root  3072384 дек.  13 14:40 secondary-framework.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 send_bug.jar
+-rw-r--r-- 1 root root     7304 дек.  13 14:41 send_bug.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:40 services.jar
+-rw-r--r-- 1 root root  2997256 дек.  13 14:40 services.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 settings.jar
+-rw-r--r-- 1 root root     8472 дек.  13 14:41 settings.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 svc.jar
+-rw-r--r-- 1 root root    10096 дек.  13 14:41 svc.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:38 telephony-common.jar
+-rw-r--r-- 1 root root  1721648 дек.  13 14:38 telephony-common.odex
+-rw-r--r-- 1 root root      313 дек.  13 14:41 uiautomator.jar
+-rw-r--r-- 1 root root   104320 дек.  13 14:41 uiautomator.odex
+
+A516_S118_Stock/OSPackage/system/lib:
+итого 113112
+-rw-r--r-- 1 root root     1372 дек.  13 14:13 crtbegin_so.o
+-rw-r--r-- 1 root root      617 дек.  13 14:13 crtend_so.o
+drwxr-xr-x 2 root root     4096 дек.  13 14:06 drm
+drwxr-xr-x 2 root root     4096 дек.  13 14:35 egl
+drwxr-xr-x 2 root root     4096 дек.  13 14:35 hw
+-rw-r--r-- 1 root root   464188 дек.  13 14:06 liba3m.so
+-rw-r--r-- 1 root root    91396 дек.  13 14:35 libacdk.so
+-rw-r--r-- 1 root root    29816 дек.  13 14:23 libaed.so
+-rw-r--r-- 1 root root   144716 дек.  13 14:06 libamrvt.so
+-rw-r--r-- 1 root root   177288 дек.  13 14:06 libamr_wrap.so
+-rw-r--r-- 1 root root   206396 дек.  13 14:35 libandroidfw.so
+-rw-r--r-- 1 root root   813188 дек.  13 14:35 libandroid_runtime.so
+-rw-r--r-- 1 root root    76160 дек.  13 14:35 libandroid_servers.so
+-rw-r--r-- 1 root root    58568 дек.  13 14:35 libandroid.so
+-rw-r--r-- 1 root root   321008 дек.  13 14:23 libAppDataSearch.so
+-rw-r--r-- 1 root root    42176 дек.  13 14:06 libatvctrlservice.so
+-rw-r--r-- 1 root root    58660 дек.  13 14:35 libaudio.a2dp.default.so
+-rw-r--r-- 1 root root    38800 дек.  13 14:35 libaudiocompensationfilter.so
+-rw-r--r-- 1 root root    42852 дек.  13 14:35 libaudiocustparam.so
+-rw-r--r-- 1 root root    17836 дек.  13 14:35 libaudioeffect_jni.so
+-rw-r--r-- 1 root root   365884 дек.  13 14:35 libaudioflinger.so
+-rw-r--r-- 1 root root   528596 дек.  13 14:35 libaudio.primary.default.so
+-rw-r--r-- 1 root root    21492 дек.  13 14:35 libaudio-resampler.so
+-rw-r--r-- 1 root root     5100 дек.  13 14:35 libaudiosetting.so
+-rw-r--r-- 1 root root     9204 дек.  13 14:35 libaudioutils.so
+-rw-r--r-- 1 root root   201864 дек.  13 14:06 libawb_wrap.so
+-rw-r--r-- 1 root root     5056 дек.  13 14:36 libbcc.sha1.so
+-rw-r--r-- 1 root root  6878588 дек.  13 14:36 libbcc.so
+-rw-r--r-- 1 root root  1160536 дек.  13 14:35 libbcinfo.so
+-rw-r--r-- 1 root root    79080 дек.  13 14:23 libbessound_mtk.so
+-rw-r--r-- 1 root root   140492 дек.  13 14:35 libbinder.so
+-rw-r--r-- 1 root root    83172 дек.  13 14:23 libblisrc.so
+-rw-r--r-- 1 root root     9280 дек.  13 14:35 libbluetoothdrv.so
+-rw-r--r-- 1 root root     5156 дек.  13 14:35 libbluetoothem_mtk.so
+-rw-r--r-- 1 root root    13452 дек.  13 14:35 libbluetooth_mtk.so
+-rw-r--r-- 1 root root     9252 дек.  13 14:35 libbluetooth_relayer.so
+-rw-r--r-- 1 root root     5204 дек.  13 14:06 libbtcust.so
+-rw-r--r-- 1 root root     5256 дек.  13 14:35 libbtcusttable.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:06 libbtem.so
+-rw-r--r-- 1 root root     9268 дек.  13 14:06 libbtpcm.so
+-rw-r--r-- 1 root root     5156 дек.  13 14:06 libbtsniff.so
+-rw-r--r-- 1 root root    13448 дек.  13 14:35 libbwc.so
+-rw-r--r-- 1 root root  2160576 дек.  13 14:06 libcamalgo.so
+-rw-r--r-- 1 root root   754952 дек.  13 14:35 libcam.camadapter.so
+-rw-r--r-- 1 root root    29840 дек.  13 14:35 libcam_camera_exif.so
+-rw-r--r-- 1 root root    54468 дек.  13 14:35 libcam.campipe.so
+-rw-r--r-- 1 root root   124068 дек.  13 14:35 libcam.camshot.so
+-rw-r--r-- 1 root root   206084 дек.  13 14:35 libcam.client.so
+-rw-r--r-- 1 root root    91416 дек.  13 14:35 libcamdrv.so
+-rw-r--r-- 1 root root   124092 дек.  13 14:35 libcamera_client.so
+-rw-r--r-- 1 root root   198492 дек.  13 14:35 libcameracustom.so
+-rw-r--r-- 1 root root    15044 дек.  13 14:35 libcamera_metadata.so
+-rw-r--r-- 1 root root   255184 дек.  13 14:35 libcameraservice.so
+-rw-r--r-- 1 root root    96204 дек.  13 14:35 libcam.paramsmgr.so
+-rw-r--r-- 1 root root    50424 дек.  13 14:35 libcam.utils.so
+-rw-r--r-- 1 root root 33994348 дек.  13 14:23 libchromeview.so
+-rw-r--r-- 1 root root  1764676 дек.  13 14:35 libchromium_net.so
+-rw-r--r-- 1 root root    95232 дек.  13 14:35 libclcore.bc
+-rw-r--r-- 1 root root    86944 дек.  13 14:35 libclcore_neon.bc
+-rw-r--r-- 1 root root    58556 дек.  13 14:35 libcommon_time_client.so
+-rw-r--r-- 1 root root    13396 дек.  13 14:35 libcorkscrew.so
+-rw-r--r-- 1 root root   985696 дек.  13 14:35 libcrypto.so
+-rw-r--r-- 1 root root   428556 дек.  13 14:34 libc.so
+-rw-r--r-- 1 root root     5152 дек.  13 14:34 libctest.so
+-rw-r--r-- 1 root root     5216 дек.  13 14:35 libcustom_jni.so
+-rw-r--r-- 1 root root    37788 дек.  13 14:35 libcustom_nvram.so
+-rw-r--r-- 1 root root    62676 дек.  13 14:35 libcutils.so
+-rw-r--r-- 1 root root    25828 дек.  13 14:23 libcvsd_mtk.so
+-rw-r--r-- 1 root root   304420 дек.  13 14:35 libdbus.so
+-rw-r--r-- 1 root root    17608 дек.  13 14:35 libdcfdecoderjni.so
+-rw-r--r-- 1 root root     5216 дек.  13 14:35 libdefcontainer_jni.so
+-rw-r--r-- 1 root root    17448 дек.  13 14:35 libdiskconfig.so
+-rw-r--r-- 1 root root     9208 дек.  13 14:34 libdl.so
+-rw-r--r-- 1 root root   156928 дек.  13 14:06 libdpframework.so
+-rw-r--r-- 1 root root    13564 дек.  13 14:35 libdrm1_jni.so
+-rw-r--r-- 1 root root    33916 дек.  13 14:35 libdrm1.so
+-rw-r--r-- 1 root root     9308 дек.  13 14:06 libdrmdecrypt.so
+-rw-r--r-- 1 root root    30124 дек.  13 14:35 libdrmframework_jni.so
+-rw-r--r-- 1 root root    99516 дек.  13 14:35 libdrmframework.so
+-rw-r--r-- 1 root root   276548 дек.  13 14:06 libdrmmtkutil.so
+-rw-r--r-- 1 root root     5268 дек.  13 14:35 libdrmmtkwhitelist.so
+-rw-r--r-- 1 root root   747440 дек.  13 14:06 libdvm.so
+-rw-r--r-- 1 root root     9412 дек.  13 14:35 libeffects.so
+-rw-r--r-- 1 root root   269188 дек.  13 14:35 libEGL.so
+-rw-r--r-- 1 root root    17764 дек.  13 14:35 libem_bt_jni.so
+-rw-r--r-- 1 root root     9380 дек.  13 14:35 libem_gpio_jni.so
+-rw-r--r-- 1 root root     9264 дек.  13 14:35 libem_modem_jni.so
+-rw-r--r-- 1 root root     9404 дек.  13 14:35 libemoji.so
+-rw-r--r-- 1 root root     5108 дек.  13 14:34 libem_support_jni.so
+-rw-r--r-- 1 root root     5220 дек.  13 14:35 libem_usb_jni.so
+-rw-r--r-- 1 root root    63592 дек.  13 14:35 libem_wifi_jni.so
+-rw-r--r-- 1 root root     9204 дек.  13 14:34 libETC1.so
+-rw-r--r-- 1 root root    13416 дек.  13 14:35 libexif_jni.so
+-rw-r--r-- 1 root root    38572 дек.  13 14:35 libexif.so
+-rw-r--r-- 1 root root    87200 дек.  13 14:31 libexpat.so
+-rw-r--r-- 1 root root    42068 дек.  13 14:35 libext4_utils.so
+-rw-r--r-- 1 root root    50992 дек.  13 14:06 libextavrcp_jni.so
+-rw-r--r-- 1 root root    17552 дек.  13 14:06 libextavrcp.so
+-rw-r--r-- 1 root root    21900 дек.  13 14:06 libextbip_jni.so
+-rw-r--r-- 1 root root    63108 дек.  13 14:06 libextbip.so
+-rw-r--r-- 1 root root    17708 дек.  13 14:06 libextbpp_jni.so
+-rw-r--r-- 1 root root    22464 дек.  13 14:06 libextbpp.so
+-rw-r--r-- 1 root root    17576 дек.  13 14:06 libextdun_jni.so
+-rw-r--r-- 1 root root    21912 дек.  13 14:06 libextftp_jni.so
+-rw-r--r-- 1 root root   108268 дек.  13 14:06 libextftp.so
+-rw-r--r-- 1 root root    17780 дек.  13 14:06 libexthid_jni.so
+-rw-r--r-- 1 root root    21660 дек.  13 14:06 libexthid.so
+-rw-r--r-- 1 root root    54520 дек.  13 14:06 libextjsr82.so
+-rw-r--r-- 1 root root    30080 дек.  13 14:06 libextmap_jni.so
+-rw-r--r-- 1 root root    42628 дек.  13 14:06 libextmap.so
+-rw-r--r-- 1 root root    13640 дек.  13 14:06 libextopp_jni.so
+-rw-r--r-- 1 root root    91884 дек.  13 14:06 libextopp.so
+-rw-r--r-- 1 root root    17684 дек.  13 14:06 libextpan_jni.so
+-rw-r--r-- 1 root root    13576 дек.  13 14:06 libextpbap_jni.so
+-rw-r--r-- 1 root root     9312 дек.  13 14:06 libextpbap.so
+-rw-r--r-- 1 root root    17648 дек.  13 14:06 libextsimap_jni.so
+-rw-r--r-- 1 root root    13460 дек.  13 14:06 libextsimap.so
+-rw-r--r-- 1 root root     5108 дек.  13 14:06 libextsys_jni.so
+-rw-r--r-- 1 root root     9264 дек.  13 14:06 libextsys.so
+-rw-r--r-- 1 root root     9264 дек.  13 14:06 libexttestmode.so
+-rw-r--r-- 1 root root   719696 дек.  13 14:23 libfacelock_jni.so
+-rw-r--r-- 1 root root    87340 дек.  13 14:35 libfeatureio.so
+-rw-r--r-- 1 root root   185496 дек.  13 14:35 libFFTEm.so
+-rw-r--r-- 1 root root    37980 дек.  13 14:06 libfile_op.so
+-rw-r--r-- 1 root root    37888 дек.  13 14:23 libfile.so
+-rw-r--r-- 1 root root   111764 дек.  13 14:35 libfilterfw.so
+-rw-r--r-- 1 root root   555044 дек.  13 14:23 libfilterpack_facedetect.so
+-rw-r--r-- 1 root root     5116 дек.  13 14:36 libfilterpack_imageproc.so
+-rw-r--r-- 1 root root    33940 дек.  13 14:06 libflvextractor.so
+-rw-r--r-- 1 root root    21544 дек.  13 14:06 libflv.so
+-rw-r--r-- 1 root root     5248 дек.  13 14:35 libfmcust.so
+-rw-r--r-- 1 root root     5208 дек.  13 14:35 libfm_gpio_jni.so
+-rw-r--r-- 1 root root    42816 дек.  13 14:35 libfmjni.so
+-rw-r--r-- 1 root root    21648 дек.  13 14:35 libfmmt6620.so
+-rw-r--r-- 1 root root    21648 дек.  13 14:35 libfmmt6627.so
+-rw-r--r-- 1 root root    21648 дек.  13 14:35 libfmmt6628.so
+-rw-r--r-- 1 root root  1734108 дек.  13 14:23 libfrsdk.so
+-rw-r--r-- 1 root root   330300 дек.  13 14:35 libft.so
+-rw-r--r-- 1 root root    17500 дек.  13 14:34 libgabi++.so
+-rw-r--r-- 1 root root  1404788 дек.  13 14:23 libgames_rtmp_jni.so
+-rw-r--r-- 1 root root    21600 дек.  13 14:34 libgccdemangle.so
+-rw-r--r-- 1 root root    13464 дек.  13 14:06 libGdmaScalerPipe.so
+-rw-r--r-- 1 root root   266196 дек.  13 14:35 libGLES_trace.so
+-rw-r--r-- 1 root root    21444 дек.  13 14:35 libGLESv1_CM.so
+-rw-r--r-- 1 root root    21444 дек.  13 14:35 libGLESv2.so
+-rw-r--r-- 1 root root   222576 дек.  13 14:23 libgoggles_clientvision.so
+-rw-r--r-- 1 root root  9449260 дек.  13 14:23 libgoogle_recognizer_jni_l.so
+-rw-r--r-- 1 root root   103644 дек.  13 14:35 libgraphite2.so
+-rw-r--r-- 1 root root   259576 дек.  13 14:35 libgui.so
+-rw-r--r-- 1 root root     5520 дек.  13 14:23 libh264dec_customize.so
+-rw-r--r-- 1 root root   349980 дек.  13 14:23 libh264dec_xa.ca7.so
+-rw-r--r-- 1 root root   363784 дек.  13 14:23 libh264dec_xb.ca7.so
+-rw-r--r-- 1 root root   304380 дек.  13 14:23 libh264enc_sa.ca7.so
+-rw-r--r-- 1 root root   334652 дек.  13 14:23 libh264enc_sb.ca7.so
+-rw-r--r-- 1 root root    21808 дек.  13 14:35 libhardware_legacy.so
+-rw-r--r-- 1 root root     5216 дек.  13 14:35 libhardware.so
+-rw-r--r-- 1 root root   259364 дек.  13 14:35 libharfbuzz_ng.so
+-rw-r--r-- 1 root root   214212 дек.  13 14:35 libharfbuzz.so
+-rw-r--r-- 1 root root    21544 дек.  13 14:06 libhwm.so
+-rw-r--r-- 1 root root   190384 дек.  13 14:35 libhwui.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:06 libI420colorconvert.so
+-rw-r--r-- 1 root root  1173264 дек.  13 14:35 libicui18n.so
+-rw-r--r-- 1 root root  1029388 дек.  13 14:34 libicuuc.so
+-rw-r--r-- 1 root root    62668 дек.  13 14:35 libimageio.so
+-rw-r--r-- 1 root root   246936 дек.  13 14:35 libinput.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:34 libion.so
+-rw-r--r-- 1 root root    50776 дек.  13 14:23 libipod.so
+-rw-r--r-- 1 root root    22716 дек.  13 14:34 libiprouteutil.so
+-rw-r--r-- 1 root root   140544 дек.  13 14:06 libja3m.so
+-rw-r--r-- 1 root root   244896 дек.  13 14:35 libjavacore.so
+-rw-r--r-- 1 root root    22144 дек.  13 14:06 libJniAtvService.so
+-rw-r--r-- 1 root root    13540 дек.  13 14:12 libjni_eglfence.so
+-rw-r--r-- 1 root root    54512 дек.  13 14:12 libjni_filtershow_filters.so
+-rw-r--r-- 1 root root     5068 дек.  13 14:35 libjnigraphics.so
+-rw-r--r-- 1 root root    79196 дек.  13 14:32 libjni_latinime.so
+-rw-r--r-- 1 root root    13464 дек.  13 14:32 libjni_pq.so
+-rw-r--r-- 1 root root   472636 дек.  13 14:23 libjni_unbundled_latinimegoogle.so
+-rw-r--r-- 1 root root   217960 дек.  13 14:06 libjpeg.so
+-rw-r--r-- 1 root root    21708 дек.  13 14:06 libJpgDecPipe.so
+-rw-r--r-- 1 root root     9376 дек.  13 14:06 libJpgEncPipe.so
+-rw-r--r-- 1 root root    13496 дек.  13 14:12 libjtranscode.so
+-rw-r--r-- 1 root root     5180 дек.  13 14:35 libkeystore_client.so
+-rw-r--r-- 1 root root    17516 дек.  13 14:34 liblog.so
+-rw-r--r-- 1 root root    13396 дек.  13 14:06 libm4u.so
+-rw-r--r-- 1 root root   992440 дек.  13 14:06 libMali.so
+-rw-r--r-- 1 root root     9256 дек.  13 14:35 libmatv_cust.so
+-rw-r--r-- 1 root root    21588 дек.  13 14:35 libmdnssd.so
+-rw-r--r-- 1 root root   142680 дек.  13 14:36 libmedia_jni.so
+-rw-r--r-- 1 root root     5008 дек.  13 14:34 libmedia_native.so
+-rw-r--r-- 1 root root   521496 дек.  13 14:36 libmediaplayerservice.so
+-rw-r--r-- 1 root root   599320 дек.  13 14:35 libmedia.so
+-rw-r--r-- 1 root root     5152 дек.  13 14:35 libmediatek_exceptionlog.so
+-rw-r--r-- 1 root root    29884 дек.  13 14:35 libmemorydumper.so
+-rw-r--r-- 1 root root     5068 дек.  13 14:06 libmhalImageCodec.so
+-rw-r--r-- 1 root root     5256 дек.  13 14:35 libmmprofile_jni.so
+-rw-r--r-- 1 root root     5060 дек.  13 14:06 libmmprofile.so
+-rw-r--r-- 1 root root     7860 дек.  13 14:23 libmp4dec_customize.so
+-rw-r--r-- 1 root root   152040 дек.  13 14:23 libmp4dec_sa.ca7.so
+-rw-r--r-- 1 root root   175352 дек.  13 14:23 libmp4dec_sb.ca7.so
+-rw-r--r-- 1 root root   201412 дек.  13 14:23 libmp4enc_xa.ca7.so
+-rw-r--r-- 1 root root   162636 дек.  13 14:23 libmp4enc_xb.ca7.so
+-rw-r--r-- 1 root root    13520 дек.  13 14:06 libmpodecoder.so
+-rw-r--r-- 1 root root     9364 дек.  13 14:06 libmpoencoder.so
+-rw-r--r-- 1 root root     9528 дек.  13 14:35 libmpojni.so
+-rw-r--r-- 1 root root    38140 дек.  13 14:06 libmpo.so
+-rw-r--r-- 1 root root    87228 дек.  13 14:34 libm.so
+-rw-r--r-- 1 root root    17552 дек.  13 14:06 libmtka2dp.so
+-rw-r--r-- 1 root root    50320 дек.  13 14:06 libmtkbtextadpa2dp.so
+-rw-r--r-- 1 root root    17504 дек.  13 14:06 libmtkbtextadp.so
+-rw-r--r-- 1 root root     9860 дек.  13 14:06 libmtkbtextpan.so
+-rw-r--r-- 1 root root    42384 дек.  13 14:06 libmtkbtextspp.so
+-rw-r--r-- 1 root root    11942 дек.  13 14:06 libmtk_drvb.so
+-rw-r--r-- 1 root root     9472 дек.  13 14:35 libmtkhdmi_jni.so
+-rw-r--r-- 1 root root   259480 дек.  13 14:06 libMtkOmxAacDec.so
+-rw-r--r-- 1 root root   296088 дек.  13 14:06 libMtkOmxAacEnc.so
+-rw-r--r-- 1 root root    54512 дек.  13 14:06 libMtkOmxAdpcmDec.so
+-rw-r--r-- 1 root root    50416 дек.  13 14:06 libMtkOmxAdpcmEnc.so
+-rw-r--r-- 1 root root    33940 дек.  13 14:06 libMtkOmxAmrEnc.so
+-rw-r--r-- 1 root root    42132 дек.  13 14:06 libMtkOmxAMRNBDec.so
+-rw-r--r-- 1 root root    42132 дек.  13 14:06 libMtkOmxAMRWBDec.so
+-rw-r--r-- 1 root root    87280 дек.  13 14:06 libMtkOmxApeDec.so
+-rw-r--r-- 1 root root    33940 дек.  13 14:06 libMtkOmxAwbEnc.so
+-rw-r--r-- 1 root root    13500 дек.  13 14:06 libMtkOmxCore.so
+-rw-r--r-- 1 root root   194780 дек.  13 14:06 libMtkOmxFlacDec.so
+-rw-r--r-- 1 root root    38040 дек.  13 14:06 libMtkOmxG711Dec.so
+-rw-r--r-- 1 root root   111856 дек.  13 14:06 libMtkOmxMp3Dec.so
+-rw-r--r-- 1 root root    55084 дек.  13 14:06 libMtkOmxRawDec.so
+-rw-r--r-- 1 root root    71428 дек.  13 14:06 libMtkOmxVdec.so
+-rw-r--r-- 1 root root    54640 дек.  13 14:06 libMtkOmxVenc.so
+-rw-r--r-- 1 root root   120048 дек.  13 14:06 libMtkOmxVorbisDec.so
+-rw-r--r-- 1 root root   120056 дек.  13 14:06 libMtkOmxVorbisEnc.so
+-rw-r--r-- 1 root root    34048 дек.  13 14:06 libmtkplayer.so
+-rw-r--r-- 1 root root    25700 дек.  13 14:06 libMtkVideoTranscoder.so
+-rw-r--r-- 1 root root    87260 дек.  13 14:06 libmtk_vt_client.so
+-rw-r--r-- 1 root root     9652 дек.  13 14:06 libmtk_vt_em.so
+-rw-r--r-- 1 root root   116048 дек.  13 14:06 libmtk_vt_service.so
+-rw-r--r-- 1 root root   683980 дек.  13 14:06 libmtk_vt_swip.so
+-rw-r--r-- 1 root root    13536 дек.  13 14:06 libmtk_vt_utils.so
+-rw-r--r-- 1 root root    87192 дек.  13 14:35 libmtp.so
+-rw-r--r-- 1 root root     9304 дек.  13 14:06 libnativecheck-jni.so
+-rw-r--r-- 1 root root     9300 дек.  13 14:35 libnativehelper.so
+-rw-r--r-- 1 root root    21596 дек.  13 14:35 libnbaio.so
+-rw-r--r-- 1 root root    13400 дек.  13 14:34 libnetlink.so
+-rw-r--r-- 1 root root    25696 дек.  13 14:35 libnetutils.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:35 libnvram_daemon_callback.so
+-rw-r--r-- 1 root root    42076 дек.  13 14:06 libnvram.so
+-rw-r--r-- 1 root root     9220 дек.  13 14:36 libOpenMAXAL.so
+-rw-r--r-- 1 root root     9220 дек.  13 14:36 libOpenSLES.so
+-rw-r--r-- 1 root root    37920 дек.  13 14:06 libpalsecurity.so
+-rw-r--r-- 1 root root     9308 дек.  13 14:06 libpalwlan_mtk.so
+-rw-r--r-- 1 root root  2149992 дек.  13 14:23 libpatts_engine_jni_api.so
+-rw-r--r-- 1 root root     5264 дек.  13 14:06 libperfservice.so
+-rw-r--r-- 1 root root   145776 дек.  13 14:35 libpixelflinger.so
+-rw-r--r-- 1 root root    13440 дек.  13 14:23 libplus_jni_v8.so
+-rw-r--r-- 1 root root     5060 дек.  13 14:34 libportable.so
+-rw-r--r-- 1 root root    13448 дек.  13 14:35 libpowermanager.so
+-rw-r--r-- 1 root root     5216 дек.  13 14:35 libpower.so
+-rw-r--r-- 1 root root     9308 дек.  13 14:06 libpppbtdun.so
+-rw-r--r-- 1 root root    21664 дек.  13 14:35 libreference-ril.so
+-rw-r--r-- 1 root root    61656 дек.  13 14:35 librilmtkmd2.so
+-rw-r--r-- 1 root root    61656 дек.  13 14:35 librilmtk.so
+-rw-r--r-- 1 root root    35268 дек.  13 14:35 libril.so
+-rw-r--r-- 1 root root     5964 дек.  13 14:23 librs.antblur_constant.so
+-rw-r--r-- 1 root root     6244 дек.  13 14:23 librs.antblur_drama.so
+-rw-r--r-- 1 root root    10296 дек.  13 14:23 librs.antblur.so
+-rw-r--r-- 1 root root     5884 дек.  13 14:23 librs.drama.so
+-rw-r--r-- 1 root root   138172 дек.  13 14:36 libRSDriver.so
+-rw-r--r-- 1 root root    16216 дек.  13 14:23 librs.film_base.so
+-rw-r--r-- 1 root root    12052 дек.  13 14:23 librs.fixedframe.so
+-rw-r--r-- 1 root root     5228 дек.  13 14:23 librs.grey.so
+-rw-r--r-- 1 root root     5872 дек.  13 14:23 librs.image_wrapper.so
+-rw-r--r-- 1 root root    26964 дек.  13 14:36 librs_jni.so
+-rw-r--r-- 1 root root    22556 дек.  13 14:23 librsjni.so
+-rw-r--r-- 1 root root    17092 дек.  13 14:23 librs.retrolux.so
+-rw-r--r-- 1 root root   493400 дек.  13 14:36 libRS.so
+-rw-r--r-- 1 root root   288868 дек.  13 14:23 libRSSupport.so
+-rw-r--r-- 1 root root   103896 дек.  13 14:35 librtp_jni.so
+-rw-r--r-- 1 root root     5108 дек.  13 14:35 libsched.so
+-rw-r--r-- 1 root root     8104 дек.  13 14:23 libsec.so
+-rw-r--r-- 1 root root    83132 дек.  13 14:35 libsensorservice.so
+-rw-r--r-- 1 root root  1451464 дек.  13 14:35 libskia.so
+-rw-r--r-- 1 root root   329560 дек.  13 14:35 libsonivox.so
+-rw-r--r-- 1 root root     9488 дек.  13 14:35 libsoundpool.so
+-rw-r--r-- 1 root root    17592 дек.  13 14:34 libsparse.so
+-rw-r--r-- 1 root root   197072 дек.  13 14:23 libspeech_enh_lib.so
+-rw-r--r-- 1 root root    18948 дек.  13 14:34 libspeexresampler.so
+-rw-r--r-- 1 root root   160996 дек.  13 14:23 libspeexwrapper.so
+-rw-r--r-- 1 root root    29780 дек.  13 14:35 libsqlite_jni.so
+-rw-r--r-- 1 root root   364888 дек.  13 14:35 libsqlite.so
+-rw-r--r-- 1 root root     5112 дек.  13 14:35 libSR_AudioIn.so
+-rw-r--r-- 1 root root    66736 дек.  13 14:06 libssladp.so
+-rw-r--r-- 1 root root   261636 дек.  13 14:35 libssl.so
+-rw-r--r-- 1 root root    50216 дек.  13 14:34 libstagefright_amrnb_common.so
+-rw-r--r-- 1 root root    21544 дек.  13 14:34 libstagefright_avc_common.so
+-rw-r--r-- 1 root root    50384 дек.  13 14:36 libstagefright_chromium_http.so
+-rw-r--r-- 1 root root     5112 дек.  13 14:34 libstagefright_enc_common.so
+-rw-r--r-- 1 root root    46272 дек.  13 14:35 libstagefright_foundation.so
+-rw-r--r-- 1 root root     9308 дек.  13 14:06 libstagefrighthw.so
+-rw-r--r-- 1 root root    13448 дек.  13 14:06 libstagefright_memutil.so
+-rw-r--r-- 1 root root    83108 дек.  13 14:35 libstagefright_omx.so
+-rw-r--r-- 1 root root  1748400 дек.  13 14:35 libstagefright.so
+-rw-r--r-- 1 root root   226712 дек.  13 14:35 libstagefright_soft_aacdec.so
+-rw-r--r-- 1 root root   275608 дек.  13 14:35 libstagefright_soft_aacenc.so
+-rw-r--r-- 1 root root    95388 дек.  13 14:35 libstagefright_soft_amrdec.so
+-rw-r--r-- 1 root root    58460 дек.  13 14:35 libstagefright_soft_amrnbenc.so
+-rw-r--r-- 1 root root   118360 дек.  13 14:35 libstagefright_soft_amrwbenc.so
+-rw-r--r-- 1 root root   170200 дек.  13 14:36 libstagefright_soft_flacenc.so
+-rw-r--r-- 1 root root    13412 дек.  13 14:36 libstagefright_soft_g711dec.so
+-rw-r--r-- 1 root root   116016 дек.  13 14:36 libstagefright_soft_h264dec.so
+-rw-r--r-- 1 root root    95332 дек.  13 14:36 libstagefright_soft_h264enc.so
+-rw-r--r-- 1 root root    62564 дек.  13 14:36 libstagefright_soft_mp3dec.so
+-rw-r--r-- 1 root root    91236 дек.  13 14:36 libstagefright_soft_mpeg4dec.so
+-rw-r--r-- 1 root root   124004 дек.  13 14:36 libstagefright_soft_mpeg4enc.so
+-rw-r--r-- 1 root root    13404 дек.  13 14:35 libstagefright_soft_rawdec.so
+-rw-r--r-- 1 root root    17508 дек.  13 14:36 libstagefright_soft_vorbisdec.so
+-rw-r--r-- 1 root root   112012 дек.  13 14:36 libstagefright_soft_vpxdec.so
+-rw-r--r-- 1 root root   267468 дек.  13 14:36 libstagefright_wfd.so
+-rw-r--r-- 1 root root     9256 дек.  13 14:35 libstagefright_yuv.so
+-rw-r--r-- 1 root root     5212 дек.  13 14:34 libstdc++.so
+-rw-r--r-- 1 root root   222524 дек.  13 14:34 libstlport.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:35 libsurfaceflinger_ddmconnection.so
+-rw-r--r-- 1 root root   242956 дек.  13 14:35 libsurfaceflinger.so
+-rw-r--r-- 1 root root     9272 дек.  13 14:35 libsuspend.so
+-rw-r--r-- 1 root root    13472 дек.  13 14:06 libSwJpgCodec.so
+-rw-r--r-- 1 root root     5160 дек.  13 14:34 libsync.so
+-rw-r--r-- 1 root root     9316 дек.  13 14:35 libsystem_server.so
+-rw-r--r-- 1 root root    21596 дек.  13 14:35 libsysutils.so
+-rw-r--r-- 1 root root     5212 дек.  13 14:34 libthread_db.so
+-rw-r--r-- 1 root root    13564 дек.  13 14:35 libtinyalsa.so
+-rw-r--r-- 1 root root     5324 дек.  13 14:35 libtvoutjni.so
+-rw-r--r-- 1 root root     5008 дек.  13 14:35 libtvoutpattern.so
+-rw-r--r-- 1 root root    42232 дек.  13 14:35 libui.so
+-rw-r--r-- 1 root root     9256 дек.  13 14:35 libusbhost.so
+-rw-r--r-- 1 root root     5152 дек.  13 14:35 libutilrilmtk.so
+-rw-r--r-- 1 root root   103708 дек.  13 14:35 libutils.so
+-rw-r--r-- 1 root root    33992 дек.  13 14:36 libvariablespeed.so
+-rw-r--r-- 1 root root   349640 дек.  13 14:23 libvcdecoder_jni.so
+-rw-r--r-- 1 root root    46184 дек.  13 14:06 libvcodecdrv.so
+-rw-r--r-- 1 root root    49544 дек.  13 14:23 libvcodec_oal.so
+-rw-r--r-- 1 root root    25756 дек.  13 14:06 libvcodec_utility.so
+-rw-r--r-- 1 root root  4628180 дек.  13 14:23 libvideochat_jni.so
+-rw-r--r-- 1 root root    17928 дек.  13 14:06 libvoicerecognition_jni.so
+-rw-r--r-- 1 root root    70888 дек.  13 14:06 libvoicerecognition.so
+-rw-r--r-- 1 root root   100456 дек.  13 14:34 libvorbisidec.so
+-rw-r--r-- 1 root root   839416 дек.  13 14:23 libvp8dec_xa.ca7.so
+-rw-r--r-- 1 root root     5776 дек.  13 14:34 libvt_custom.so
+-rw-r--r-- 1 root root   559764 дек.  13 14:06 libvtmal.so
+-rw-r--r-- 1 root root    72120 дек.  13 14:23 libwapi.so
+-rw-r--r-- 1 root root  9514920 дек.  13 14:36 libwebcore.so
+-rw-r--r-- 1 root root   193764 дек.  13 14:23 libwebp_android.so
+-rw-r--r-- 1 root root   374024 дек.  13 14:35 libwebrtc_audio_preprocessing.so
+-rw-r--r-- 1 root root   165124 дек.  13 14:36 libwilhelm.so
+-rw-r--r-- 1 root root     9300 дек.  13 14:35 libwpa_client.so
+-rw-r--r-- 1 root root  1086732 дек.  13 14:23 libWVphoneAPI.so
+-rw-r--r-- 1 root root    95452 дек.  13 14:31 libz.so
+drwxr-xr-x 2 root root     4096 дек.  13 14:20 modules
+-rw-r--r-- 1 root root   174756 дек.  13 14:35 mtk-rilmd2.so
+-rw-r--r-- 1 root root   174756 дек.  13 14:35 mtk-ril.so
+drwxr-xr-x 2 root root     4096 дек.  13 14:35 soundfx
+drwxr-xr-x 3 root root     4096 дек.  13 14:35 ssl
+
+A516_S118_Stock/OSPackage/system/lib/drm:
+итого 72
+-rw-r--r-- 1 root root 70856 дек.  13 14:06 libdrmmtkplugin.so
+
+A516_S118_Stock/OSPackage/system/lib/egl:
+итого 156
+-rw-r--r-- 1 root root    20 дек.  13 14:23 egl.cfg
+-rw-r--r-- 1 root root 13252 дек.  13 14:06 libEGL_mali.so
+-rw-r--r-- 1 root root 83196 дек.  13 14:35 libGLES_android.so
+-rw-r--r-- 1 root root 25540 дек.  13 14:06 libGLESv1_CM_mali.so
+-rw-r--r-- 1 root root 21444 дек.  13 14:06 libGLESv2_mali.so
+
+A516_S118_Stock/OSPackage/system/lib/hw:
+итого 452
+-rw-r--r-- 1 root root 141040 дек.  13 14:35 audio_policy.default.so
+-rw-r--r-- 1 root root   5292 дек.  13 14:35 audio_policy.stub.so
+-rw-r--r-- 1 root root   5348 дек.  13 14:35 audio.primary.default.so
+-rw-r--r-- 1 root root  50440 дек.  13 14:35 camera.default.so
+-rw-r--r-- 1 root root  42368 дек.  13 14:35 gps.default.so
+-rw-r--r-- 1 root root  13816 дек.  13 14:35 gralloc.default.so
+-rw-r--r-- 1 root root  17560 дек.  13 14:06 gralloc.mt6572.so
+-rw-r--r-- 1 root root  83328 дек.  13 14:35 hwcomposer.mt6572.so
+-rw-r--r-- 1 root root   9408 дек.  13 14:35 keystore.default.so
+-rw-r--r-- 1 root root  13604 дек.  13 14:35 libaudio.r_submix.default.so
+-rw-r--r-- 1 root root   9488 дек.  13 14:35 libaudio.usb.default.so
+-rw-r--r-- 1 root root   9496 дек.  13 14:35 lights.default.so
+-rw-r--r-- 1 root root   5292 дек.  13 14:35 local_time.default.so
+-rw-r--r-- 1 root root   5292 дек.  13 14:35 power.default.so
+-rw-r--r-- 1 root root   9596 дек.  13 14:35 sensors.default.so
+
+A516_S118_Stock/OSPackage/system/lib/modules:
+итого 1796
+-rw-r--r-- 1 root root 147512 дек.  13 14:15 ccci.ko
+-rw-r--r-- 1 root root 133292 дек.  13 14:15 ccci_plat.ko
+-rw-r--r-- 1 root root  10540 дек.  13 14:15 devapc.ko
+-rw-r--r-- 1 root root   4440 дек.  13 14:15 devinfo.ko
+-rw-r--r-- 1 root root  15412 дек.  13 14:15 hid-logitech-dj.ko
+-rw-r--r-- 1 root root 162916 дек.  13 14:15 mtk_fm_drv.ko
+-rw-r--r-- 1 root root  12724 дек.  13 14:15 mtk_stp_bt.ko
+-rw-r--r-- 1 root root   9228 дек.  13 14:15 mtk_stp_gps.ko
+-rw-r--r-- 1 root root 310488 дек.  13 14:15 mtk_stp_wmt.ko
+-rw-r--r-- 1 root root   5444 дек.  13 14:15 mtk_wmt_wifi.ko
+-rw-r--r-- 1 root root  15196 дек.  13 14:15 scsi_tgt.ko
+-rw-r--r-- 1 root root   2304 дек.  13 14:15 scsi_wait_scan.ko
+-rw-r--r-- 1 root root  98312 дек.  13 14:15 sec.ko
+-rw-r--r-- 1 root root  38216 дек.  13 14:15 vcodec_kernel_driver.ko
+lrwxrwxrwx 1 root root      8 дек.  13 14:20 wlan.ko -> wlan_.ko
+-rw-r--r-- 1 root root 836388 дек.  13 14:15 wlan_mt6582.ko
+
+A516_S118_Stock/OSPackage/system/lib/soundfx:
+итого 148
+-rw-r--r-- 1 root root 17644 дек.  13 14:35 libaudiopreprocessing.so
+-rw-r--r-- 1 root root 71488 дек.  13 14:35 libbundlewrapper.so
+-rw-r--r-- 1 root root  9348 дек.  13 14:35 libdownmix.so
+-rw-r--r-- 1 root root 29884 дек.  13 14:35 libreverbwrapper.so
+-rw-r--r-- 1 root root  9292 дек.  13 14:35 libvisualizer.so
+
+A516_S118_Stock/OSPackage/system/lib/ssl:
+итого 4
+drwxr-xr-x 2 root root 4096 дек.  13 14:35 engines
+
+A516_S118_Stock/OSPackage/system/lib/ssl/engines:
+итого 12
+-rw-r--r-- 1 root root 9376 дек.  13 14:35 libkeystore.so
+
+A516_S118_Stock/OSPackage/system/lost+found:
+итого 0
+
+A516_S118_Stock/OSPackage/system/media:
+итого 4088
+drwxr-xr-x 6 root root    4096 дек.  13 14:23 audio
+-rw-r--r-- 1 root root 1388816 дек.  13 14:23 bootanimation.zip
+-rw-r--r-- 1 root root   91558 дек.  13 14:23 bootaudio.mp3
+drwxr-xr-x 2 root root    4096 дек.  13 14:27 images
+-rw-r--r-- 1 root root  605173 дек.  13 14:23 LMprec_508.emd
+-rw-r--r-- 1 root root  637001 дек.  13 14:23 PFFprec_600.emd
+-rw-r--r-- 1 root root 1362435 дек.  13 14:23 shutanimation.zip
+-rw-r--r-- 1 root root   75676 дек.  13 14:23 shutaudio.mp3
+drwxr-xr-x 2 root root    4096 дек.  13 14:23 video
+
+A516_S118_Stock/OSPackage/system/media/audio:
+итого 16
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 alarms
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 notifications
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 ringtones
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 ui
+
+A516_S118_Stock/OSPackage/system/media/audio/alarms:
+итого 640
+-rw-r--r-- 1 root root  71941 дек.  13 14:23 Childhood.ogg
+-rw-r--r-- 1 root root  22572 дек.  13 14:23 Classical.ogg
+-rw-r--r-- 1 root root 344798 дек.  13 14:23 Dreamland.ogg
+-rw-r--r-- 1 root root 131611 дек.  13 14:23 GhostEccentric.ogg
+-rw-r--r-- 1 root root  33869 дек.  13 14:23 HorseJingle.ogg
+-rw-r--r-- 1 root root  34574 дек.  13 14:23 Prompt.ogg
+
+A516_S118_Stock/OSPackage/system/media/audio/notifications:
+итого 820
+-rw-r--r-- 1 root root 23205 дек.  13 14:23 ClimbingWalls.ogg
+-rw-r--r-- 1 root root  9022 дек.  13 14:23 CrispBell.ogg
+-rw-r--r-- 1 root root  9957 дек.  13 14:23 Didong.ogg
+-rw-r--r-- 1 root root 24505 дек.  13 14:23 EarthDown.ogg
+-rw-r--r-- 1 root root 68807 дек.  13 14:23 EndlessLovely.ogg
+-rw-r--r-- 1 root root 53603 дек.  13 14:23 Gong.ogg
+-rw-r--r-- 1 root root 67738 дек.  13 14:23 Guqin.ogg
+-rw-r--r-- 1 root root 28442 дек.  13 14:23 HeavenNearby.ogg
+-rw-r--r-- 1 root root 35086 дек.  13 14:23 HeyJuliet.ogg
+-rw-r--r-- 1 root root 31940 дек.  13 14:23 HolyVirgin.ogg
+-rw-r--r-- 1 root root 52141 дек.  13 14:23 JokeAgain.ogg
+-rw-r--r-- 1 root root 94034 дек.  13 14:23 NatureColour.ogg
+-rw-r--r-- 1 root root 63078 дек.  13 14:23 Panpipe.ogg
+-rw-r--r-- 1 root root 44395 дек.  13 14:23 Prayer.ogg
+-rw-r--r-- 1 root root 13419 дек.  13 14:23 RapBell.ogg
+-rw-r--r-- 1 root root 55076 дек.  13 14:23 ShineTheWay.ogg
+-rw-r--r-- 1 root root 67807 дек.  13 14:23 SmilingFace.ogg
+-rw-r--r-- 1 root root 69213 дек.  13 14:23 Zither.ogg
+
+A516_S118_Stock/OSPackage/system/media/audio/ringtones:
+итого 4724
+-rw-r--r-- 1 root root 173269 дек.  13 14:23 AveenoBreeze.ogg
+-rw-r--r-- 1 root root  58294 дек.  13 14:23 BeatsMisty.ogg
+-rw-r--r-- 1 root root 325757 дек.  13 14:23 BubblySoul.ogg
+-rw-r--r-- 1 root root  56301 дек.  13 14:23 Burning.ogg
+-rw-r--r-- 1 root root 413254 дек.  13 14:23 CharmedLife.ogg
+-rw-r--r-- 1 root root 328562 дек.  13 14:23 CharmedNight.ogg
+-rw-r--r-- 1 root root 392890 дек.  13 14:23 ChurchSpirit.ogg
+-rw-r--r-- 1 root root  38027 дек.  13 14:23 ClassicTone.ogg
+-rw-r--r-- 1 root root  48975 дек.  13 14:23 Congas.ogg
+-rw-r--r-- 1 root root 236339 дек.  13 14:23 DewRhyme.ogg
+-rw-r--r-- 1 root root 328006 дек.  13 14:23 ForestGlens.ogg
+-rw-r--r-- 1 root root 473733 дек.  13 14:23 FreeLoop.ogg
+-rw-r--r-- 1 root root 490038 дек.  13 14:23 LisaLaLa.ogg
+-rw-r--r-- 1 root root 342173 дек.  13 14:23 MindOasis.ogg
+-rw-r--r-- 1 root root 393202 дек.  13 14:23 PastoralTaste.ogg
+-rw-r--r-- 1 root root 264240 дек.  13 14:23 RangeOfStar.ogg
+-rw-r--r-- 1 root root 107140 дек.  13 14:23 SaltWater.ogg
+-rw-r--r-- 1 root root 188818 дек.  13 14:23 SpringLust.ogg
+-rw-r--r-- 1 root root  39024 дек.  13 14:23 Traditional.ogg
+-rw-r--r-- 1 root root  98417 дек.  13 14:23 WildTemperament.ogg
+
+A516_S118_Stock/OSPackage/system/media/audio/ui:
+итого 144
+-rw-r--r-- 1 root root  7281 дек.  13 14:23 camera_click_1.ogg
+-rw-r--r-- 1 root root  8054 дек.  13 14:23 camera_click.ogg
+-rw-r--r-- 1 root root 10820 дек.  13 14:23 camera_shutter.ogg
+-rw-r--r-- 1 root root  6019 дек.  13 14:23 Dock.ogg
+-rw-r--r-- 1 root root  5746 дек.  13 14:23 Effect_Tick.ogg
+-rw-r--r-- 1 root root  9032 дек.  13 14:23 focus_failed.ogg
+-rw-r--r-- 1 root root  7749 дек.  13 14:23 focus_start.ogg
+-rw-r--r-- 1 root root  5848 дек.  13 14:23 focus_success.ogg
+-rw-r--r-- 1 root root  6193 дек.  13 14:23 KeypressDelete.ogg
+-rw-r--r-- 1 root root  7972 дек.  13 14:23 KeypressReturn.ogg
+-rw-r--r-- 1 root root  7392 дек.  13 14:23 KeypressSpacebar.ogg
+-rw-r--r-- 1 root root  5194 дек.  13 14:23 KeypressStandard.ogg
+-rw-r--r-- 1 root root  4661 дек.  13 14:23 Lock.ogg
+-rw-r--r-- 1 root root  6585 дек.  13 14:23 LowBattery.ogg
+-rw-r--r-- 1 root root  6016 дек.  13 14:23 Undock.ogg
+-rw-r--r-- 1 root root  4666 дек.  13 14:23 Unlock.ogg
+-rw-r--r-- 1 root root  5582 дек.  13 14:23 VideoRecord.ogg
+
+A516_S118_Stock/OSPackage/system/media/images:
+итого 804
+-rw-r--r-- 1 root root 819840 дек.  13 14:27 boot_logo
+
+A516_S118_Stock/OSPackage/system/media/video:
+итого 6224
+-rw-r--r-- 1 root root  193567 дек.  13 14:23 AndroidInSpace.240p.mp4
+-rw-r--r-- 1 root root 2884674 дек.  13 14:23 AndroidInSpace.480p.mp4
+-rw-r--r-- 1 root root  388748 дек.  13 14:23 Sunset.240p.mp4
+-rw-r--r-- 1 root root 2899702 дек.  13 14:23 Sunset.480p.mp4
+
+A516_S118_Stock/OSPackage/system/mobile_toolkit:
+итого 86656
+-rw-r--r-- 1 root root 88735744 дек.  13 14:27 iAmCdRom.iso
+
+A516_S118_Stock/OSPackage/system/res:
+итого 8
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 images
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 sound
+
+A516_S118_Stock/OSPackage/system/res/images:
+итого 1800
+-rw-r--r-- 1 root root   2781 дек.  13 14:23 lcd_test_00.png
+-rw-r--r-- 1 root root   2782 дек.  13 14:23 lcd_test_01.png
+-rw-r--r-- 1 root root   2783 дек.  13 14:23 lcd_test_02.png
+-rw-r--r-- 1 root root   2783 дек.  13 14:23 lcd_test_03.png
+-rw-r--r-- 1 root root   2884 дек.  13 14:23 lcd_test_04.png
+-rw-r--r-- 1 root root 352971 дек.  13 14:23 lcd_test_05.png
+-rw-r--r-- 1 root root 869442 дек.  13 14:23 lcd_test_06.png
+-rw-r--r-- 1 root root 592795 дек.  13 14:23 lcd_test_07.png
+
+A516_S118_Stock/OSPackage/system/res/sound:
+итого 1888
+-rw-r--r-- 1 root root 1766756 дек.  13 14:23 ringtone.wav
+-rw-r--r-- 1 root root  162770 дек.  13 14:23 testpattern1.wav
+
+A516_S118_Stock/OSPackage/system/tts:
+итого 4
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 lang_pico
+
+A516_S118_Stock/OSPackage/system/tts/lang_pico:
+итого 6328
+-rw-r--r-- 1 root root 634996 дек.  13 14:23 de-DE_gl0_sg.bin
+-rw-r--r-- 1 root root 440732 дек.  13 14:23 de-DE_ta.bin
+-rw-r--r-- 1 root root 584436 дек.  13 14:23 en-GB_kh0_sg.bin
+-rw-r--r-- 1 root root 412248 дек.  13 14:23 en-GB_ta.bin
+-rw-r--r-- 1 root root 777396 дек.  13 14:23 en-US_lh0_sg.bin
+-rw-r--r-- 1 root root 650668 дек.  13 14:23 en-US_ta.bin
+-rw-r--r-- 1 root root 256744 дек.  13 14:23 es-ES_ta.bin
+-rw-r--r-- 1 root root 605280 дек.  13 14:23 es-ES_zl0_sg.bin
+-rw-r--r-- 1 root root 833236 дек.  13 14:23 fr-FR_nk0_sg.bin
+-rw-r--r-- 1 root root 381936 дек.  13 14:23 fr-FR_ta.bin
+-rw-r--r-- 1 root root 628268 дек.  13 14:23 it-IT_cm0_sg.bin
+-rw-r--r-- 1 root root 252044 дек.  13 14:23 it-IT_ta.bin
+
+A516_S118_Stock/OSPackage/system/usr:
+итого 28
+drwxr-xr-x 2 root root 4096 дек.  13 14:27 icu
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 idc
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 keychars
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 keylayout
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 mobilelog
+drwxr-xr-x 4 root root 4096 дек.  13 14:27 share
+drwxr-xr-x 3 root root 4096 дек.  13 14:23 srec
+
+A516_S118_Stock/OSPackage/system/usr/icu:
+итого 8540
+-rw-r--r-- 1 root root 8743984 дек.  13 14:27 icudt48l.dat
+
+A516_S118_Stock/OSPackage/system/usr/idc:
+итого 12
+-rw-r--r-- 1 root root 668 дек.  13 14:23 hid-keyboard.idc
+-rw-r--r-- 1 root root 870 дек.  13 14:23 qwerty2.idc
+-rw-r--r-- 1 root root 869 дек.  13 14:23 qwerty.idc
+
+A516_S118_Stock/OSPackage/system/usr/keychars:
+итого 80
+-rw-r--r-- 1 root root 14682 дек.  13 14:23 Generic.kcm
+-rw-r--r-- 1 root root 14682 дек.  13 14:23 hid-keyboard.kcm
+-rw-r--r-- 1 root root 15710 дек.  13 14:23 qwerty2.kcm
+-rw-r--r-- 1 root root 15840 дек.  13 14:23 qwerty.kcm
+-rw-r--r-- 1 root root 14450 дек.  13 14:23 Virtual.kcm
+
+A516_S118_Stock/OSPackage/system/usr/keylayout:
+итого 76
+-rw-r--r-- 1 root root   184 дек.  13 14:23 ACCDET.kl
+-rw-r--r-- 1 root root   894 дек.  13 14:23 AVRCP.kl
+-rw-r--r-- 1 root root  9009 дек.  13 14:23 Generic.kl
+-rw-r--r-- 1 root root 10622 дек.  13 14:23 hid-keyboard.kl
+-rw-r--r-- 1 root root  1628 дек.  13 14:23 mtk-kpd.kl
+-rw-r--r-- 1 root root  1734 дек.  13 14:23 mtk-tpd.kl
+-rw-r--r-- 1 root root  2577 дек.  13 14:23 qwerty.kl
+-rw-r--r-- 1 root root  1293 дек.  13 14:23 Vendor_045e_Product_028e.kl
+-rw-r--r-- 1 root root  1027 дек.  13 14:23 Vendor_046d_Product_c216.kl
+-rw-r--r-- 1 root root  1325 дек.  13 14:23 Vendor_046d_Product_c294.kl
+-rw-r--r-- 1 root root  1392 дек.  13 14:23 Vendor_046d_Product_c299.kl
+-rw-r--r-- 1 root root  2793 дек.  13 14:23 Vendor_046d_Product_c532.kl
+-rw-r--r-- 1 root root  1458 дек.  13 14:23 Vendor_054c_Product_0268.kl
+-rw-r--r-- 1 root root  2409 дек.  13 14:23 Vendor_05ac_Product_0239.kl
+-rw-r--r-- 1 root root  1994 дек.  13 14:23 Vendor_22b8_Product_093d.kl
+
+A516_S118_Stock/OSPackage/system/usr/mobilelog:
+итого 4
+-rw-r--r-- 1 root root 3043 дек.  13 14:23 call.cfg
+
+A516_S118_Stock/OSPackage/system/usr/share:
+итого 8
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 bmd
+drwxr-xr-x 2 root root 4096 дек.  13 14:27 zoneinfo
+
+A516_S118_Stock/OSPackage/system/usr/share/bmd:
+итого 36
+-rw-r--r-- 1 root root 12862 дек.  13 14:23 RFFspeed_501.bmd
+-rw-r--r-- 1 root root 19586 дек.  13 14:23 RFFstd_501.bmd
+
+A516_S118_Stock/OSPackage/system/usr/share/zoneinfo:
+итого 524
+-rw-r--r-- 1 root root 499422 дек.  13 14:27 zoneinfo.dat
+-rw-r--r-- 1 root root  29848 дек.  13 14:27 zoneinfo.idx
+-rw-r--r-- 1 root root      6 дек.  13 14:27 zoneinfo.version
+
+A516_S118_Stock/OSPackage/system/usr/srec:
+итого 4
+drwxr-xr-x 2 root root 4096 дек.  13 14:23 en-US
+
+A516_S118_Stock/OSPackage/system/usr/srec/en-US:
+итого 33132
+-rw-r--r-- 1 root root 14001008 дек.  13 14:23 acoustic_model
+-rw-r--r-- 1 root root   346558 дек.  13 14:23 c_fst
+-rw-r--r-- 1 root root  2669616 дек.  13 14:23 clg
+-rw-r--r-- 1 root root      281 дек.  13 14:23 compile_grammar.config
+-rw-r--r-- 1 root root     3618 дек.  13 14:23 contacts.abnf
+-rw-r--r-- 1 root root     1687 дек.  13 14:23 dict
+-rw-r--r-- 1 root root     2452 дек.  13 14:23 dictation.config
+-rw-r--r-- 1 root root   595840 дек.  13 14:23 embed_phone_nn_model
+-rw-r--r-- 1 root root      390 дек.  13 14:23 embed_phone_nn_state_sym
+-rw-r--r-- 1 root root     1357 дек.  13 14:23 endpointer_dictation.config
+-rw-r--r-- 1 root root     1514 дек.  13 14:23 endpointer_voicesearch.config
+-rw-r--r-- 1 root root    19808 дек.  13 14:23 ep_acoustic_model
+-rw-r--r-- 1 root root  3326536 дек.  13 14:23 g2p_fst
+-rw-r--r-- 1 root root   141136 дек.  13 14:23 google_hotword_clg
+-rw-r--r-- 1 root root     2767 дек.  13 14:23 google_hotword.config
+-rw-r--r-- 1 root root   283599 дек.  13 14:23 google_hotword_logistic
+-rw-r--r-- 1 root root     2534 дек.  13 14:23 grammar.config
+-rw-r--r-- 1 root root   103062 дек.  13 14:23 hmmsyms
+-rw-r--r-- 1 root root      301 дек.  13 14:23 hotword_symbols
+-rw-r--r-- 1 root root    24560 дек.  13 14:23 lintrans_model
+-rw-r--r-- 1 root root       37 дек.  13 14:23 metadata
+-rw-r--r-- 1 root root   970304 дек.  13 14:23 normalizer
+-rw-r--r-- 1 root root      862 дек.  13 14:23 norm_fst
+-rw-r--r-- 1 root root   575024 дек.  13 14:23 offensive_word_normalizer
+-rw-r--r-- 1 root root      244 дек.  13 14:23 phonelist
+-rw-r--r-- 1 root root 10663120 дек.  13 14:23 rescoring_lm
+-rw-r--r-- 1 root root   126384 дек.  13 14:23 symbols
+
+A516_S118_Stock/OSPackage/system/vendor:
+итого 8
+drwxr-xr-x 3 root 2000 4096 дек.  13 14:06 lib
+drwxr-xr-x 3 root 2000 4096 дек.  13 14:23 pittpatt
+
+A516_S118_Stock/OSPackage/system/vendor/lib:
+итого 2588
+drwxr-xr-x 2 root 2000    4096 дек.  13 14:06 drm
+-rw-r--r-- 1 root root   87876 дек.  13 14:06 libwvdrm_L3.so
+-rw-r--r-- 1 root root   38088 дек.  13 14:06 libwvm.so
+-rw-r--r-- 1 root root 2512160 дек.  13 14:06 libWVStreamControlAPI_L3.so
+
+A516_S118_Stock/OSPackage/system/vendor/lib/drm:
+итого 104
+-rw-r--r-- 1 root root 103636 дек.  13 14:06 libdrmwvmplugin.so
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt:
+итого 4
+drwxr-xr-x 4 root 2000 4096 дек.  13 14:23 models
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models:
+итого 8
+drwxr-xr-x 4 root 2000 4096 дек.  13 14:23 detection
+drwxr-xr-x 3 root 2000 4096 дек.  13 14:23 recognition
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection:
+итого 8
+drwxr-xr-x 5 root 2000 4096 дек.  13 14:23 multi_pose_face_landmark_detectors.7
+drwxr-xr-x 5 root 2000 4096 дек.  13 14:23 yaw_roll_face_detectors.6
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7:
+итого 12
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32:
+итого 240
+-rw-r--r-- 1 root root 242204 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32:
+итого 236
+-rw-r--r-- 1 root root 239032 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2:
+итого 224
+-rw-r--r-- 1 root root 227880 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6:
+итого 12
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 head-y0-yi45-p0-pi45-r0-ri30.4a-v24
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 head-y0-yi45-p0-pi45-rn30-ri30.5-v24
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 head-y0-yi45-p0-pi45-rp30-ri30.5-v24
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24:
+итого 428
+-rw-r--r-- 1 root root 437148 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24:
+итого 388
+-rw-r--r-- 1 root root 395904 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24:
+итого 396
+-rw-r--r-- 1 root root 403000 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/recognition:
+итого 4
+drwxr-xr-x 2 root 2000 4096 дек.  13 14:23 face.face.y0-y0-22-b-N
+
+A516_S118_Stock/OSPackage/system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N:
+итого 11704
+-rw-r--r-- 1 root root 11981284 дек.  13 14:23 full_model.bin
+
+A516_S118_Stock/OSPackage/system/xbin:
+итого 1232
+-rwxr-xr-x 1 root 2000   13672 дек.  13 14:35 BGW
+-rwxr-xr-x 1 root 2000   59776 дек.  13 14:35 dexdump
+-rwxr-xr-x 1 root 2000 1137680 дек.  13 14:35 libmnlp_mt6572
+-rwxr-xr-x 1 root 2000   30576 дек.  13 14:35 mnld
+-rwxr-xr-x 1 root 2000    9464 дек.  13 14:35 showmap
