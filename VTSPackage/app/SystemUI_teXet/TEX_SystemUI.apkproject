@@ -27,6 +27,8 @@
     <Setting Name="version" Value="3" />
     <Setting Name="hassuccessfulimport" Value="True" />
   </Settings>
-  <OpenDocuments />
+  <OpenDocuments>
+    <OpenDocument Path="res\values\public.xml" Offset="11925.448333333336" />
+  </OpenDocuments>
   <MarkedLines />
 </VirtuousTenProject>

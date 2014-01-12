@@ -912,6 +912,11 @@
 
     if-eqz v7, :cond_473
 
+	#HIDE_SIM_ICON
+	iget-object v7, p0, Lcom/android/systemui/statusbar/SignalClusterViewGemini;->mMobileGroup:[Landroid/view/ViewGroup;
+	aget-object v7, v7, v0
+	invoke-virtual {v7, v12}, Landroid/view/ViewGroup;->setVisibility(I)V
+
     const/4 v7, 0x2
 
     if-eq v7, v6, :cond_473
@@ -1655,6 +1660,11 @@
     aget-object v7, v7, v0
 
     invoke-virtual {v7, v9}, Landroid/widget/ImageView;->setVisibility(I)V
+
+	#HIDE_SIM_ICON
+	iget-object v7, p0, Lcom/android/systemui/statusbar/SignalClusterViewGemini;->mMobileGroup:[Landroid/view/ViewGroup;
+	aget-object v7, v7, v0
+	invoke-virtual {v7, v9}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     goto/16 :goto_2ae
 

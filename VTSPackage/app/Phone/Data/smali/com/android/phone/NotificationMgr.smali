@@ -913,6 +913,7 @@
 
     .prologue
     .line 1789
+    
     invoke-static {}, Lcom/mediatek/phone/gemini/GeminiUtils;->isGeminiSupport()Z
 
     move-result v1

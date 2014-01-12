@@ -142,113 +142,124 @@ public class SignalClusterViewGemini extends LinearLayout
         }
         for (int i = 0; i < mGeminiSimNum; i++)
         {
-            boolean flag = shouldMobileGroupVisible(i);
-            Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slotId=").append(i).append(", mMobileVisible=").append(mMobileVisible[i]).append(", mShouldMobileGroupVisible=").append(flag).toString());
-            if (mMobileVisible[i] && flag)
+label0:
             {
-                mSignalClusterCombo[i].setVisibility(0);
-                if (mRoaming[i])
+label1:
                 {
-                    mMobileRoam[i].setBackgroundResource(mRoamingId[i]);
-                    mMobileRoam[i].setVisibility(0);
-                } else
-                {
-                    mMobileRoam[i].setVisibility(8);
-                }
-                if (mMobileStrengthId[i][0].getIconId() == PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i) || mMobileStrengthId[i][0].getIconId() == 0 || mMobileStrengthId[i][0].getIconId() == 0x7f0201e7)
-                    mMobileRoam[i].setVisibility(8);
-                if (mMobileStrengthId[i][0].getResources() != null)
-                    mMobile[i].setImageDrawable(mMobileStrengthId[i][0].getDrawable());
-                else
-                if (mMobileStrengthId[i][0].getIconId() == 0)
-                    mMobile[i].setImageDrawable(null);
-                else
-                    mMobile[i].setImageResource(mMobileStrengthId[i][0].getIconId());
-                if (mMobileStrengthId[i][1].getResources() != null)
-                    mMobile2[i].setImageDrawable(mMobileStrengthId[i][1].getDrawable());
-                else
-                if (mMobileStrengthId[i][1].getIconId() == 0)
-                    mMobile2[i].setImageDrawable(null);
-                else
-                    mMobile2[i].setImageResource(mMobileStrengthId[i][1].getIconId());
-                if (NetworkType.Type_1X3G != mDataNetType[i])
-                    mMobile2[i].setVisibility(8);
-                Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slotId=").append(i).append(", mRoaming=").append(mRoaming[i]).append(" mMobileActivityId=").append(mMobileActivityId[i].getIconId()).append(" mMobileTypeId=").append(mMobileTypeId[i].getIconId()).append(" mMobileStrengthId[0] = ").append("").append(mMobileStrengthId[i][0].getIconId()).append(" mMobileStrengthId[1] = ").append(mMobileStrengthId[i][1].getIconId()).toString());
-                if (mMobileActivityId[i].getResources() != null)
-                    mMobileActivity[i].setImageDrawable(mMobileActivityId[i].getDrawable());
-                else
-                if (mMobileActivityId[i].getIconId() == 0)
-                    mMobileActivity[i].setImageDrawable(null);
-                else
-                    mMobileActivity[i].setImageResource(mMobileActivityId[i].getIconId());
-                if (mMobileTypeId[i].getResources() != null)
-                    mMobileType[i].setImageDrawable(mMobileTypeId[i].getDrawable());
-                else
-                if (mMobileTypeId[i].getIconId() == 0)
-                    mMobileType[i].setImageDrawable(null);
-                else
-                    mMobileType[i].setImageResource(mMobileTypeId[i].getIconId());
-                int j = SIMHelper.getSimIndicatorStateGemini(i);
-                if (SIMHelper.isSimInserted(i) && 2 != j && 4 != j && 3 != j && 1 != j)
-                {
-                    int i1 = SIMHelper.getSIMColorIdBySlot(mContext, i);
-                    if (i1 > -1 && i1 < 4 && mDataNetType[i] != null)
+label2:
                     {
-                        IconIdWrapper iconidwrapper = new IconIdWrapper(0);
-                        int j1 = PluginFactory.getStatusBarPlugin(mContext).getDataNetworkTypeIconGemini(mDataNetType[i], i1);
-                        if (j1 != -1)
+                        boolean flag = shouldMobileGroupVisible(i);
+                        Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slotId=").append(i).append(", mMobileVisible=").append(mMobileVisible[i]).append(", mShouldMobileGroupVisible=").append(flag).toString());
+                        if (!mMobileVisible[i] || !flag)
+                            break label1;
+                        mSignalClusterCombo[i].setVisibility(0);
+                        if (mRoaming[i])
                         {
-                            iconidwrapper.setResources(PluginFactory.getStatusBarPlugin(mContext).getPluginResources());
-                            iconidwrapper.setIconId(j1);
+                            mMobileRoam[i].setBackgroundResource(mRoamingId[i]);
+                            mMobileRoam[i].setVisibility(0);
                         } else
-                        if (PluginFactory.isDefaultStatusBarPlugin())
-                            iconidwrapper.setIconId(TelephonyIconsGemini.getNetworkTypeIconGemini(mDataNetType[i], i1));
-                        Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slot=").append(i).append(", mDataNetType=").append(mDataNetType[i]).append(" resId= ").append(iconidwrapper.getIconId()).append(" simColorId = ").append(i1).toString());
-                        if (iconidwrapper.getResources() != null)
-                            mSignalNetworkType[i].setImageDrawable(iconidwrapper.getDrawable());
-                        else
-                        if (iconidwrapper.getIconId() == 0)
-                            mSignalNetworkType[i].setImageDrawable(null);
-                        else
-                            mSignalNetworkType[i].setImageResource(iconidwrapper.getIconId());
-                        mSignalNetworkType[i].setVisibility(8);
+                        {
+                            mMobileRoam[i].setVisibility(8);
+                        }
                         if (mMobileStrengthId[i][0].getIconId() == PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i) || mMobileStrengthId[i][0].getIconId() == 0 || mMobileStrengthId[i][0].getIconId() == 0x7f0201e7)
-                            mSignalNetworkType[i].setVisibility(8);
+                            mMobileRoam[i].setVisibility(8);
+                        if (mMobileStrengthId[i][0].getResources() != null)
+                            mMobile[i].setImageDrawable(mMobileStrengthId[i][0].getDrawable());
+                        else
+                        if (mMobileStrengthId[i][0].getIconId() == 0)
+                            mMobile[i].setImageDrawable(null);
+                        else
+                            mMobile[i].setImageResource(mMobileStrengthId[i][0].getIconId());
+                        if (mMobileStrengthId[i][1].getResources() != null)
+                            mMobile2[i].setImageDrawable(mMobileStrengthId[i][1].getDrawable());
+                        else
+                        if (mMobileStrengthId[i][1].getIconId() == 0)
+                            mMobile2[i].setImageDrawable(null);
+                        else
+                            mMobile2[i].setImageResource(mMobileStrengthId[i][1].getIconId());
+                        if (NetworkType.Type_1X3G != mDataNetType[i])
+                            mMobile2[i].setVisibility(8);
+                        Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slotId=").append(i).append(", mRoaming=").append(mRoaming[i]).append(" mMobileActivityId=").append(mMobileActivityId[i].getIconId()).append(" mMobileTypeId=").append(mMobileTypeId[i].getIconId()).append(" mMobileStrengthId[0] = ").append("").append(mMobileStrengthId[i][0].getIconId()).append(" mMobileStrengthId[1] = ").append(mMobileStrengthId[i][1].getIconId()).toString());
+                        if (mMobileActivityId[i].getResources() != null)
+                            mMobileActivity[i].setImageDrawable(mMobileActivityId[i].getDrawable());
+                        else
+                        if (mMobileActivityId[i].getIconId() == 0)
+                            mMobileActivity[i].setImageDrawable(null);
+                        else
+                            mMobileActivity[i].setImageResource(mMobileActivityId[i].getIconId());
+                        if (mMobileTypeId[i].getResources() != null)
+                            mMobileType[i].setImageDrawable(mMobileTypeId[i].getDrawable());
+                        else
+                        if (mMobileTypeId[i].getIconId() == 0)
+                            mMobileType[i].setImageDrawable(null);
+                        else
+                            mMobileType[i].setImageResource(mMobileTypeId[i].getIconId());
+                        int j = SIMHelper.getSimIndicatorStateGemini(i);
+                        if (SIMHelper.isSimInserted(i))
+                        {
+                            mMobileGroup[i].setVisibility(0);
+                            if (2 != j && 4 != j && 3 != j && 1 != j)
+                            {
+                                int i1 = SIMHelper.getSIMColorIdBySlot(mContext, i);
+                                if (i1 > -1 && i1 < 4 && mDataNetType[i] != null)
+                                {
+                                    IconIdWrapper iconidwrapper = new IconIdWrapper(0);
+                                    int j1 = PluginFactory.getStatusBarPlugin(mContext).getDataNetworkTypeIconGemini(mDataNetType[i], i1);
+                                    if (j1 != -1)
+                                    {
+                                        iconidwrapper.setResources(PluginFactory.getStatusBarPlugin(mContext).getPluginResources());
+                                        iconidwrapper.setIconId(j1);
+                                    } else
+                                    if (PluginFactory.isDefaultStatusBarPlugin())
+                                        iconidwrapper.setIconId(TelephonyIconsGemini.getNetworkTypeIconGemini(mDataNetType[i], i1));
+                                    Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(), slot=").append(i).append(", mDataNetType=").append(mDataNetType[i]).append(" resId= ").append(iconidwrapper.getIconId()).append(" simColorId = ").append(i1).toString());
+                                    if (iconidwrapper.getResources() != null)
+                                        mSignalNetworkType[i].setImageDrawable(iconidwrapper.getDrawable());
+                                    else
+                                    if (iconidwrapper.getIconId() == 0)
+                                        mSignalNetworkType[i].setImageDrawable(null);
+                                    else
+                                        mSignalNetworkType[i].setImageResource(iconidwrapper.getIconId());
+                                    mSignalNetworkType[i].setVisibility(8);
+                                    if (mMobileStrengthId[i][0].getIconId() == PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i) || mMobileStrengthId[i][0].getIconId() == 0 || mMobileStrengthId[i][0].getIconId() == 0x7f0201e7)
+                                        mSignalNetworkType[i].setVisibility(8);
+                                }
+                                break label2;
+                            }
+                        }
+                        mSignalNetworkType[i].setImageDrawable(null);
+                        mSignalNetworkType[i].setVisibility(8);
+                        mMobileGroup[i].setVisibility(8);
                     }
-                } else
-                {
-                    mSignalNetworkType[i].setImageDrawable(null);
-                    mSignalNetworkType[i].setVisibility(8);
-                }
-                if (mMobileStrengthId[i][0].getIconId() != PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i) && mMobileStrengthId[i][0].getIconId() != 0x7f0201e7)
-                    mMobileSlotIndicator[i].setVisibility(0);
-                else
-                    mMobileSlotIndicator[i].setVisibility(4);
-                mMobileGroup[i].setContentDescription((new StringBuilder()).append(mMobileTypeDescription[i]).append(" ").append(mMobileDescription[i]).toString());
-                if (mShowSimIndicator[i])
-                    mSignalClusterCombo[i].setBackgroundResource(mSimIndicatorResource[i]);
-                else
-                    mSignalClusterCombo[i].setBackgroundDrawable(null);
-                mSignalClusterCombo[i].setPadding(0, 0, 0, 3);
-                if (PluginFactory.getStatusBarPlugin(mContext).supportDataTypeAlwaysDisplayWhileOn())
-                {
-                    mMobileType[i].setVisibility(0);
-                } else
-                {
-                    ImageView imageview = mMobileType[i];
-                    byte byte0;
-                    if (!mWifiVisible)
-                        byte0 = 0;
+                    if (mMobileStrengthId[i][0].getIconId() != PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i) && mMobileStrengthId[i][0].getIconId() != 0x7f0201e7)
+                        mMobileSlotIndicator[i].setVisibility(0);
                     else
-                        byte0 = 8;
-                    imageview.setVisibility(byte0);
+                        mMobileSlotIndicator[i].setVisibility(4);
+                    mMobileGroup[i].setContentDescription((new StringBuilder()).append(mMobileTypeDescription[i]).append(" ").append(mMobileDescription[i]).toString());
+                    if (mShowSimIndicator[i])
+                        mSignalClusterCombo[i].setBackgroundResource(mSimIndicatorResource[i]);
+                    else
+                        mSignalClusterCombo[i].setBackgroundDrawable(null);
+                    mSignalClusterCombo[i].setPadding(0, 0, 0, 3);
+                    if (PluginFactory.getStatusBarPlugin(mContext).supportDataTypeAlwaysDisplayWhileOn())
+                    {
+                        mMobileType[i].setVisibility(0);
+                    } else
+                    {
+                        ImageView imageview = mMobileType[i];
+                        byte byte0;
+                        if (!mWifiVisible)
+                            byte0 = 0;
+                        else
+                            byte0 = 8;
+                        imageview.setVisibility(byte0);
+                    }
+                    int k = PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthSearchingIconGemini(i);
+                    int l = PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i);
+                    if (k == mMobileStrengthId[i][0].getIconId() || l == mMobileStrengthId[i][0].getIconId() || mMobileStrengthId[i][0].getIconId() == 0x7f0201e7)
+                        mMobileType[i].setVisibility(8);
+                    break label0;
                 }
-                int k = PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthSearchingIconGemini(i);
-                int l = PluginFactory.getStatusBarPlugin(mContext).getSignalStrengthNullIconGemini(i);
-                if (k == mMobileStrengthId[i][0].getIconId() || l == mMobileStrengthId[i][0].getIconId() || mMobileStrengthId[i][0].getIconId() == 0x7f0201e7)
-                    mMobileType[i].setVisibility(8);
-            } else
-            {
                 mSignalClusterCombo[i].setVisibility(8);
             }
             Xlog.d("SignalClusterViewGemini", (new StringBuilder()).append("apply(). mIsAirplaneMode is ").append(mIsAirplaneMode).toString());
