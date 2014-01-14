@@ -2210,7 +2210,12 @@ label0:
 );
         mStatusBarWindow.setBackground(null);
         if (!ActivityManager.isHighEndGfx())
-            mNotificationPanel.setBackground(new FastColorDrawable(context.getResources().getColor(0x7f090000)));
+        {
+            NotificationPanelView notificationpanelview = mNotificationPanel;
+            int j = context.getResources().getColor(0x7f090000);
+            new FastColorDrawable(j);
+            notificationpanelview.setBackgroundColor(j);
+        }
         updateShowSearchHoldoff();
         try
         {
@@ -2356,7 +2361,7 @@ label0:
 
                 final PhoneStatusBar this$0;
 
-                public void onSizeChanged(View view3, int j, int k, int l, int i1)
+                public void onSizeChanged(View view3, int k, int l, int i1, int j1)
                 {
                     updateCarrierLabelVisibility(false);
                 }

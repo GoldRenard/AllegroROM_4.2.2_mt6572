@@ -38,6 +38,11 @@
     <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetylegal">
         <intent android:action="android.settings.SAFETY" />
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/about_rom_title" android:key="rom_info" android:summary="@string/about_rom_summary">
+         	<intent android:action="android.intent.action.MAIN" 
+ 			android:targetPackage="com.allegrorom.ota" 
+ 			android:targetClass="com.allegrorom.ota.OTAUpdaterActivity" />
+    </PreferenceScreen>
     <com.android.settings.RegulatoryInfoPreference android:title="@string/regulatory_information" android:key="regulatory_info" />
     <Preference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
@@ -46,6 +51,5 @@
     <Preference android:title="@string/baseband_version" android:key="baseband_version_2" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
-    <Preference android:title="@string/allegrorom_version_title" android:key="allegro_ver" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
     <Preference android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" style="?android:preferenceInformationStyle" />
 </PreferenceScreen>

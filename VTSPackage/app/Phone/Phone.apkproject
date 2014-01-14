@@ -27,11 +27,6 @@
     <Setting Name="version" Value="3" />
     <Setting Name="hassuccessfulimport" Value="True" />
   </Settings>
-  <OpenDocuments>
-    <OpenDocument Path="res\values\strings.xml" Offset="0" />
-    <OpenDocument Path="D:\Devices\A516\A516_AllegroROM_Kitchen\VTSPackage\app\Phone\Misc\JavaSrc\com\android\phone\NotificationMgr.java" Offset="4283.3349999999973" />
-    <OpenDocument Path="D:\Devices\A516\A516_AllegroROM_Kitchen\VTSPackage\app\Phone\Misc\JavaSrc\com\android\phone\EmergencyCallbackModeService.java" Offset="2669.6616666666669" />
-    <OpenDocument Path="smali\com\android\phone\NotificationMgr.smali" Offset="14069.715000000002" />
-  </OpenDocuments>
+  <OpenDocuments />
   <MarkedLines />
 </VirtuousTenProject>

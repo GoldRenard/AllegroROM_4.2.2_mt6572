@@ -2291,4 +2291,6 @@ Any user can accept updated app permissions on behalf of all other users."</stri
     <string name="themes_settings_title">Themes</string>
     <string name="allegro_settings_title">AllegroROM Settings</string>
     <string name="allegrorom_version_title">AllegroROM Version</string>
+    <string name="about_rom_title">About ROM</string>
+    <string name="about_rom_summary">Version, author, etc</string>
 </resources>

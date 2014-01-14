@@ -344,3 +344,10 @@ public class KeyguardWidgetCarousel extends KeyguardWidgetPager
 
     }
 
+    protected boolean zoomIn(Runnable runnable)
+    {
+        animatePagesToCarousel();
+        return super.zoomIn(runnable);
+    }
+
+}

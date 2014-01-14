@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="notification_panel_solid_background">#ff000000</color>
+    <color name="notification_panel_solid_background">#e7000000</color>
     <color name="status_bar_recents_app_label_color">#ffffffff</color>
     <color name="notification_list_shadow_top">#80000000</color>
     <color name="notification_panel_scrim_color">#b0000000</color>

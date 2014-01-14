@@ -2177,4 +2177,6 @@
     <string name="themes_settings_title">Темы</string>
     <string name="allegro_settings_title">Настройки AllegroROM</string>
     <string name="allegrorom_version_title">Версия AllegroROM</string>
+    <string name="about_rom_title">О прошивке</string>
+    <string name="about_rom_summary">Версия, автор и т.д.</string>
 </resources>

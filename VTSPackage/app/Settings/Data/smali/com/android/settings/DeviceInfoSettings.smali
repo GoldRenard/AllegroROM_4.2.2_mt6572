@@ -1156,12 +1156,6 @@
     const-string v8, "ro.ril.fccid"
 
     invoke-direct {p0, v7, v8}, Lcom/android/settings/DeviceInfoSettings;->setValueSummary(Ljava/lang/String;Ljava/lang/String;)V
-    
-    const-string v7, "allegro_ver"
-
-    const-string v8, "allegro.version"
-
-    invoke-direct {p0, v7, v8}, Lcom/android/settings/DeviceInfoSettings;->setValueSummary(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 148
     const-string v7, "device_model"

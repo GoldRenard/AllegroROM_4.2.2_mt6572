@@ -272,7 +272,6 @@ _L1:
         getPreferenceScreen().removePreference(findPreference("baseband_version_2"));
         setStringSummary("device_model", (new StringBuilder()).append(Build.MODEL).append(getMsvSuffix()).toString());
         setValueSummary("fcc_equipment_id", "ro.ril.fccid");
-        setValueSummary("allegro_ver", "allegro.version");
         setStringSummary("device_model", Build.MODEL);
         setStringSummary("build_number", Build.DISPLAY);
         findPreference("build_number").setEnabled(true);
