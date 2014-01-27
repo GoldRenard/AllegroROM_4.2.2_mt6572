@@ -16,8 +16,6 @@
     <Setting Name="version" Value="3" />
     <Setting Name="hassuccessfulimport" Value="True" />
   </Settings>
-  <OpenDocuments>
-    <OpenDocument Path="smali\com\android\internal\policy\impl\PhoneWindowManager.smali" Offset="282161.64999999973" />
-  </OpenDocuments>
+  <OpenDocuments />
   <MarkedLines />
 </VirtuousTenProject>

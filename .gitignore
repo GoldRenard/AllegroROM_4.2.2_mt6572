@@ -1,3 +1,4 @@
 _Release/
-_Misc
+_Misc/
+_OTA/
 _VTSPackage/*.java

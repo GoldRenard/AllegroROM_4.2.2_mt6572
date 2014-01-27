@@ -27,8 +27,6 @@
     <Setting Name="version" Value="3" />
     <Setting Name="hassuccessfulimport" Value="True" />
   </Settings>
-  <OpenDocuments>
-    <OpenDocument Path="res\values\arrays.xml" Offset="8101.2966666666689" />
-  </OpenDocuments>
+  <OpenDocuments />
   <MarkedLines />
 </VirtuousTenProject>
